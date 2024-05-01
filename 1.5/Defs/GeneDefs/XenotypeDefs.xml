@@ -10,13 +10,14 @@
     <iconPath>Icons/XenotypeIcons/SepelireHeadIcon</iconPath>
 	  <inheritable>true</inheritable>
     <genes>
-		  <li>pphhyy_BoneReaper_Physiology</li>
-		  <li>pphhyy_BoneReaper_SepelireBody</li>
-     	<li>pphhyy_BoneReaper_SepelireHead</li>
+		  <li>pphhyy_BoneReaperPhysiology</li>
+		  <li>pphhyy_SepelireBody</li>
+     	<li>pphhyy_SepelireHead</li>
 		  <li>AptitudeRemarkable_Crafting</li>
       <li>AptitudeRemarkable_Animals</li>
       <li>AptitudeTerrible_Mining</li>
      	<li>AptitudeTerrible_Plants</li>
+      <li>DarkVision</li>
     </genes>    
   </XenotypeDef>
 
@@ -28,9 +29,10 @@
     <iconPath>Icons/XenotypeIcons/ThetesHeadIcon</iconPath>
 	  <inheritable>true</inheritable>
     <genes>
-		  <li>pphhyy_BoneReaper_Physiology</li>
-		  <li>pphhyy_BoneReaper_ThetesBody</li>
-     	<li>pphhyy_BoneReaper_ThetesHead</li>
+		  <li>pphhyy_BoneReaperPhysiology</li>
+		  <li>pphhyy_ThetesBody</li>
+     	<li>pphhyy_ThetesHead</li>
+      <li>DarkVision</li>
     </genes>    
   </XenotypeDef>
 
@@ -42,11 +44,12 @@
     <iconPath>Icons/XenotypeIcons/ThetesHeadIcon</iconPath>
 	  <inheritable>true</inheritable>
     <genes>
-		  <li>pphhyy_BoneReaper_Physiology</li>
-		  <li>pphhyy_BoneReaper_PhalangiteBody</li>
-     	<li>pphhyy_BoneReaper_ThetesHead</li>
+		  <li>pphhyy_BoneReaperPhysiology</li>
+		  <li>pphhyy_PhalangiteBody</li>
+     	<li>pphhyy_ThetesHead</li>
       <li>AptitudeStrong_Melee</li>
       <li>AptitudeTerrible_Intellectual</li>
+      <li>DarkVision</li>
     </genes>    
   </XenotypeDef>
 
@@ -58,14 +61,16 @@
     <iconPath>Icons/XenotypeIcons/ArchonHeadIcon</iconPath>
 	  <inheritable>true</inheritable>
     <genes>
-		  <li>pphhyy_BoneReaper_Physiology</li>
-			  <li>pphhyy_BoneReaper_ArchonBody</li>
-     	<li>pphhyy_BoneReaper_ArchonHead</li>
-      <li>pphhyy_BoneReaper_Flight</li>
+		  <li>pphhyy_BoneReaperPhysiology</li>
+			<li>pphhyy_ArchonBody</li>
+     	<li>pphhyy_ArchonHead</li>
+      <li>pphhyy_BoneReaperFlight</li>
+      <li>Robust</li>
       <li>AptitudeRemarkable_Melee</li>
       <li>AptitudeTerrible_Crafting</li>
       <li>AptitudeTerrible_Animals</li>
       <li>AptitudeTerrible_Plants</li>
+      <li>DarkVision</li>
     </genes>    
   </XenotypeDef>
 
@@ -77,13 +82,14 @@
     <iconPath>Icons/XenotypeIcons/ApokryphosHeadIcon</iconPath>
 	  <inheritable>true</inheritable>
     <genes>
-		  <li>pphhyy_BoneReaper_Physiology</li>
-		  <li>pphhyy_BoneReaper_ApokryphosBody</li>
-     	<li>pphhyy_BoneReaper_ApokryphosHead</li>
+		  <li>pphhyy_BoneReaperPhysiology</li>
+		  <li>pphhyy_ApokryphosBody</li>
+     	<li>pphhyy_ApokryphosHead</li>
       <li>AptitudeRemarkable_Social</li>
       <li>AptitudeStrong_Intellectual</li>
       <li>AptitudeTerrible_Crafting</li>
       <li>AptitudeTerrible_Plants</li>
+      <li>DarkVision</li>
     </genes>    
   </XenotypeDef>
 

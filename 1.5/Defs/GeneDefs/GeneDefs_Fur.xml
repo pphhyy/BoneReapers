@@ -59,7 +59,7 @@
   </GeneDef> 
 
   <GeneDef ParentName="pphhyy_BoneReaperBodyBase">
-    <defName>pphhyy_BoneReaper_SepelireBody</defName>
+    <defName>pphhyy_SepelireBody</defName>
 		<label>sepelire body</label>
     <labelShortAdj>skeleton</labelShortAdj>
 		<description>Carriers of this gene have an average size skeletal body with elongated shoulderblades.</description>
@@ -90,7 +90,7 @@
   </GeneDef>
 
   <GeneDef ParentName="pphhyy_BoneReaperBodyBase">
-    <defName>pphhyy_BoneReaper_ThetesBody</defName>
+    <defName>pphhyy_ThetesBody</defName>
 		<label>thetes body</label>
     <labelShortAdj>skeleton</labelShortAdj>
 		<description>Carriers of this gene have an average skeletal body.</description>
@@ -121,7 +121,7 @@
   </GeneDef>  
 
   <GeneDef ParentName="pphhyy_BoneReaperBodyBase">
-    <defName>pphhyy_BoneReaper_PhalangiteBody</defName>
+    <defName>pphhyy_PhalangiteBody</defName>
 		<label>phalangite body</label>
     <labelShortAdj>skeleton</labelShortAdj>
 		<description>Carriers of this gene have a hulking skeletal body.</description>
@@ -151,7 +151,7 @@
   </GeneDef>
 
   <GeneDef ParentName="pphhyy_BoneReaperBodyBase">
-    <defName>pphhyy_BoneReaper_ArchonBody</defName>
+    <defName>pphhyy_ArchonBody</defName>
 		<label>archon body</label>
     <labelShortAdj>skeleton</labelShortAdj>
 		<description>Carriers of this gene have a hulking skeletal body infused with multiple souls.</description>
@@ -181,7 +181,7 @@
   </GeneDef>
 
   <GeneDef ParentName="pphhyy_BoneReaperBodyBase">
-    <defName>pphhyy_BoneReaper_ApokryphosBody</defName>
+    <defName>pphhyy_ApokryphosBody</defName>
 		<label>apokryphos body</label>
     <labelShortAdj>skeleton</labelShortAdj>
 		<description>Carriers of this gene have a curvy skeletal body.</description>
