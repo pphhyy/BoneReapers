@@ -2,7 +2,7 @@
 <Defs>
 
 	<GeneDef>
-		<defName>pphhyy_BoneReaper_Flight</defName>
+		<defName>pphhyy_BoneReaperFlight</defName>
 		<label>bone reaper flight</label>
 		<description>Carriers of this gene have skeletal wings that provide flight.</description>
 		<iconPath>Icons/XenotypeIcons/ArchonJump</iconPath>

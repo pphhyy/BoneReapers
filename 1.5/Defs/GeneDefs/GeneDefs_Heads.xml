@@ -69,7 +69,7 @@
 	</GeneDef>
 
 	<GeneDef ParentName="pphhyy_BoneReaperGeneHeadBase">
-		<defName>pphhyy_BoneReaper_SepelireHead</defName>
+		<defName>pphhyy_SepelireHead</defName>
 		<label>sepelier head</label>
 		<description>Carriers of this gene have a skull head with crown-like boney protrusions and three eyes.</description>
 		<iconPath>Icons/XenotypeIcons/SepelireHeadIcon</iconPath>
@@ -80,7 +80,7 @@
 	</GeneDef>
 
 	<GeneDef ParentName="pphhyy_BoneReaperGeneHeadBase">
-		<defName>pphhyy_BoneReaper_ThetesHead</defName>
+		<defName>pphhyy_ThetesHead</defName>
 		<label>thetes head</label>
 		<description>Carriers of this gene have a average human skull for a head.</description>
 		<iconPath>Icons/XenotypeIcons/ThetesHeadIcon</iconPath>
@@ -91,7 +91,7 @@
 	</GeneDef>		
 
 	<GeneDef ParentName="pphhyy_BoneReaperGeneHeadBase">
-		<defName>pphhyy_BoneReaper_ArchonHead</defName>
+		<defName>pphhyy_ArchonHead</defName>
 		<label>archon head</label>
 		<description>Carriers of this gene have a heavy skull for a head.</description>
 		<iconPath>Icons/XenotypeIcons/ArchonHeadIcon</iconPath>
@@ -102,7 +102,7 @@
 	</GeneDef>
 
 	<GeneDef ParentName="pphhyy_BoneReaperGeneHeadBase">
-		<defName>pphhyy_BoneReaper_ApokryphosHead</defName>
+		<defName>pphhyy_ApokryphosHead</defName>
 		<label>apokryphos head</label>
 		<description>Carriers of this gene have a skull head with a boney ridge-like crown.</description>
 		<iconPath>Icons/XenotypeIcons/ApokryphosHeadIcon</iconPath>
