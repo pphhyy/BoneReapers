@@ -40,7 +40,7 @@
   <RecipeDef ParentName="CookMealFineBase">
     <defName>pphhyy_CookSoulBerries</defName>
     <label>cook soul berries</label>
-    <description>tbd</description>
+    <description>Cook a meal from souls and berries.</description>
     <jobString>Cooking soul berries.</jobString>
     <ingredients>
 			<li>
@@ -67,7 +67,39 @@
         <li>pphhyy_AnkylosisTable</li>
 	</recipeUsers>    
     <displayPriority>200</displayPriority>
-  </RecipeDef>  
+  </RecipeDef>
+  
+  <RecipeDef ParentName="CookMealFineBase">
+    <defName>pphhyy_CookSoulBerriesBulk</defName>
+    <label>cook soul berries x4</label>
+    <description>Cook 4 meals from souls and berries.</description>
+    <jobString>Cooking soul berries.</jobString>
+    <ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>pphhyy_LesserSoul</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+            <li>
+				<filter>
+					<thingDefs>
+						<li>RawBerries</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+    <products>
+      <pphhyy_SoulBerries>4</pphhyy_SoulBerries>
+    </products>
+	<recipeUsers>
+        <li>pphhyy_AnkylosisTable</li>
+	</recipeUsers>    
+    <displayPriority>200</displayPriority>
+  </RecipeDef>   
 
 <!-- ============== Wine ============== -->
 
@@ -139,7 +171,7 @@
   <ThingDef ParentName="DrugBase">
     <defName>pphhyy_SoulWine</defName>
     <label>soul wine</label>
-    <description>The first beverage besides water ever consumed by mankind. Beer can taste good, but its main effect is intoxication. Excessive consumption can lead to alcohol blackouts and, over time, addiction.</description>
+    <description>Wine created from greater souls and berries. Dangerous for most to consume.</description>
     <descriptionHyperlinks>
       <HediffDef>AlcoholHigh</HediffDef>
       <HediffDef>AlcoholTolerance</HediffDef>

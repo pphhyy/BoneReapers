@@ -4,7 +4,7 @@
   <ThingDef ParentName="ResourceBase">
     <defName>pphhyy_BoneMoldSteel</defName>
     <label>bone mold steel ingots</label>
-    <description>tbd</description>
+    <description>Bone Mold Steel is a strong steel alloy created by combining steel with bones. It is ideal for armor and blunt weapons.</description>
     <graphicData>
       <texPath>Resources/Metals/BoneMoldSteel</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
@@ -36,7 +36,7 @@
       <soundMeleeHitBlunt>MeleeHit_Metal_Blunt</soundMeleeHitBlunt>
       <soundImpactMelee>Pawn_Melee_Punch_HitBuilding_Metal</soundImpactMelee>
       <statFactors>
-        <MaxHitPoints>2.5</MaxHitPoints>
+        <MaxHitPoints>2.3</MaxHitPoints>
         <WorkToMake>1.9</WorkToMake>
         <WorkToBuild>1.9</WorkToBuild>
         <Beauty>0.5</Beauty>
@@ -72,7 +72,6 @@
     <soundWorking>Recipe_Smelt</soundWorking>
     <uiIconThing>pphhyy_BoneMoldSteel</uiIconThing>
 	  <recipeUsers>
-        <li>ButcherSpot</li>
         <li>pphhyy_AnkylosisTable</li>
 	  </recipeUsers>
     <ingredients>
@@ -82,7 +81,7 @@
             <li>Steel</li>
           </thingDefs>
         </filter>
-        <count>75</count>
+        <count>50</count>
       </li>
       <li>
         <filter>
@@ -91,7 +90,7 @@
             <li>pphhyy_AnimalBones</li>
           </thingDefs>
         </filter>
-        <count>1</count>
+        <count>50</count>
       </li>
     </ingredients>
     <fixedIngredientFilter>
@@ -102,14 +101,14 @@
       </thingDefs>
     </fixedIngredientFilter>
 	<products>
-		  <pphhyy_BoneMoldSteel>75</pphhyy_BoneMoldSteel>
+		  <pphhyy_BoneMoldSteel>50</pphhyy_BoneMoldSteel>
 	</products>
   </RecipeDef>
 
   <ThingDef ParentName="ResourceBase">
     <defName>pphhyy_EtherealSteel</defName>
     <label>ethereal steel ingots</label>
-    <description>Harvested animal bones.</description>
+    <description>Ethereal steel is made by combining steel and greater souls together at an Ankylosis table. It can honed to an incredibly sharp edge.</description>
     <graphicData>
       <texPath>Resources/Metals/EtherealSteel</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
@@ -145,7 +144,7 @@
         <Beauty>0</Beauty>
       </statOffsets>
       <statFactors>
-        <MaxHitPoints>2</MaxHitPoints>
+        <MaxHitPoints>2.8</MaxHitPoints>
         <Beauty>2</Beauty>
         <Flammability>0.75</Flammability>
         <WorkToMake>2.5</WorkToMake>
