@@ -1,0 +1,911 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<Defs>
+
+    <!-- 1 Handed Weapons-->
+
+    <!-- Thetes sword -->
+
+    <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
+        <defName>pphhyy_BoneReapers_SoulThetesSword</defName>
+        <label>Soul thetes sword</label>
+        <description>Yes</description>
+        <graphicData>
+            <texPath>Weapons/SoulWeapons/SoulThetesSword</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <techLevel>Medieval</techLevel>
+        <equippedAngleOffset>-65</equippedAngleOffset>
+
+        <statBases>
+            <WorkToMake>13000</WorkToMake>
+            <Mass>1</Mass>
+        </statBases>
+
+        <costList>
+            <pphhyy_GreaterSoul>1</pphhyy_GreaterSoul>
+            <pphhyy_BoneReapers_ThetesSword>1</pphhyy_BoneReapers_ThetesSword>
+        </costList>
+
+        <weaponTags>
+            <li>pphhyy_BoneReapers_SoulThetesSword</li>
+            <li>Bladelink</li>
+        </weaponTags>
+        <comps>
+            <li>
+              <compClass>CompQuality</compClass>
+            </li>
+            <li Class="CompProperties_BladelinkWeapon">
+              <biocodeOnEquip>true</biocodeOnEquip>
+            </li>
+            <li Class="CompProperties_GeneratedName">
+                <nameMaker>NamerWeaponBladelink</nameMaker>
+              </li>
+        </comps>  
+        <tools>
+            <li>
+                <label>handle</label>
+                <capacities>
+                    <li>Poke</li>
+                </capacities>
+                <power>11</power>
+                <cooldownTime>1.90</cooldownTime>
+            </li>
+            <li>
+                <label>edge</label>
+                <labelUsedInLogging>false</labelUsedInLogging>
+                <capacities>
+                    <li>Cut</li>
+                </capacities>
+                <power>23</power>
+                <cooldownTime>2.0</cooldownTime>
+                <armorPenetration>0.25</armorPenetration>
+            </li>
+        </tools>
+        <recipeMaker>
+            <researchPrerequisite>pphhyy_BoneReapersSoulWeapons</researchPrerequisite>
+            <skillRequirements>
+                <Crafting>4</Crafting>
+            </skillRequirements>
+        </recipeMaker>
+
+        <modExtensions>
+            <li Class="VFECore.ThingDefExtension">
+                <usableWithShields>true</usableWithShields>
+            </li>
+        </modExtensions>
+    </ThingDef>
+
+    <!-- Thetes Mace -->
+
+    <ThingDef ParentName="BaseMeleeWeapon_Blunt_Quality">
+        <defName>pphhyy_BoneReapers_SoulThetesMace</defName>
+        <label>Soul thetes mace</label>
+        <description>Yes</description>
+        <graphicData>
+            <texPath>Weapons/SoulWeapons/SoulThetesMace</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <uiIconScale>1.2</uiIconScale>
+        <techLevel>Medieval</techLevel>
+        <equippedAngleOffset>-65</equippedAngleOffset>
+
+        <statBases>
+            <WorkToMake>6000</WorkToMake>
+            <Mass>1.10</Mass>
+        </statBases>
+
+        <costList>
+            <pphhyy_GreaterSoul>1</pphhyy_GreaterSoul>
+            <pphhyy_BoneReapers_ThetesMace>1</pphhyy_BoneReapers_ThetesMace>
+        </costList>
+
+        <weaponTags>
+            <li>pphhyy_BoneReapers_SoulThetesMace</li>
+        </weaponTags>
+        <comps>
+            <li>
+              <compClass>CompQuality</compClass>
+            </li>
+            <li Class="CompProperties_BladelinkWeapon">
+              <biocodeOnEquip>true</biocodeOnEquip>
+            </li>
+            <li Class="CompProperties_GeneratedName">
+                <nameMaker>NamerWeaponBladelink</nameMaker>
+              </li>
+        </comps>  
+        <tools>
+            <li>
+                <label>handle</label>
+                <capacities>
+                    <li>Poke</li>
+                </capacities>
+                <power>11</power>
+                <cooldownTime>1.95</cooldownTime>
+            </li>
+            <li>
+                <label>head</label>
+                <labelUsedInLogging>false</labelUsedInLogging>
+                <capacities>
+                    <li>Blunt</li>
+                </capacities>
+                <power>23</power>
+                <armorPenetration>0.20</armorPenetration>
+                <cooldownTime>2</cooldownTime>
+            </li>
+        </tools>
+        <recipeMaker>
+            <researchPrerequisite>pphhyy_BoneReapersSoulWeapons</researchPrerequisite>
+            <skillRequirements>
+                <Crafting>3</Crafting>
+            </skillRequirements>
+        </recipeMaker>
+
+        <modExtensions>
+            <li Class="VFECore.ThingDefExtension">
+                <usableWithShields>true</usableWithShields>
+            </li>
+        </modExtensions>
+    </ThingDef>
+
+    <!-- Thetes Spear -->
+
+    <ThingDef ParentName="pphhyy_Base_Sharp_NormalSize">
+        <defName>pphhyy_BoneReapers_SoulThetesSpear</defName>
+        <label>Soul thetes spear</label>
+        <description>Yes</description>
+        <graphicData>
+            <texPath>Weapons/SoulWeapons/SoulThetesSpear</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <uiIconScale>1.2</uiIconScale>
+        <techLevel>Medieval</techLevel>
+
+        <statBases>
+            <WorkToMake>16000</WorkToMake>
+            <Mass>3</Mass>
+        </statBases>
+
+        <costList>
+            <pphhyy_GreaterSoul>1</pphhyy_GreaterSoul>
+            <pphhyy_BoneReapers_ThetesSpear>1</pphhyy_BoneReapers_ThetesSpear>
+        </costList>
+
+        <weaponTags>
+            <li>pphhyy_BoneReapers_SoulThetesSpear</li>
+        </weaponTags>
+        <comps>
+            <li>
+              <compClass>CompQuality</compClass>
+            </li>
+            <li Class="CompProperties_BladelinkWeapon">
+              <biocodeOnEquip>true</biocodeOnEquip>
+            </li>
+            <li Class="CompProperties_GeneratedName">
+                <nameMaker>NamerWeaponBladelink</nameMaker>
+              </li>
+        </comps>  
+        <tools>
+            <li>
+                <label>shaft</label>
+                <capacities>
+                    <li>Blunt</li>
+                    <li>Poke</li>
+                </capacities>
+                <power>11</power>
+                <cooldownTime>2</cooldownTime>
+            </li>
+            <li>
+                <label>point</label>
+                <labelUsedInLogging>false</labelUsedInLogging>
+                <capacities>
+                    <li>Stab</li>
+                </capacities>
+                <power>23</power>
+                <cooldownTime>2.1</cooldownTime>
+                <armorPenetration>0.40</armorPenetration>
+            </li>
+        </tools>
+        <recipeMaker>
+            <researchPrerequisite>pphhyy_BoneReapersSoulWeapons</researchPrerequisite>
+            <skillRequirements>
+                <Crafting>4</Crafting>
+            </skillRequirements>
+        </recipeMaker>
+
+        <modExtensions>
+            <li Class="VFECore.ThingDefExtension">
+                <usableWithShields>true</usableWithShields>
+            </li>
+        </modExtensions>
+    </ThingDef>
+
+    <!-- Thetes Bow -->
+
+    <ThingDef ParentName="BaseWeaponNeolithic">
+        <defName>pphhyy_BoneReapers_SoulThetesBow</defName>
+        <label>Soul thetes bow</label>
+        <description>Yes</description>
+        <graphicData>
+            <texPath>Weapons/SoulWeapons/SoulThetesBow</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <soundInteract>Bow_Recurve</soundInteract>
+
+        <costList>
+            <pphhyy_GreaterSoul>1</pphhyy_GreaterSoul>
+            <pphhyy_BoneReapers_ThetesBow>1</pphhyy_BoneReapers_ThetesBow>
+        </costList>
+
+        <statBases>
+            <WorkToMake>7000</WorkToMake>
+            <Mass>2.2</Mass>
+            <AccuracyTouch>0.69</AccuracyTouch>
+            <AccuracyShort>0.81</AccuracyShort>
+            <AccuracyMedium>0.7</AccuracyMedium>
+            <AccuracyLong>0.4</AccuracyLong>
+            <RangedWeapon_Cooldown>1.6</RangedWeapon_Cooldown>
+        </statBases>
+        <weaponTags>
+            <li>pphhyy_BoneReapers_SoulThetesBow</li>
+        </weaponTags>
+        <comps>
+            <li>
+              <compClass>CompQuality</compClass>
+            </li>
+            <li Class="CompProperties_BladelinkWeapon">
+              <biocodeOnEquip>true</biocodeOnEquip>
+            </li>
+            <li Class="CompProperties_GeneratedName">
+                <nameMaker>NamerWeaponBladelink</nameMaker>
+              </li>
+        </comps>  
+        <weaponClasses>
+            <li>Ranged</li>
+            <li>RangedLight</li>
+        </weaponClasses>
+        <recipeMaker>
+            <recipeUsers>
+                <li>ElectricSmithy</li>
+                <li>FueledSmithy</li>
+            </recipeUsers>
+            <researchPrerequisite>pphhyy_BoneReapersSoulWeapons</researchPrerequisite>
+            <skillRequirements>
+                <Crafting>5</Crafting>
+            </skillRequirements>
+        </recipeMaker>
+        <verbs>
+            <li>
+                <verbClass>Verb_Shoot</verbClass>
+                <hasStandardCommand>true</hasStandardCommand>
+                <defaultProjectile>pphhyy_BoneReapers_SoulThetesArrow</defaultProjectile>
+                <warmupTime>1.75</warmupTime>
+                <range>27.9</range>
+                <soundCast>Bow_Recurve</soundCast>
+            </li>
+        </verbs>
+        <tools>
+            <li>
+                <label>limb</label>
+                <capacities>
+                    <li>Blunt</li>
+                    <li>Poke</li>
+                </capacities>
+                <power>8</power>
+                <cooldownTime>1.85</cooldownTime>
+            </li>
+        </tools>
+    </ThingDef>
+    <ThingDef ParentName="BaseProjectileNeolithic">
+        <defName>pphhyy_BoneReapers_SoulThetesArrow</defName>
+        <label>Soul thetes arrow</label>
+        <graphicData>
+            <texPath>Weapons/SoulWeapons/SoulThetesBowArrow</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <projectile>
+            <damageDef>ArrowHighVelocity</damageDef>
+            <damageAmountBase>20</damageAmountBase>
+            <stoppingPower>1</stoppingPower>
+            <speed>50</speed>
+        </projectile>
+    </ThingDef>
+
+    <!-- Thetes Staff -->
+
+    <ThingDef ParentName="BaseWeapon">
+        <defName>pphhyy_BoneReapers_SoulThetesStaff</defName>
+        <label>Soul thetes staff</label>
+        <description>Yes</description>
+        <techLevel>Medieval</techLevel>
+        <graphicData>
+            <texPath>Weapons/SoulWeapons/SoulThetesStaff</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+
+        </graphicData>
+        <weaponTags>
+            <li>pphhyy_BoneReapers_SoulThetesStaff</li>
+        </weaponTags>
+        <comps>
+            <li>
+              <compClass>CompQuality</compClass>
+            </li>
+            <li Class="CompProperties_BladelinkWeapon">
+              <biocodeOnEquip>true</biocodeOnEquip>
+            </li>
+            <li Class="CompProperties_GeneratedName">
+                <nameMaker>NamerWeaponBladelink</nameMaker>
+              </li>
+        </comps>  
+        <tradeNeverStack>true</tradeNeverStack>
+        <relicChance>3</relicChance>
+        <tickerType>Normal</tickerType>
+
+        <costList>
+            <pphhyy_GreaterSoul>1</pphhyy_GreaterSoul>
+            <pphhyy_BoneReapers_ThetesStaff>1</pphhyy_BoneReapers_ThetesStaff>
+        </costList>
+
+        <statBases>
+            <WorkToMake>18000</WorkToMake>
+            <Mass>3</Mass>
+            <AccuracyTouch>0.45</AccuracyTouch>
+            <AccuracyShort>0.50</AccuracyShort>
+            <AccuracyMedium>0.40</AccuracyMedium>
+            <AccuracyLong>0.30</AccuracyLong>
+            <RangedWeapon_Cooldown>1.75</RangedWeapon_Cooldown>
+        </statBases>
+        <equippedAngleOffset>-65</equippedAngleOffset>
+        <soundInteract>Interact_BladelinkMonoSword</soundInteract>
+        <meleeHitSound>MeleeHit_BladelinkMonoSword</meleeHitSound>
+        <tools>
+            <li>
+                <label>limb</label>
+                <capacities>
+                    <li>Blunt</li>
+                    <li>Poke</li>
+                </capacities>
+                <power>8</power>
+                <cooldownTime>1.9</cooldownTime>
+            </li>
+        </tools>
+        <verbs>
+            <li>
+                <verbClass>Verb_Shoot</verbClass>
+                <hasStandardCommand>true</hasStandardCommand>
+                <defaultProjectile>pphhyy_BoneReapers_SoulThetesArrow</defaultProjectile>
+                <warmupTime>1.75</warmupTime>
+                <range>27.9</range>
+                <soundCast>Bow_Recurve</soundCast>
+            </li>
+        </verbs>
+        <smeltable>true</smeltable>
+        <burnableByRecipe>true</burnableByRecipe>
+        <thingSetMakerTags>
+            <li>RewardStandardQualitySuper</li>
+        </thingSetMakerTags>
+        <recipeMaker>
+            <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+            <workSkill>Crafting</workSkill>
+            <effectWorking>Smith</effectWorking>
+            <soundWorking>Recipe_Smith</soundWorking>
+            <recipeUsers>
+                <li>ElectricSmithy</li>
+                <li>FueledSmithy</li>
+            </recipeUsers>
+            <unfinishedThingDef>UnfinishedWeapon</unfinishedThingDef>
+            <researchPrerequisite>pphhyy_BoneReapersSoulWeapons</researchPrerequisite>
+            <skillRequirements>
+                <Crafting>8</Crafting>
+            </skillRequirements>
+        </recipeMaker>
+    </ThingDef>
+    <ThingDef ParentName="BaseProjectileNeolithic">
+        <defName>pphhyy_BoneReapers_SoulThetesBolt</defName>
+        <label>Soul thetes bolt</label>
+        <graphicData>
+            <texPath>Weapons/SoulWeapons/SoulThetesBowArrow</texPath>            <!-- have to add correct path when pp adds sprite -->
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <projectile>
+            <damageDef>ArrowHighVelocity</damageDef>
+            <damageAmountBase>21</damageAmountBase>
+            <stoppingPower>1</stoppingPower>
+            <speed>50</speed>
+        </projectile>
+    </ThingDef>
+
+    <!-- Thetes Javelin -->
+
+    <ThingDef ParentName="pphhyy_Base_Sharp_NormalSize">
+        <defName>pphhyy_BoneReapers_SoulThetesJavelin</defName>
+        <label>Soul thetes javelin</label>
+        <description>Yes</description>
+        <graphicData>
+            <texPath>Weapons/SoulWeapons/SoulThetesJavalin</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+
+        </graphicData>
+        <uiIconScale>1.2</uiIconScale>
+        <techLevel>Medieval</techLevel>
+
+        <statBases>
+            <WorkToMake>10000</WorkToMake>
+            <Mass>2.25</Mass>
+        </statBases>
+
+        <costList>
+            <pphhyy_GreaterSoul>1</pphhyy_GreaterSoul>
+            <pphhyy_BoneReapers_ThetesJavelin>1</pphhyy_BoneReapers_ThetesJavelin>
+        </costList>
+
+        <weaponTags>
+            <li>pphhyy_BoneReapers_SoulThetesJavelin</li>
+        </weaponTags>
+        <comps>
+            <li>
+              <compClass>CompQuality</compClass>
+            </li>
+            <li Class="CompProperties_BladelinkWeapon">
+              <biocodeOnEquip>true</biocodeOnEquip>
+            </li>
+            <li Class="CompProperties_GeneratedName">
+                <nameMaker>NamerWeaponBladelink</nameMaker>
+              </li>
+        </comps>  
+        <tools>
+            <li>
+                <label>shaft</label>
+                <capacities>
+                    <li>Blunt</li>
+                    <li>Poke</li>
+                </capacities>
+                <power>11</power>
+                <cooldownTime>1.93</cooldownTime>
+            </li>
+            <li>
+                <label>point</label>
+                <labelUsedInLogging>false</labelUsedInLogging>
+                <capacities>
+                    <li>Stab</li>
+                </capacities>
+                <power>23</power>
+                <cooldownTime>2.0</cooldownTime>
+                <armorPenetration>0.35</armorPenetration>
+            </li>
+        </tools>
+        <recipeMaker>
+            <researchPrerequisite>pphhyy_BoneReapersSoulWeapons</researchPrerequisite>
+            <skillRequirements>
+                <Crafting>3</Crafting>
+            </skillRequirements>
+        </recipeMaker>
+
+        <modExtensions>
+            <li Class="VFECore.ThingDefExtension">
+                <usableWithShields>true</usableWithShields>
+            </li>
+        </modExtensions>
+    </ThingDef>
+
+    <!-- 2 Handed Weapons -->
+
+    <!-- Thetes Great Mace -->
+
+    <ThingDef ParentName="BaseMeleeWeapon_Blunt_Quality">
+        <defName>pphhyy_BoneReapers_SoulThetesGreatMace</defName>
+        <label>Soul thetes great mace</label>
+        <description>Yes</description>
+        <graphicData>
+            <texPath>Weapons/SoulWeapons/SoulThetesGreatMace</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+
+        </graphicData>
+        <uiIconScale>1.2</uiIconScale>
+        <techLevel>Medieval</techLevel>
+        <equippedAngleOffset>-65</equippedAngleOffset>
+
+        <statBases>
+            <WorkToMake>18000</WorkToMake>
+            <Mass>4</Mass>
+        </statBases>
+
+        <costList>
+            <pphhyy_GreaterSoul>2</pphhyy_GreaterSoul>
+            <pphhyy_BoneReapers_ThetesGreatMace>1</pphhyy_BoneReapers_ThetesGreatMace>
+        </costList>
+
+        <weaponTags>
+            <li>pphhyy_BoneReapers_SoulThetesGreatMace</li>
+        </weaponTags>
+        <comps>
+            <li>
+              <compClass>CompQuality</compClass>
+            </li>
+            <li Class="CompProperties_BladelinkWeapon">
+              <biocodeOnEquip>true</biocodeOnEquip>
+            </li>
+            <li Class="CompProperties_GeneratedName">
+                <nameMaker>NamerWeaponBladelink</nameMaker>
+              </li>
+        </comps>  
+        <tools>
+            <li>
+                <label>shaft</label>
+                <capacities>
+                    <li>Blunt</li>
+                    <li>Poke</li>
+                </capacities>
+                <power>15</power>
+                <cooldownTime>2.1</cooldownTime>
+            </li>
+            <li>
+                <label>head</label>
+                <labelUsedInLogging>false</labelUsedInLogging>
+                <capacities>
+                    <li>Blunt</li>
+                </capacities>
+                <power>27</power>
+                <cooldownTime>2.5</cooldownTime>
+                <armorPenetration>0.30</armorPenetration>
+            </li>
+        </tools>
+        <recipeMaker>
+            <researchPrerequisite>pphhyy_BoneReapersSoulWeapons</researchPrerequisite>
+            <skillRequirements>
+                <Crafting>5</Crafting>
+            </skillRequirements>
+        </recipeMaker>
+    </ThingDef>
+
+    <!-- Thetes Scythe -->
+
+    <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
+        <defName>pphhyy_BoneReapers_SoulThetesScythe</defName>
+        <label>Soul thetes scythe</label>
+        <description>Yes</description>
+        <possessionCount>1</possessionCount>
+        <graphicData>
+            <drawSize>1.25</drawSize>
+            <texPath>Weapons/SoulWeapons/SoulThetesScythe</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+
+        </graphicData>
+        <techLevel>Medieval</techLevel>
+        <weaponTags>
+            <li>pphhyy_BoneReapers_SoulThetesScythe</li>
+        </weaponTags>
+        <comps>
+            <li>
+              <compClass>CompQuality</compClass>
+            </li>
+            <li Class="CompProperties_BladelinkWeapon">
+              <biocodeOnEquip>true</biocodeOnEquip>
+            </li>
+            <li Class="CompProperties_GeneratedName">
+                <nameMaker>NamerWeaponBladelink</nameMaker>
+              </li>
+        </comps>  
+        <statBases>
+            <WorkToMake>18000</WorkToMake>
+            <Mass>2</Mass>
+        </statBases>
+
+        <equippedAngleOffset>-65</equippedAngleOffset>
+
+        <costList>
+            <pphhyy_GreaterSoul>2</pphhyy_GreaterSoul>
+            <pphhyy_BoneReapers_ThetesScythe>1</pphhyy_BoneReapers_ThetesScythe>
+        </costList>
+
+        <tools>
+            <li>
+                <label>handle</label>
+                <capacities>
+                    <li>Blunt</li>
+                </capacities>
+                <power>13</power>
+                <cooldownTime>1.9</cooldownTime>
+            </li>
+            <li>
+                <label>point</label>
+                <capacities>
+                    <li>Stab</li>
+                </capacities>
+                <power>26</power>
+                <cooldownTime>2.4</cooldownTime>
+                <armorPenetration>0.50</armorPenetration>
+            </li>
+            <li>
+                <label>edge</label>
+                <capacities>
+                    <li>Cut</li>
+                </capacities>
+                <power>26</power>
+                <cooldownTime>2.4</cooldownTime>
+            </li>
+        </tools>
+        <recipeMaker>
+            <researchPrerequisites>
+                <li>pphhyy_BoneReapersSoulWeapons</li>
+            </researchPrerequisites>
+            <skillRequirements>
+                <Crafting>5</Crafting>
+            </skillRequirements>
+        </recipeMaker>
+    </ThingDef>
+
+    <!-- Thetes Polearm -->
+
+    <ThingDef ParentName="pphhyy_Base_Sharp_NormalSize">
+        <defName>pphhyy_BoneReapers_SoulThetesPolearm</defName>
+        <label>Soul thetes polearm</label>
+        <description>Yes</description>
+        <graphicData>
+            <texPath>Weapons/SoulWeapons/SoulThetesPolarm</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <drawSize>(1.5,1.5)</drawSize>
+
+        </graphicData>
+
+        <statBases>
+            <WorkToMake>15000</WorkToMake>
+            <Mass>2.75</Mass>
+        </statBases>
+
+        <costList>
+            <pphhyy_GreaterSoul>2</pphhyy_GreaterSoul>
+            <pphhyy_BoneReapers_ThetesPolearm>1</pphhyy_BoneReapers_ThetesPolearm>
+        </costList>
+
+        <weaponTags>
+            <li>pphhyy_BoneReapers_SoulThetesPolearm</li>
+        </weaponTags>
+        <comps>
+            <li>
+              <compClass>CompQuality</compClass>
+            </li>
+            <li Class="CompProperties_BladelinkWeapon">
+              <biocodeOnEquip>true</biocodeOnEquip>
+            </li>
+            <li Class="CompProperties_GeneratedName">
+                <nameMaker>NamerWeaponBladelink</nameMaker>
+              </li>
+        </comps>  
+        <tools>
+            <li>
+                <label>shaft</label>
+                <capacities>
+                    <li>Blunt</li>
+                    <li>Poke</li>
+                </capacities>
+                <power>12</power>
+                <cooldownTime>2.2</cooldownTime>
+            </li>
+            <li>
+                <label>blade</label>
+                <labelUsedInLogging>false</labelUsedInLogging>
+                <capacities>
+                    <li>Cut</li>
+                </capacities>
+                <power>26</power>
+                <cooldownTime>2.6</cooldownTime>
+                <armorPenetration>0.55</armorPenetration>
+            </li>
+        </tools>
+        <recipeMaker>
+            <researchPrerequisite>pphhyy_BoneReapersSoulWeapons</researchPrerequisite>
+            <skillRequirements>
+                <Crafting>3</Crafting>
+            </skillRequirements>
+        </recipeMaker>
+    </ThingDef>
+
+    <!-- Thetes GreatSword -->
+
+    <ThingDef ParentName="pphhyy_Base_SharpSword_Oversize">
+        <defName>pphhyy_BoneReapers_SoulThetesGreatSword</defName>
+        <label>Soul thetes greatsword</label>
+        <description>Yes</description>
+        <graphicData>
+            <texPath>Weapons/SoulWeapons/SoulThetesGreatSword</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <drawSize>(1.25,1.25)</drawSize>
+        </graphicData>
+
+        <statBases>
+            <WorkToMake>24000</WorkToMake>
+            <Mass>3</Mass>
+        </statBases>
+
+        <costList>
+            <pphhyy_GreaterSoul>2</pphhyy_GreaterSoul>
+            <pphhyy_BoneReapers_ThetesGreatSword>1</pphhyy_BoneReapers_ThetesGreatSword>
+        </costList>
+
+        <weaponTags>
+            <li>pphhyy_BoneReapers_SoulThetesGreatSword</li>
+        </weaponTags>
+        <comps>
+            <li>
+              <compClass>CompQuality</compClass>
+            </li>
+            <li Class="CompProperties_BladelinkWeapon">
+              <biocodeOnEquip>true</biocodeOnEquip>
+            </li>
+            <li Class="CompProperties_GeneratedName">
+                <nameMaker>NamerWeaponBladelink</nameMaker>
+              </li>
+        </comps>  
+        <tools>
+            <li>
+                <label>handle</label>
+                <capacities>
+                    <li>Poke</li>
+                </capacities>
+                <power>12</power>
+                <cooldownTime>2.1</cooldownTime>
+            </li>
+            <li>
+                <label>edge</label>
+                <labelUsedInLogging>false</labelUsedInLogging>
+                <capacities>
+                    <li>Cut</li>
+                </capacities>
+                <power>26</power>
+                <cooldownTime>2.5</cooldownTime>
+                <armorPenetration>0.60</armorPenetration>
+            </li>
+        </tools>
+        <recipeMaker>
+            <researchPrerequisite>pphhyy_BoneReapersSoulWeapons</researchPrerequisite>
+            <skillRequirements>
+                <Crafting>6</Crafting>
+            </skillRequirements>
+        </recipeMaker>
+    </ThingDef>
+
+
+    <!-- Archon Weapons -->
+
+    <!-- Archon Sword -->
+
+
+    <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
+        <defName>pphhyy_BoneReapers_SoulArchonSword</defName>
+        <label>Soul archon sword</label>
+        <description>Yes</description>
+        <graphicData>
+            <texPath>Weapons/SoulWeapons/SoulArchonSword</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+
+        </graphicData>
+        <techLevel>Medieval</techLevel>
+        <equippedAngleOffset>-65</equippedAngleOffset>
+
+        <statBases>
+            <WorkToMake>13000</WorkToMake>
+            <Mass>1</Mass>
+        </statBases>
+
+        <costList>
+            <pphhyy_GreaterSoul>3</pphhyy_GreaterSoul>
+            <pphhyy_BoneReapers_ArchonSword>1</pphhyy_BoneReapers_ArchonSword>
+        </costList>
+
+        <weaponTags>
+            <li>pphhyy_BoneReapers_ArchonSword</li>
+        </weaponTags>
+        <comps>
+            <li>
+              <compClass>CompQuality</compClass>
+            </li>
+            <li Class="CompProperties_BladelinkWeapon">
+              <biocodeOnEquip>true</biocodeOnEquip>
+            </li>
+            <li Class="CompProperties_GeneratedName">
+                <nameMaker>NamerWeaponBladelink</nameMaker>
+              </li>
+        </comps>  
+        <tools>
+            <li>
+                <label>handle</label>
+                <capacities>
+                    <li>Poke</li>
+                </capacities>
+                <power>14</power>
+                <cooldownTime>2.2</cooldownTime>
+            </li>
+            <li>
+                <label>edge</label>
+                <labelUsedInLogging>false</labelUsedInLogging>
+                <capacities>
+                    <li>Cut</li>
+                </capacities>
+                <power>29</power>
+                <cooldownTime>2.4</cooldownTime>
+                <armorPenetration>0.8</armorPenetration>
+            </li>
+        </tools>
+        <recipeMaker>
+            <researchPrerequisite>pphhyy_BoneReapersSoulArchonWeapons</researchPrerequisite>
+            <skillRequirements>
+                <Crafting>4</Crafting>
+            </skillRequirements>
+        </recipeMaker>
+
+        <modExtensions>
+            <li Class="VFECore.ThingDefExtension">
+                <usableWithShields>true</usableWithShields>
+            </li>
+        </modExtensions>
+    </ThingDef>
+
+    <!-- Archon Polearm -->
+
+    <ThingDef ParentName="pphhyy_Base_Sharp_NormalSize">
+        <defName>pphhyy_BoneReapers_SoulArchonPolearm</defName>
+        <label>Soul archon polearm</label>
+        <description>Yes</description>
+        <graphicData>
+            <texPath>Weapons/SoulWeapons/SoulArchonPolearm</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <drawSize>(1.5,1.5)</drawSize>
+
+        </graphicData>
+
+        <statBases>
+            <WorkToMake>15000</WorkToMake>
+            <Mass>2.75</Mass>
+        </statBases>
+
+        <costList>
+            <pphhyy_GreaterSoul>3</pphhyy_GreaterSoul>
+            <pphhyy_BoneReapers_ArchonPolearm>1</pphhyy_BoneReapers_ArchonPolearm>
+        </costList>
+
+        <weaponTags>
+            <li>pphhyy_BoneReapers_ArchonPolearm</li>
+        </weaponTags>
+        <comps>
+            <li>
+              <compClass>CompQuality</compClass>
+            </li>
+            <li Class="CompProperties_BladelinkWeapon">
+              <biocodeOnEquip>true</biocodeOnEquip>
+            </li>
+            <li Class="CompProperties_GeneratedName">
+                <nameMaker>NamerWeaponBladelink</nameMaker>
+              </li>
+        </comps>  
+        <tools>
+            <li>
+                <label>shaft</label>
+                <capacities>
+                    <li>Blunt</li>
+                    <li>Poke</li>
+                </capacities>
+                <power>14</power>
+                <cooldownTime>2</cooldownTime>
+            </li>
+            <li>
+                <label>blade</label>
+                <labelUsedInLogging>false</labelUsedInLogging>
+                <capacities>
+                    <li>Cut</li>
+                </capacities>
+                <power>29</power>
+                <cooldownTime>2.4</cooldownTime>
+                <armorPenetration>0.8</armorPenetration>
+            </li>
+        </tools>
+        <recipeMaker>
+            <researchPrerequisite>pphhyy_BoneReapersSoulArchonWeapons</researchPrerequisite>
+            <skillRequirements>
+                <Crafting>3</Crafting>
+            </skillRequirements>
+        </recipeMaker>
+    </ThingDef>
+
+</Defs>

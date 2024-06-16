@@ -1,0 +1,889 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+  <!-- 1 Handed Weapons-->
+
+  <!-- Thetes sword -->
+
+  <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
+    <defName>pphhyy_BoneReapers_ThetesSword</defName>
+    <label>Thetes sword</label>
+    <description>Yes</description>
+    <graphicData>
+      <texPath>Weapons/NormalWeapons/ThetesSword</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+    </graphicData>
+    <techLevel>Medieval</techLevel>
+    <equippedAngleOffset>-65</equippedAngleOffset>
+
+    <statBases>
+      <WorkToMake>13000</WorkToMake>
+      <Mass>1</Mass>
+    </statBases>
+
+    <costStuffCount>80</costStuffCount>
+    <stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>
+    <costList>
+      <pphhyy_HumanBones>20</pphhyy_HumanBones>
+    </costList>
+
+    <weaponTags>
+      <li>pphhyy_BoneReapers_ThetesSword</li>
+    </weaponTags>
+
+    <tools>
+      <li>
+        <label>handle</label>
+        <capacities>
+          <li>Poke</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>1.90</cooldownTime>
+      </li>
+      <li>
+        <label>edge</label>
+        <labelUsedInLogging>false</labelUsedInLogging>
+        <capacities>
+          <li>Cut</li>
+        </capacities>
+        <power>17</power>
+        <cooldownTime>2</cooldownTime>
+        <armorPenetration>0.23</armorPenetration>
+      </li>
+    </tools>
+    <recipeMaker>
+      <researchPrerequisite>pphhyy_BoneReapersBasic</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>4</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+
+    <modExtensions>
+      <li Class="VFECore.ThingDefExtension">
+        <usableWithShields>true</usableWithShields>
+      </li>
+    </modExtensions>
+  </ThingDef>
+
+  <!-- Thetes Mace -->
+
+  <ThingDef ParentName="BaseMeleeWeapon_Blunt_Quality">
+    <defName>pphhyy_BoneReapers_ThetesMace</defName>
+    <label>Thetes mace</label>
+    <description>Yes</description>
+    <graphicData>
+      <texPath>Weapons/NormalWeapons/ThetesMace</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+    </graphicData>
+    <uiIconScale>1.2</uiIconScale>
+    <techLevel>Medieval</techLevel>
+    <equippedAngleOffset>-65</equippedAngleOffset>
+
+    <statBases>
+      <WorkToMake>6000</WorkToMake>
+      <Mass>1.10</Mass>
+    </statBases>
+
+    <costStuffCount>80</costStuffCount>
+    <stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>
+    <costList>
+      <pphhyy_HumanBones>20</pphhyy_HumanBones>
+    </costList>
+
+    <weaponTags>
+      <li>pphhyy_BoneReapers_ThetesMace</li>
+    </weaponTags>
+
+    <tools>
+      <li>
+        <label>handle</label>
+        <capacities>
+          <li>Poke</li>
+        </capacities>
+        <power>10</power>
+        <cooldownTime>1.90</cooldownTime>
+      </li>
+      <li>
+        <label>head</label>
+        <labelUsedInLogging>false</labelUsedInLogging>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>16</power>
+        <armorPenetration>0.20</armorPenetration>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+    <recipeMaker>
+      <researchPrerequisite>pphhyy_BoneReapersBasic</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>3</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+
+    <modExtensions>
+      <li Class="VFECore.ThingDefExtension">
+        <usableWithShields>true</usableWithShields>
+      </li>
+    </modExtensions>
+  </ThingDef>
+
+  <!-- Thetes Spear -->
+
+  <ThingDef Name="pphhyy_Base_Sharp_NormalSize" Abstract="True" ParentName="BaseMeleeWeapon_Sharp_Quality">
+    <modExtensions>
+      <li Class="VFECore.ThingDefExtension">
+        <weaponDraftedDrawOffsets>
+          <north>
+            <drawOffset>(0.34,0,0.30)</drawOffset>
+            <angleOffset>-143</angleOffset>
+          </north>
+          <east>
+            <drawOffset>(0.1,0,0.30)</drawOffset>
+            <angleOffset>-122</angleOffset>
+          </east>
+          <south>
+            <drawOffset>(-0.34,0,0.30)</drawOffset>
+            <angleOffset>-143</angleOffset>
+          </south>
+          <west>
+            <drawOffset>(-0.1,0,0.30)</drawOffset>
+            <angleOffset>122</angleOffset>
+          </west>
+        </weaponDraftedDrawOffsets>
+        <usableWithShields>true</usableWithShields>
+      </li>
+    </modExtensions>
+    <equippedAngleOffset>45</equippedAngleOffset>
+    <techLevel>Medieval</techLevel>
+  </ThingDef>
+
+  <ThingDef ParentName="pphhyy_Base_Sharp_NormalSize">
+    <defName>pphhyy_BoneReapers_ThetesSpear</defName>
+    <label>Thetes spear</label>
+    <description>Yes</description>
+    <graphicData>
+      <texPath>Weapons/NormalWeapons/ThetesSpear</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+    </graphicData>
+    <uiIconScale>1.2</uiIconScale>
+    <techLevel>Medieval</techLevel>
+
+    <statBases>
+      <WorkToMake>16000</WorkToMake>
+      <Mass>3</Mass>
+    </statBases>
+
+    <costStuffCount>80</costStuffCount>
+    <stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>
+    <costList>
+      <pphhyy_HumanBones>20</pphhyy_HumanBones>
+    </costList>
+
+    <weaponTags>
+      <li>pphhyy_BoneReapers_ThetesSpear</li>
+    </weaponTags>
+
+    <tools>
+      <li>
+        <label>shaft</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>1.90</cooldownTime>
+      </li>
+      <li>
+        <label>point</label>
+        <labelUsedInLogging>false</labelUsedInLogging>
+        <capacities>
+          <li>Stab</li>
+        </capacities>
+        <power>17</power>
+        <cooldownTime>2.1</cooldownTime>
+        <armorPenetration>0.35</armorPenetration>
+      </li>
+    </tools>
+    <recipeMaker>
+      <researchPrerequisite>pphhyy_BoneReapersBasic</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>4</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+
+    <modExtensions>
+      <li Class="VFECore.ThingDefExtension">
+        <usableWithShields>true</usableWithShields>
+      </li>
+    </modExtensions>
+  </ThingDef>
+
+  <!-- Thetes Bow -->
+
+  <ThingDef ParentName="BaseWeaponNeolithic">
+    <defName>pphhyy_BoneReapers_ThetesBow</defName>
+    <label>Thetes bow</label>
+    <description>Yes</description>
+    <graphicData>
+      <texPath>Weapons/NormalWeapons/ThetesBow</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+    </graphicData>
+    <soundInteract>Bow_Recurve</soundInteract>
+    <costStuffCount>80</costStuffCount>
+    <stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>
+    <costList>
+      <pphhyy_HumanBones>20</pphhyy_HumanBones>
+    </costList>
+
+    <statBases>
+      <WorkToMake>7000</WorkToMake>
+      <Mass>2.2</Mass>
+      <AccuracyTouch>0.69</AccuracyTouch>
+      <AccuracyShort>0.81</AccuracyShort>
+      <AccuracyMedium>0.7</AccuracyMedium>
+      <AccuracyLong>0.4</AccuracyLong>
+      <RangedWeapon_Cooldown>1.6</RangedWeapon_Cooldown>
+    </statBases>
+    <weaponTags>
+      <li>pphhyy_BoneReapers_ThetesBow</li>
+    </weaponTags>
+    <weaponClasses>
+      <li>Ranged</li>
+      <li>RangedLight</li>
+    </weaponClasses>
+    <recipeMaker>
+      <recipeUsers>
+        <li>ElectricSmithy</li>
+        <li>FueledSmithy</li>
+      </recipeUsers>
+      <researchPrerequisite>pphhyy_BoneReapersBasic</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>5</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>pphhyy_BoneReapers_ThetesArrow</defaultProjectile>
+        <warmupTime>1.75</warmupTime>
+        <range>27.9</range>
+        <soundCast>Bow_Recurve</soundCast>
+      </li>
+    </verbs>
+    <tools>
+      <li>
+        <label>limb</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>
+  <ThingDef ParentName="BaseProjectileNeolithic">
+    <defName>pphhyy_BoneReapers_ThetesArrow</defName>
+    <label>Thetes arrow</label>
+    <graphicData>
+      <texPath>Weapons/NormalWeapons/ThetesBowArrow</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>ArrowHighVelocity</damageDef>
+      <damageAmountBase>17</damageAmountBase>
+      <stoppingPower>1</stoppingPower>
+      <speed>59</speed>
+    </projectile>
+  </ThingDef>
+
+  <!-- Thetes Staff -->
+
+  <ThingDef ParentName="BaseWeapon">
+    <defName>pphhyy_BoneReapers_ThetesStaff</defName>
+    <label>Thetes staff</label>
+    <description>Yes</description>
+    <techLevel>Medieval</techLevel>
+    <graphicData>
+      <texPath>Weapons/NormalWeapons/ThetesStaff</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+    </graphicData>
+    <weaponTags>
+      <li>pphhyy_BoneReapers_ThetesStaff</li>
+    </weaponTags>
+    <tradeNeverStack>true</tradeNeverStack>
+    <relicChance>3</relicChance>
+    <tickerType>Normal</tickerType>
+    <costStuffCount>80</costStuffCount>
+    <stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>
+    <costList>
+      <pphhyy_HumanBones>20</pphhyy_HumanBones>
+    </costList>
+
+    <statBases>
+      <WorkToMake>18000</WorkToMake>
+      <Mass>3</Mass>
+      <AccuracyTouch>0.45</AccuracyTouch>
+      <AccuracyShort>0.50</AccuracyShort>
+      <AccuracyMedium>0.40</AccuracyMedium>
+      <AccuracyLong>0.30</AccuracyLong>
+      <RangedWeapon_Cooldown>1.75</RangedWeapon_Cooldown>
+    </statBases>
+    <equippedAngleOffset>-65</equippedAngleOffset>
+    <soundInteract>Interact_BladelinkMonoSword</soundInteract>
+    <meleeHitSound>MeleeHit_BladelinkMonoSword</meleeHitSound>
+    <tools>
+      <li>
+        <label>limb</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>7</power>
+        <cooldownTime>1.85</cooldownTime>
+      </li>
+    </tools>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>pphhyy_BoneReapers_ThetesArrow</defaultProjectile>
+        <warmupTime>1.75</warmupTime>
+        <range>27.9</range>
+        <soundCast>Bow_Recurve</soundCast>
+      </li>
+    </verbs>
+    <comps>
+      <li>
+        <compClass>CompQuality</compClass>
+      </li>
+    </comps>
+    <smeltable>true</smeltable>
+    <burnableByRecipe>true</burnableByRecipe>
+    <thingSetMakerTags>
+      <li>RewardStandardQualitySuper</li>
+    </thingSetMakerTags>
+    <recipeMaker>
+      <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+      <workSkill>Crafting</workSkill>
+      <effectWorking>Smith</effectWorking>
+      <soundWorking>Recipe_Smith</soundWorking>
+      <recipeUsers>
+        <li>ElectricSmithy</li>
+        <li>FueledSmithy</li>
+      </recipeUsers>
+      <unfinishedThingDef>UnfinishedWeapon</unfinishedThingDef>
+      <researchPrerequisite>pphhyy_BoneReapersBasic</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>8</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+  </ThingDef>
+  <ThingDef ParentName="BaseProjectileNeolithic">
+    <defName>pphhyy_BoneReapers_ThetesBolt</defName>
+    <label>Thetes bolt</label>
+    <graphicData>
+      <texPath>Weapons/NormalWeapons/ThetesBowArrow</texPath>      <!-- have to add correct path when pp adds sprite -->
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>ArrowHighVelocity</damageDef>
+      <damageAmountBase>18</damageAmountBase>
+      <stoppingPower>1</stoppingPower>
+      <speed>59</speed>
+    </projectile>
+  </ThingDef>
+
+
+  <!-- Thetes Javelin -->
+
+  <ThingDef ParentName="pphhyy_Base_Sharp_NormalSize">
+    <defName>pphhyy_BoneReapers_ThetesJavelin</defName>
+    <label>Thetes javelin</label>
+    <description>Yes</description>
+    <graphicData>
+      <texPath>Weapons/NormalWeapons/ThetesJavalin</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+    </graphicData>
+    <uiIconScale>1.2</uiIconScale>
+    <techLevel>Medieval</techLevel>
+
+    <statBases>
+      <WorkToMake>10000</WorkToMake>
+      <Mass>2.25</Mass>
+    </statBases>
+
+    <costStuffCount>80</costStuffCount>
+    <stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>
+    <costList>
+      <pphhyy_HumanBones>20</pphhyy_HumanBones>
+    </costList>
+
+    <weaponTags>
+      <li>pphhyy_BoneReapers_ThetesJavelin</li>
+    </weaponTags>
+
+    <tools>
+      <li>
+        <label>shaft</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>1.90</cooldownTime>
+      </li>
+      <li>
+        <label>point</label>
+        <labelUsedInLogging>false</labelUsedInLogging>
+        <capacities>
+          <li>Stab</li>
+        </capacities>
+        <power>16</power>
+        <cooldownTime>2.15</cooldownTime>
+        <armorPenetration>0.25</armorPenetration>
+      </li>
+    </tools>
+    <recipeMaker>
+      <researchPrerequisite>pphhyy_BoneReapersBasic</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>3</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+
+    <modExtensions>
+      <li Class="VFECore.ThingDefExtension">
+        <usableWithShields>true</usableWithShields>
+      </li>
+    </modExtensions>
+  </ThingDef>
+
+  <!-- 2 Handed Weapons -->
+
+  <!-- Thetes Great Mace -->
+
+
+  <ThingDef ParentName="BaseMeleeWeapon_Blunt_Quality">
+    <defName>pphhyy_BoneReapers_ThetesGreatMace</defName>
+    <label>Thetes great mace</label>
+    <description>Yes</description>
+    <graphicData>
+      <texPath>Weapons/NormalWeapons/ThetesGreatMace</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+    </graphicData>
+    <uiIconScale>1.2</uiIconScale>
+    <techLevel>Medieval</techLevel>
+    <equippedAngleOffset>-65</equippedAngleOffset>
+
+    <statBases>
+      <WorkToMake>18000</WorkToMake>
+      <Mass>4</Mass>
+    </statBases>
+
+    <costStuffCount>130</costStuffCount>
+    <stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>
+    <costList>
+      <pphhyy_HumanBones>30</pphhyy_HumanBones>
+    </costList>
+
+    <weaponTags>
+      <li>pphhyy_BoneReapers_ThetesGreatMace</li>
+    </weaponTags>
+
+    <tools>
+      <li>
+        <label>shaft</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>10</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>head</label>
+        <labelUsedInLogging>false</labelUsedInLogging>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>19</power>
+        <cooldownTime>2.2</cooldownTime>
+        <armorPenetration>0.20</armorPenetration>
+      </li>
+    </tools>
+    <recipeMaker>
+      <researchPrerequisite>pphhyy_BoneReapersBasic</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>5</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+  </ThingDef>
+
+
+  <!-- Thetes Scythe -->
+
+  <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
+    <defName>pphhyy_BoneReapers_ThetesScythe</defName>
+    <label>Thetes scythe</label>
+    <description>Yes</description>
+    <possessionCount>1</possessionCount>
+    <graphicData>
+      <drawSize>1.3</drawSize>
+      <texPath>Weapons/NormalWeapons/ThetesScythe</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+    </graphicData>
+    <techLevel>Medieval</techLevel>
+    <weaponTags>
+      <li>pphhyy_BoneReapers_ThetesScythe</li>
+    </weaponTags>
+
+    <statBases>
+      <WorkToMake>18000</WorkToMake>
+      <Mass>2</Mass>
+    </statBases>
+
+    <equippedAngleOffset>-65</equippedAngleOffset>
+
+    <costStuffCount>130</costStuffCount>
+    <stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>
+    <costList>
+      <pphhyy_HumanBones>30</pphhyy_HumanBones>
+    </costList>
+
+    <tools>
+      <li>
+        <label>handle</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>10</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>point</label>
+        <capacities>
+          <li>Stab</li>
+        </capacities>
+        <power>10</power>
+        <cooldownTime>2.0</cooldownTime>
+        <armorPenetration>0.30</armorPenetration>
+      </li>
+      <li>
+        <label>edge</label>
+        <capacities>
+          <li>Cut</li>
+        </capacities>
+        <power>19</power>
+        <cooldownTime>2.1</cooldownTime>
+      </li>
+    </tools>
+    <recipeMaker>
+      <researchPrerequisites>
+        <li>pphhyy_BoneReapersBasic</li>
+      </researchPrerequisites>
+      <skillRequirements>
+        <Crafting>5</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+  </ThingDef>
+
+  <!-- Thetes Polearm -->
+
+
+  <ThingDef ParentName="pphhyy_Base_Sharp_NormalSize">
+    <defName>pphhyy_BoneReapers_ThetesPolearm</defName>
+    <label>Thetes polearm</label>
+    <description>Yes</description>
+    <graphicData>
+      <texPath>Weapons/NormalWeapons/ThetesPolarm</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(1.5,1.5)</drawSize>
+      <shaderType>CutoutComplex</shaderType>
+    </graphicData>
+
+    <statBases>
+      <WorkToMake>15000</WorkToMake>
+      <Mass>2.75</Mass>
+    </statBases>
+
+    <costStuffCount>130</costStuffCount>
+    <stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>
+    <costList>
+      <pphhyy_HumanBones>30</pphhyy_HumanBones>
+    </costList>
+
+    <weaponTags>
+      <li>pphhyy_BoneReapers_ThetesPolearm</li>
+    </weaponTags>
+
+    <tools>
+      <li>
+        <label>shaft</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>10</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>blade</label>
+        <labelUsedInLogging>false</labelUsedInLogging>
+        <capacities>
+          <li>Cut</li>
+        </capacities>
+        <power>19</power>
+        <cooldownTime>2.3</cooldownTime>
+        <armorPenetration>0.3</armorPenetration>
+      </li>
+    </tools>
+    <recipeMaker>
+      <researchPrerequisite>pphhyy_BoneReapersBasic</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>3</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+  </ThingDef>
+
+  <!-- Thetes GreatSword -->
+
+  <ThingDef Name="pphhyy_Base_SharpSword_Oversize" Abstract="True" ParentName="BaseMeleeWeapon_Sharp_Quality">
+    <modExtensions>
+      <li Class="VFECore.ThingDefExtension">
+        <weaponDraftedDrawOffsets>
+          <north>
+            <drawOffset>(-0.30,0.0,0.40)</drawOffset>
+            <angleOffset>115</angleOffset>
+          </north>
+          <east>
+            <drawOffset>(0.30,0.2,0.40)</drawOffset>
+            <angleOffset>-45</angleOffset>
+          </east>
+          <south>
+            <drawOffset>(0.30,0.00,0.20)</drawOffset>
+            <angleOffset>-45</angleOffset>
+          </south>
+          <west>
+            <drawOffset>(-0.30,0.0,0.20)</drawOffset>
+            <angleOffset>45</angleOffset>
+          </west>
+        </weaponDraftedDrawOffsets>
+      </li>
+    </modExtensions>
+    <equippedAngleOffset>-45</equippedAngleOffset>
+    <techLevel>Medieval</techLevel>
+  </ThingDef>
+
+  <ThingDef ParentName="pphhyy_Base_SharpSword_Oversize">
+    <defName>pphhyy_BoneReapers_ThetesGreatSword</defName>
+    <label>Thetes greatsword</label>
+    <description>Yes</description>
+    <graphicData>
+      <texPath>Weapons/NormalWeapons/ThetesGreatSword</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <drawSize>(1.25,1.25)</drawSize>
+    </graphicData>
+
+    <statBases>
+      <WorkToMake>24000</WorkToMake>
+      <Mass>3</Mass>
+    </statBases>
+
+    <costStuffCount>130</costStuffCount>
+    <stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>
+    <costList>
+      <pphhyy_HumanBones>30</pphhyy_HumanBones>
+    </costList>
+
+    <weaponTags>
+      <li>pphhyy_BoneReapers_ThetesGreatSword</li>
+    </weaponTags>
+
+    <tools>
+      <li>
+        <label>handle</label>
+        <capacities>
+          <li>Poke</li>
+        </capacities>
+        <power>10</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>edge</label>
+        <labelUsedInLogging>false</labelUsedInLogging>
+        <capacities>
+          <li>Cut</li>
+        </capacities>
+        <power>19</power>
+        <cooldownTime>2.4</cooldownTime>
+        <armorPenetration>0.30</armorPenetration>
+      </li>
+    </tools>
+    <recipeMaker>
+      <researchPrerequisite>pphhyy_BoneReapersBasic</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>6</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+  </ThingDef>
+
+
+  <!-- Archon Weapons -->
+
+  <!-- Archon Sword -->
+
+
+  <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
+    <defName>pphhyy_BoneReapers_ArchonSword</defName>
+    <label>Archon sword</label>
+    <description>Yes</description>
+    <graphicData>
+      <texPath>Weapons/NormalWeapons/ArchonSword</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+    </graphicData>
+    <techLevel>Medieval</techLevel>
+    <equippedAngleOffset>-65</equippedAngleOffset>
+
+    <statBases>
+      <WorkToMake>13000</WorkToMake>
+      <Mass>1</Mass>
+    </statBases>
+
+    <costStuffCount>150</costStuffCount>
+    <stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>
+    <costList>
+      <pphhyy_HumanBones>40</pphhyy_HumanBones>
+    </costList>
+
+    <weaponTags>
+      <li>pphhyy_BoneReapers_ArchonSword</li>
+    </weaponTags>
+
+    <tools>
+      <li>
+        <label>handle</label>
+        <capacities>
+          <li>Poke</li>
+        </capacities>
+        <power>11</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>edge</label>
+        <labelUsedInLogging>false</labelUsedInLogging>
+        <capacities>
+          <li>Cut</li>
+        </capacities>
+        <power>20</power>
+        <cooldownTime>2.2</cooldownTime>
+        <armorPenetration>0.3</armorPenetration>
+      </li>
+    </tools>
+    <recipeMaker>
+      <researchPrerequisite>pphhyy_BoneReapersArchon</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>4</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+
+    <modExtensions>
+      <li Class="VFECore.ThingDefExtension">
+        <usableWithShields>true</usableWithShields>
+      </li>
+    </modExtensions>
+  </ThingDef>
+
+  <!-- Archon Polearm -->
+
+  <ThingDef ParentName="pphhyy_Base_Sharp_NormalSize">
+    <defName>pphhyy_BoneReapers_ArchonPolearm</defName>
+    <label>Archon polearm</label>
+    <description>Yes</description>
+    <graphicData>
+      <texPath>Weapons/NormalWeapons/ArchonPolearm</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(1.5,1.5)</drawSize>
+      <shaderType>CutoutComplex</shaderType>
+    </graphicData>
+
+    <statBases>
+      <WorkToMake>15000</WorkToMake>
+      <Mass>2.75</Mass>
+    </statBases>
+
+    <costStuffCount>150</costStuffCount>
+    <stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>
+    <costList>
+      <pphhyy_HumanBones>40</pphhyy_HumanBones>
+    </costList>
+
+    <weaponTags>
+      <li>pphhyy_BoneReapers_ArchonPolearm</li>
+    </weaponTags>
+
+    <tools>
+      <li>
+        <label>shaft</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>12</power>
+        <cooldownTime>2.1</cooldownTime>
+      </li>
+      <li>
+        <label>blade</label>
+        <labelUsedInLogging>false</labelUsedInLogging>
+        <capacities>
+          <li>Cut</li>
+        </capacities>
+        <power>20</power>
+        <cooldownTime>2.4</cooldownTime>
+        <armorPenetration>0.45</armorPenetration>
+      </li>
+    </tools>
+    <recipeMaker>
+      <researchPrerequisite>pphhyy_BoneReapersArchon</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>3</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+  </ThingDef>
+
+</Defs>
