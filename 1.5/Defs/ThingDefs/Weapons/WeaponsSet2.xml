@@ -829,7 +829,7 @@
             </li>
         </tools>
         <recipeMaker>
-            <researchPrerequisite>pphhyy_BoneReapersSoulArchonWeapons</researchPrerequisite>
+            <researchPrerequisite>pphhyy_BoneReapersSoulWeapons</researchPrerequisite>
             <skillRequirements>
                 <Crafting>4</Crafting>
             </skillRequirements>
@@ -901,7 +901,7 @@
             </li>
         </tools>
         <recipeMaker>
-            <researchPrerequisite>pphhyy_BoneReapersSoulArchonWeapons</researchPrerequisite>
+            <researchPrerequisite>pphhyy_BoneReapersSoulWeapons</researchPrerequisite>
             <skillRequirements>
                 <Crafting>3</Crafting>
             </skillRequirements>

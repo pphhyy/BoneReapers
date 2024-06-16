@@ -13,7 +13,7 @@
 	  </ResearchProjectDef>
 
 	<ResearchProjectDef ParentName="pphhyy_BoneReapers_Base">
-		<baseCost>500</baseCost>
+		<baseCost>750</baseCost>
 		<defName>pphhyy_BoneReapersBasic</defName>
 		<label>BoneReapers Basic</label>
 		<description>Basic thetes weapons made from metal and the bones of humans</description>
@@ -25,7 +25,7 @@
 	</ResearchProjectDef>
 
 	<ResearchProjectDef ParentName="pphhyy_BoneReapers_Base">
-		<baseCost>750</baseCost>
+		<baseCost>1500</baseCost>
 		<defName>pphhyy_BoneReapersArchon</defName>
 		<label>BoneReapers Archon</label>
 		<description>Archon weapons are more expensive in materials, they make up for that with their damage.</description>
@@ -37,29 +37,16 @@
 	</ResearchProjectDef>
 
 	<ResearchProjectDef ParentName="pphhyy_BoneReapers_Base">
-		<baseCost>1000</baseCost>
+		<baseCost>2000</baseCost>
 		<defName>pphhyy_BoneReapersSoulWeapons</defName>
 		<label>BoneReapers Soul Weapons</label>
 		<description>Thetes weapons that combined with greater souls achieve an even greater power</description>
 		<researchViewX>2.00</researchViewX>
 		<researchViewY>2.0</researchViewY>
     <prerequisites>
-      <li>Smithing</li>
-	  <li>pphhyy_BoneReapersBasic</li>
 	  <li>pphhyy_BoneReapersArchon</li>
     </prerequisites>
 	</ResearchProjectDef>
 
-	<ResearchProjectDef ParentName="pphhyy_BoneReapers_Base">
-		<baseCost>1000</baseCost>
-		<defName>pphhyy_BoneReapersSoulArchonWeapons</defName>
-		<label>BoneReapers Soul Archon Weapons</label>
-		<description>Having an archon weapon is ok, but having a soul archon weapon? Now that's epic</description>
-		<researchViewX>3.00</researchViewX>
-		<researchViewY>2.0</researchViewY>
-    <prerequisites>
-	  <li>pphhyy_BoneReapersSoulWeapons</li>
-    </prerequisites>
-	</ResearchProjectDef>
 
 </Defs>
