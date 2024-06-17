@@ -9,7 +9,7 @@
 		<smeltable>false</smeltable>
 		<techLevel>Spacer</techLevel>
 		<thingCategories Inherit="False">
-			<li>DankPyon_Shields</li>
+			<li>Apparel</li>
 		</thingCategories>
 		<equipmentType>None</equipmentType>
 		<equippedStatOffsets>
@@ -19,7 +19,7 @@
 		</equippedStatOffsets>
 		<thingClass>VFECore.Apparel_Shield</thingClass>
 		<weaponTags>
-			<li>pphhyy_BoneReaoer_Shields</li>
+			<li>pphhyy_BoneReaper_Shields</li>
 		</weaponTags>
 		<statBases>
 			<Mass>3</Mass>
