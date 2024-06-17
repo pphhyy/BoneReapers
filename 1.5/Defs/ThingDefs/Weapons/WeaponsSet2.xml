@@ -419,7 +419,7 @@
     <!-- Thetes Javelin -->
 
     <ThingDef ParentName="pphhyy_Base_Sharp_NormalSize">
-        <defName>pphhyy_BoneReapers_SoulThetesJavelin</defName>
+        <defName>pphhyy_BoneReaper_SoulThetesJavelin</defName>
         <label>Soul thetes javelin</label>
         <description>Yes</description>
         <graphicData>
@@ -433,15 +433,20 @@
         <statBases>
             <WorkToMake>10000</WorkToMake>
             <Mass>2.25</Mass>
+            <AccuracyTouch>0.50</AccuracyTouch>
+            <AccuracyShort>0.71</AccuracyShort>
+            <AccuracyMedium>0.50</AccuracyMedium>
+            <AccuracyLong>0.32</AccuracyLong>
+            <RangedWeapon_Cooldown>3</RangedWeapon_Cooldown>
         </statBases>
 
         <costList>
             <pphhyy_GreaterSoul>1</pphhyy_GreaterSoul>
-            <pphhyy_BoneReapers_ThetesJavelin>1</pphhyy_BoneReapers_ThetesJavelin>
+            <pphhyy_BoneReaper_ThetesJavelin>1</pphhyy_BoneReaper_ThetesJavelin>
         </costList>
 
         <weaponTags>
-            <li>pphhyy_BoneReapers_SoulThetesJavelin</li>
+            <li>pphhyy_BoneReaper_SoulThetesJavelin</li>
         </weaponTags>
         <comps>
             <li>
@@ -475,8 +480,19 @@
                 <armorPenetration>0.35</armorPenetration>
             </li>
         </tools>
+        <verbs>
+            <li>
+              <verbClass>Verb_Shoot</verbClass>
+              <hasStandardCommand>true</hasStandardCommand>
+              <defaultProjectile>SoulJavelin_Thrown</defaultProjectile>
+              <warmupTime>2.5</warmupTime>
+              <range>10</range>
+              <soundCast>Interact_BeatFire</soundCast>
+              <rangedFireRulepack>Combat_RangedFire_Thrown</rangedFireRulepack>
+            </li>
+          </verbs>
         <recipeMaker>
-            <researchPrerequisite>pphhyy_BoneReapersSoulWeapons</researchPrerequisite>
+            <researchPrerequisite>pphhyy_BoneReaperSoulWeapons</researchPrerequisite>
             <skillRequirements>
                 <Crafting>3</Crafting>
             </skillRequirements>
@@ -488,6 +504,23 @@
             </li>
         </modExtensions>
     </ThingDef>
+
+    <ThingDef ParentName="BaseProjectileNeolithic">
+        <defName>SoulJavelin_Thrown</defName>
+        <label>javelin</label>
+        <graphicData>
+          <texPath>Weapons/SoulWeapons/SoulThetesJavalin</texPath>
+          <graphicClass>Graphic_Single</graphicClass>
+          <shaderType>CutoutComplex</shaderType>
+        </graphicData>
+        <projectile>
+          <damageDef>RangedStab</damageDef>
+          <damageAmountBase>24</damageAmountBase>
+          <stoppingPower>2.5</stoppingPower>
+          <armorPenetrationBase>0.2</armorPenetrationBase>
+          <speed>26</speed>
+        </projectile>
+      </ThingDef>
 
     <!-- 2 Handed Weapons -->
 
