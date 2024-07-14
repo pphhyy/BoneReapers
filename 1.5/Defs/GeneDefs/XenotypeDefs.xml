@@ -9,6 +9,9 @@
     <descriptionShort>bone reaper sepelire</descriptionShort>
     <iconPath>Icons/XenotypeIcons/SepelireHeadIcon</iconPath>
 	  <inheritable>true</inheritable>
+    <nameMaker>pphhyy_BoneReaperNamer_Male</nameMaker>
+    <nameMakerFemale>pphhyy_BoneReaperNamer_Female</nameMakerFemale>
+    <chanceToUseNameMaker>1</chanceToUseNameMaker> 
     <genes>
 		  <li>pphhyy_BoneReaperPhysiology</li>
 		  <li>pphhyy_SepelireBody</li>
@@ -28,6 +31,9 @@
     <descriptionShort>bone reaper thetes</descriptionShort>
     <iconPath>Icons/XenotypeIcons/ThetesHeadIcon</iconPath>
 	  <inheritable>true</inheritable>
+    <nameMaker>pphhyy_BoneReaperNamer_Male</nameMaker>
+    <nameMakerFemale>pphhyy_BoneReaperNamer_Female</nameMakerFemale>
+    <chanceToUseNameMaker>1</chanceToUseNameMaker>
     <genes>
 		  <li>pphhyy_BoneReaperPhysiology</li>
 		  <li>pphhyy_ThetesBody</li>
@@ -43,6 +49,9 @@
     <descriptionShort>bone reaper phalangite</descriptionShort>
     <iconPath>Icons/XenotypeIcons/ThetesHeadIcon</iconPath>
 	  <inheritable>true</inheritable>
+    <nameMaker>pphhyy_BoneReaperNamer_Male</nameMaker>
+    <nameMakerFemale>pphhyy_BoneReaperNamer_Female</nameMakerFemale>
+    <chanceToUseNameMaker>1</chanceToUseNameMaker>
     <genes>
 		  <li>pphhyy_BoneReaperPhysiology</li>
 		  <li>pphhyy_PhalangiteBody</li>
@@ -60,6 +69,9 @@
     <descriptionShort>bone reaper archon</descriptionShort>
     <iconPath>Icons/XenotypeIcons/ArchonHeadIcon</iconPath>
 	  <inheritable>true</inheritable>
+    <nameMaker>pphhyy_BoneReaperNamer_Male</nameMaker>
+    <nameMakerFemale>pphhyy_BoneReaperNamer_Female</nameMakerFemale>
+    <chanceToUseNameMaker>1</chanceToUseNameMaker>
     <genes>
 		  <li>pphhyy_BoneReaperPhysiology</li>
 			<li>pphhyy_ArchonBody</li>
@@ -81,6 +93,9 @@
     <descriptionShort>bone reaper apokryphos</descriptionShort>
     <iconPath>Icons/XenotypeIcons/ApokryphosHeadIcon</iconPath>
 	  <inheritable>true</inheritable>
+    <nameMaker>pphhyy_BoneReaperNamer_Male</nameMaker>
+    <nameMakerFemale>pphhyy_BoneReaperNamer_Female</nameMakerFemale>
+    <chanceToUseNameMaker>1</chanceToUseNameMaker>
     <genes>
 		  <li>pphhyy_BoneReaperPhysiology</li>
 		  <li>pphhyy_ApokryphosBody</li>

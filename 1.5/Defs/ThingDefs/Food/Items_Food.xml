@@ -24,16 +24,6 @@
       <optimalityOffsetFeedingAnimals>-10</optimalityOffsetFeedingAnimals>
       <ingestEffect>EatVegetarian</ingestEffect>
       <ingestSound>Meal_Eat</ingestSound>
-	<!--  <outcomeDoers>
-		<li Class="IngestionOutcomeDoer_GiveHediff">
-			<hediffDef>FoodPoisoning</hediffDef>
-            <severity>1</severity>
-		</li>
-		<li Class="IngestionOutcomeDoer_GiveHediff">
-			<hediffDef>GutWorms</hediffDef>
-            <severity>1</severity>
-		</li>  
-	  </outcomeDoers> -->     
     </ingestible>
   </ThingDef>
 
@@ -63,9 +53,10 @@
     <products>
       <pphhyy_SoulBerries>1</pphhyy_SoulBerries>
     </products>
-	<recipeUsers>
-        <li>pphhyy_AnkylosisTable</li>
-	</recipeUsers>    
+	  <recipeUsers>
+      <li>pphhyy_AnkylosisTable</li>
+	  </recipeUsers>
+    <researchPrerequisite>pphhyy_BoneReaperTech</researchPrerequisite>    
     <displayPriority>200</displayPriority>
   </RecipeDef>
   
@@ -95,9 +86,10 @@
     <products>
       <pphhyy_SoulBerries>4</pphhyy_SoulBerries>
     </products>
-	<recipeUsers>
+	  <recipeUsers>
         <li>pphhyy_AnkylosisTable</li>
-	</recipeUsers>    
+	  </recipeUsers>
+    <researchPrerequisite>pphhyy_BoneReaperTech</researchPrerequisite>    
     <displayPriority>200</displayPriority>
   </RecipeDef>   
 
@@ -166,6 +158,7 @@
     <products>
       <pphhyy_SoulWineMust>5</pphhyy_SoulWineMust>
     </products>
+    <researchPrerequisite>pphhyy_SoulFermenting</researchPrerequisite>
   </RecipeDef>
 
   <ThingDef ParentName="DrugBase">
