@@ -90,11 +90,12 @@
 	<products>
 		<pphhyy_GreaterSoul>1</pphhyy_GreaterSoul>
 	</products>
+  <researchPrerequisite>pphhyy_BoneReaperTech</researchPrerequisite>
   </RecipeDef>
 
   <ThingDef ParentName="ResourceBase">
     <defName>pphhyy_LesserSoul</defName>
-    <label>extracted lesser soul</label>
+    <label>lesser soul</label>
     <description>Extracted lesser soul.</description>
     <graphicData>
       <texPath>Resources/Souls/LesserSoul</texPath>
@@ -181,6 +182,7 @@
 	<products>
 		<pphhyy_LesserSoul>1</pphhyy_LesserSoul>
 	</products>
+  <researchPrerequisite>pphhyy_BoneReaperTech</researchPrerequisite>
   </RecipeDef>
 
 

@@ -1,0 +1,668 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+ 
+     <ThingDef ParentName="AnimalThingBase" Name="BoneReapers_BoneAnimalBase" Abstract="True">
+          <statBases>
+               <ToxicResistance>1</ToxicResistance>
+               <ToxicEnvironmentResistance MayRequire="Ludeon.RimWorld.Biotech">1</ToxicEnvironmentResistance>
+               <ComfyTemperatureMin>-80</ComfyTemperatureMin>
+               <ComfyTemperatureMax>30</ComfyTemperatureMax>
+               <PainShockThreshold>0.99</PainShockThreshold>
+               <MeatAmount>0</MeatAmount>
+          </statBases>
+          <race>
+               <hasGenders>false</hasGenders>
+               <needsRest>false</needsRest>
+               <foodType>OmnivoreRoughAnimal</foodType>
+               <lifeExpectancy>1200</lifeExpectancy>
+               <baseHungerRate>0.001</baseHungerRate>
+               <canBePredatorPrey>false</canBePredatorPrey>
+               <!--<fleshType>BotchJob_UndeadFlesh</fleshType>
+               <bloodDef>BotchJob_Filth_Undead</bloodDef>-->
+               <useMeatFrom>Human</useMeatFrom>
+               <hediffGiverSets Inherit="False"/>
+               <wildBiomes>
+                     <TemperateForest>0.05</TemperateForest>
+                     <TemperateSwamp>0.05</TemperateSwamp>
+                     <AridShrubland>0.05</AridShrubland>
+                     <BorealForest>0.05</BorealForest>
+                     <IceSheet>0.05</IceSheet>
+                     <SeaIce>0.05</SeaIce>
+                     <Tundra>0.05</Tundra>
+                     <ColdBog>0.05</ColdBog>
+                     <TropicalRainforest>0.02</TropicalRainforest>
+                     <TropicalSwamp>0.02</TropicalSwamp>
+                     <Desert>0.02</Desert>
+                     <ExtremeDesert>0.02</ExtremeDesert>
+                     <DankPyon_DarkForest MayRequire="DankPyon.Medieval.Overhaul">0.05</DankPyon_DarkForest>
+               </wildBiomes>
+          </race>
+          <comps>
+               <li MayRequire="OskarPotocki.VanillaFactionsExpanded.Core" Class="AnimalBehaviours.CompProperties_DoesntFlee">
+               </li>
+               <li MayRequire="OskarPotocki.VanillaFactionsExpanded.Core" Class="AnimalBehaviours.CompProperties_DiseaseImmunity">
+                    <hediffsToRemove>
+                         <li>Animal_Plague</li>
+                         <li>Animal_Flu</li>
+                         <li>LungRotExposure</li>
+                         <li>Scaria</li>
+                         <li>WoundInfection</li>
+                         <li MayRequire="Ludeon.RimWorld.Royalty">BloodRot</li>
+                         <li MayRequire="Ludeon.RimWorld.Royalty">Abasia</li>
+                    </hediffsToRemove>
+               <tickInterval>2000</tickInterval>
+          </li>
+          </comps>
+        </ThingDef>
+        
+	<ThingDef ParentName="ResourceBase" Name="BoneReapers_BoneAnimalCreation" Abstract="True">
+		<techLevel>Medieval</techLevel>
+		<recipeMaker>
+			<recipeUsers Inherit="False">
+				<li>pphhyy_AnkylosisTable</li>
+			</recipeUsers>
+			<soundWorking>Recipe_Surgery</soundWorking>
+			<unfinishedThingDef>BotchJob_UnfinishedUndead</unfinishedThingDef>
+		</recipeMaker>
+		<statBases>
+			<MaxHitPoints>1</MaxHitPoints>
+			<MarketValue>1</MarketValue>
+			<Mass>1</Mass>
+			<Flammability>0</Flammability>
+		</statBases>
+		<graphicData>
+			<texPath>Resources/Bones/AnimalBones/AnimalBones_c</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>1</drawSize>
+		</graphicData>
+		<tickerType>Normal</tickerType>
+		<stackLimit>1</stackLimit>
+		<modExtensions>
+			<li MayRequire="isorex.communityframework" Class="CF.HatcherExtension">
+			<hatcheeForcePlayerFaction>true</hatcheeForcePlayerFaction>
+			</li>
+		</modExtensions>
+	</ThingDef>
+
+<!-- ========================== Scarab ================================= -->
+
+
+<ThingDef ParentName="BoneReapers_BoneAnimalBase">
+  <defName>pphhyy_Scarab</defName>
+  <label>scarab</label>
+  <description>The culmination for the pitiful settlements too stubborn to pay their tithes. Their bones broken, ripped, and stolen from their skin. Formed of animal bones to carry out tithes. They sweep our halls for us to be revered. We know of those who die before being revered. Join us.</description>
+  <statBases>
+    <MoveSpeed>2.0</MoveSpeed>
+    <ArmorRating_Blunt>0.18</ArmorRating_Blunt>
+    <ArmorRating_Sharp>0.18</ArmorRating_Sharp>
+    <MarketValue>150</MarketValue>
+  </statBases>
+  <uiIconScale>2</uiIconScale>
+  <tools>
+    <li>
+      <label>mandibles</label>
+      <capacities>
+        <li>Bite</li>
+      </capacities>
+      <power>5</power>
+      <cooldownTime>2</cooldownTime>
+      <linkedBodyPartsGroup>Mouth</linkedBodyPartsGroup>
+    </li>
+    <li>
+      <label>head</label>
+      <capacities>
+        <li>Blunt</li>
+      </capacities>
+      <power>4</power>
+      <cooldownTime>2</cooldownTime>
+      <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+      <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+      <chanceFactor>0.1</chanceFactor>
+    </li>
+  </tools>
+  <race>
+    <body>BeetleLike</body>
+    <baseBodySize>0.5</baseBodySize>
+    <baseHungerRate>0.10</baseHungerRate>
+    <baseHealthScale>0.4</baseHealthScale>
+    <useMeatFrom>Megaspider</useMeatFrom>
+    <lifeExpectancy>10</lifeExpectancy>
+    <wildness>0.2</wildness>
+    <trainability>Intermediate</trainability>
+    <lifeStageAges>
+      <li>
+        <def>EusocialInsectAdult</def>
+        <minAge>0.4</minAge>
+        <soundWounded>Pawn_Megascarab_Wounded</soundWounded>
+        <soundDeath>Pawn_Megascarab_Death</soundDeath>
+        <soundCall>Pawn_Megascarab_Call</soundCall>
+        <soundAngry>Pawn_Megascarab_Angry</soundAngry>
+      </li>
+    </lifeStageAges>
+    <soundMeleeHitPawn>Pawn_Melee_SmallScratch_HitPawn</soundMeleeHitPawn>
+    <soundMeleeHitBuilding>Pawn_Melee_SmallScratch_HitBuilding</soundMeleeHitBuilding>
+    <soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
+  </race>
+</ThingDef>
+
+<PawnKindDef ParentName="AnimalKindBase">
+  <defName>pphhyy_Scarab</defName>
+  <label>scarab</label>
+  <race>pphhyy_Scarab</race>
+  <combatPower>40</combatPower>
+  <canArriveManhunter>false</canArriveManhunter>
+  <ecoSystemWeight>0.15</ecoSystemWeight>
+  <alternateGraphicChance>0.8</alternateGraphicChance>
+  <alternateGraphics>
+    <li><texPath>Animals/Scarab/Scarab1</texPath></li>
+    <li><texPath>Animals/Scarab/Scarab2</texPath></li>
+    <li><texPath>Animals/Scarab/Scarab3</texPath></li>
+  </alternateGraphics>
+  <lifeStages>
+    <li>
+      <bodyGraphicData>
+        <texPath>Animals/Scarab/Scarab</texPath>
+        <drawSize>1.5</drawSize>
+        <shadowData>
+          <volume>(0.2, 0.3, 0.2)</volume>
+          <offset>(0,0,0)</offset>
+        </shadowData>
+      </bodyGraphicData>
+    </li>
+  </lifeStages>
+</PawnKindDef>
+
+<ThingDef ParentName="BoneReapers_BoneAnimalCreation">
+    <defName>pphhyy_ScarabCreation</defName>
+    <label>scarab</label>
+    <description>TBA</description>
+    <statBases>
+         <WorkToMake>20000</WorkToMake>
+    </statBases>
+    <recipeMaker>
+     <skillRequirements>
+       <Crafting>6</Crafting>
+     </skillRequirements>
+     <researchPrerequisite>pphhyy_BoneReaperTech</researchPrerequisite>    
+    </recipeMaker>
+    <costList>
+         <pphhyy_LesserSoul>1</pphhyy_LesserSoul>
+         <pphhyy_AnimalBones>30</pphhyy_AnimalBones>
+    </costList>
+    <comps>
+         <li Class="CompProperties_Hatcher">
+              <hatcherDaystoHatch>0</hatcherDaystoHatch>
+             <hatcherPawn>pphhyy_Scarab</hatcherPawn>
+         </li>
+    </comps>
+  </ThingDef>
+
+
+<!-- ========================== Mongrel ================================= -->
+
+
+<ThingDef ParentName="BoneReapers_BoneAnimalBase">
+     <defName>pphhyy_Mongrel</defName>
+     <label>mongrel</label>
+     <description>Viewed as wretched beasts by those who face down our creations. We create something from memory, pets, faster than they remembered. For creativity is designed by pain. They will know of pain through thte switftness of our artistry. We understand your pain. Join us.</description>
+     <statBases>
+       <MoveSpeed>4.0</MoveSpeed>
+       <ArmorRating_Blunt>0.20</ArmorRating_Blunt>
+       <ArmorRating_Sharp>0.40</ArmorRating_Sharp>
+       <MarketValue>450</MarketValue>
+       <FilthRate>2</FilthRate>
+     </statBases>
+     <race>
+       <animalType>Canine</animalType>
+       <body>QuadrupedAnimalWithPawsAndTail</body>
+       <petness>0.5</petness>
+       <nameOnTameChance>1</nameOnTameChance>
+       <trainability>Advanced</trainability>
+        <baseBodySize>1.5</baseBodySize>
+        <manhunterOnDamageChance>1.00</manhunterOnDamageChance>
+         <manhunterOnTameFailChance>0.40</manhunterOnTameFailChance>
+       <wildness>0.6</wildness>
+        <useMeatFrom>Warg</useMeatFrom>
+       <lifeStageAges>
+         <li>
+           <def>AnimalAdult</def>
+           <minAge>10</minAge>
+           <soundWounded>Pawn_Warg_Wounded</soundWounded>
+           <soundDeath>Pawn_Warg_Death</soundDeath>
+           <soundCall>Pawn_Warg_Call</soundCall>
+           <soundAngry>Pawn_Warg_Angry</soundAngry>
+         </li>
+       </lifeStageAges>
+       <soundMeleeHitPawn>Pawn_Melee_SmallScratch_HitPawn</soundMeleeHitPawn>
+       <soundMeleeHitBuilding>Pawn_Melee_SmallScratch_HitBuilding</soundMeleeHitBuilding>
+       <soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
+       <headPosPerRotation>
+         <li>(0.0, 0, 0.2)</li>
+         <li>(0.3, 0, 0.03)</li>
+         <li>(0.0, 0, -0.16)</li>
+         <li>(-0.3, 0, 0.03)</li>
+       </headPosPerRotation>
+     </race>
+      <butcherProducts>
+        <pphhyy_LesserSoul>3</pphhyy_LesserSoul>
+        <pphhyy_AnimalBones>60</pphhyy_AnimalBones>
+      </butcherProducts>
+     <tradeTags>
+       <li>AnimalExotic</li>
+     </tradeTags>
+     <tools>
+       <li>
+         <label>left claw</label>
+         <capacities>
+           <li>Scratch</li>
+         </capacities>
+         <power>13</power>
+         <cooldownTime>1.5</cooldownTime>
+         <linkedBodyPartsGroup>FrontLeftPaw</linkedBodyPartsGroup>
+         <surpriseAttack>
+           <extraMeleeDamages>
+             <li>
+               <def>Stun</def>
+               <amount>14</amount>
+             </li>
+           </extraMeleeDamages>
+         </surpriseAttack>
+       </li>
+       <li>
+         <label>right claw</label>
+         <capacities>
+           <li>Scratch</li>
+         </capacities>
+         <power>13</power>
+         <cooldownTime>1.5</cooldownTime>
+         <linkedBodyPartsGroup>FrontRightPaw</linkedBodyPartsGroup>
+         <surpriseAttack>
+           <extraMeleeDamages>
+             <li>
+               <def>Stun</def>
+               <amount>14</amount>
+             </li>
+           </extraMeleeDamages>
+         </surpriseAttack>
+       </li>
+       <li>
+         <label>razorfangs</label>
+         <capacities>
+           <li>Bite</li>
+         </capacities>
+         <power>15</power>
+         <cooldownTime>2</cooldownTime>
+         <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+         <chanceFactor>0.9</chanceFactor>
+         <surpriseAttack>
+           <extraMeleeDamages>
+             <li>
+               <def>Stun</def>
+               <amount>14</amount>
+             </li>
+           </extraMeleeDamages>
+         </surpriseAttack>
+       </li>
+       <li>
+         <label>head</label>
+         <capacities>
+           <li>Blunt</li>
+         </capacities>
+         <power>5</power>
+         <cooldownTime>2</cooldownTime>
+         <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+         <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+         <chanceFactor>0.2</chanceFactor>
+       </li>
+     </tools>
+   </ThingDef>
+   
+   <PawnKindDef ParentName="AnimalKindBase">
+     <defName>pphhyy_Mongrel</defName>
+     <label>mongrel</label>
+     <race>pphhyy_Mongrel</race>
+     <combatPower>150</combatPower>
+     <ecoSystemWeight>0.5</ecoSystemWeight>
+	 <alternateGraphicChance>0.8</alternateGraphicChance>
+	 <alternateGraphics>
+	   	<li><texPath>Animals/Mongrel/mongrel1</texPath></li>
+	   	<li><texPath>Animals/Mongrel/mongrel2</texPath></li>
+	   	<li><texPath>Animals/Mongrel/mongrel3</texPath></li>
+	   	<li><texPath>Animals/Mongrel/mongrel4</texPath></li>
+	 </alternateGraphics>
+     <lifeStages>
+       <li>
+         <bodyGraphicData>
+           <texPath>Animals/Mongrel/mongrel</texPath>
+           <drawSize>2.15</drawSize>
+           <shadowData>
+             <volume>(0.3, 0.4, 0.3)</volume>
+             <offset>(0,0,-0.15)</offset>
+           </shadowData>
+         </bodyGraphicData>
+       </li>
+     </lifeStages>
+   </PawnKindDef>
+
+   <ThingDef ParentName="BoneReapers_BoneAnimalCreation">
+     	<defName>pphhyy_MongrelCreation</defName>
+     	<label>mongrel</label>
+     	<description>TBA</description>
+     	<statBases>
+          	<WorkToMake>20000</WorkToMake>
+     	</statBases>
+     	<recipeMaker>
+        <skillRequirements>
+          <Crafting>6</Crafting>
+        </skillRequirements>
+        <researchPrerequisite>pphhyy_AnimalBoneConstructsTier1</researchPrerequisite>    
+     	</recipeMaker>
+     	<costList>
+          	<pphhyy_LesserSoul>3</pphhyy_LesserSoul>
+          	<pphhyy_AnimalBones>60</pphhyy_AnimalBones>
+     	</costList>
+     	<comps>
+          	<li Class="CompProperties_Hatcher">
+               	<hatcherDaystoHatch>0</hatcherDaystoHatch>
+              	<hatcherPawn>pphhyy_Mongrel</hatcherPawn>
+          	</li>
+     	</comps>
+   	</ThingDef>
+
+
+  <!-- ========================== Ghora ================================= -->
+  
+  <ThingDef ParentName="BoneReapers_BoneAnimalBase">
+    <defName>pphhyy_Ghora</defName>
+    <label>ghora</label>
+    <description>We see how they treat their pets. They use them as tools, while we see them for their true beauty. Both riding into salbation. Both made of parts not our own, voices not our own. Be part of something bigger. Join us.</description>
+    <statBases>
+      <MoveSpeed>6</MoveSpeed>
+      <ArmorRating_Blunt>0.40</ArmorRating_Blunt>
+      <ArmorRating_Sharp>0.60</ArmorRating_Sharp>
+      <MarketValue>600</MarketValue>
+      <CaravanRidingSpeedFactor>1.8</CaravanRidingSpeedFactor>
+    </statBases>
+    <uiIconScale>1.1</uiIconScale>
+    <race>
+      <herdAnimal>true</herdAnimal>
+      <body>QuadrupedAnimalWithHooves</body>
+      <baseHealthScale>1.9</baseHealthScale>
+      <wildness>0.35</wildness>
+	    <baseBodySize>2.4</baseBodySize>
+      <roamMtbDays>2</roamMtbDays>
+      <petness>0.6</petness>
+      <trainability>None</trainability>
+      <packAnimal>true</packAnimal>
+	    <useMeatFrom>Horse</useMeatFrom>
+      <lifeStageAges>
+        <li>
+          <def>AnimalAdult</def>
+          <minAge>0</minAge>
+          <soundWounded>Pawn_Horse_Wounded</soundWounded>
+          <soundDeath>Pawn_Horse_Death</soundDeath>
+          <soundCall>Pawn_Horse_Call</soundCall>
+          <soundAngry>Pawn_Horse_Angry</soundAngry>
+        </li>
+      </lifeStageAges>
+      <soundMeleeHitPawn>Pawn_Melee_BigBash_HitPawn</soundMeleeHitPawn>
+      <soundMeleeHitBuilding>Pawn_Melee_BigBash_HitBuilding</soundMeleeHitBuilding>
+      <soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
+      <headPosPerRotation>
+        <li>(0.0, 0, 0.33)</li>
+        <li>(0.31, 0, 0.21)</li>
+        <li>(0.0, 0, 0.08)</li>
+        <li>(-0.31, 0, 0.21)</li>
+      </headPosPerRotation>
+    </race>
+	  <butcherProducts>
+      <pphhyy_LesserSoul>6</pphhyy_LesserSoul>
+      <pphhyy_AnimalBones>120</pphhyy_AnimalBones>
+		</butcherProducts>
+    <tradeTags>
+      <li>AnimalExotic</li>
+    </tradeTags>
+    <tools>
+      <li>
+        <label>head</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>15</power>
+        <cooldownTime>2.9</cooldownTime>
+        <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+        <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+      </li>
+      <li>
+        <label>left claw</label>
+        <capacities>
+          <li>Scratch</li>
+          <li>Poke</li>
+        </capacities>
+        <power>10</power>
+        <cooldownTime>2</cooldownTime>
+        <linkedBodyPartsGroup>FrontLeftLeg</linkedBodyPartsGroup>
+      </li>
+      <li>
+        <label>right claw</label>
+        <capacities>
+          <li>Scratch</li>
+          <li>Poke</li>
+        </capacities>
+        <power>10</power>
+        <cooldownTime>2</cooldownTime>
+        <linkedBodyPartsGroup>FrontRightLeg</linkedBodyPartsGroup>
+      </li>
+      <li>
+        <capacities>
+          <li>Bite</li>
+        </capacities>
+        <power>5</power>
+        <cooldownTime>2</cooldownTime>
+        <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+        <chanceFactor>0.5</chanceFactor>
+      </li>
+    </tools>
+  </ThingDef>
+
+  <PawnKindDef ParentName="AnimalKindBase">
+    <defName>pphhyy_Ghora</defName>
+    <label>ghora</label>
+    <race>pphhyy_Ghora</race>
+    <combatPower>120</combatPower>
+    <ecoSystemWeight>1.1</ecoSystemWeight>
+    <wildGroupSize>1~3</wildGroupSize>
+    <alternateGraphicChance>0.8</alternateGraphicChance>
+    <alternateGraphics>
+      <li><texPath>Animals/Ghora/Ghora2</texPath></li>
+      <li><texPath>Animals/Ghora/Ghora3</texPath></li>
+      <li><texPath>Animals/Ghora/Ghora4</texPath></li>
+      <li><texPath>Animals/Ghora/Ghora5</texPath></li>
+      <li><texPath>Animals/Ghora/Ghora6</texPath></li>
+      </alternateGraphics>
+    <lifeStages>
+      <li>
+        <bodyGraphicData>
+          <texPath>Animals/Ghora/Ghora</texPath>
+          <drawSize>2.3</drawSize>
+          <shadowData>
+            <volume>(0.8, 0.6, 0.6)</volume>
+            <offset>(0,0,-0.3)</offset>
+          </shadowData>
+        </bodyGraphicData>
+      </li>
+    </lifeStages>
+	</PawnKindDef>
+
+  <ThingDef ParentName="BoneReapers_BoneAnimalCreation">
+    <defName>pphhyy_GhoraCreation</defName>
+    <label>ghora</label>
+    <description>TBA</description>
+    <statBases>
+         <WorkToMake>20000</WorkToMake>
+    </statBases>
+    <recipeMaker>
+      <skillRequirements>
+        <Crafting>8</Crafting>
+      </skillRequirements>
+      <researchPrerequisite>pphhyy_AnimalBoneConstructsTier2</researchPrerequisite>
+    </recipeMaker>
+    <costList>
+         <pphhyy_LesserSoul>6</pphhyy_LesserSoul>
+         <pphhyy_AnimalBones>120</pphhyy_AnimalBones>
+    </costList>
+    <comps>
+         <li Class="CompProperties_Hatcher">
+              <hatcherDaystoHatch>0</hatcherDaystoHatch>
+             <hatcherPawn>pphhyy_Ghora</hatcherPawn>
+         </li>
+    </comps>
+  </ThingDef>
+
+  <!-- ========================== Daraigana ================================= -->
+  
+  <ThingDef ParentName="BoneReapers_BoneAnimalBase">
+    <defName>pphhyy_Daraigana</defName>
+    <label>daraigana</label>
+    <description>We shall fuse mind to a design of higher purpose. A design of mixed bones. For the purpose of war and strength against the drudge. They believe we bring war and fear. They are mistaken. We offer a way out of pain. To end all suffering. Suffering is to live with ignorance of noth knowing more. We are scholars of pain. Join us.</description>
+    <statBases>
+      <MoveSpeed>6</MoveSpeed>
+      <ArmorRating_Blunt>0.40</ArmorRating_Blunt>
+      <ArmorRating_Sharp>0.80</ArmorRating_Sharp>
+      <MarketValue>600</MarketValue>
+      <CaravanRidingSpeedFactor>1.5</CaravanRidingSpeedFactor>
+    </statBases>
+    <uiIconScale>1.1</uiIconScale>
+    <race>
+      <herdAnimal>true</herdAnimal>
+      <body>QuadrupedAnimalWithHooves</body>
+      <baseHealthScale>2.3</baseHealthScale>
+      <wildness>0.35</wildness>
+	    <baseBodySize>2.8</baseBodySize>
+      <roamMtbDays>2</roamMtbDays>
+      <petness>0.6</petness>
+      <trainability>None</trainability>
+      <packAnimal>true</packAnimal>
+	    <useMeatFrom>Horse</useMeatFrom>
+      <lifeStageAges>
+        <li>
+          <def>AnimalAdult</def>
+          <minAge>0</minAge>
+          <soundWounded>Pawn_Horse_Wounded</soundWounded>
+          <soundDeath>Pawn_Horse_Death</soundDeath>
+          <soundCall>Pawn_Horse_Call</soundCall>
+          <soundAngry>Pawn_Horse_Angry</soundAngry>
+        </li>
+      </lifeStageAges>
+      <soundMeleeHitPawn>Pawn_Melee_BigBash_HitPawn</soundMeleeHitPawn>
+      <soundMeleeHitBuilding>Pawn_Melee_BigBash_HitBuilding</soundMeleeHitBuilding>
+      <soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
+      <headPosPerRotation>
+        <li>(0.0, 0, 0.33)</li>
+        <li>(0.31, 0, 0.21)</li>
+        <li>(0.0, 0, 0.08)</li>
+        <li>(-0.31, 0, 0.21)</li>
+      </headPosPerRotation>
+    </race>
+	  <butcherProducts>
+      <pphhyy_LesserSoul>9</pphhyy_LesserSoul>
+      <pphhyy_AnimalBones>120</pphhyy_AnimalBones>
+		</butcherProducts>
+    <tradeTags>
+      <li>AnimalExotic</li>
+    </tradeTags>
+    <tools>
+      <li>
+        <label>head</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>20</power>
+        <cooldownTime>2.9</cooldownTime>
+        <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+        <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+      </li>
+      <li>
+        <label>left claw</label>
+        <capacities>
+          <li>Scratch</li>
+          <li>Poke</li>
+        </capacities>
+        <power>15</power>
+        <cooldownTime>2</cooldownTime>
+        <linkedBodyPartsGroup>FrontLeftLeg</linkedBodyPartsGroup>
+      </li>
+      <li>
+        <label>right claw</label>
+        <capacities>
+          <li>Scratch</li>
+          <li>Poke</li>
+        </capacities>
+        <power>15</power>
+        <cooldownTime>2</cooldownTime>
+        <linkedBodyPartsGroup>FrontRightLeg</linkedBodyPartsGroup>
+      </li>
+      <li>
+        <capacities>
+          <li>Bite</li>
+        </capacities>
+        <power>10</power>
+        <cooldownTime>2</cooldownTime>
+        <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+        <chanceFactor>0.5</chanceFactor>
+      </li>
+    </tools>
+  </ThingDef>
+
+  <PawnKindDef ParentName="AnimalKindBase">
+    <defName>pphhyy_Daraigana</defName>
+    <label>daraigana</label>
+    <race>pphhyy_Daraigana</race>
+    <combatPower>120</combatPower>
+    <ecoSystemWeight>1.1</ecoSystemWeight>
+    <wildGroupSize>1~3</wildGroupSize>
+    <alternateGraphicChance>0.5</alternateGraphicChance>
+    <alternateGraphics>
+      <li><texPath>Animals/Daraigana/Daraigana2</texPath></li>
+      </alternateGraphics>
+    <lifeStages>
+      <li>
+        <bodyGraphicData>
+          <texPath>Animals/Daraigana/Daraigana</texPath>
+          <drawSize>2.3</drawSize>
+          <shadowData>
+            <volume>(0.8, 0.6, 0.6)</volume>
+            <offset>(0,0,-0.3)</offset>
+          </shadowData>
+        </bodyGraphicData>
+      </li>
+    </lifeStages>
+	</PawnKindDef>
+
+  <ThingDef ParentName="BoneReapers_BoneAnimalCreation">
+    <defName>pphhyy_DaraiganaCreation</defName>
+    <label>daraigana</label>
+    <description>TBA</description>
+    <statBases>
+         <WorkToMake>20000</WorkToMake>
+    </statBases>
+    <recipeMaker>
+      <skillRequirements>
+        <Crafting>10</Crafting>
+      </skillRequirements>
+      <researchPrerequisite>pphhyy_AnimalBoneConstructsTier3</researchPrerequisite>
+    </recipeMaker>
+    <costList>
+         <pphhyy_LesserSoul>9</pphhyy_LesserSoul>
+         <pphhyy_AnimalBones>120</pphhyy_AnimalBones>
+    </costList>
+    <comps>
+         <li Class="CompProperties_Hatcher">
+              <hatcherDaystoHatch>0</hatcherDaystoHatch>
+             <hatcherPawn>pphhyy_Daraigana</hatcherPawn>
+         </li>
+    </comps>
+  </ThingDef>  
+
+</Defs>	

@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <!-- To add a research tab, make a new ResearchTabDef here and then set the <tab> field of your research project to match it -->
+  
+    <ResearchTabDef>
+        <defName>pphhyy_Bonereapers</defName>
+        <label>bone reapers</label>
+        <generalTitle>Bone reaper mod projects</generalTitle>
+        <generalDescription>Unlock new Bone Reaper technologies by researching at a research bench. You can only have one active project at a time.</generalDescription>
+    </ResearchTabDef>
+
+    <ResearchProjectDef>
+        <defName>pphhyy_BoneReaperTech</defName>
+        <label>bone reaper tech</label>
+        <description>Harness the power of the Bone Reapers.</description>
+        <baseCost>500</baseCost>
+        <techLevel>Medieval</techLevel>
+        <tab>pphhyy_Bonereapers</tab>
+        <researchViewX>0.00</researchViewX>
+        <researchViewY>1.50</researchViewY>
+    </ResearchProjectDef>
+
+    <ResearchProjectDef>
+        <defName>pphhyy_SoulLamp</defName>
+        <label>soul lamp</label>
+        <description>Build ever burning lamps that utilize souls in their construction and give off an eerie glow.</description>
+        <baseCost>500</baseCost>
+        <techLevel>Medieval</techLevel>
+        <tab>pphhyy_Bonereapers</tab>
+        <prerequisites>
+            <li>pphhyy_BoneReaperTech</li>
+        </prerequisites>
+        <researchViewX>0.00</researchViewX>
+        <researchViewY>3.00</researchViewY>
+    </ResearchProjectDef>
+    
+    <ResearchProjectDef>
+        <defName>pphhyy_SoulFermenting</defName>
+        <label>soul fermenting</label>
+        <description>Ferment souls and berries into a wine.</description>
+        <baseCost>500</baseCost>
+        <techLevel>Medieval</techLevel>
+        <tab>pphhyy_Bonereapers</tab>
+        <prerequisites>
+            <li>pphhyy_BoneReaperTech</li>
+        </prerequisites>
+        <researchViewX>0.00</researchViewX>
+        <researchViewY>3.75</researchViewY>
+    </ResearchProjectDef>     
+    
+    <ResearchProjectDef>
+        <defName>pphhyy_BoneMoldSteel</defName>
+        <label>bone mold</label>
+        <description>Create a bone and steel alloy which is stronger and more resilient then base steel.</description>
+        <baseCost>500</baseCost>
+        <techLevel>Medieval</techLevel>
+        <tab>pphhyy_Bonereapers</tab>
+        <prerequisites>
+            <li>pphhyy_BoneReaperTech</li>
+        </prerequisites>
+        <researchViewX>0.00</researchViewX>
+        <researchViewY>4.50</researchViewY>
+    </ResearchProjectDef>
+    
+    <ResearchProjectDef>
+        <defName>pphhyy_EtherealSteel</defName>
+        <label>ethereal steel</label>
+        <description>Create a soul and steel alloy which is stronger and sharper then base steel.</description>
+        <baseCost>750</baseCost>
+        <techLevel>Medieval</techLevel>
+        <tab>pphhyy_Bonereapers</tab>
+        <prerequisites>
+            <li>pphhyy_BoneMoldSteel</li>
+        </prerequisites>
+        <researchViewX>1.00</researchViewX>
+        <researchViewY>4.50</researchViewY>
+    </ResearchProjectDef>
+
+    <ResearchProjectDef>
+        <defName>pphhyy_AnimalBoneConstructsTier1</defName>
+        <label>animal bone constructs tier 1</label>
+        <description>Create tier 1 animal bone constructs</description>
+        <baseCost>750</baseCost>
+        <techLevel>Medieval</techLevel>
+        <tab>pphhyy_Bonereapers</tab>
+        <prerequisites>
+            <li>pphhyy_BoneReaperTech</li>
+        </prerequisites>
+        <researchViewX>1.00</researchViewX>
+        <researchViewY>0.00</researchViewY>
+    </ResearchProjectDef>
+
+    <ResearchProjectDef>
+        <defName>pphhyy_AnimalBoneConstructsTier2</defName>
+        <label>animal bone constructs tier 2</label>
+        <description>Create tier 2 animal bone constructs.</description>
+        <baseCost>1000</baseCost>
+        <techLevel>Medieval</techLevel>
+        <tab>pphhyy_Bonereapers</tab>
+        <prerequisites>
+            <li>pphhyy_AnimalBoneConstructsTier1</li>
+        </prerequisites>
+        <researchViewX>3.00</researchViewX>
+        <researchViewY>0.00</researchViewY>
+    </ResearchProjectDef>
+
+    <ResearchProjectDef>
+        <defName>pphhyy_AnimalBoneConstructsTier3</defName>
+        <label>animal bone constructs tier 3</label>
+        <description>Create tier 3 animal bone constructs.</description>
+        <baseCost>1500</baseCost>
+        <techLevel>Medieval</techLevel>
+        <tab>pphhyy_Bonereapers</tab>
+        <prerequisites>
+            <li>pphhyy_AnimalBoneConstructsTier2</li>
+        </prerequisites>
+        <researchViewX>4.00</researchViewX>
+        <researchViewY>0.00</researchViewY>
+    </ResearchProjectDef>
+    
+    <ResearchProjectDef>
+        <defName>pphhyy_SepelireConstruction</defName>
+        <label>sepelire construction</label>
+        <description>Construct the sepelire bone reaper.</description>
+        <baseCost>750</baseCost>
+        <techLevel>Medieval</techLevel>
+        <tab>pphhyy_Bonereapers</tab>
+        <prerequisites>
+            <li>pphhyy_BoneReaperTech</li>
+        </prerequisites>
+        <researchViewX>1.00</researchViewX>
+        <researchViewY>0.75</researchViewY>
+    </ResearchProjectDef>
+    
+    <ResearchProjectDef>
+        <defName>pphhyy_PhalangiteConstruction</defName>
+        <label>phalangite construction</label>
+        <description>Construct the phalangite bone reaper.</description>
+        <baseCost>750</baseCost>
+        <techLevel>Medieval</techLevel>
+        <tab>pphhyy_Bonereapers</tab>
+        <prerequisites>
+            <li>pphhyy_BoneReaperTech</li>
+        </prerequisites>
+        <researchViewX>1.00</researchViewX>
+        <researchViewY>1.50</researchViewY>
+    </ResearchProjectDef>
+    
+    <ResearchProjectDef>
+        <defName>pphhyy_ApokyrphosConstruction</defName>
+        <label>apokryphos construction</label>
+        <description>Construct the Apokryphos bone reaper.</description>
+        <baseCost>750</baseCost>
+        <techLevel>Medieval</techLevel>
+        <tab>pphhyy_Bonereapers</tab>
+        <prerequisites>
+            <li>pphhyy_BoneReaperTech</li>
+        </prerequisites>
+        <researchViewX>1.00</researchViewX>
+        <researchViewY>2.25</researchViewY>
+    </ResearchProjectDef>
+
+    <ResearchProjectDef>
+        <defName>pphhyy_ArchonConstruction</defName>
+        <label>archon construction</label>
+        <description>Construct the Archon bone reaper.</description>
+        <baseCost>1500</baseCost>
+        <techLevel>Medieval</techLevel>
+        <tab>pphhyy_Bonereapers</tab>
+        <prerequisites>
+            <li>pphhyy_SepelireConstruction</li>
+            <li>pphhyy_PhalangiteConstruction</li>
+            <li>pphhyy_ApokyrphosConstruction</li>
+        </prerequisites>
+        <researchViewX>4.00</researchViewX>
+        <researchViewY>1.50</researchViewY>
+    </ResearchProjectDef>    
+    
+    <ResearchProjectDef>
+        <defName>pphhyy_BoneReaperWeapons</defName>
+        <label>bone reaper weapons</label>
+        <description>Craft bone reapers weapons.</description>
+        <baseCost>750</baseCost>
+        <techLevel>Medieval</techLevel>
+        <tab>pphhyy_Bonereapers</tab>
+        <prerequisites>
+            <li>pphhyy_BoneReaperTech</li>
+        </prerequisites>
+        <researchViewX>1.00</researchViewX>
+        <researchViewY>3.00</researchViewY>
+    </ResearchProjectDef>
+
+    <ResearchProjectDef>
+        <defName>pphhyy_ArchonWeapons</defName>
+        <label>archon weapons</label>
+        <description>Craft archon weapons.</description>
+        <baseCost>1500</baseCost>
+        <techLevel>Medieval</techLevel>
+        <tab>pphhyy_Bonereapers</tab>
+        <prerequisites>
+            <li>pphhyy_BoneReaperWeapons</li>
+        </prerequisites>
+        <researchViewX>4.00</researchViewX>
+        <researchViewY>3.00</researchViewY>
+    </ResearchProjectDef>
+    
+    <ResearchProjectDef>
+        <defName>pphhyy_SoulWeapons</defName>
+        <label>soul weapons</label>
+        <description>Craft soul weapons.</description>
+        <baseCost>2000</baseCost>
+        <techLevel>Medieval</techLevel>
+        <tab>pphhyy_Bonereapers</tab>
+        <prerequisites>
+            <li>pphhyy_ArchonWeapons</li>
+        </prerequisites>
+        <researchViewX>5.00</researchViewX>
+        <researchViewY>3.00</researchViewY>
+    </ResearchProjectDef>    
+    
+    <ResearchProjectDef>
+        <defName>pphhyy_BasicArmorTech</defName>
+        <label>basic armor tech</label>
+        <description>Craft tier 1 and tier 2 bone reaper armors.</description>
+        <baseCost>750</baseCost>
+        <techLevel>Medieval</techLevel>
+        <tab>pphhyy_Bonereapers</tab>
+        <prerequisites>
+            <li>pphhyy_BoneReaperTech</li>
+        </prerequisites>
+        <researchViewX>1.00</researchViewX>
+        <researchViewY>3.75</researchViewY>
+    </ResearchProjectDef>
+    
+    <ResearchProjectDef>
+        <defName>pphhyy_AdvancedArmorTech</defName>
+        <label>advanced armor tech</label>
+        <description>Craft tier 3 and tier 4 bone reaper armors.</description>
+        <baseCost>1000</baseCost>
+        <techLevel>Medieval</techLevel>
+        <tab>pphhyy_Bonereapers</tab>
+        <prerequisites>
+            <li>pphhyy_BasicArmorTech</li>
+        </prerequisites>
+        <researchViewX>2.00</researchViewX>
+        <researchViewY>3.75</researchViewY>
+    </ResearchProjectDef>
+    
+    <ResearchProjectDef>
+        <defName>pphhyy_ArchonArmorTech</defName>
+        <label>archon armor tech</label>
+        <description>Craft archon armors.</description>
+        <baseCost>1500</baseCost>
+        <techLevel>Medieval</techLevel>
+        <tab>pphhyy_Bonereapers</tab>
+        <prerequisites>
+            <li>pphhyy_AdvancedArmorTech</li>
+        </prerequisites>
+        <researchViewX>4.00</researchViewX>
+        <researchViewY>3.75</researchViewY>
+    </ResearchProjectDef>      
+
+</Defs>    
