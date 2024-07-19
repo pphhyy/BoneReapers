@@ -3,7 +3,7 @@
 
   <ThingDef ParentName="ResourceBase">
     <defName>pphhyy_BoneMoldSteel</defName>
-    <label>bone mold steel ingots</label>
+    <label>bone mold</label>
     <description>Bone Mold Steel is a strong steel alloy created by combining steel with bones. It is ideal for armor and blunt weapons.</description>
     <graphicData>
       <texPath>Resources/Metals/BoneMoldSteel</texPath>
@@ -103,11 +103,12 @@
 	<products>
 		  <pphhyy_BoneMoldSteel>50</pphhyy_BoneMoldSteel>
 	</products>
+  <researchPrerequisite>pphhyy_BoneMoldSteel</researchPrerequisite>
   </RecipeDef>
 
   <ThingDef ParentName="ResourceBase">
     <defName>pphhyy_EtherealSteel</defName>
-    <label>ethereal steel ingots</label>
+    <label>ethereal steel</label>
     <description>Ethereal steel is made by combining steel and greater souls together at an Ankylosis table. It can honed to an incredibly sharp edge.</description>
     <graphicData>
       <texPath>Resources/Metals/EtherealSteel</texPath>
@@ -224,6 +225,7 @@
 	<products>
 		  <pphhyy_EtherealSteel>75</pphhyy_EtherealSteel>
 	</products>
+  <researchPrerequisite>pphhyy_EtherealSteel</researchPrerequisite>
   </RecipeDef>
 
 

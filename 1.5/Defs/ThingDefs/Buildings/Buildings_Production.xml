@@ -4,7 +4,7 @@
   <ThingDef ParentName="BenchBase">
     <defName>pphhyy_BoneTitheNexus</defName>
     <label>bone tithe nexus</label>
-    <description>A heavy table for butchering dead creatures into pieces of raw meat. Rotting or dessicated corpses cannot be butchered.</description>
+    <description>A shallow well used to extract bones and souls from the dead.</description>
     <thingClass>Building_WorkTable</thingClass>
     <graphicData>
       <texPath>Buildings/BoneTitheNexus/BoneTitheNexus</texPath>
@@ -34,10 +34,9 @@
     <hasInteractionCell>True</hasInteractionCell>
     <interactionCellOffset>(0,0,0)</interactionCellOffset>
     <surfaceType>Item</surfaceType>
-    <!-- <recipes>
-      <li>ButcherCorpseFlesh</li>
-      <li>Make_Kibble</li>
-    </recipes> -->
+    <researchPrerequisites>
+      <li>pphhyy_BoneReaperTech</li>
+    </researchPrerequisites>
     <inspectorTabs>
       <li>ITab_Bills</li>
     </inspectorTabs>
@@ -62,7 +61,7 @@
   <ThingDef ParentName="BenchBase">
     <defName>pphhyy_AnkylosisTable</defName>
     <label>ankylosis table</label>
-    <description>A heavy table for butchering dead creatures into pieces of raw meat. Rotting or dessicated corpses cannot be butchered.</description>
+    <description>A heavy table use for bone reaper crafting and alchemy.</description>
     <thingClass>Building_WorkTable</thingClass>
     <graphicData>
       <texPath>Buildings/Ankylosis/Ankylosis</texPath>
@@ -101,10 +100,9 @@
     <hasInteractionCell>True</hasInteractionCell>
     <interactionCellOffset>(0,0,-1)</interactionCellOffset>
     <surfaceType>Item</surfaceType>
-    <!-- <recipes>
-      <li>ButcherCorpseFlesh</li>
-      <li>Make_Kibble</li>
-    </recipes> -->
+    <researchPrerequisites>
+      <li>pphhyy_BoneReaperTech</li>
+    </researchPrerequisites>
     <inspectorTabs>
       <li>ITab_Bills</li>
     </inspectorTabs>
@@ -163,19 +161,9 @@
     <passability>PassThroughOnly</passability>
     <pathCost>50</pathCost>
     <surfaceType>Item</surfaceType>
-    <!-- <recipes>
-      <li>ButcherCorpseFlesh</li>
-      <li>Make_Kibble</li>
-    </recipes> 
-    <inspectorTabs>
-      <li>ITab_Bills</li>
-    </inspectorTabs>
-    <building>
-      <spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
-      <paintable>true</paintable>
-    </building>-->
 		<researchPrerequisites>
 			<li>Brewing</li>
+      <li>pphhyy_SoulFermenting</li>
 		</researchPrerequisites>    
     <comps>
       <li Class="ProcessorFramework.CompProperties_Processor">
