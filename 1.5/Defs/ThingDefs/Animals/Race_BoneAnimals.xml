@@ -63,7 +63,7 @@
 				<li>pphhyy_AnkylosisTable</li>
 			</recipeUsers>
 			<soundWorking>Recipe_Surgery</soundWorking>
-			<unfinishedThingDef>BotchJob_UnfinishedUndead</unfinishedThingDef>
+			<!--unfinishedThingDef>BotchJob_UnfinishedUndead</unfinishedThingDef-->
 		</recipeMaker>
 		<statBases>
 			<MaxHitPoints>1</MaxHitPoints>
@@ -394,7 +394,7 @@
       <roamMtbDays>2</roamMtbDays>
       <petness>0.6</petness>
       <trainability>None</trainability>
-      <packAnimal>true</packAnimal>
+      <!--packAnimal>true</packAnimal  it gives an error because there is no pack texture-->
 	    <useMeatFrom>Horse</useMeatFrom>
       <lifeStageAges>
         <li>
@@ -543,7 +543,6 @@
       <roamMtbDays>2</roamMtbDays>
       <petness>0.6</petness>
       <trainability>None</trainability>
-      <packAnimal>true</packAnimal>
 	    <useMeatFrom>Horse</useMeatFrom>
       <lifeStageAges>
         <li>
@@ -664,5 +663,354 @@
          </li>
     </comps>
   </ThingDef>  
+
+  <!-- ========================== Osseous Gheist ================================= -->
+
+  <ThingDef ParentName="BoneReapers_BoneAnimalBase">
+    <defName>pphhyy_OsseousGheist</defName>
+    <label>osseous gheist</label>
+    <description>Heightened mind, and structure to form one of many. We provide safety. Closure from the pressures of nature. Why strife in the waters of conflict. Join us.</description>
+    <statBases>
+      <MoveSpeed>4.6</MoveSpeed>
+      <ArmorRating_Blunt>0.20</ArmorRating_Blunt>
+      <ArmorRating_Sharp>0.40</ArmorRating_Sharp>
+      <MarketValue>600</MarketValue>
+      <CaravanRidingSpeedFactor>1.5</CaravanRidingSpeedFactor>
+    </statBases>
+    <uiIconScale>1.1</uiIconScale>
+    <race>
+      <herdAnimal>true</herdAnimal>
+      <body>Human</body>
+      <baseHealthScale>1</baseHealthScale>
+      <wildness>0.35</wildness>
+	    <baseBodySize>1</baseBodySize>
+      <roamMtbDays>2</roamMtbDays>
+      <petness>0.6</petness>
+      <trainability>None</trainability>
+	    <useMeatFrom>Human</useMeatFrom>
+      <lifeStageAges>
+        <li>
+          <def>AnimalAdult</def>
+          <minAge>0</minAge>
+          <soundWounded>Pawn_Iguana_Wounded</soundWounded>
+          <soundDeath>Pawn_Iguana_Death</soundDeath>
+          <soundCall>Pawn_Iguana_Call</soundCall>
+          <soundAngry>Pawn_Iguana_Angry</soundAngry>
+        </li>
+      </lifeStageAges>
+      <soundMeleeHitPawn>Pawn_Melee_BigBash_HitPawn</soundMeleeHitPawn>
+      <soundMeleeHitBuilding>Pawn_Melee_BigBash_HitBuilding</soundMeleeHitBuilding>
+      <soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
+      <headPosPerRotation>
+        <li>(0.0, 0, 0.33)</li>
+        <li>(0.31, 0, 0.21)</li>
+        <li>(0.0, 0, 0.08)</li>
+        <li>(-0.31, 0, 0.21)</li>
+      </headPosPerRotation>
+    </race>
+	  <butcherProducts>
+      <pphhyy_GreaterSoul>1</pphhyy_GreaterSoul>
+      <pphhyy_HumanBones>30</pphhyy_HumanBones>
+		</butcherProducts>
+    <tradeTags>
+      <li>AnimalExotic</li>
+    </tradeTags>
+    <tools>
+      <li>
+        <label>head</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>10</power>
+        <cooldownTime>2.9</cooldownTime>
+        <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+        <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+      </li>
+      <li>
+        <label>left claw</label>
+        <capacities>
+          <li>Scratch</li>
+          <li>Poke</li>
+        </capacities>
+        <power>8</power>
+        <cooldownTime>2</cooldownTime>
+        <linkedBodyPartsGroup>LeftHand</linkedBodyPartsGroup>
+      </li>
+      <li>
+        <label>right claw</label>
+        <capacities>
+          <li>Scratch</li>
+          <li>Poke</li>
+        </capacities>
+        <power>8</power>
+        <cooldownTime>2</cooldownTime>
+        <linkedBodyPartsGroup>RightHand</linkedBodyPartsGroup>
+      </li>
+      <li>
+        <capacities>
+          <li>Bite</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+        <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+        <chanceFactor>0.5</chanceFactor>
+      </li>
+    </tools>
+  </ThingDef>
+
+  <PawnKindDef ParentName="AnimalKindBase">
+    <defName>pphhyy_OsseousGheist</defName>
+    <label>osseous gheist</label>
+    <race>pphhyy_OsseousGheist</race>
+    <combatPower>80</combatPower>
+    <ecoSystemWeight>1.1</ecoSystemWeight>
+    <wildGroupSize>1~3</wildGroupSize>
+    <alternateGraphicChance>0.5</alternateGraphicChance>
+    <alternateGraphics>
+      <li><texPath>Animals/OsseousGheist/OsseousGheist1</texPath></li>
+      <li><texPath>Animals/OsseousGheist/OsseousGheist2</texPath></li>
+      </alternateGraphics>
+    <lifeStages>
+      <li>
+        <bodyGraphicData>
+          <texPath>Animals/OsseousGheist/OsseousGheist</texPath>
+          <drawSize>1</drawSize>
+          <shadowData>
+            <volume>(0.8, 0.6, 0.6)</volume>
+            <offset>(0,0,-0.3)</offset>
+          </shadowData>
+        </bodyGraphicData>
+      </li>
+    </lifeStages>
+	</PawnKindDef>
+
+  <ThingDef ParentName="BoneReapers_BoneAnimalCreation">
+    <defName>pphhyy_OsseousGheistCreation</defName>
+    <label>osseous gheist</label>
+    <description>TBA</description>
+    <statBases>
+         <WorkToMake>20000</WorkToMake>
+    </statBases>
+    <recipeMaker>
+      <skillRequirements>
+        <Crafting>6</Crafting>
+      </skillRequirements>
+      <researchPrerequisite>pphhyy_AnimalBoneConstructsTier1</researchPrerequisite>
+    </recipeMaker>
+    <costList>
+      <pphhyy_GreaterSoul>1</pphhyy_GreaterSoul>
+      <pphhyy_HumanBones>30</pphhyy_HumanBones>
+    </costList>
+    <comps>
+         <li Class="CompProperties_Hatcher">
+              <hatcherDaystoHatch>0</hatcherDaystoHatch>
+             <hatcherPawn>pphhyy_OsseousGheist</hatcherPawn>
+         </li>
+    </comps>
+  </ThingDef>  
+
+  <!-- ========================== Osseous Horror ================================= -->
+
+  <ThingDef ParentName="BoneReapers_BoneAnimalBase">
+    <defName>pphhyy_OsseousHorror</defName>
+    <label>osseous horror</label>
+    <description>One heightened mind to control the structure from many. They no longer feel any suffering. They see the garden we reap. We offer its bounty. Join us.</description>
+    <statBases>
+      <MoveSpeed>2.7</MoveSpeed>
+      <ArmorRating_Blunt>0.60</ArmorRating_Blunt>
+      <ArmorRating_Sharp>0.80</ArmorRating_Sharp>
+      <MarketValue>600</MarketValue>
+      <CaravanRidingSpeedFactor>1.5</CaravanRidingSpeedFactor>
+    </statBases>
+    <uiIconScale>1.1</uiIconScale>
+    <race>
+      <herdAnimal>true</herdAnimal>
+      <body>Human</body>
+      <baseHealthScale>4.6</baseHealthScale>
+      <wildness>0.35</wildness>
+	    <baseBodySize>3</baseBodySize>
+      <roamMtbDays>2</roamMtbDays>
+      <petness>0.6</petness>
+      <trainability>None</trainability>
+	    <useMeatFrom>Human</useMeatFrom>
+      <lifeStageAges>
+        <li>
+          <def>AnimalAdult</def>
+          <minAge>0</minAge>
+          <soundWounded>Pawn_Iguana_Wounded</soundWounded>
+          <soundDeath>Pawn_Iguana_Death</soundDeath>
+          <soundCall>Pawn_Iguana_Call</soundCall>
+          <soundAngry>Pawn_Iguana_Angry</soundAngry>
+        </li>
+      </lifeStageAges>
+      <soundMeleeHitPawn>Pawn_Melee_BigBash_HitPawn</soundMeleeHitPawn>
+      <soundMeleeHitBuilding>Pawn_Melee_BigBash_HitBuilding</soundMeleeHitBuilding>
+      <soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
+      <headPosPerRotation>
+        <li>(0.0, 0, 0.33)</li>
+        <li>(0.31, 0, 0.21)</li>
+        <li>(0.0, 0, 0.08)</li>
+        <li>(-0.31, 0, 0.21)</li>
+      </headPosPerRotation>
+    </race>
+	  <butcherProducts>
+      <pphhyy_GreaterSoul>1</pphhyy_GreaterSoul>
+      <pphhyy_HumanBones>90</pphhyy_HumanBones>
+      <pphhyy_AnimalBones>90</pphhyy_AnimalBones>
+		</butcherProducts>
+    <tradeTags>
+      <li>AnimalExotic</li>
+    </tradeTags>
+    <tools>
+      <li>
+        <label>head</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>25</power>
+        <cooldownTime>2.9</cooldownTime>
+        <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+        <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+      </li>
+      <li>
+        <label>left claw</label>
+        <capacities>
+          <li>Scratch</li>
+          <li>Poke</li>
+        </capacities>
+        <power>20</power>
+        <cooldownTime>2</cooldownTime>
+        <linkedBodyPartsGroup>LeftHand</linkedBodyPartsGroup>
+      </li>
+      <li>
+        <label>right claw</label>
+        <capacities>
+          <li>Scratch</li>
+          <li>Poke</li>
+        </capacities>
+        <power>20</power>
+        <cooldownTime>2</cooldownTime>
+        <linkedBodyPartsGroup>RightHand</linkedBodyPartsGroup>
+      </li>
+      <li>
+        <capacities>
+          <li>Bite</li>
+        </capacities>
+        <power>20</power>
+        <cooldownTime>2</cooldownTime>
+        <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+        <chanceFactor>0.5</chanceFactor>
+      </li>
+    </tools>
+  </ThingDef>
+
+  <PawnKindDef ParentName="AnimalKindBase">
+    <defName>pphhyy_OsseousHorror</defName>
+    <label>osseous horror</label>
+    <race>pphhyy_OsseousHorror</race>
+    <combatPower>140</combatPower>
+    <ecoSystemWeight>1.1</ecoSystemWeight>
+    <wildGroupSize>1~3</wildGroupSize>
+    <alternateGraphicChance>0.5</alternateGraphicChance>
+    <alternateGraphics>
+      <li><texPath>Animals/OsseousHorror/OsseousHorror1</texPath></li>
+      <li><texPath>Animals/OsseousHorror/OsseousHorror2</texPath></li>
+      </alternateGraphics>
+    <lifeStages>
+      <li>
+        <bodyGraphicData>
+          <texPath>Animals/OsseousHorror/OsseousHorror</texPath>
+          <drawSize>1.5</drawSize>
+          <shadowData>
+            <volume>(0.8, 0.6, 0.6)</volume>
+            <offset>(0,0,-0.3)</offset>
+          </shadowData>
+        </bodyGraphicData>
+      </li>
+    </lifeStages>
+	</PawnKindDef>
+
+  <ThingDef ParentName="BoneReapers_BoneAnimalCreation">
+    <defName>pphhyy_OsseousHorrorCreation</defName>
+    <label>osseous horror</label>
+    <description>TBA</description>
+    <statBases>
+         <WorkToMake>20000</WorkToMake>
+    </statBases>
+    <recipeMaker>
+      <skillRequirements>
+        <Crafting>8</Crafting>
+      </skillRequirements>
+      <researchPrerequisite>pphhyy_AnimalBoneConstructsTier2</researchPrerequisite>
+    </recipeMaker>
+    <costList>
+      <pphhyy_GreaterSoul>1</pphhyy_GreaterSoul>
+      <pphhyy_HumanBones>90</pphhyy_HumanBones>
+      <pphhyy_AnimalBones>90</pphhyy_AnimalBones>
+    </costList>
+    <comps>
+         <li Class="CompProperties_Hatcher">
+              <hatcherDaystoHatch>0</hatcherDaystoHatch>
+             <hatcherPawn>pphhyy_OsseousHorror</hatcherPawn>
+         </li>
+    </comps>
+  </ThingDef>  
+
+  <!-- ========================== Lemures ================================= -->
+
+
+  <ThingDef ParentName="BoneReapers_BoneAnimalCreation" MayRequire="pphhyy.LightlessEmpyrean">
+    <defName>pphhyy_LightlessEmpyrean_LemuresCreation</defName>
+    <label>lemures</label>
+    <description>TBA</description>
+    <statBases>
+         <WorkToMake>20000</WorkToMake>
+    </statBases>
+    <recipeMaker>
+      <skillRequirements>
+        <Crafting>10</Crafting>
+      </skillRequirements>
+      <researchPrerequisite>pphhyy_AnimalBoneConstructsTier3</researchPrerequisite>
+    </recipeMaker>
+    <costList>
+      <pphhyy_GreaterSoul>1</pphhyy_GreaterSoul>
+      <pphhyy_HumanBones>60</pphhyy_HumanBones>
+      <pphhyy_AnimalBones>30</pphhyy_AnimalBones>
+    </costList>
+    <comps>
+         <li Class="CompProperties_Hatcher">
+              <hatcherDaystoHatch>0</hatcherDaystoHatch>
+             <hatcherPawn>pphhyy_LightlessEmpyrean_Lemures</hatcherPawn>
+         </li>
+    </comps>
+  </ThingDef>
+
+  <!-- ========================== Shade ================================= -->
+
+  <ThingDef ParentName="BoneReapers_BoneAnimalCreation" MayRequire="pphhyy.LightlessEmpyrean">
+    <defName>pphhyy_LightlessEmpyrean_ShadeCreation</defName>
+    <label>shade</label>
+    <description>TBA</description>
+    <statBases>
+         <WorkToMake>20000</WorkToMake>
+    </statBases>
+    <recipeMaker>
+      <skillRequirements>
+        <Crafting>8</Crafting>
+      </skillRequirements>
+      <researchPrerequisite>pphhyy_AnimalBoneConstructsTier2</researchPrerequisite>
+    </recipeMaker>
+    <costList>
+      <pphhyy_LesserSoul>1</pphhyy_LesserSoul>
+      <pphhyy_HumanBones>10</pphhyy_HumanBones>
+      <pphhyy_AnimalBones>20</pphhyy_AnimalBones>
+    </costList>
+    <comps>
+         <li Class="CompProperties_Hatcher">
+              <hatcherDaystoHatch>0</hatcherDaystoHatch>
+             <hatcherPawn>pphhyy_LightlessEmpyrean_Shade</hatcherPawn>
+         </li>
+    </comps>
+  </ThingDef>
 
 </Defs>	

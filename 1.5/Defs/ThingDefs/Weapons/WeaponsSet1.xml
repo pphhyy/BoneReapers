@@ -55,7 +55,7 @@
       </li>
     </tools>
     <recipeMaker>
-      <researchPrerequisite>pphhyy_BoneReapersBasic</researchPrerequisite>
+      <researchPrerequisite>pphhyy_BoneReaperWeapons</researchPrerequisite>
       <skillRequirements>
         <Crafting>4</Crafting>
       </skillRequirements>
@@ -121,7 +121,7 @@
       </li>
     </tools>
     <recipeMaker>
-      <researchPrerequisite>pphhyy_BoneReapersBasic</researchPrerequisite>
+      <researchPrerequisite>pphhyy_BoneReaperWeapons</researchPrerequisite>
       <skillRequirements>
         <Crafting>3</Crafting>
       </skillRequirements>
@@ -215,7 +215,7 @@
       </li>
     </tools>
     <recipeMaker>
-      <researchPrerequisite>pphhyy_BoneReapersBasic</researchPrerequisite>
+      <researchPrerequisite>pphhyy_BoneReaperWeapons</researchPrerequisite>
       <skillRequirements>
         <Crafting>4</Crafting>
       </skillRequirements>
@@ -269,7 +269,7 @@
         <li>ElectricSmithy</li>
         <li>FueledSmithy</li>
       </recipeUsers>
-      <researchPrerequisite>pphhyy_BoneReapersBasic</researchPrerequisite>
+      <researchPrerequisite>pphhyy_BoneReaperWeapons</researchPrerequisite>
       <skillRequirements>
         <Crafting>5</Crafting>
       </skillRequirements>
@@ -390,7 +390,7 @@
         <li>FueledSmithy</li>
       </recipeUsers>
       <unfinishedThingDef>UnfinishedWeapon</unfinishedThingDef>
-      <researchPrerequisite>pphhyy_BoneReapersBasic</researchPrerequisite>
+      <researchPrerequisite>pphhyy_BoneReaperWeapons</researchPrerequisite>
       <skillRequirements>
         <Crafting>8</Crafting>
       </skillRequirements>
@@ -415,7 +415,7 @@
   <!-- Thetes Javelin -->
 
   <ThingDef ParentName="pphhyy_Base_Sharp_NormalSize">
-    <defName>pphhyy_BoneReapers_ThetesJavelin</defName>
+    <defName>pphhyy_BoneReaper_ThetesJavelin</defName>
     <label>Thetes javelin</label>
     <description>Yes</description>
     <graphicData>
@@ -429,6 +429,11 @@
     <statBases>
       <WorkToMake>10000</WorkToMake>
       <Mass>2.25</Mass>
+      <AccuracyTouch>0.50</AccuracyTouch>
+      <AccuracyShort>0.71</AccuracyShort>
+      <AccuracyMedium>0.50</AccuracyMedium>
+      <AccuracyLong>0.32</AccuracyLong>
+      <RangedWeapon_Cooldown>3</RangedWeapon_Cooldown>
     </statBases>
 
     <costStuffCount>80</costStuffCount>
@@ -440,7 +445,7 @@
     </costList>
 
     <weaponTags>
-      <li>pphhyy_BoneReapers_ThetesJavelin</li>
+      <li>pphhyy_BoneReaper_ThetesJavelin</li>
     </weaponTags>
 
     <tools>
@@ -464,8 +469,19 @@
         <armorPenetration>0.25</armorPenetration>
       </li>
     </tools>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>Javelin_Thrown</defaultProjectile>
+        <warmupTime>2.5</warmupTime>
+        <range>10</range>
+        <soundCast>Interact_BeatFire</soundCast>
+        <rangedFireRulepack>Combat_RangedFire_Thrown</rangedFireRulepack>
+      </li>
+    </verbs>
     <recipeMaker>
-      <researchPrerequisite>pphhyy_BoneReapersBasic</researchPrerequisite>
+      <researchPrerequisite>pphhyy_BoneReaperWeapons</researchPrerequisite>
       <skillRequirements>
         <Crafting>3</Crafting>
       </skillRequirements>
@@ -476,6 +492,23 @@
         <usableWithShields>true</usableWithShields>
       </li>
     </modExtensions>
+  </ThingDef>
+
+  <ThingDef ParentName="BaseProjectileNeolithic">
+    <defName>Javelin_Thrown</defName>
+    <label>javelin</label>
+    <graphicData>
+      <texPath>Weapons/NormalWeapons/ThetesJavalin</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+    </graphicData>
+    <projectile>
+      <damageDef>RangedStab</damageDef>
+      <damageAmountBase>18</damageAmountBase>
+      <stoppingPower>2.5</stoppingPower>
+      <armorPenetrationBase>0.15</armorPenetrationBase>
+      <speed>26</speed>
+    </projectile>
   </ThingDef>
 
   <!-- 2 Handed Weapons -->
@@ -535,7 +568,7 @@
       </li>
     </tools>
     <recipeMaker>
-      <researchPrerequisite>pphhyy_BoneReapersBasic</researchPrerequisite>
+      <researchPrerequisite>pphhyy_BoneReaperWeapons</researchPrerequisite>
       <skillRequirements>
         <Crafting>5</Crafting>
       </skillRequirements>
@@ -605,7 +638,7 @@
     </tools>
     <recipeMaker>
       <researchPrerequisites>
-        <li>pphhyy_BoneReapersBasic</li>
+        <li>pphhyy_BoneReaperWeapons</li>
       </researchPrerequisites>
       <skillRequirements>
         <Crafting>5</Crafting>
@@ -666,7 +699,7 @@
       </li>
     </tools>
     <recipeMaker>
-      <researchPrerequisite>pphhyy_BoneReapersBasic</researchPrerequisite>
+      <researchPrerequisite>pphhyy_BoneReaperWeapons</researchPrerequisite>
       <skillRequirements>
         <Crafting>3</Crafting>
       </skillRequirements>
@@ -751,7 +784,7 @@
       </li>
     </tools>
     <recipeMaker>
-      <researchPrerequisite>pphhyy_BoneReapersBasic</researchPrerequisite>
+      <researchPrerequisite>pphhyy_BoneReaperWeapons</researchPrerequisite>
       <skillRequirements>
         <Crafting>6</Crafting>
       </skillRequirements>
@@ -814,7 +847,7 @@
       </li>
     </tools>
     <recipeMaker>
-      <researchPrerequisite>pphhyy_BoneReapersArchon</researchPrerequisite>
+      <researchPrerequisite>pphhyy_ArchonWeapons</researchPrerequisite>
       <skillRequirements>
         <Crafting>4</Crafting>
       </skillRequirements>
@@ -879,7 +912,7 @@
       </li>
     </tools>
     <recipeMaker>
-      <researchPrerequisite>pphhyy_BoneReapersArchon</researchPrerequisite>
+      <researchPrerequisite>pphhyy_ArchonWeapons</researchPrerequisite>
       <skillRequirements>
         <Crafting>3</Crafting>
       </skillRequirements>
