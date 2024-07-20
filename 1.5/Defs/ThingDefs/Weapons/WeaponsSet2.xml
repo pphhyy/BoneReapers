@@ -64,7 +64,7 @@
             </li>
         </tools>
         <recipeMaker>
-            <researchPrerequisite>pphhyy_BoneReapersSoulWeapons</researchPrerequisite>
+            <researchPrerequisite>pphhyy_SoulWeapons</researchPrerequisite>
             <skillRequirements>
                 <Crafting>4</Crafting>
             </skillRequirements>
@@ -136,7 +136,7 @@
             </li>
         </tools>
         <recipeMaker>
-            <researchPrerequisite>pphhyy_BoneReapersSoulWeapons</researchPrerequisite>
+            <researchPrerequisite>pphhyy_SoulWeapons</researchPrerequisite>
             <skillRequirements>
                 <Crafting>3</Crafting>
             </skillRequirements>
@@ -208,7 +208,7 @@
             </li>
         </tools>
         <recipeMaker>
-            <researchPrerequisite>pphhyy_BoneReapersSoulWeapons</researchPrerequisite>
+            <researchPrerequisite>pphhyy_SoulWeapons</researchPrerequisite>
             <skillRequirements>
                 <Crafting>4</Crafting>
             </skillRequirements>
@@ -270,7 +270,7 @@
                 <li>ElectricSmithy</li>
                 <li>FueledSmithy</li>
             </recipeUsers>
-            <researchPrerequisite>pphhyy_BoneReapersSoulWeapons</researchPrerequisite>
+            <researchPrerequisite>pphhyy_SoulWeapons</researchPrerequisite>
             <skillRequirements>
                 <Crafting>5</Crafting>
             </skillRequirements>
@@ -395,7 +395,7 @@
                 <li>FueledSmithy</li>
             </recipeUsers>
             <unfinishedThingDef>UnfinishedWeapon</unfinishedThingDef>
-            <researchPrerequisite>pphhyy_BoneReapersSoulWeapons</researchPrerequisite>
+            <researchPrerequisite>pphhyy_SoulWeapons</researchPrerequisite>
             <skillRequirements>
                 <Crafting>8</Crafting>
             </skillRequirements>
@@ -492,7 +492,7 @@
             </li>
           </verbs>
         <recipeMaker>
-            <researchPrerequisite>pphhyy_BoneReaperSoulWeapons</researchPrerequisite>
+            <researchPrerequisite>pphhyy_SoulWeapons</researchPrerequisite>
             <skillRequirements>
                 <Crafting>3</Crafting>
             </skillRequirements>
@@ -585,7 +585,7 @@
             </li>
         </tools>
         <recipeMaker>
-            <researchPrerequisite>pphhyy_BoneReapersSoulWeapons</researchPrerequisite>
+            <researchPrerequisite>pphhyy_SoulWeapons</researchPrerequisite>
             <skillRequirements>
                 <Crafting>5</Crafting>
             </skillRequirements>
@@ -661,7 +661,7 @@
         </tools>
         <recipeMaker>
             <researchPrerequisites>
-                <li>pphhyy_BoneReapersSoulWeapons</li>
+                <li>pphhyy_SoulWeapons</li>
             </researchPrerequisites>
             <skillRequirements>
                 <Crafting>5</Crafting>
@@ -728,7 +728,7 @@
             </li>
         </tools>
         <recipeMaker>
-            <researchPrerequisite>pphhyy_BoneReapersSoulWeapons</researchPrerequisite>
+            <researchPrerequisite>pphhyy_SoulWeapons</researchPrerequisite>
             <skillRequirements>
                 <Crafting>3</Crafting>
             </skillRequirements>
@@ -792,7 +792,7 @@
             </li>
         </tools>
         <recipeMaker>
-            <researchPrerequisite>pphhyy_BoneReapersSoulWeapons</researchPrerequisite>
+            <researchPrerequisite>pphhyy_SoulWeapons</researchPrerequisite>
             <skillRequirements>
                 <Crafting>6</Crafting>
             </skillRequirements>
@@ -862,7 +862,7 @@
             </li>
         </tools>
         <recipeMaker>
-            <researchPrerequisite>pphhyy_BoneReapersSoulWeapons</researchPrerequisite>
+            <researchPrerequisite>pphhyy_SoulWeapons</researchPrerequisite>
             <skillRequirements>
                 <Crafting>4</Crafting>
             </skillRequirements>
@@ -934,7 +934,7 @@
             </li>
         </tools>
         <recipeMaker>
-            <researchPrerequisite>pphhyy_BoneReapersSoulWeapons</researchPrerequisite>
+            <researchPrerequisite>pphhyy_SoulWeapons</researchPrerequisite>
             <skillRequirements>
                 <Crafting>3</Crafting>
             </skillRequirements>

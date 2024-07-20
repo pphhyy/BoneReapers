@@ -55,7 +55,7 @@
       </li>
     </tools>
     <recipeMaker>
-      <researchPrerequisite>pphhyy_BoneReapersBasic</researchPrerequisite>
+      <researchPrerequisite>pphhyy_BoneReaperWeapons</researchPrerequisite>
       <skillRequirements>
         <Crafting>4</Crafting>
       </skillRequirements>
@@ -121,7 +121,7 @@
       </li>
     </tools>
     <recipeMaker>
-      <researchPrerequisite>pphhyy_BoneReapersBasic</researchPrerequisite>
+      <researchPrerequisite>pphhyy_BoneReaperWeapons</researchPrerequisite>
       <skillRequirements>
         <Crafting>3</Crafting>
       </skillRequirements>
@@ -215,7 +215,7 @@
       </li>
     </tools>
     <recipeMaker>
-      <researchPrerequisite>pphhyy_BoneReapersBasic</researchPrerequisite>
+      <researchPrerequisite>pphhyy_BoneReaperWeapons</researchPrerequisite>
       <skillRequirements>
         <Crafting>4</Crafting>
       </skillRequirements>
@@ -269,7 +269,7 @@
         <li>ElectricSmithy</li>
         <li>FueledSmithy</li>
       </recipeUsers>
-      <researchPrerequisite>pphhyy_BoneReapersBasic</researchPrerequisite>
+      <researchPrerequisite>pphhyy_BoneReaperWeapons</researchPrerequisite>
       <skillRequirements>
         <Crafting>5</Crafting>
       </skillRequirements>
@@ -390,7 +390,7 @@
         <li>FueledSmithy</li>
       </recipeUsers>
       <unfinishedThingDef>UnfinishedWeapon</unfinishedThingDef>
-      <researchPrerequisite>pphhyy_BoneReapersBasic</researchPrerequisite>
+      <researchPrerequisite>pphhyy_BoneReaperWeapons</researchPrerequisite>
       <skillRequirements>
         <Crafting>8</Crafting>
       </skillRequirements>
@@ -481,7 +481,7 @@
       </li>
     </verbs>
     <recipeMaker>
-      <researchPrerequisite>pphhyy_BoneReaperBasic</researchPrerequisite>
+      <researchPrerequisite>pphhyy_BoneReaperWeapons</researchPrerequisite>
       <skillRequirements>
         <Crafting>3</Crafting>
       </skillRequirements>
@@ -568,7 +568,7 @@
       </li>
     </tools>
     <recipeMaker>
-      <researchPrerequisite>pphhyy_BoneReapersBasic</researchPrerequisite>
+      <researchPrerequisite>pphhyy_BoneReaperWeapons</researchPrerequisite>
       <skillRequirements>
         <Crafting>5</Crafting>
       </skillRequirements>
@@ -638,7 +638,7 @@
     </tools>
     <recipeMaker>
       <researchPrerequisites>
-        <li>pphhyy_BoneReapersBasic</li>
+        <li>pphhyy_BoneReaperWeapons</li>
       </researchPrerequisites>
       <skillRequirements>
         <Crafting>5</Crafting>
@@ -699,7 +699,7 @@
       </li>
     </tools>
     <recipeMaker>
-      <researchPrerequisite>pphhyy_BoneReapersBasic</researchPrerequisite>
+      <researchPrerequisite>pphhyy_BoneReaperWeapons</researchPrerequisite>
       <skillRequirements>
         <Crafting>3</Crafting>
       </skillRequirements>
@@ -784,7 +784,7 @@
       </li>
     </tools>
     <recipeMaker>
-      <researchPrerequisite>pphhyy_BoneReapersBasic</researchPrerequisite>
+      <researchPrerequisite>pphhyy_BoneReaperWeapons</researchPrerequisite>
       <skillRequirements>
         <Crafting>6</Crafting>
       </skillRequirements>
@@ -847,7 +847,7 @@
       </li>
     </tools>
     <recipeMaker>
-      <researchPrerequisite>pphhyy_BoneReapersArchon</researchPrerequisite>
+      <researchPrerequisite>pphhyy_ArchonWeapons</researchPrerequisite>
       <skillRequirements>
         <Crafting>4</Crafting>
       </skillRequirements>
@@ -912,7 +912,7 @@
       </li>
     </tools>
     <recipeMaker>
-      <researchPrerequisite>pphhyy_BoneReapersArchon</researchPrerequisite>
+      <researchPrerequisite>pphhyy_ArchonWeapons</researchPrerequisite>
       <skillRequirements>
         <Crafting>3</Crafting>
       </skillRequirements>
