@@ -55,6 +55,9 @@
       </li>
     </tools>
     <recipeMaker>
+      <recipeUsers>
+        <li>pphhyy_HathiyarBench</li>
+      </recipeUsers>
       <researchPrerequisite>pphhyy_BoneReaperWeapons</researchPrerequisite>
       <skillRequirements>
         <Crafting>4</Crafting>
@@ -121,6 +124,9 @@
       </li>
     </tools>
     <recipeMaker>
+      <recipeUsers>
+        <li>pphhyy_HathiyarBench</li>
+      </recipeUsers>
       <researchPrerequisite>pphhyy_BoneReaperWeapons</researchPrerequisite>
       <skillRequirements>
         <Crafting>3</Crafting>
@@ -215,6 +221,9 @@
       </li>
     </tools>
     <recipeMaker>
+      <recipeUsers>
+        <li>pphhyy_HathiyarBench</li>
+      </recipeUsers>
       <researchPrerequisite>pphhyy_BoneReaperWeapons</researchPrerequisite>
       <skillRequirements>
         <Crafting>4</Crafting>
@@ -266,8 +275,7 @@
     </weaponClasses>
     <recipeMaker>
       <recipeUsers>
-        <li>ElectricSmithy</li>
-        <li>FueledSmithy</li>
+        <li>pphhyy_HathiyarBench</li>
       </recipeUsers>
       <researchPrerequisite>pphhyy_BoneReaperWeapons</researchPrerequisite>
       <skillRequirements>
@@ -296,6 +304,7 @@
       </li>
     </tools>
   </ThingDef>
+  
   <ThingDef ParentName="BaseProjectileNeolithic">
     <defName>pphhyy_BoneReapers_ThetesArrow</defName>
     <label>Thetes arrow</label>
@@ -386,8 +395,7 @@
       <effectWorking>Smith</effectWorking>
       <soundWorking>Recipe_Smith</soundWorking>
       <recipeUsers>
-        <li>ElectricSmithy</li>
-        <li>FueledSmithy</li>
+        <li>pphhyy_HathiyarBench</li>
       </recipeUsers>
       <unfinishedThingDef>UnfinishedWeapon</unfinishedThingDef>
       <researchPrerequisite>pphhyy_BoneReaperWeapons</researchPrerequisite>
@@ -396,6 +404,7 @@
       </skillRequirements>
     </recipeMaker>
   </ThingDef>
+
   <ThingDef ParentName="BaseProjectileNeolithic">
     <defName>pphhyy_BoneReapers_ThetesBolt</defName>
     <label>Thetes bolt</label>
@@ -481,6 +490,9 @@
       </li>
     </verbs>
     <recipeMaker>
+      <recipeUsers>
+        <li>pphhyy_HathiyarBench</li>
+      </recipeUsers>
       <researchPrerequisite>pphhyy_BoneReaperWeapons</researchPrerequisite>
       <skillRequirements>
         <Crafting>3</Crafting>
@@ -568,6 +580,9 @@
       </li>
     </tools>
     <recipeMaker>
+      <recipeUsers>
+        <li>pphhyy_HathiyarBench</li>
+      </recipeUsers>
       <researchPrerequisite>pphhyy_BoneReaperWeapons</researchPrerequisite>
       <skillRequirements>
         <Crafting>5</Crafting>
@@ -637,6 +652,9 @@
       </li>
     </tools>
     <recipeMaker>
+      <recipeUsers>
+        <li>pphhyy_HathiyarBench</li>
+      </recipeUsers>
       <researchPrerequisites>
         <li>pphhyy_BoneReaperWeapons</li>
       </researchPrerequisites>
@@ -699,6 +717,9 @@
       </li>
     </tools>
     <recipeMaker>
+      <recipeUsers>
+        <li>pphhyy_HathiyarBench</li>
+      </recipeUsers>
       <researchPrerequisite>pphhyy_BoneReaperWeapons</researchPrerequisite>
       <skillRequirements>
         <Crafting>3</Crafting>
@@ -784,6 +805,9 @@
       </li>
     </tools>
     <recipeMaker>
+      <recipeUsers>
+        <li>pphhyy_HathiyarBench</li>
+      </recipeUsers>
       <researchPrerequisite>pphhyy_BoneReaperWeapons</researchPrerequisite>
       <skillRequirements>
         <Crafting>6</Crafting>
@@ -847,6 +871,9 @@
       </li>
     </tools>
     <recipeMaker>
+      <recipeUsers>
+        <li>pphhyy_HathiyarBench</li>
+      </recipeUsers>
       <researchPrerequisite>pphhyy_ArchonWeapons</researchPrerequisite>
       <skillRequirements>
         <Crafting>4</Crafting>
@@ -912,6 +939,9 @@
       </li>
     </tools>
     <recipeMaker>
+      <recipeUsers>
+        <li>pphhyy_HathiyarBench</li>
+      </recipeUsers>
       <researchPrerequisite>pphhyy_ArchonWeapons</researchPrerequisite>
       <skillRequirements>
         <Crafting>3</Crafting>

@@ -7,9 +7,9 @@
     <description>WIP</description>
 	<recipeMaker>
 	 <recipeUsers Inherit="False">
-        <li>pphhyy_BoneTitheNexus</li>
+        <li>pphhyy_YoroiBench</li>
       </recipeUsers>
-	  <researchPrerequisite>PlateArmor</researchPrerequisite>
+	  <researchPrerequisite>pphhyy_AdvancedArmorTech</researchPrerequisite>
       <unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
       <skillRequirements>
         <Crafting>6</Crafting>
@@ -58,9 +58,9 @@
     <description>WIP</description>
     <recipeMaker>
 	 <recipeUsers Inherit="False">
-        <li>pphhyy_BoneTitheNexus</li>
+        <li>pphhyy_YoroiBench</li>
       </recipeUsers>
-	  <researchPrerequisite>PlateArmor</researchPrerequisite>
+	  <researchPrerequisite>pphhyy_AdvancedArmorTech</researchPrerequisite>
       <unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
       <skillRequirements>
         <Crafting>6</Crafting>

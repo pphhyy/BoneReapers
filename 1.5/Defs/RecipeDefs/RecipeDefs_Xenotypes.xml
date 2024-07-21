@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Defs>
+
+	<ThingDef ParentName="BoneReapers_BoneAnimalCreation">
+		<defName>pphhyy_BoneReapersSepelireCreation</defName>
+		<label>sepelire</label>
+		<description>PLACEHOLDER</description>
+		<statBases>
+			<WorkToMake>7000</WorkToMake>
+		</statBases>
+		<recipeMaker>
+			<recipeUsers>
+				<li>pphhyy_AnkylosisTable</li>
+			</recipeUsers>
+			<researchPrerequisite>pphhyy_SepelireConstruction</researchPrerequisite>
+			<skillRequirements>
+				<Crafting>6</Crafting>
+			</skillRequirements>
+		</recipeMaker>
+		<costList>
+			<pphhyy_GreaterSoul>1</pphhyy_GreaterSoul>
+			<pphhyy_HumanBones>10</pphhyy_HumanBones>
+		</costList>
+		<comps>
+			<li>
+				<compClass>HatchAsPlayerFaction.Comp_SetAsPlayerFaction</compClass>
+			</li>
+			<li Class="CompProperties_Hatcher">
+				<hatcherDaystoHatch>0</hatcherDaystoHatch>
+				<hatcherPawn>pphhyy_BoneReapers_Sepelire_Player</hatcherPawn>
+			</li>
+		</comps>
+	</ThingDef>
+
+	<ThingDef ParentName="BoneReapers_BoneAnimalCreation">
+		<defName>pphhyy_BoneReapersThetesCreation</defName>
+		<label>thetes</label>
+		<description>PLACEHOLDER</description>
+		<statBases>
+			<WorkToMake>7000</WorkToMake>
+		</statBases>
+		<recipeMaker>
+			<recipeUsers>
+				<li>pphhyy_AnkylosisTable</li>
+			</recipeUsers>
+			<researchPrerequisite>pphhyy_BoneReaperTech</researchPrerequisite>
+			<skillRequirements>
+				<Crafting>6</Crafting>
+			</skillRequirements>
+		</recipeMaker>
+		<costList>
+			<pphhyy_GreaterSoul>1</pphhyy_GreaterSoul>
+			<pphhyy_HumanBones>15</pphhyy_HumanBones>
+		</costList>
+		<comps>
+			<li>
+				<compClass>HatchAsPlayerFaction.Comp_SetAsPlayerFaction</compClass>
+			</li>
+			<li Class="CompProperties_Hatcher">
+				<hatcherDaystoHatch>0</hatcherDaystoHatch>
+				<hatcherPawn>pphhyy_BoneReapers_Thetes_Player</hatcherPawn>
+			</li>
+		</comps>
+	</ThingDef>
+
+	<ThingDef ParentName="BoneReapers_BoneAnimalCreation">
+		<defName>pphhyy_BoneReapersPhalangiteCreation</defName>
+		<label>phalangite</label>
+		<description>PLACEHOLDER</description>
+		<statBases>
+			<WorkToMake>7000</WorkToMake>
+		</statBases>
+		<recipeMaker>
+			<recipeUsers>
+				<li>pphhyy_AnkylosisTable</li>
+			</recipeUsers>
+			<researchPrerequisite>pphhyy_PhalangiteConstruction</researchPrerequisite>
+			<skillRequirements>
+				<Crafting>6</Crafting>
+			</skillRequirements>
+		</recipeMaker>
+		<costList>
+			<pphhyy_GreaterSoul>1</pphhyy_GreaterSoul>
+			<pphhyy_HumanBones>20</pphhyy_HumanBones>
+		</costList>
+		<comps>
+			<li>
+				<compClass>HatchAsPlayerFaction.Comp_SetAsPlayerFaction</compClass>
+			</li>
+			<li Class="CompProperties_Hatcher">
+				<hatcherDaystoHatch>0</hatcherDaystoHatch>
+				<hatcherPawn>pphhyy_BoneReapers_Phalangite_Player</hatcherPawn>
+			</li>
+		</comps>
+	</ThingDef>
+
+	<ThingDef ParentName="BoneReapers_BoneAnimalCreation">
+		<defName>pphhyy_BoneReapersArchonCreation</defName>
+		<label>archon</label>
+		<description>PLACEHOLDER</description>
+		<statBases>
+			<WorkToMake>7000</WorkToMake>
+		</statBases>
+		<recipeMaker>
+			<recipeUsers>
+				<li>pphhyy_AnkylosisTable</li>
+			</recipeUsers>
+			<researchPrerequisite>pphhyy_ArchonConstruction</researchPrerequisite>
+			<skillRequirements>
+				<Crafting>6</Crafting>
+			</skillRequirements>
+		</recipeMaker>
+		<costList>
+			<pphhyy_GreaterSoul>1</pphhyy_GreaterSoul>
+			<pphhyy_HumanBones>30</pphhyy_HumanBones>
+		</costList>
+		<comps>
+			<li>
+				<compClass>HatchAsPlayerFaction.Comp_SetAsPlayerFaction</compClass>
+			</li>
+			<li Class="CompProperties_Hatcher">
+				<hatcherDaystoHatch>0</hatcherDaystoHatch>
+				<hatcherPawn>pphhyy_BoneReapers_Archon_Player</hatcherPawn>
+			</li>
+		</comps>
+	</ThingDef>
+
+	<ThingDef ParentName="BoneReapers_BoneAnimalCreation">
+		<defName>pphhyy_BoneReapersApokryphosCreation</defName>
+		<label>apokryphos</label>
+		<description>PLACEHOLDER</description>
+		<statBases>
+			<WorkToMake>7000</WorkToMake>
+		</statBases>
+		<recipeMaker>
+			<recipeUsers>
+				<li>pphhyy_AnkylosisTable</li>
+			</recipeUsers>
+			<researchPrerequisite>pphhyy_ApokryphosConstruction</researchPrerequisite>
+			<skillRequirements>
+				<Crafting>6</Crafting>
+			</skillRequirements>
+		</recipeMaker>
+		<costList>
+			<pphhyy_GreaterSoul>1</pphhyy_GreaterSoul>
+			<pphhyy_HumanBones>40</pphhyy_HumanBones>
+		</costList>
+		<comps>
+			<li>
+				<compClass>HatchAsPlayerFaction.Comp_SetAsPlayerFaction</compClass>
+			</li>
+			<li Class="CompProperties_Hatcher">
+				<hatcherDaystoHatch>0</hatcherDaystoHatch>
+				<hatcherPawn>pphhyy_BoneReapers_Apokryphos_Player</hatcherPawn>
+			</li>
+		</comps>
+	</ThingDef>	
+
+
+</Defs>

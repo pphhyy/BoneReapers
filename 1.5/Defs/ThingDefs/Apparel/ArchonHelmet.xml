@@ -49,12 +49,12 @@
 		    <useWornGraphicMask>true</useWornGraphicMask>
 		</apparel>
 		<recipeMaker>
-			<researchPrerequisite>PlateArmor</researchPrerequisite>
+			<researchPrerequisite>pphhyy_ArchonArmorTech</researchPrerequisite>
 			<skillRequirements>
 				<Crafting>6</Crafting>
 			</skillRequirements>
 			<recipeUsers Inherit="False">
-             <li>pphhyy_BoneTitheNexus</li>
+             <li>pphhyy_YoroiBench</li>
 			</recipeUsers>
 		</recipeMaker>
 	</ThingDef>

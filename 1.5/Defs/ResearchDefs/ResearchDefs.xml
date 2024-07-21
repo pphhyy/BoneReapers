@@ -148,7 +148,7 @@
     </ResearchProjectDef>
     
     <ResearchProjectDef>
-        <defName>pphhyy_ApokyrphosConstruction</defName>
+        <defName>pphhyy_ApokryphosConstruction</defName>
         <label>apokryphos construction</label>
         <description>Construct the Apokryphos bone reaper.</description>
         <baseCost>750</baseCost>
@@ -171,7 +171,7 @@
         <prerequisites>
             <li>pphhyy_SepelireConstruction</li>
             <li>pphhyy_PhalangiteConstruction</li>
-            <li>pphhyy_ApokyrphosConstruction</li>
+            <li>pphhyy_ApokryphosConstruction</li>
         </prerequisites>
         <researchViewX>4.00</researchViewX>
         <researchViewY>1.50</researchViewY>
