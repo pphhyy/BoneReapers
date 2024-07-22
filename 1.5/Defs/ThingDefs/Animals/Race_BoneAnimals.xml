@@ -376,7 +376,7 @@
   <ThingDef ParentName="BoneReapers_BoneAnimalBase">
     <defName>pphhyy_Ghora</defName>
     <label>ghora</label>
-    <description>We see how they treat their pets. They use them as tools, while we see them for their true beauty. Both riding into salbation. Both made of parts not our own, voices not our own. Be part of something bigger. Join us.</description>
+    <description>We see how they treat their pets. They use them as tools, while we see them for their true beauty. Both riding into salvation. Both made of parts not our own, voices not our own. Be part of something bigger. Join us.</description>
     <statBases>
       <MoveSpeed>6</MoveSpeed>
       <ArmorRating_Blunt>0.40</ArmorRating_Blunt>

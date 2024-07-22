@@ -2,10 +2,10 @@
 
 <Defs>
 
-    <PawnKindDef Name="pphhyy_BoneReapers_Pawnkind_Base" Abstract="True">
+    <PawnKindDef Name="pphhyy_BoneReapers_Pawnkind_Player_Base" Abstract="True">
       <race>Human</race>
       <maxGenerationAge>60</maxGenerationAge>
-
+      <useFactionXenotypes>false</useFactionXenotypes>
     </PawnKindDef>
   
     <!-- Sepelire -->
