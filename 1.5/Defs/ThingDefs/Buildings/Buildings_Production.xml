@@ -270,7 +270,7 @@
   <interactionCellOffset>(0,0,-1)</interactionCellOffset>
   <surfaceType>Item</surfaceType>
   <researchPrerequisites>
-    <li>pphhyy_BoneReaperTech</li>
+    <li>pphhyy_BoneReaperWeapons</li>
   </researchPrerequisites>
   <inspectorTabs>
     <li>ITab_Bills</li>
@@ -340,7 +340,7 @@
   <interactionCellOffset>(0,0,-1)</interactionCellOffset>
   <surfaceType>Item</surfaceType>
   <researchPrerequisites>
-    <li>pphhyy_BoneReaperTech</li>
+    <li>pphhyy_BasicArmorTech</li>
   </researchPrerequisites>
   <inspectorTabs>
     <li>ITab_Bills</li>
@@ -409,7 +409,7 @@
   <interactionCellOffset>(0,0,-1)</interactionCellOffset>
   <surfaceType>Item</surfaceType>
   <researchPrerequisites>
-    <li>pphhyy_BoneReaperTech</li>
+    <li>pphhyy_BasicShieldTech</li>
   </researchPrerequisites>
   <inspectorTabs>
     <li>ITab_Bills</li>

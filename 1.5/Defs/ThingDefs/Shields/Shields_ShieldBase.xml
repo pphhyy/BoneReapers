@@ -2,15 +2,15 @@
 <Defs>
 
 	<ThingDef Name="pphhyy_BoneReaper_ShieldBase" ParentName="BaseMeleeWeapon_Blunt_Quality" Abstract="True">
-		<costList>
-		  <pphhyy_GreaterSoul>1</pphhyy_GreaterSoul>
-		</costList>
 		<burnableByRecipe>true</burnableByRecipe>
 		<smeltable>false</smeltable>
 		<techLevel>Spacer</techLevel>
 		<thingCategories Inherit="False">
 			<li>Apparel</li>
 		</thingCategories>
+		<recipeMaker>
+		<recipeUsers Inherit="False"></recipeUsers>	
+		</recipeMaker>
 		<equipmentType>None</equipmentType>
 		<equippedStatOffsets>
 			<ShootingAccuracyPawn>-0.5</ShootingAccuracyPawn>
@@ -18,9 +18,6 @@
 			<MeleeDodgeChance>-5</MeleeDodgeChance>
 		</equippedStatOffsets>
 		<thingClass>VFECore.Apparel_Shield</thingClass>
-		<weaponTags>
-			<li>pphhyy_BoneReaper_Shields</li>
-		</weaponTags>
 		<statBases>
 			<Mass>3</Mass>
 			<WorkToMake>14000</WorkToMake>

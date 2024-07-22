@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Defs>
+
+<RecipeDef>
+
+<defName>SoulBook</defName>
+<label>make soul book</label>
+<description>PLACEHOLDER</description>
+<jobString>Making a soul book.</jobString>
+<workAmount>450</workAmount>
+<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+<effectWorking>Tailor</effectWorking>
+<soundWorking>Recipe_Tailor</soundWorking>
+<workSkill>Crafting</workSkill>
+<recipeUsers>
+    <li>pphhyy_AnkylosisTable</li>
+</recipeUsers>
+<ingredients>
+    <li>
+      <filter>
+        <thingDefs>
+            <li>pphhyy_GreaterSoul</li>
+        </thingDefs>
+      </filter>
+      <count>1</count>
+    </li>
+  </ingredients>
+<products>
+  <TextBook>1</TextBook>
+</products>
+<displayPriority>1430</displayPriority>
+
+</RecipeDef>
+
+
+</Defs>
