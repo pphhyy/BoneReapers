@@ -7,10 +7,10 @@
     <description>Overlapping solid plates of armor covering the entire body from neck to feet.</description>
     <recipeMaker Inherit="False">
 	  <recipeUsers>
-        <li>pphhyy_BoneTitheNexus</li>
+        <li>pphhyy_YoroiBench</li>
       </recipeUsers>
       <unfinishedThingDef>UnfinishedMetallicTechArmor</unfinishedThingDef>
-      <researchPrerequisite>PlateArmor</researchPrerequisite>
+      <researchPrerequisite>pphhyy_BasicArmorTech</researchPrerequisite>
       <skillRequirements>
         <Crafting>7</Crafting>
       </skillRequirements>
@@ -77,10 +77,10 @@
     <description>Overlapping solid plates of armor covering the entire body from neck to feet.</description>
     <recipeMaker>
 	  <recipeUsers Inherit="False">
-        <li>pphhyy_BoneTitheNexus</li>
+        <li>pphhyy_YoroiBench</li>
       </recipeUsers>
       <unfinishedThingDef>UnfinishedMetallicTechArmor</unfinishedThingDef>
-      <researchPrerequisite>PlateArmor</researchPrerequisite>
+      <researchPrerequisite>pphhyy_BasicArmorTech</researchPrerequisite>
       <skillRequirements>
         <Crafting>7</Crafting>
       </skillRequirements>
@@ -148,10 +148,10 @@
     <description>Overlapping solid plates of armor covering the entire body from neck to feet.</description>
     <recipeMaker>
 	  <recipeUsers Inherit="False">
-        <li>pphhyy_BoneTitheNexus</li>
+        <li>pphhyy_YoroiBench</li>
       </recipeUsers>
       <unfinishedThingDef>UnfinishedMetallicTechArmor</unfinishedThingDef>
-      <researchPrerequisite>PlateArmor</researchPrerequisite>
+      <researchPrerequisite>pphhyy_AdvancedArmorTech</researchPrerequisite>
       <skillRequirements>
         <Crafting>7</Crafting>
       </skillRequirements>
@@ -219,10 +219,10 @@
     <description>Overlapping solid plates of armor covering the entire body from neck to feet.</description>
     <recipeMaker>
 	  <recipeUsers Inherit="False">
-        <li>pphhyy_BoneTitheNexus</li>
+        <li>pphhyy_YoroiBench</li>
       </recipeUsers>
       <unfinishedThingDef>UnfinishedMetallicTechArmor</unfinishedThingDef>
-      <researchPrerequisite>PlateArmor</researchPrerequisite>
+      <researchPrerequisite>pphhyy_AdvancedArmorTech</researchPrerequisite>
       <skillRequirements>
         <Crafting>7</Crafting>
       </skillRequirements>

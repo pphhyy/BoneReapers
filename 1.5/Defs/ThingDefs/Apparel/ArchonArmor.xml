@@ -7,10 +7,10 @@
     <description>Overlapping solid plates of armor covering the entire body from neck to feet.</description>
     <recipeMaker>
 	  <recipeUsers Inherit="False">
-        <li>pphhyy_BoneTitheNexus</li>
+        <li>pphhyy_YoroiBench</li>
       </recipeUsers>
       <unfinishedThingDef>UnfinishedMetallicTechArmor</unfinishedThingDef>
-      <researchPrerequisite>PlateArmor</researchPrerequisite>
+      <researchPrerequisite>pphhyy_ArchonArmorTech</researchPrerequisite>
       <skillRequirements>
         <Crafting>9</Crafting>
       </skillRequirements>
