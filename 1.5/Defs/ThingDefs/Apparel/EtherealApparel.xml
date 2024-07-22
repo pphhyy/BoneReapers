@@ -9,7 +9,7 @@
 	 <recipeUsers Inherit="False">
         <li>pphhyy_YoroiBench</li>
       </recipeUsers>
-	  <researchPrerequisite>pphhyy_AdvancedArmorTech</researchPrerequisite>
+	  <researchPrerequisite>pphhyy_BasicArmorTech</researchPrerequisite>
       <unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
       <skillRequirements>
         <Crafting>6</Crafting>
@@ -60,7 +60,7 @@
 	 <recipeUsers Inherit="False">
         <li>pphhyy_YoroiBench</li>
       </recipeUsers>
-	  <researchPrerequisite>pphhyy_AdvancedArmorTech</researchPrerequisite>
+	  <researchPrerequisite>pphhyy_BasicArmorTech</researchPrerequisite>
       <unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
       <skillRequirements>
         <Crafting>6</Crafting>
