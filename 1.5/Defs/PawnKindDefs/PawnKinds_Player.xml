@@ -12,6 +12,7 @@
   
     <PawnKindDef ParentName="pphhyy_BoneReapers_Pawnkind_Base">
       <defName>pphhyy_BoneReapers_Sepelire_Player</defName>
+      <fixedGender>Male</fixedGender>
       <label>sepelire</label>
       <xenotypeSet>
         <xenotypeChances>
@@ -33,6 +34,7 @@
     
     <PawnKindDef ParentName="pphhyy_BoneReapers_Pawnkind_Base">
         <defName>pphhyy_BoneReapers_Thetes_Player</defName>
+        <fixedGender>Male</fixedGender>
         <label>thetes</label>
         <xenotypeSet>
           <xenotypeChances>
@@ -97,6 +99,7 @@
           
     <PawnKindDef ParentName="pphhyy_BoneReapers_Pawnkind_Base">
         <defName>pphhyy_BoneReapers_Apokryphos_Player</defName>
+        <fixedGender>Female</fixedGender>
         <label>apokryphos</label>
         <xenotypeSet>
           <xenotypeChances>

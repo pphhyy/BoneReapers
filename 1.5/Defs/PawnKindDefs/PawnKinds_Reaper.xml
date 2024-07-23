@@ -31,8 +31,6 @@
     <weaponTags>
       <li>pphhyy_BoneReapers_ThetesBow</li>
       <li>pphhyy_BoneReaper_ThetesJavelin</li>
-      <li>pphhyy_BoneReapers_SoulThetesBow</li>
-      <li>pphhyy_BoneReaper_SoulThetesJavelin</li>
     </weaponTags>
     <techHediffsChance>0.04</techHediffsChance>
   </PawnKindDef>
@@ -50,9 +48,7 @@
       <li>pphhyy_BoneReapers_ThetesSword</li>
       <li>pphhyy_BoneReapers_ThetesMace</li>
       <li>pphhyy_BoneReapers_ThetesSpear</li>
-      <li>pphhyy_BoneReapers_SoulThetesSword</li>
-      <li>pphhyy_BoneReapers_SoulThetesMace</li>
-      <li>pphhyy_BoneReapers_SoulThetesSpear</li>
+
     </weaponTags>
     <modExtensions>
       <li Class="VFECore.PawnKindDefExtension">
@@ -81,9 +77,7 @@
       <li>pphhyy_BoneReapers_ThetesSword</li>
       <li>pphhyy_BoneReapers_ThetesMace</li>
       <li>pphhyy_BoneReapers_ThetesSpear</li>
-      <li>pphhyy_BoneReapers_SoulThetesSword</li>
-      <li>pphhyy_BoneReapers_SoulThetesMace</li>
-      <li>pphhyy_BoneReapers_SoulThetesSpear</li>
+
     </weaponTags>
     <modExtensions>
       <li Class="VFECore.PawnKindDefExtension">
@@ -113,10 +107,6 @@
       <li>pphhyy_BoneReapers_ThetesScythe</li>
       <li>pphhyy_BoneReapers_ThetesPolearm</li>
       <li>pphhyy_BoneReapers_ThetesGreatSword</li>
-      <li>pphhyy_BoneReapers_SoulThetesGreatMace</li>
-      <li>pphhyy_BoneReapers_SoulThetesScythe</li>
-      <li>pphhyy_BoneReapers_SoulThetesPolearm</li>
-      <li>pphhyy_BoneReapers_SoulThetesGreatSword</li>
     </weaponTags>
     <techHediffsChance>0.04</techHediffsChance>
   </PawnKindDef>
@@ -125,6 +115,7 @@
 
   <PawnKindDef ParentName="pphhyy_BoneReapers_Ranged_Pawn_Base">
     <defName>pphhyy_BoneReapers_Thetes_Ranged_Pawn</defName>
+    <fixedGender>Male</fixedGender>
     <combatPower>20</combatPower>
     <xenotypeSet>
       <xenotypeChances>
@@ -137,6 +128,7 @@
 
   <PawnKindDef ParentName="pphhyy_BoneReapers_Light_Pawn_Base">
     <defName>pphhyy_BoneReapers_Thetes_Light_Pawn</defName>
+    <fixedGender>Male</fixedGender>
     <combatPower>20</combatPower>
     <xenotypeSet>
       <xenotypeChances>
@@ -149,6 +141,7 @@
 
   <PawnKindDef ParentName="pphhyy_BoneReapers_Med_Pawn_Base">
     <defName>pphhyy_BoneReapers_Thetes_Med_Pawn</defName>
+    <fixedGender>Male</fixedGender>
     <combatPower>25</combatPower>
     <xenotypeSet>
       <xenotypeChances>
@@ -161,6 +154,7 @@
 
   <PawnKindDef ParentName="pphhyy_BoneReapers_Heavy_Pawn_Base">
     <defName>pphhyy_BoneReapers_Thetes_Heavy_Pawn</defName>
+    <fixedGender>Male</fixedGender>
     <combatPower>30</combatPower>
     <xenotypeSet>
       <xenotypeChances>
@@ -213,6 +207,7 @@
 
   <PawnKindDef ParentName="pphhyy_BoneReapers_Pawnkind_Base">
     <defName>pphhyy_BoneReapers_Sepelire_Pawn</defName>
+    <fixedGender>Male</fixedGender>
     <label>sepelire</label>
     <xenotypeSet>
       <xenotypeChances>
@@ -230,9 +225,6 @@
       <li>pphhyy_BoneReapers_ThetesSword</li>
       <li>pphhyy_BoneReapers_ThetesMace</li>
       <li>pphhyy_BoneReapers_ThetesSpear</li>
-      <li>pphhyy_BoneReapers_SoulThetesSword</li>
-      <li>pphhyy_BoneReapers_SoulThetesMace</li>
-      <li>pphhyy_BoneReapers_SoulThetesSpear</li>
     </weaponTags>
     <requiredWorkTags>
       <li>Violent</li>
@@ -256,6 +248,7 @@
 
   <PawnKindDef ParentName="pphhyy_BoneReapers_Pawnkind_Base">
     <defName>pphhyy_Apokryphos_Pawn</defName>
+    <fixedGender>Female</fixedGender>
     <label>apokryphos</label>
     <xenotypeSet>
       <xenotypeChances>
@@ -275,10 +268,6 @@
       <li>pphhyy_BoneReapers_ThetesMace</li>
       <li>pphhyy_BoneReapers_ThetesSpear</li>
       <li>pphhyy_BoneReapers_ThetesStaff</li>
-      <li>pphhyy_BoneReapers_SoulThetesSword</li>
-      <li>pphhyy_BoneReapers_SoulThetesMace</li>
-      <li>pphhyy_BoneReapers_SoulThetesSpear</li>
-      <li>pphhyy_BoneReapers_SoulThetesStaff</li>
     </weaponTags>
     <requiredWorkTags>
       <li>Violent</li>
