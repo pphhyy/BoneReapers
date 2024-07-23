@@ -23,14 +23,10 @@
 			<pphhyy_HumanBones>10</pphhyy_HumanBones>
 		</costList>
 		<comps>
-			<li>
-				<compClass>HatchAsPlayerFaction.Comp_SetAsPlayerFaction</compClass>
+			<li Class="HatchAsPlayerFaction.CompProperties_SpawnHumanlike">
+				 <spawnKindDef>pphhyy_BoneReapers_Sepelire_Player</spawnKindDef>
 			</li>
-			<li Class="CompProperties_Hatcher">
-				<hatcherDaystoHatch>0</hatcherDaystoHatch>
-				<hatcherPawn>pphhyy_BoneReapers_Sepelire_Player</hatcherPawn>
-			</li>
-		</comps>
+	   </comps>
 	</ThingDef>
 
 	<ThingDef ParentName="BoneReapers_BoneAnimalCreation">
@@ -54,14 +50,10 @@
 			<pphhyy_HumanBones>15</pphhyy_HumanBones>
 		</costList>
 		<comps>
-			<li>
-				<compClass>HatchAsPlayerFaction.Comp_SetAsPlayerFaction</compClass>
+			<li Class="HatchAsPlayerFaction.CompProperties_SpawnHumanlike">
+				 <spawnKindDef>pphhyy_BoneReapers_Thetes_Player</spawnKindDef>
 			</li>
-			<li Class="CompProperties_Hatcher">
-				<hatcherDaystoHatch>0</hatcherDaystoHatch>
-				<hatcherPawn>pphhyy_BoneReapers_Thetes_Player</hatcherPawn>
-			</li>
-		</comps>
+	   </comps>
 	</ThingDef>
 
 	<ThingDef ParentName="BoneReapers_BoneAnimalCreation">
@@ -85,14 +77,10 @@
 			<pphhyy_HumanBones>20</pphhyy_HumanBones>
 		</costList>
 		<comps>
-			<li>
-				<compClass>HatchAsPlayerFaction.Comp_SetAsPlayerFaction</compClass>
+			<li Class="HatchAsPlayerFaction.CompProperties_SpawnHumanlike">
+				 <spawnKindDef>pphhyy_BoneReapers_Phalangite_Player</spawnKindDef>
 			</li>
-			<li Class="CompProperties_Hatcher">
-				<hatcherDaystoHatch>0</hatcherDaystoHatch>
-				<hatcherPawn>pphhyy_BoneReapers_Phalangite_Player</hatcherPawn>
-			</li>
-		</comps>
+	   </comps>
 	</ThingDef>
 
 	<ThingDef ParentName="BoneReapers_BoneAnimalCreation">
@@ -116,14 +104,10 @@
 			<pphhyy_HumanBones>30</pphhyy_HumanBones>
 		</costList>
 		<comps>
-			<li>
-				<compClass>HatchAsPlayerFaction.Comp_SetAsPlayerFaction</compClass>
+			<li Class="HatchAsPlayerFaction.CompProperties_SpawnHumanlike">
+				 <spawnKindDef>pphhyy_BoneReapers_Archon_Player</spawnKindDef>
 			</li>
-			<li Class="CompProperties_Hatcher">
-				<hatcherDaystoHatch>0</hatcherDaystoHatch>
-				<hatcherPawn>pphhyy_BoneReapers_Archon_Player</hatcherPawn>
-			</li>
-		</comps>
+	   </comps>
 	</ThingDef>
 
 	<ThingDef ParentName="BoneReapers_BoneAnimalCreation">
@@ -147,14 +131,10 @@
 			<pphhyy_HumanBones>40</pphhyy_HumanBones>
 		</costList>
 		<comps>
-			<li>
-				<compClass>HatchAsPlayerFaction.Comp_SetAsPlayerFaction</compClass>
+			<li Class="HatchAsPlayerFaction.CompProperties_SpawnHumanlike">
+				 <spawnKindDef>pphhyy_BoneReapers_Apokryphos_Player</spawnKindDef>
 			</li>
-			<li Class="CompProperties_Hatcher">
-				<hatcherDaystoHatch>0</hatcherDaystoHatch>
-				<hatcherPawn>pphhyy_BoneReapers_Apokryphos_Player</hatcherPawn>
-			</li>
-		</comps>
+	   </comps>
 	</ThingDef>	
 
 
