@@ -1,0 +1,571 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Defs>
+
+  <!-- Osseous pillar -->
+
+  <ThingDef ParentName="BuildingBase">
+    <defName>pphhyy_OsseousPillar</defName>
+    <label>osseous pillar</label>
+    <description>PLACEHOLDER</description>
+    <altitudeLayer>Building</altitudeLayer>
+    <passability>PassThroughOnly</passability>
+    <selectable>true</selectable>
+    <fillPercent>0.20</fillPercent>
+    <pathCost>14</pathCost>
+    <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+    <designationCategory>Furniture</designationCategory>
+    <rotatable>false</rotatable>
+    <size>(3,3)</size>
+    <graphicData>
+      <graphicClass>Graphic_Single</graphicClass>
+      <texPath>Buildings/OsseousPillar/OsseousPillar_south</texPath>
+      <shaderType>CutoutComplex</shaderType>
+      <drawSize>(4.6,3.6)</drawSize>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>50</MaxHitPoints>
+      <Flammability>0.5</Flammability>
+    </statBases>
+    <costStuffCount>150</costStuffCount>
+    <stuffCategories>
+      <li>Metallic</li>
+      <li>Stony</li>
+      <li>Woody</li>
+    </stuffCategories>
+    <costList>
+      <pphhyy_HumanBones>20</pphhyy_HumanBones>
+    </costList>
+    <researchPrerequisites>
+      <li>pphhyy_BoneReaperGrandPillars</li>
+    </researchPrerequisites>
+  </ThingDef>
+
+  <!-- Osseous obelisk -->
+
+  <ThingDef ParentName="BuildingBase">
+    <defName>pphhyy_OsseousObelisk</defName>
+    <label>osseous obelisk</label>
+    <description>PLACEHOLDER</description>
+    <altitudeLayer>Building</altitudeLayer>
+    <passability>PassThroughOnly</passability>
+    <selectable>true</selectable>
+    <fillPercent>0.20</fillPercent>
+    <pathCost>14</pathCost>
+    <designationCategory>Furniture</designationCategory>
+    <leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+    <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+    <rotatable>false</rotatable>
+    <size>(3,3)</size>
+    <graphicData>
+      <graphicClass>Graphic_Single</graphicClass>
+      <texPath>Buildings/OsseousObelisk/OsseousObelisk_south</texPath>
+      <shaderType>CutoutComplex</shaderType>
+      <drawSize>(4.4,3.4)</drawSize>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>50</MaxHitPoints>
+      <Flammability>0.5</Flammability>
+    </statBases>
+    <costStuffCount>150</costStuffCount>
+    <stuffCategories>
+      <li>Metallic</li>
+      <li>Stony</li>
+      <li>Woody</li>
+    </stuffCategories>
+    <costList>
+      <pphhyy_AnimalBones>20</pphhyy_AnimalBones>
+    </costList>
+    <researchPrerequisites>
+      <li>pphhyy_BoneReaperGrandPillars</li>
+    </researchPrerequisites>
+  </ThingDef>
+
+  <!-- Osseous urn -->
+
+  <ThingDef ParentName="BuildingBase">
+    <defName>pphhyy_OsseousUrnI</defName>
+    <label>osseous urn</label>
+    <description>PLACEHOLDER</description>
+    <minifiedDef>MinifiedThing</minifiedDef>
+    <defaultPlacingRot>South</defaultPlacingRot>
+    <possessionCount>1</possessionCount>
+    <designationCategory>Furniture</designationCategory>
+    <thingCategories>
+      <li>BuildingsFurniture</li>
+    </thingCategories>
+    <altitudeLayer>Building</altitudeLayer>
+    <passability>PassThroughOnly</passability>
+    <fillPercent>0.40</fillPercent>
+    <statBases>
+      <MaxHitPoints>40</MaxHitPoints>
+      <WorkToBuild>500</WorkToBuild>
+      <Mass>5</Mass>
+      <Flammability>1.0</Flammability>
+      <Beauty>5</Beauty>
+    </statBases>
+    <stuffCategories>
+      <li>Metallic</li>
+      <li>Stony</li>
+      <li>Woody</li>
+    </stuffCategories>
+    <costList>
+      <pphhyy_AnimalBones>10</pphhyy_AnimalBones>
+    </costList>
+    <costStuffCount>10</costStuffCount>
+    <canOverlapZones>false</canOverlapZones>
+    <pathCost>30</pathCost>
+    <rotatable>true</rotatable>
+    <building>
+      <isInert>true</isInert>
+      <ai_chillDestination>false</ai_chillDestination>
+    </building>
+    <graphicData>
+      <texPath>Buildings/OsseousUrn/OsseousUrnA/OsseousUrnA</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <drawSize>(3,2.5)</drawSize>
+    </graphicData>
+    <researchPrerequisites>
+      <li>pphhyy_BoneReaperUrns</li>
+    </researchPrerequisites>
+  </ThingDef>
+
+  <ThingDef ParentName="BuildingBase">
+    <defName>pphhyy_OsseousUrnII</defName>
+    <label>osseous urn</label>
+    <description>PLACEHOLDER</description>
+    <minifiedDef>MinifiedThing</minifiedDef>
+    <defaultPlacingRot>South</defaultPlacingRot>
+    <possessionCount>1</possessionCount>
+    <designationCategory>Furniture</designationCategory>
+    <thingCategories>
+      <li>BuildingsFurniture</li>
+    </thingCategories>
+    <altitudeLayer>Building</altitudeLayer>
+    <passability>PassThroughOnly</passability>
+    <fillPercent>0.40</fillPercent>
+    <statBases>
+      <MaxHitPoints>40</MaxHitPoints>
+      <WorkToBuild>500</WorkToBuild>
+      <Mass>5</Mass>
+      <Flammability>1.0</Flammability>
+      <Beauty>5</Beauty>
+    </statBases>
+    <stuffCategories>
+      <li>Metallic</li>
+      <li>Stony</li>
+      <li>Woody</li>
+    </stuffCategories>
+    <costList>
+      <pphhyy_AnimalBones>10</pphhyy_AnimalBones>
+    </costList>
+    <costStuffCount>10</costStuffCount>
+    <canOverlapZones>false</canOverlapZones>
+    <pathCost>30</pathCost>
+    <rotatable>true</rotatable>
+    <building>
+      <isInert>true</isInert>
+      <ai_chillDestination>false</ai_chillDestination>
+    </building>
+    <graphicData>
+      <texPath>Buildings/OsseousUrn/OsseousUrnB/OsseousUrnB</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <drawSize>(3,2.5)</drawSize>
+    </graphicData>
+    <researchPrerequisites>
+      <li>pphhyy_BoneReaperUrns</li>
+    </researchPrerequisites>
+  </ThingDef>
+  
+  <ThingDef ParentName="BuildingBase">
+    <defName>pphhyy_OsseousUrnIII</defName>
+    <label>osseous urn</label>
+    <description>PLACEHOLDER</description>
+    <minifiedDef>MinifiedThing</minifiedDef>
+    <defaultPlacingRot>South</defaultPlacingRot>
+    <possessionCount>1</possessionCount>
+    <designationCategory>Furniture</designationCategory>
+    <thingCategories>
+      <li>BuildingsFurniture</li>
+    </thingCategories>
+    <altitudeLayer>Building</altitudeLayer>
+    <passability>PassThroughOnly</passability>
+    <fillPercent>0.40</fillPercent>
+    <statBases>
+      <MaxHitPoints>40</MaxHitPoints>
+      <WorkToBuild>500</WorkToBuild>
+      <Mass>5</Mass>
+      <Flammability>1.0</Flammability>
+      <Beauty>5</Beauty>
+    </statBases>
+    <stuffCategories>
+      <li>Metallic</li>
+      <li>Stony</li>
+      <li>Woody</li>
+    </stuffCategories>
+    <costList>
+      <pphhyy_AnimalBones>10</pphhyy_AnimalBones>
+    </costList>
+    <costStuffCount>10</costStuffCount>
+    <canOverlapZones>false</canOverlapZones>
+    <pathCost>30</pathCost>
+    <rotatable>true</rotatable>
+    <building>
+      <isInert>true</isInert>
+      <ai_chillDestination>false</ai_chillDestination>
+    </building>
+    <graphicData>
+      <texPath>Buildings/OsseousUrn/OsseousUrnC/OsseousUrnC</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <drawSize>(3,2.5)</drawSize>
+    </graphicData>
+    <researchPrerequisites>
+      <li>pphhyy_BoneReaperUrns</li>
+    </researchPrerequisites>
+  </ThingDef>  
+
+<!-- Osseous Kurasi -->
+
+<ThingDef ParentName="BuildingBase">
+  <defName>pphhyy_OsseousKurasi</defName>
+  <label>osseous kurasi</label>
+  <description>PLACEHOLDER</description>
+  <possessionCount>1</possessionCount>
+  <designationCategory>Furniture</designationCategory>
+  <defaultPlacingRot>South</defaultPlacingRot>
+  <minifiedDef>MinifiedThing</minifiedDef>
+  <thingCategories>
+    <li>BuildingsFurniture</li>
+  </thingCategories>
+  <altitudeLayer>Building</altitudeLayer>
+  <passability>PassThroughOnly</passability>
+  <fillPercent>0.40</fillPercent>
+  <statBases>
+    <MaxHitPoints>40</MaxHitPoints>
+    <WorkToBuild>500</WorkToBuild>
+    <Mass>5</Mass>
+    <Flammability>1.0</Flammability>
+    <Beauty>5</Beauty>
+  </statBases>
+  <stuffCategories>
+    <li>Metallic</li>
+    <li>Stony</li>
+    <li>Woody</li>
+  </stuffCategories>
+  <costStuffCount>45</costStuffCount>
+  <canOverlapZones>false</canOverlapZones>
+  <pathCost>30</pathCost>
+  <rotatable>true</rotatable>
+  <size>(2,2)</size>
+  <building>
+    <isInert>true</isInert>
+    <ai_chillDestination>false</ai_chillDestination>
+  </building>
+  <graphicData>
+    <texPath>Buildings/OsseousKurasi/OsseousKurasi</texPath>
+    <graphicClass>Graphic_Multi</graphicClass>
+    <shaderType>CutoutComplex</shaderType>
+    <drawSize>(3,2.5)</drawSize>
+  </graphicData>
+  <researchPrerequisites>
+    <li>pphhyy_BoneReaperBasicFurniture</li>
+  </researchPrerequisites>
+</ThingDef>  
+
+<!-- Osseous Column -->
+
+<ThingDef ParentName="BuildingBase">
+  <defName>pphhyy_OsseousColumn</defName>
+  <label>osseous column</label>
+  <description>PLACEHOLDER</description>
+  <altitudeLayer>Building</altitudeLayer>
+  <passability>PassThroughOnly</passability>
+  <selectable>true</selectable>
+  <fillPercent>0.20</fillPercent>
+  <pathCost>14</pathCost>
+  <leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+  <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+  <designationCategory>Furniture</designationCategory>
+  <rotatable>false</rotatable>
+  <size>(3,3)</size>
+  <graphicData>
+    <graphicClass>Graphic_Single</graphicClass>
+    <texPath>Buildings/OsseousColumn/OsseousColumn_south</texPath>
+    <shaderType>CutoutComplex</shaderType>
+    <drawSize>(4.6,3.6)</drawSize>
+  </graphicData>
+  <statBases>
+    <MaxHitPoints>100</MaxHitPoints>
+    <Flammability>0.5</Flammability>
+  </statBases>
+  <costStuffCount>20</costStuffCount>
+  <stuffCategories>
+    <li>Metallic</li>
+    <li>Stony</li>
+    <li>Woody</li>
+  </stuffCategories>
+  <costList>
+    <pphhyy_HumanBones>5</pphhyy_HumanBones>
+  </costList>
+  <researchPrerequisites>
+    <li>pphhyy_BoneReaperBasicPillars</li>
+  </researchPrerequisites>
+</ThingDef>
+
+<!-- Osseous Brazier -->
+
+<ThingDef ParentName="BuildingBase">
+  <defName>pphhyy_OsseousBrazier</defName>
+  <label>osseous brazier</label>
+  <description>PLACEHOLDER</description>
+  <altitudeLayer>Building</altitudeLayer>
+  <passability>PassThroughOnly</passability>
+  <selectable>true</selectable>
+  <fillPercent>0.20</fillPercent>
+  <pathCost>14</pathCost>
+  <tickerType>Normal</tickerType>
+  <leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+  <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+  <designationCategory>Furniture</designationCategory>
+  <rotatable>false</rotatable>
+  <size>(3,3)</size>
+  <graphicData>
+    <graphicClass>Graphic_Single</graphicClass>
+    <texPath>Buildings/OsseousBrazier/OsseousBrazier_south</texPath>
+    <shaderType>CutoutComplex</shaderType>
+    <drawSize>(4.2,3.3)</drawSize>
+  </graphicData>
+  <statBases>
+    <MaxHitPoints>100</MaxHitPoints>
+    <Flammability>0.5</Flammability>
+  </statBases>
+  <costStuffCount>20</costStuffCount>
+  <stuffCategories>
+    <li>Metallic</li>
+    <li>Stony</li>
+    <li>Woody</li>
+  </stuffCategories>
+  <costList>
+    <pphhyy_HumanBones>5</pphhyy_HumanBones>
+  </costList>
+  <comps>
+    <li Class="CompProperties_Refuelable">
+      <fuelConsumptionRate>2.0</fuelConsumptionRate>
+      <fuelCapacity>30.0</fuelCapacity>
+      <fuelConsumptionPerTickInRain>0.0006</fuelConsumptionPerTickInRain>
+      <fuelFilter>
+        <thingDefs>
+          <li>WoodLog</li>
+        </thingDefs>
+      </fuelFilter>
+      <initialFuelPercent>0</initialFuelPercent>
+      <showAllowAutoRefuelToggle>true</showAllowAutoRefuelToggle>
+    </li>
+    <li Class="CompProperties_Glower">
+      <glowRadius>10</glowRadius>
+      <glowColor>(252,187,113,0)</glowColor>
+    </li>
+    <li Class="CompProperties_HeatPusher">
+      <compClass>CompHeatPusherPowered</compClass>
+      <heatPerSecond>3.5</heatPerSecond>
+      <heatPushMaxTemperature>23</heatPushMaxTemperature>
+    </li>
+    <li Class="CompProperties_FireOverlay">
+      <fireSize>1</fireSize>
+      <offset>(0,0,0.18)</offset>
+    </li>
+    </comps>
+    <researchPrerequisites>
+      <li>pphhyy_BoneReaperBasicPillars</li>
+    </researchPrerequisites>
+</ThingDef>
+
+<!-- Osseous Banner -->
+
+<ThingDef ParentName="BuildingBase" MayRequire="pphhyy.LightlessEmpyrean">
+  <defName>pphhyy_OsseousBanner</defName>
+  <label>osseous banner</label>
+  <description>PLACEHOLDER</description>
+  <altitudeLayer>Building</altitudeLayer>
+  <passability>PassThroughOnly</passability>
+  <selectable>true</selectable>
+  <fillPercent>0.20</fillPercent>
+  <pathCost>14</pathCost>
+  <leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+  <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+  <designationCategory>Furniture</designationCategory>
+  <rotatable>false</rotatable>
+  <size>(2,2)</size>
+  <graphicData>
+    <graphicClass>Graphic_Single</graphicClass>
+    <texPath>Buildings/OsseousBanner/OsseousBanner_south</texPath>
+    <drawSize>(3,2.2)</drawSize>
+  </graphicData>
+  <statBases>
+    <MaxHitPoints>50</MaxHitPoints>
+    <Flammability>0.5</Flammability>
+  </statBases>
+  <costStuffCount>20</costStuffCount>
+  <stuffCategories>
+    <li>Metallic</li>
+    <li>Stony</li>
+    <li>Woody</li>
+  </stuffCategories>
+  <costList>
+    <pphhyy_AnimalBones>5</pphhyy_AnimalBones>
+    <pphhyy_LightlessEmpyrean_EtherealCloth>20</pphhyy_LightlessEmpyrean_EtherealCloth>
+  </costList>
+  <researchPrerequisites>
+    <li>pphhyy_BoneReaperBasicFurniture</li>
+  </researchPrerequisites>
+</ThingDef>
+
+<!-- Osseous Lamp -->
+
+<ThingDef ParentName="BuildingBase">
+  <defName>pphhyy_OsseousLamp</defName>
+  <label>osseous lamp</label>
+  <description>PLACEHOLDER</description>
+  <altitudeLayer>Building</altitudeLayer>
+  <passability>PassThroughOnly</passability>
+  <selectable>true</selectable>
+  <fillPercent>0.20</fillPercent>
+  <pathCost>14</pathCost>
+  <leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+  <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+  <designationCategory>Furniture</designationCategory>
+  <rotatable>false</rotatable>
+  <size>(3,3)</size>
+  <graphicData>
+    <graphicClass>Graphic_Single</graphicClass>
+    <texPath>Buildings/OsseousLamp/OsseousLamp_south</texPath>
+    <shaderType>CutoutComplex</shaderType>
+    <drawSize>(4.2,3.3)</drawSize>
+  </graphicData>
+  <statBases>
+    <MaxHitPoints>75</MaxHitPoints>
+    <Flammability>0.5</Flammability>
+  </statBases>
+  <costStuffCount>20</costStuffCount>
+  <stuffCategories>
+    <li>Metallic</li>
+    <li>Stony</li>
+    <li>Woody</li>
+  </stuffCategories>
+  <costList>
+    <pphhyy_HumanBones>5</pphhyy_HumanBones>
+    <pphhyy_LesserSoul>1</pphhyy_LesserSoul>
+  </costList>
+  <comps>
+    <li Class="CompProperties_Glower">
+      <glowRadius>10</glowRadius>
+      <glowColor>(0,163,108,0)</glowColor>
+    </li>
+    </comps>
+    <researchPrerequisites>
+      <li>pphhyy_BoneReaperSoulLamp</li>
+    </researchPrerequisites>
+</ThingDef>
+
+<!-- Osseous Shrine -->
+
+<ThingDef ParentName="AltarBase" MayRequire="Ludeon.RimWorld.Ideology">
+  <defName>pphhyy_OsseousShrine</defName>
+  <label>osseous shrine</label>
+  <description>PLACEHOLDER</description>
+  <possessionCount>1</possessionCount>
+  <minifiedDef>MinifiedThing</minifiedDef>
+  <defaultPlacingRot>South</defaultPlacingRot>
+  <ideoBuilding>true</ideoBuilding>
+  <designationCategory>Ideology</designationCategory>
+  <thingCategories>
+    <li>BuildingsMisc</li>
+  </thingCategories>
+  <altitudeLayer>Building</altitudeLayer>
+  <passability>PassThroughOnly</passability>
+  <fillPercent>0.40</fillPercent>
+  <statBases>
+    <MaxHitPoints>350</MaxHitPoints>
+    <WorkToBuild>500</WorkToBuild>
+    <Mass>5</Mass>
+    <Flammability>1.0</Flammability>
+    <Beauty>5</Beauty>
+  </statBases>
+  <stuffCategories>
+    <li>Metallic</li>
+    <li>Stony</li>
+    <li>Woody</li>
+  </stuffCategories>
+  <costList>
+    <pphhyy_AnimalBones>50</pphhyy_AnimalBones>
+    <pphhyy_HumanBones>50</pphhyy_HumanBones>
+  </costList>
+  <costStuffCount>300</costStuffCount>
+  <canOverlapZones>false</canOverlapZones>
+  <pathCost>30</pathCost>
+  <rotatable>true</rotatable>
+  <building>
+    <isInert>true</isInert>
+    <ai_chillDestination>false</ai_chillDestination>
+  </building>
+  <size>(2,2)</size>
+  <graphicData>
+    <texPath>Buildings/OsseousShrine/OsseousShrine</texPath>
+    <graphicClass>Graphic_Multi</graphicClass>
+    <shaderType>CutoutComplex</shaderType>
+    <drawSize>(3,2.5)</drawSize>
+  </graphicData>
+</ThingDef>  
+
+<!-- Osseous Throne -->
+
+<ThingDef ParentName="BuildingBase">
+  <defName>pphhyy_OsseousThrone</defName>
+  <label>osseous throne</label>
+  <description>PLACEHOLDER</description>
+  <possessionCount>1</possessionCount>
+  <designationCategory>Furniture</designationCategory>
+  <minifiedDef>MinifiedThing</minifiedDef>
+  <defaultPlacingRot>South</defaultPlacingRot>
+  <thingCategories>
+    <li>BuildingsFurniture</li>
+  </thingCategories>
+  <altitudeLayer>Building</altitudeLayer>
+  <passability>PassThroughOnly</passability>
+  <fillPercent>0.40</fillPercent>
+  <statBases>
+    <MaxHitPoints>40</MaxHitPoints>
+    <WorkToBuild>500</WorkToBuild>
+    <Mass>5</Mass>
+    <Flammability>1.0</Flammability>
+    <Beauty>5</Beauty>
+  </statBases>
+  <stuffCategories>
+    <li>Metallic</li>
+    <li>Stony</li>
+    <li>Woody</li>
+  </stuffCategories>
+  <costStuffCount>45</costStuffCount>
+  <canOverlapZones>false</canOverlapZones>
+  <pathCost>30</pathCost>
+  <rotatable>true</rotatable>
+  <building>
+    <isInert>true</isInert>
+    <ai_chillDestination>false</ai_chillDestination>
+  </building>
+  <size>(2,2)</size>
+  <graphicData>
+    <texPath>Buildings/OsseousThrone/OsseousThrone</texPath>
+    <graphicClass>Graphic_Multi</graphicClass>
+    <shaderType>CutoutComplex</shaderType>
+    <drawSize>(3,2.5)</drawSize>
+  </graphicData>
+  <researchPrerequisites>
+    <li>pphhyy_BoneReaperGrandFurniture</li>
+  </researchPrerequisites>
+</ThingDef>  
+
+</Defs>

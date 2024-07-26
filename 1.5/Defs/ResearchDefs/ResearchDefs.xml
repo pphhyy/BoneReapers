@@ -304,4 +304,126 @@
         <researchViewY>5</researchViewY>
     </ResearchProjectDef>     
 
+    <ResearchProjectDef>
+        <defName>pphhyy_BoneLimbs</defName>
+        <label>bone limbs</label>
+        <description>Craft bone limbs</description>
+        <baseCost>1000</baseCost>
+        <techLevel>Medieval</techLevel>
+        <tab>pphhyy_Bonereapers</tab>
+        <researchViewX>2.00</researchViewX>
+        <researchViewY>4.50</researchViewY>
+    </ResearchProjectDef>     
+
+    <ResearchProjectDef>
+        <defName>pphhyy_OsseousLimbs</defName>
+        <label>osseous limbs</label>
+        <description>Craft osseous limbs</description>
+        <baseCost>1500</baseCost>
+        <techLevel>Medieval</techLevel>
+        <tab>pphhyy_Bonereapers</tab>
+        <prerequisites>
+            <li>pphhyy_BoneLimbs</li>
+        </prerequisites>
+        <researchViewX>3</researchViewX>
+        <researchViewY>4.50</researchViewY>
+    </ResearchProjectDef>   
+
+    <ResearchProjectDef>
+        <defName>pphhyy_SoulImplants</defName>
+        <label>soul implants</label>
+        <description>Craft soul implants</description>
+        <baseCost>2000</baseCost>
+        <techLevel>Medieval</techLevel>
+        <tab>pphhyy_Bonereapers</tab>
+        <prerequisites>
+            <li>pphhyy_BoneLimbs</li>
+        </prerequisites>
+        <researchViewX>4</researchViewX>
+        <researchViewY>4.50</researchViewY>
+    </ResearchProjectDef>     
+
+    <ResearchProjectDef>
+        <defName>pphhyy_BoneReaperBasicFurniture</defName>
+        <label>bone reaper basic furniture</label>
+        <description>PLACEHOLDER</description>
+        <baseCost>500</baseCost>
+        <techLevel>Medieval</techLevel>
+        <tab>pphhyy_Bonereapers</tab>
+        <researchViewX>5.00</researchViewX>
+        <researchViewY>0.00</researchViewY>
+    </ResearchProjectDef>
+
+    <ResearchProjectDef>
+        <defName>pphhyy_BoneReaperUrns</defName>
+        <label>bone reaper urns</label>
+        <description>PLACEHOLDER</description>
+        <baseCost>500</baseCost>
+        <techLevel>Medieval</techLevel>
+        <tab>pphhyy_Bonereapers</tab>
+        <researchViewX>5.00</researchViewX>
+        <researchViewY>1.50</researchViewY>
+    </ResearchProjectDef>
+
+    <ResearchProjectDef>
+        <defName>pphhyy_BoneReaperBasicPillars</defName>
+        <label>bone reaper basic pillars</label>
+        <description>PLACEHOLDER</description>
+        <baseCost>750</baseCost>
+        <techLevel>Medieval</techLevel>
+        <tab>pphhyy_Bonereapers</tab>
+        <researchViewX>6.00</researchViewX>
+        <researchViewY>1.50</researchViewY>
+    </ResearchProjectDef>
+
+    <ResearchProjectDef>
+        <defName>pphhyy_BoneReaperGrandPillars</defName>
+        <label>bone reaper grand pillars</label>
+        <description>PLACEHOLDER</description>
+        <baseCost>1000</baseCost>
+        <techLevel>Medieval</techLevel>
+        <prerequisites>
+            <li>pphhyy_BoneReaperBasicPillars</li>
+        </prerequisites>
+        <tab>pphhyy_Bonereapers</tab>
+        <researchViewX>7.25</researchViewX>
+        <researchViewY>1.50</researchViewY>
+    </ResearchProjectDef>
+
+    <ResearchProjectDef>
+        <defName>pphhyy_BoneReaperSoulLamp</defName>
+        <label>bone reaper soul lamp</label>
+        <description>PLACEHOLDER</description>
+        <baseCost>1000</baseCost>
+        <techLevel>Medieval</techLevel>
+        <tab>pphhyy_Bonereapers</tab>
+        <researchViewX>7.25</researchViewX>
+        <researchViewY>0.75</researchViewY>
+    </ResearchProjectDef>
+
+    <ResearchProjectDef>
+        <defName>pphhyy_BoneReaperSoulsunLamp</defName>
+        <label>bone reaper soul sun lamp</label>
+        <description>PLACEHOLDER</description>
+        <baseCost>2000</baseCost>
+        <techLevel>Medieval</techLevel>
+        <prerequisites>
+            <li>pphhyy_BoneReaperSoulLamp</li>
+        </prerequisites>
+        <tab>pphhyy_Bonereapers</tab>
+        <researchViewX>8.50</researchViewX>
+        <researchViewY>0.75</researchViewY>
+    </ResearchProjectDef>
+
+    <ResearchProjectDef>
+        <defName>pphhyy_BoneReaperGrandFurniture</defName>
+        <label>bone reaper grand furniture</label>
+        <description>PLACEHOLDER</description>
+        <baseCost>2000</baseCost>
+        <techLevel>Medieval</techLevel>
+        <tab>pphhyy_Bonereapers</tab>
+        <researchViewX>8.50</researchViewX>
+        <researchViewY>0.00</researchViewY>
+    </ResearchProjectDef>
+
 </Defs>    

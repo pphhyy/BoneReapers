@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
+<!-- Thetes shields -->
+
 
 	<ThingDef ParentName="pphhyy_BoneReaper_ShieldBase">
 		<defName>pphhyy_BoneReapers_ThetesShieldI</defName>
@@ -10,6 +12,7 @@
 		<graphicData>
 		  <texPath>Shields/ThetesShield/ThetesShield_south</texPath>
 		  <graphicClass>Graphic_Single</graphicClass>
+		  <shaderType>CutoutComplex</shaderType>
 		</graphicData>
 		<techLevel>Medieval</techLevel>
 		<statBases>
@@ -19,7 +22,6 @@
 		</statBases>
 		<equippedStatOffsets>
 		  <ShootingAccuracyPawn>-0.5</ShootingAccuracyPawn>
-		  <MoveSpeed>-1.6</MoveSpeed>
 		</equippedStatOffsets>
 		<comps>
 			<li Class="VFECore.CompProperties_Shield">
@@ -37,6 +39,7 @@
 					<texPath>Shields/ThetesShield/ThetesShield</texPath>
 					<graphicClass>Graphic_Multi</graphicClass>
 					<shaderType>CutoutComplex</shaderType>
+					<drawSize>1.6</drawSize>
 				</offHandGraphicData>
 				<offHandHoldOffset>
 					<northDefault>
@@ -48,7 +51,7 @@
 						<behind>true</behind>
 					</east>
 					<south>
-						<offset>(0.25, -0.047, 0.15)</offset>
+						<offset>(0.25, -0.047, 0.05)</offset>
 					</south>
 					<west>
 						<offset>(0.15, -0.05, 0.1)</offset> <!-- -Left/+Right, -Back/+Front, -Down/+Up -->
@@ -102,6 +105,7 @@
 		<graphicData>
 		  <texPath>Shields/ThetesShield/ThetesShield1_south</texPath>
 		  <graphicClass>Graphic_Single</graphicClass>
+		  <shaderType>CutoutComplex</shaderType>
 		</graphicData>
 		<techLevel>Medieval</techLevel>
 		<statBases>
@@ -111,7 +115,6 @@
 		</statBases>
 		<equippedStatOffsets>
 		  <ShootingAccuracyPawn>-0.5</ShootingAccuracyPawn>
-		  <MoveSpeed>-1.6</MoveSpeed>
 		</equippedStatOffsets>
 		<comps>
 			<li Class="VFECore.CompProperties_Shield">
@@ -129,6 +132,7 @@
 					<texPath>Shields/ThetesShield/ThetesShield1</texPath>
 					<graphicClass>Graphic_Multi</graphicClass>
 					<shaderType>CutoutComplex</shaderType>
+					<drawSize>1.6</drawSize>
 				</offHandGraphicData>
 				<offHandHoldOffset>
 					<northDefault>
@@ -140,7 +144,7 @@
 						<behind>true</behind>
 					</east>
 					<south>
-						<offset>(0.25, -0.047, 0.15)</offset>
+						<offset>(0.25, -0.047, 0.05)</offset>
 					</south>
 					<west>
 						<offset>(0.15, -0.05, 0.1)</offset> <!-- -Left/+Right, -Back/+Front, -Down/+Up -->
@@ -194,6 +198,7 @@
 		<graphicData>
 		  <texPath>Shields/ThetesShield/ThetesShield2_south</texPath>
 		  <graphicClass>Graphic_Single</graphicClass>
+		  <shaderType>CutoutComplex</shaderType>
 		</graphicData>
 		<techLevel>Medieval</techLevel>
 		<statBases>
@@ -203,7 +208,6 @@
 		</statBases>
 		<equippedStatOffsets>
 		  <ShootingAccuracyPawn>-0.5</ShootingAccuracyPawn>
-		  <MoveSpeed>-1.6</MoveSpeed>
 		</equippedStatOffsets>
 		<comps>
 			<li Class="VFECore.CompProperties_Shield">
@@ -221,6 +225,7 @@
 					<texPath>Shields/ThetesShield/ThetesShield2</texPath>
 					<graphicClass>Graphic_Multi</graphicClass>
 					<shaderType>CutoutComplex</shaderType>
+					<drawSize>1.6</drawSize>
 				</offHandGraphicData>
 				<offHandHoldOffset>
 					<northDefault>
@@ -232,7 +237,7 @@
 						<behind>true</behind>
 					</east>
 					<south>
-						<offset>(0.25, -0.047, 0.15)</offset>
+						<offset>(0.25, -0.047, 0.05)</offset>
 					</south>
 					<west>
 						<offset>(0.15, -0.05, 0.1)</offset> <!-- -Left/+Right, -Back/+Front, -Down/+Up -->
@@ -286,6 +291,7 @@
 		<graphicData>
 		  <texPath>Shields/ThetesShield/ThetesShield3_south</texPath>
 		  <graphicClass>Graphic_Single</graphicClass>
+		  <shaderType>CutoutComplex</shaderType>
 		</graphicData>
 		<techLevel>Medieval</techLevel>
 		<statBases>
@@ -295,7 +301,6 @@
 		</statBases>
 		<equippedStatOffsets>
 		  <ShootingAccuracyPawn>-0.5</ShootingAccuracyPawn>
-		  <MoveSpeed>-1.6</MoveSpeed>
 		</equippedStatOffsets>
 		<comps>
 			<li Class="VFECore.CompProperties_Shield">
@@ -313,6 +318,7 @@
 					<texPath>Shields/ThetesShield/ThetesShield3</texPath>
 					<graphicClass>Graphic_Multi</graphicClass>
 					<shaderType>CutoutComplex</shaderType>
+					<drawSize>1.6</drawSize>
 				</offHandGraphicData>
 				<offHandHoldOffset>
 					<northDefault>
@@ -324,7 +330,7 @@
 						<behind>true</behind>
 					</east>
 					<south>
-						<offset>(0.25, -0.047, 0.15)</offset>
+						<offset>(0.25, -0.047, 0.05)</offset>
 					</south>
 					<west>
 						<offset>(0.15, -0.05, 0.1)</offset> <!-- -Left/+Right, -Back/+Front, -Down/+Up -->
@@ -378,6 +384,7 @@
 		<graphicData>
 		  <texPath>Shields/ThetesShield/ThetesShield4_south</texPath>
 		  <graphicClass>Graphic_Single</graphicClass>
+		  <shaderType>CutoutComplex</shaderType>
 		</graphicData>
 		<techLevel>Medieval</techLevel>
 		<statBases>
@@ -387,7 +394,6 @@
 		</statBases>
 		<equippedStatOffsets>
 		  <ShootingAccuracyPawn>-0.5</ShootingAccuracyPawn>
-		  <MoveSpeed>-1.6</MoveSpeed>
 		</equippedStatOffsets>
 		<comps>
 			<li Class="VFECore.CompProperties_Shield">
@@ -405,6 +411,7 @@
 					<texPath>Shields/ThetesShield/ThetesShield4</texPath>
 					<graphicClass>Graphic_Multi</graphicClass>
 					<shaderType>CutoutComplex</shaderType>
+					<drawSize>1.6</drawSize>
 				</offHandGraphicData>
 				<offHandHoldOffset>
 					<northDefault>
@@ -416,7 +423,7 @@
 						<behind>true</behind>
 					</east>
 					<south>
-						<offset>(0.25, -0.047, 0.15)</offset>
+						<offset>(0.25, -0.047, 0.05)</offset>
 					</south>
 					<west>
 						<offset>(0.15, -0.05, 0.1)</offset> <!-- -Left/+Right, -Back/+Front, -Down/+Up -->
@@ -462,6 +469,8 @@
 		  </costList>
 	  </ThingDef>
 	
+<!-- Grand thetes shields -->
+
 	  <ThingDef ParentName="pphhyy_BoneReaper_ShieldBase">
 		<defName>pphhyy_BoneReapers_ThetesGrandShieldI</defName>
 		<label> thetes grand shield</label>
@@ -470,6 +479,7 @@
 		<graphicData>
 		  <texPath>Shields/ThetesGrandShield/ThetesGrandShield_south</texPath>
 		  <graphicClass>Graphic_Single</graphicClass>
+		  <shaderType>CutoutComplex</shaderType>
 		</graphicData>
 		<techLevel>Medieval</techLevel>
 		<statBases>
@@ -479,7 +489,6 @@
 		</statBases>
 		<equippedStatOffsets>
 		  <ShootingAccuracyPawn>-0.5</ShootingAccuracyPawn>
-		  <MoveSpeed>-1.6</MoveSpeed>
 		</equippedStatOffsets>
 		<comps>
 			<li Class="VFECore.CompProperties_Shield">
@@ -497,6 +506,7 @@
 					<texPath>Shields/ThetesGrandShield/ThetesGrandShield</texPath>
 					<graphicClass>Graphic_Multi</graphicClass>
 					<shaderType>CutoutComplex</shaderType>
+					<drawSize>1.6</drawSize>
 				</offHandGraphicData>
 				<offHandHoldOffset>
 					<northDefault>
@@ -508,7 +518,7 @@
 						<behind>true</behind>
 					</east>
 					<south>
-						<offset>(0.25, -0.047, 0.15)</offset>
+						<offset>(0.25, -0.047, 0.05)</offset>
 					</south>
 					<west>
 						<offset>(0.15, -0.05, 0.1)</offset> <!-- -Left/+Right, -Back/+Front, -Down/+Up -->
@@ -563,6 +573,7 @@
 		<graphicData>
 		  <texPath>Shields/ThetesGrandShield/ThetesGrandShield1_south</texPath>
 		  <graphicClass>Graphic_Single</graphicClass>
+		  <shaderType>CutoutComplex</shaderType>
 		</graphicData>
 		<techLevel>Medieval</techLevel>
 		<statBases>
@@ -572,7 +583,6 @@
 		</statBases>
 		<equippedStatOffsets>
 		  <ShootingAccuracyPawn>-0.5</ShootingAccuracyPawn>
-		  <MoveSpeed>-1.6</MoveSpeed>
 		</equippedStatOffsets>
 		<comps>
 			<li Class="VFECore.CompProperties_Shield">
@@ -590,6 +600,7 @@
 					<texPath>Shields/ThetesGrandShield/ThetesGrandShield1</texPath>
 					<graphicClass>Graphic_Multi</graphicClass>
 					<shaderType>CutoutComplex</shaderType>
+					<drawSize>1.6</drawSize>
 				</offHandGraphicData>
 				<offHandHoldOffset>
 					<northDefault>
@@ -601,7 +612,7 @@
 						<behind>true</behind>
 					</east>
 					<south>
-						<offset>(0.25, -0.047, 0.15)</offset>
+						<offset>(0.25, -0.047, 0.05)</offset>
 					</south>
 					<west>
 						<offset>(0.15, -0.05, 0.1)</offset> <!-- -Left/+Right, -Back/+Front, -Down/+Up -->
@@ -656,6 +667,7 @@
 		<graphicData>
 		  <texPath>Shields/ThetesGrandShield/ThetesGrandShield2_south</texPath>
 		  <graphicClass>Graphic_Single</graphicClass>
+		  <shaderType>CutoutComplex</shaderType>
 		</graphicData>
 		<techLevel>Medieval</techLevel>
 		<statBases>
@@ -665,7 +677,6 @@
 		</statBases>
 		<equippedStatOffsets>
 		  <ShootingAccuracyPawn>-0.5</ShootingAccuracyPawn>
-		  <MoveSpeed>-1.6</MoveSpeed>
 		</equippedStatOffsets>
 		<comps>
 			<li Class="VFECore.CompProperties_Shield">
@@ -683,6 +694,7 @@
 					<texPath>Shields/ThetesGrandShield/ThetesGrandShield2</texPath>
 					<graphicClass>Graphic_Multi</graphicClass>
 					<shaderType>CutoutComplex</shaderType>
+					<drawSize>1.6</drawSize>
 				</offHandGraphicData>
 				<offHandHoldOffset>
 					<northDefault>
@@ -694,7 +706,7 @@
 						<behind>true</behind>
 					</east>
 					<south>
-						<offset>(0.25, -0.047, 0.15)</offset>
+						<offset>(0.25, -0.047, 0.05)</offset>
 					</south>
 					<west>
 						<offset>(0.15, -0.05, 0.1)</offset> <!-- -Left/+Right, -Back/+Front, -Down/+Up -->
@@ -749,6 +761,7 @@
 		<graphicData>
 		  <texPath>Shields/ThetesGrandShield/ThetesGrandShield3_south</texPath>
 		  <graphicClass>Graphic_Single</graphicClass>
+		  <shaderType>CutoutComplex</shaderType>
 		</graphicData>
 		<techLevel>Medieval</techLevel>
 		<statBases>
@@ -758,7 +771,6 @@
 		</statBases>
 		<equippedStatOffsets>
 		  <ShootingAccuracyPawn>-0.5</ShootingAccuracyPawn>
-		  <MoveSpeed>-1.6</MoveSpeed>
 		</equippedStatOffsets>
 		<comps>
 			<li Class="VFECore.CompProperties_Shield">
@@ -776,6 +788,7 @@
 					<texPath>Shields/ThetesGrandShield/ThetesGrandShield3</texPath>
 					<graphicClass>Graphic_Multi</graphicClass>
 					<shaderType>CutoutComplex</shaderType>
+					<drawSize>1.6</drawSize>
 				</offHandGraphicData>
 				<offHandHoldOffset>
 					<northDefault>
@@ -787,7 +800,7 @@
 						<behind>true</behind>
 					</east>
 					<south>
-						<offset>(0.25, -0.047, 0.15)</offset>
+						<offset>(0.25, -0.047, 0.05)</offset>
 					</south>
 					<west>
 						<offset>(0.15, -0.05, 0.1)</offset> <!-- -Left/+Right, -Back/+Front, -Down/+Up -->
@@ -842,6 +855,7 @@
 		<graphicData>
 		  <texPath>Shields/ThetesGrandShield/ThetesGrandShield4_south</texPath>
 		  <graphicClass>Graphic_Single</graphicClass>
+		  <shaderType>CutoutComplex</shaderType>
 		</graphicData>
 		<techLevel>Medieval</techLevel>
 		<statBases>
@@ -851,7 +865,6 @@
 		</statBases>
 		<equippedStatOffsets>
 		  <ShootingAccuracyPawn>-0.5</ShootingAccuracyPawn>
-		  <MoveSpeed>-1.6</MoveSpeed>
 		</equippedStatOffsets>
 		<comps>
 			<li Class="VFECore.CompProperties_Shield">
@@ -869,6 +882,7 @@
 					<texPath>Shields/ThetesGrandShield/ThetesGrandShield4</texPath>
 					<graphicClass>Graphic_Multi</graphicClass>
 					<shaderType>CutoutComplex</shaderType>
+					<drawSize>1.6</drawSize>
 				</offHandGraphicData>
 				<offHandHoldOffset>
 					<northDefault>
@@ -880,7 +894,7 @@
 						<behind>true</behind>
 					</east>
 					<south>
-						<offset>(0.25, -0.047, 0.15)</offset>
+						<offset>(0.25, -0.047, 0.05)</offset>
 					</south>
 					<west>
 						<offset>(0.15, -0.05, 0.1)</offset> <!-- -Left/+Right, -Back/+Front, -Down/+Up -->
@@ -927,6 +941,8 @@
 		  </costList>
 	  </ThingDef>
 
+<!-- Archon shields -->
+
 	<ThingDef ParentName="pphhyy_BoneReaper_ShieldBase">
 		<defName>pphhyy_BoneReaper_ArchonShieldI</defName>
 		<label>archon shield</label>
@@ -969,7 +985,7 @@
 						<behind>true</behind>
 					</east>
 					<south>
-						<offset>(0.25, -0.047, 0.15)</offset>
+						<offset>(0.25, -0.047, 0.05)</offset>
 					</south>
 					<west>
 						<offset>(0.15, -0.05, 0.1)</offset>
@@ -1059,7 +1075,7 @@
 						<behind>true</behind>
 					</east>
 					<south>
-						<offset>(0.25, -0.047, 0.15)</offset>
+						<offset>(0.25, -0.047, 0.05)</offset>
 					</south>
 					<west>
 						<offset>(0.15, -0.05, 0.1)</offset>
@@ -1149,7 +1165,7 @@
 						<behind>true</behind>
 					</east>
 					<south>
-						<offset>(0.25, -0.047, 0.15)</offset>
+						<offset>(0.25, -0.047, 0.05)</offset>
 					</south>
 					<west>
 						<offset>(0.15, -0.05, 0.1)</offset>
@@ -1239,7 +1255,7 @@
 						<behind>true</behind>
 					</east>
 					<south>
-						<offset>(0.25, -0.047, 0.15)</offset>
+						<offset>(0.25, -0.047, 0.05)</offset>
 					</south>
 					<west>
 						<offset>(0.15, -0.05, 0.1)</offset>
@@ -1329,7 +1345,7 @@
 						<behind>true</behind>
 					</east>
 					<south>
-						<offset>(0.25, -0.047, 0.15)</offset>
+						<offset>(0.25, -0.047, 0.05)</offset>
 					</south>
 					<west>
 						<offset>(0.15, -0.05, 0.1)</offset>
