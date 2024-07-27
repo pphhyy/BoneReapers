@@ -16,6 +16,9 @@
       <li>pphhyy_OsseousLimbs</li>
       <li>pphhyy_SoulGems</li>
     </techHediffsTags>
+    <modExtensions> <!--  this stops the relationship bug from happening, add it to every pawn kind -->
+        <li Class="NoInitialRelationships.NoInitialRelationships" />
+    </modExtensions>
 
   </PawnKindDef>
 
