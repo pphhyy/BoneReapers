@@ -2,16 +2,17 @@
 
 <Defs>
 
-    <PawnKindDef Name="pphhyy_BoneReapers_Pawnkind_Base" Abstract="True">
+    <PawnKindDef Name="pphhyy_BoneReapers_Pawnkind_Player_Base" Abstract="True">
       <race>Human</race>
       <maxGenerationAge>60</maxGenerationAge>
-
+      <useFactionXenotypes>false</useFactionXenotypes>
     </PawnKindDef>
   
     <!-- Sepelire -->
   
     <PawnKindDef ParentName="pphhyy_BoneReapers_Pawnkind_Base">
       <defName>pphhyy_BoneReapers_Sepelire_Player</defName>
+      <fixedGender>Male</fixedGender>
       <label>sepelire</label>
       <xenotypeSet>
         <xenotypeChances>
@@ -29,10 +30,14 @@
       </requiredWorkTags>
       <initialWillRange>1~3</initialWillRange>
       <initialResistanceRange>17~27</initialResistanceRange>
+      <modExtensions> <!--  this stops the relationship bug from happening, add it to every pawn kind -->
+         <li Class="NoInitialRelationships.NoInitialRelationships" />
+      </modExtensions>
     </PawnKindDef>
     
     <PawnKindDef ParentName="pphhyy_BoneReapers_Pawnkind_Base">
         <defName>pphhyy_BoneReapers_Thetes_Player</defName>
+        <fixedGender>Male</fixedGender>
         <label>thetes</label>
         <xenotypeSet>
           <xenotypeChances>
@@ -50,6 +55,9 @@
         </requiredWorkTags>
         <initialWillRange>1~3</initialWillRange>
         <initialResistanceRange>17~27</initialResistanceRange>
+        <modExtensions> <!--  this stops the relationship bug from happening, add it to every pawn kind -->
+           <li Class="NoInitialRelationships.NoInitialRelationships" />
+        </modExtensions>
       </PawnKindDef>
       
     
@@ -72,6 +80,9 @@
         </requiredWorkTags>
         <initialWillRange>1~3</initialWillRange>
         <initialResistanceRange>17~27</initialResistanceRange>
+        <modExtensions> <!--  this stops the relationship bug from happening, add it to every pawn kind -->
+           <li Class="NoInitialRelationships.NoInitialRelationships" />
+        </modExtensions>
       </PawnKindDef>
           
     <PawnKindDef ParentName="pphhyy_BoneReapers_Pawnkind_Base">
@@ -93,10 +104,14 @@
         </requiredWorkTags>
         <initialWillRange>1~3</initialWillRange>
         <initialResistanceRange>17~27</initialResistanceRange>
+        <modExtensions> <!--  this stops the relationship bug from happening, add it to every pawn kind -->
+           <li Class="NoInitialRelationships.NoInitialRelationships" />
+        </modExtensions>
       </PawnKindDef>
           
     <PawnKindDef ParentName="pphhyy_BoneReapers_Pawnkind_Base">
         <defName>pphhyy_BoneReapers_Apokryphos_Player</defName>
+        <fixedGender>Female</fixedGender>
         <label>apokryphos</label>
         <xenotypeSet>
           <xenotypeChances>
@@ -114,6 +129,9 @@
         </requiredWorkTags>
         <initialWillRange>1~3</initialWillRange>
         <initialResistanceRange>17~27</initialResistanceRange>
+        <modExtensions> <!--  this stops the relationship bug from happening, add it to every pawn kind -->
+           <li Class="NoInitialRelationships.NoInitialRelationships" />
+        </modExtensions>
       </PawnKindDef>
       
   </Defs>
