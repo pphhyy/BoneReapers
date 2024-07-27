@@ -48,9 +48,37 @@
           <context>PlayerStarter</context>
         </li>
 
-        <!-- Player pawns start with no possessions eg. extra drugs. -->
-        <li Class="ScenPart_NoPossessions">
-          <def>NoPossessions</def>
+        <!-- Player starting stuff -->
+
+        <li Class="ScenPart_StartingThing_Defined">
+          <def>StartingThing_Defined</def>
+          <stuff>Steel</stuff>
+          <thingDef>pphhyy_BoneReapers_ThetesSword</thingDef>
+        </li>
+
+        <li Class="ScenPart_StartingThing_Defined">
+          <def>StartingThing_Defined</def>
+          <stuff>Steel</stuff>
+          <thingDef>pphhyy_BoneReapers_ThetesMace</thingDef>
+        </li>
+
+        <li Class="ScenPart_StartingThing_Defined">
+          <def>StartingThing_Defined</def>
+          <stuff>Steel</stuff>
+          <thingDef>pphhyy_BoneReapers_ThetesSpear</thingDef>
+        </li>
+
+        <li Class="ScenPart_StartingThing_Defined">
+          <def>StartingThing_Defined</def>
+          <stuff>Steel</stuff>
+          <thingDef>pphhyy_BoneReapers_ThetesBow</thingDef>
+        </li>
+
+        <li Class="ScenPart_StartingAnimal">
+          <def>StartingAnimal</def>
+          <count>2</count>
+          <animalKind>pphhyy_Scarab</animalKind>
+          <bondToRandomPlayerPawnChance>1.0</bondToRandomPlayerPawnChance>
         </li>
 
         <!-- Starting research -->
