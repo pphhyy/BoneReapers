@@ -365,7 +365,7 @@
             <AccuracyLong>0.30</AccuracyLong>
             <RangedWeapon_Cooldown>1.75</RangedWeapon_Cooldown>
         </statBases>
-        <equippedAngleOffset>-65</equippedAngleOffset>
+        
         <soundInteract>Interact_BladelinkMonoSword</soundInteract>
         <meleeHitSound>MeleeHit_BladelinkMonoSword</meleeHitSound>
         <tools>
@@ -538,7 +538,7 @@
 
     <!-- Thetes Great Mace -->
 
-    <ThingDef ParentName="BaseMeleeWeapon_Blunt_Quality">
+    <ThingDef ParentName="pphhyy_Base_SharpSword_Oversize">
         <defName>pphhyy_BoneReapers_SoulThetesGreatMace</defName>
         <label>Soul thetes great mace</label>
         <description>Yes</description>
@@ -549,7 +549,7 @@
         </graphicData>
         <uiIconScale>1.2</uiIconScale>
         <techLevel>Medieval</techLevel>
-        <equippedAngleOffset>-65</equippedAngleOffset>
+        
 
         <statBases>
             <WorkToMake>18000</WorkToMake>
@@ -609,7 +609,7 @@
 
     <!-- Thetes Scythe -->
 
-    <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
+    <ThingDef ParentName="pphhyy_Base_SharpSword_Oversize">
         <defName>pphhyy_BoneReapers_SoulThetesScythe</defName>
         <label>Soul thetes scythe</label>
         <description>Yes</description>
@@ -640,7 +640,7 @@
             <Mass>2</Mass>
         </statBases>
 
-        <equippedAngleOffset>-65</equippedAngleOffset>
+        
 
         <costList>
             <pphhyy_GreaterSoul>2</pphhyy_GreaterSoul>
@@ -765,7 +765,6 @@
         <graphicData>
             <texPath>Weapons/SoulWeapons/SoulThetesGreatSword</texPath>
             <graphicClass>Graphic_Single</graphicClass>
-            <drawSize>(1.25,1.25)</drawSize>
         </graphicData>
 
         <statBases>
@@ -829,18 +828,16 @@
     <!-- Archon Sword -->
 
 
-    <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
+    <ThingDef ParentName="pphhyy_Base_SharpSword_Oversize">
         <defName>pphhyy_BoneReapers_SoulArchonSword</defName>
         <label>Soul archon sword</label>
         <description>Yes</description>
         <graphicData>
             <texPath>Weapons/SoulWeapons/SoulArchonSword</texPath>
             <graphicClass>Graphic_Single</graphicClass>
-
+            <drawSize>1.5</drawSize>
         </graphicData>
         <techLevel>Medieval</techLevel>
-        <equippedAngleOffset>-65</equippedAngleOffset>
-
         <statBases>
             <WorkToMake>13000</WorkToMake>
             <Mass>1</Mass>

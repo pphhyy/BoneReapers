@@ -14,8 +14,7 @@
 		<equipmentType>None</equipmentType>
 		<equippedStatOffsets>
 			<ShootingAccuracyPawn>-0.5</ShootingAccuracyPawn>
-			<MoveSpeed>-1.6</MoveSpeed>
-			<MeleeDodgeChance>-5</MeleeDodgeChance>
+			<MoveSpeed>1.6</MoveSpeed>
 		</equippedStatOffsets>
 		<thingClass>VFECore.Apparel_Shield</thingClass>
 		<statBases>
