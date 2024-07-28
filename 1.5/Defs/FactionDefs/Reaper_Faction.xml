@@ -12,11 +12,11 @@
     </colorSpectrum>
     <xenotypeSet>
       <xenotypeChances>
-        <pphhyy_BoneReaper_Sepelire>10</pphhyy_BoneReaper_Sepelire>
-        <pphhyy_BoneReaper_Thetes>70</pphhyy_BoneReaper_Thetes>
-        <pphhyy_BoneReaper_Phalangite>16</pphhyy_BoneReaper_Phalangite>
-        <pphhyy_BoneReaper_Archon>2</pphhyy_BoneReaper_Archon>
-        <pphhyy_BoneReaper_Apokryphos>5</pphhyy_BoneReaper_Apokryphos>
+        <pphhyy_BoneReaper_Sepelire>0.10</pphhyy_BoneReaper_Sepelire>
+        <pphhyy_BoneReaper_Thetes>0.70</pphhyy_BoneReaper_Thetes>
+        <pphhyy_BoneReaper_Phalangite>0.16</pphhyy_BoneReaper_Phalangite>
+        <pphhyy_BoneReaper_Archon>0.02</pphhyy_BoneReaper_Archon>
+        <pphhyy_BoneReaper_Apokryphos>0.05</pphhyy_BoneReaper_Apokryphos>
       </xenotypeChances>
     </xenotypeSet>
     <maxConfigurableAtWorldCreation>9999</maxConfigurableAtWorldCreation>
