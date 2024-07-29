@@ -6,11 +6,14 @@
       <race>Human</race>
       <maxGenerationAge>60</maxGenerationAge>
       <useFactionXenotypes>false</useFactionXenotypes>
+      <requiredWorkTags>
+        <li>Violent</li>
+      </requiredWorkTags>
     </PawnKindDef>
   
     <!-- Sepelire -->
   
-    <PawnKindDef ParentName="pphhyy_BoneReapers_Pawnkind_Base">
+    <PawnKindDef ParentName="pphhyy_BoneReapers_Pawnkind_Player_Base">
       <defName>pphhyy_BoneReapers_Sepelire_Player</defName>
       <fixedGender>Male</fixedGender>
       <label>sepelire</label>
@@ -35,7 +38,9 @@
       </modExtensions>
     </PawnKindDef>
     
-    <PawnKindDef ParentName="pphhyy_BoneReapers_Pawnkind_Base">
+    <!-- Thetes -->
+
+    <PawnKindDef ParentName="pphhyy_BoneReapers_Pawnkind_Player_Base">
         <defName>pphhyy_BoneReapers_Thetes_Player</defName>
         <fixedGender>Male</fixedGender>
         <label>thetes</label>
@@ -60,8 +65,9 @@
         </modExtensions>
       </PawnKindDef>
       
-    
-      <PawnKindDef ParentName="pphhyy_BoneReapers_Pawnkind_Base">
+        <!-- Phalangite -->
+
+      <PawnKindDef ParentName="pphhyy_BoneReapers_Pawnkind_Player_Base">
         <defName>pphhyy_BoneReapers_Phalangite_Player</defName>
         <label>phalangite</label>
         <xenotypeSet>
@@ -84,8 +90,10 @@
            <li Class="NoInitialRelationships.NoInitialRelationships" />
         </modExtensions>
       </PawnKindDef>
-          
-    <PawnKindDef ParentName="pphhyy_BoneReapers_Pawnkind_Base">
+       
+      <!-- Archon -->
+
+    <PawnKindDef ParentName="pphhyy_BoneReapers_Pawnkind_Player_Base">
         <defName>pphhyy_BoneReapers_Archon_Player</defName>
         <label>archon</label>
         <xenotypeSet>
@@ -108,8 +116,10 @@
            <li Class="NoInitialRelationships.NoInitialRelationships" />
         </modExtensions>
       </PawnKindDef>
-          
-    <PawnKindDef ParentName="pphhyy_BoneReapers_Pawnkind_Base">
+
+     <!-- Apokryphos-->
+
+    <PawnKindDef ParentName="pphhyy_BoneReapers_Pawnkind_Player_Base">
         <defName>pphhyy_BoneReapers_Apokryphos_Player</defName>
         <fixedGender>Female</fixedGender>
         <label>apokryphos</label>

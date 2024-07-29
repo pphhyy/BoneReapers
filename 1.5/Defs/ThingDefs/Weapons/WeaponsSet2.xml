@@ -336,6 +336,10 @@
         <weaponTags>
             <li>pphhyy_BoneReapers_SoulThetesStaff</li>
         </weaponTags>
+        <equippedStatOffsets>
+            <MeditationFocusGain>0.1</MeditationFocusGain>
+            <PsychicSensitivityOffset>0.50</PsychicSensitivityOffset>
+        </equippedStatOffsets>
         <comps>
             <li>
                 <compClass>CompQuality</compClass>

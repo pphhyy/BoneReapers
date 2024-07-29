@@ -83,7 +83,7 @@
 			<recipeUsers>
 			  <li>pphhyy_SiparBench</li>
 			</recipeUsers>
-			<researchPrerequisite>pphhyy_BasicShieldTech</researchPrerequisite>
+			<researchPrerequisite>pphhyy_BasicShield</researchPrerequisite>
 			<skillRequirements>
 			  <Crafting>4</Crafting>
 			</skillRequirements>
@@ -176,7 +176,7 @@
 			<recipeUsers>
 			  <li>pphhyy_SiparBench</li>
 			</recipeUsers>
-			<researchPrerequisite>pphhyy_BasicShieldTech</researchPrerequisite>
+			<researchPrerequisite>pphhyy_BasicShield</researchPrerequisite>
 			<skillRequirements>
 			  <Crafting>4</Crafting>
 			</skillRequirements>
@@ -269,7 +269,7 @@
 			<recipeUsers>
 			  <li>pphhyy_SiparBench</li>
 			</recipeUsers>
-			<researchPrerequisite>pphhyy_BasicShieldTech</researchPrerequisite>
+			<researchPrerequisite>pphhyy_BasicShield</researchPrerequisite>
 			<skillRequirements>
 			  <Crafting>4</Crafting>
 			</skillRequirements>
@@ -362,7 +362,7 @@
 			<recipeUsers>
 			  <li>pphhyy_SiparBench</li>
 			</recipeUsers>
-			<researchPrerequisite>pphhyy_BasicShieldTech</researchPrerequisite>
+			<researchPrerequisite>pphhyy_BasicShield</researchPrerequisite>
 			<skillRequirements>
 			  <Crafting>4</Crafting>
 			</skillRequirements>
@@ -455,7 +455,7 @@
 			<recipeUsers>
 			  <li>pphhyy_SiparBench</li>
 			</recipeUsers>
-			<researchPrerequisite>pphhyy_BasicShieldTech</researchPrerequisite>
+			<researchPrerequisite>pphhyy_BasicShield</researchPrerequisite>
 			<skillRequirements>
 			  <Crafting>4</Crafting>
 			</skillRequirements>
@@ -550,7 +550,7 @@
 			<recipeUsers>
 			  <li>pphhyy_SiparBench</li>
 			</recipeUsers>
-			<researchPrerequisite>pphhyy_AdvancedShieldTech</researchPrerequisite>
+			<researchPrerequisite>pphhyy_AdvancedShield</researchPrerequisite>
 			<skillRequirements>
 			  <Crafting>6</Crafting>
 			</skillRequirements>
@@ -644,7 +644,7 @@
 			<recipeUsers>
 			  <li>pphhyy_SiparBench</li>
 			</recipeUsers>
-			<researchPrerequisite>pphhyy_AdvancedShieldTech</researchPrerequisite>
+			<researchPrerequisite>pphhyy_AdvancedShield</researchPrerequisite>
 			<skillRequirements>
 			  <Crafting>6</Crafting>
 			</skillRequirements>
@@ -738,7 +738,7 @@
 			<recipeUsers>
 			  <li>pphhyy_SiparBench</li>
 			</recipeUsers>
-			<researchPrerequisite>pphhyy_AdvancedShieldTech</researchPrerequisite>
+			<researchPrerequisite>pphhyy_AdvancedShield</researchPrerequisite>
 			<skillRequirements>
 			  <Crafting>6</Crafting>
 			</skillRequirements>
@@ -832,7 +832,7 @@
 			<recipeUsers>
 			  <li>pphhyy_SiparBench</li>
 			</recipeUsers>
-			<researchPrerequisite>pphhyy_AdvancedShieldTech</researchPrerequisite>
+			<researchPrerequisite>pphhyy_AdvancedShield</researchPrerequisite>
 			<skillRequirements>
 			  <Crafting>6</Crafting>
 			</skillRequirements>
@@ -926,7 +926,7 @@
 			<recipeUsers>
 			  <li>pphhyy_SiparBench</li>
 			</recipeUsers>
-			<researchPrerequisite>pphhyy_AdvancedShieldTech</researchPrerequisite>
+			<researchPrerequisite>pphhyy_AdvancedShield</researchPrerequisite>
 			<skillRequirements>
 			  <Crafting>6</Crafting>
 			</skillRequirements>
@@ -1017,7 +1017,7 @@
 			  <recipeUsers>
 				<li>pphhyy_SiparBench</li>
 			  </recipeUsers>
-			  <researchPrerequisite>pphhyy_ArchonShieldTech</researchPrerequisite>
+			  <researchPrerequisite>pphhyy_ArchonShield</researchPrerequisite>
 			  <skillRequirements>
 				<Crafting>8</Crafting>
 			  </skillRequirements>
@@ -1107,7 +1107,7 @@
 			  <recipeUsers>
 				<li>pphhyy_SiparBench</li>
 			  </recipeUsers>
-			  <researchPrerequisite>pphhyy_ArchonShieldTech</researchPrerequisite>
+			  <researchPrerequisite>pphhyy_ArchonShield</researchPrerequisite>
 			  <skillRequirements>
 				<Crafting>8</Crafting>
 			  </skillRequirements>
@@ -1197,7 +1197,7 @@
 			  <recipeUsers>
 				<li>pphhyy_SiparBench</li>
 			  </recipeUsers>
-			  <researchPrerequisite>pphhyy_ArchonShieldTech</researchPrerequisite>
+			  <researchPrerequisite>pphhyy_ArchonShield</researchPrerequisite>
 			  <skillRequirements>
 				<Crafting>8</Crafting>
 			  </skillRequirements>
@@ -1287,7 +1287,7 @@
 			  <recipeUsers>
 				<li>pphhyy_SiparBench</li>
 			  </recipeUsers>
-			  <researchPrerequisite>pphhyy_ArchonShieldTech</researchPrerequisite>
+			  <researchPrerequisite>pphhyy_ArchonShield</researchPrerequisite>
 			  <skillRequirements>
 				<Crafting>8</Crafting>
 			  </skillRequirements>
@@ -1377,7 +1377,7 @@
 			  <recipeUsers>
 				<li>pphhyy_SiparBench</li>
 			  </recipeUsers>
-			  <researchPrerequisite>pphhyy_ArchonShieldTech</researchPrerequisite>
+			  <researchPrerequisite>pphhyy_ArchonShield</researchPrerequisite>
 			  <skillRequirements>
 				<Crafting>8</Crafting>
 			  </skillRequirements>

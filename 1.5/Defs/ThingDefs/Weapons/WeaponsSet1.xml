@@ -345,7 +345,10 @@
     <costList>
       <pphhyy_HumanBones>20</pphhyy_HumanBones>
     </costList>
-
+    <equippedStatOffsets>
+      <MeditationFocusGain>0.1</MeditationFocusGain>
+      <PsychicSensitivityOffset>0.50</PsychicSensitivityOffset>
+    </equippedStatOffsets>
     <statBases>
       <WorkToMake>18000</WorkToMake>
       <Mass>3</Mass>

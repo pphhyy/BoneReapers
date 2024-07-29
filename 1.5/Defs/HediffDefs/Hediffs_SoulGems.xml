@@ -31,7 +31,7 @@
             <li>pphhyy_SoulGems</li>
           </techHediffsTags>
         <recipeMaker>
-          <researchPrerequisite>pphhyy_SoulImplants</researchPrerequisite>
+          <researchPrerequisite>pphhyy_SoulGems</researchPrerequisite>
           <recipeUsers>
             <li>pphhyy_AnkylosisTable</li>
         </recipeUsers>
@@ -102,7 +102,7 @@
         <li>pphhyy_SoulGems</li>
       </techHediffsTags>
     <recipeMaker>
-        <researchPrerequisite>pphhyy_SoulImplants</researchPrerequisite>
+        <researchPrerequisite>pphhyy_SoulGems</researchPrerequisite>
         <recipeUsers>
           <li>pphhyy_AnkylosisTable</li>
       </recipeUsers>
@@ -171,7 +171,7 @@
         <li>pphhyy_SoulGems</li>
       </techHediffsTags>
     <recipeMaker>
-        <researchPrerequisite>pphhyy_SoulImplants</researchPrerequisite>
+        <researchPrerequisite>pphhyy_SoulGems</researchPrerequisite>
         <recipeUsers>
           <li>pphhyy_AnkylosisTable</li>
       </recipeUsers>
@@ -246,7 +246,7 @@
         <pphhyy_GreaterSoul>2</pphhyy_GreaterSoul>
     </costList>
     <recipeMaker>
-        <researchPrerequisite>pphhyy_SoulImplants</researchPrerequisite>
+        <researchPrerequisite>pphhyy_SoulGems</researchPrerequisite>
         <recipeUsers>
           <li>pphhyy_AnkylosisTable</li>
       </recipeUsers>
@@ -317,7 +317,7 @@
         <li>pphhyy_SoulGems</li>
       </techHediffsTags>
     <recipeMaker>
-        <researchPrerequisite>pphhyy_SoulImplants</researchPrerequisite>
+        <researchPrerequisite>pphhyy_SoulGems</researchPrerequisite>
         <recipeUsers>
           <li>pphhyy_AnkylosisTable</li>
       </recipeUsers>
@@ -390,7 +390,7 @@
         <li>pphhyy_SoulGems</li>
       </techHediffsTags>
     <recipeMaker>
-        <researchPrerequisite>pphhyy_SoulImplants</researchPrerequisite>
+        <researchPrerequisite>pphhyy_SoulGems</researchPrerequisite>
         <recipeUsers>
           <li>pphhyy_AnkylosisTable</li>
       </recipeUsers>
