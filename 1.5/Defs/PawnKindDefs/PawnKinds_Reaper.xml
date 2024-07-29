@@ -19,7 +19,6 @@
     <modExtensions> <!--  this stops the relationship bug from happening, add it to every pawn kind -->
         <li Class="NoInitialRelationships.NoInitialRelationships" />
     </modExtensions>
-
   </PawnKindDef>
 
   <PawnKindDef ParentName="pphhyy_BoneReapers_Pawnkind_Base" Name="pphhyy_BoneReapers_Ranged_Pawn_Base" Abstract="True">

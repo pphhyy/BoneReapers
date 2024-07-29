@@ -49,7 +49,7 @@
 		    <useWornGraphicMask>true</useWornGraphicMask>
 		</apparel>
 		<recipeMaker>
-			<researchPrerequisite>pphhyy_ArchonArmorTech</researchPrerequisite>
+			<researchPrerequisite>pphhyy_ArchonArmor</researchPrerequisite>
 			<skillRequirements>
 				<Crafting>6</Crafting>
 			</skillRequirements>

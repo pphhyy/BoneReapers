@@ -229,6 +229,7 @@
   <label>hathiyar bench</label>
   <description>PLACEHOLDER</description>
   <thingClass>Building_WorkTable</thingClass>
+  <defaultPlacingRot>South</defaultPlacingRot>
   <graphicData>
     <texPath>Buildings/HathiyarBench/HathiyarBench</texPath>
     <graphicClass>Graphic_Multi</graphicClass>
@@ -300,6 +301,7 @@
   <label>yoroi bench</label>
   <description>PLACEHOLDER</description>
   <thingClass>Building_WorkTable</thingClass>
+  <defaultPlacingRot>South</defaultPlacingRot>
   <graphicData>
     <texPath>Buildings/YoroiBench/YoroiBench</texPath>
     <graphicClass>Graphic_Multi</graphicClass>
@@ -342,7 +344,7 @@
   <interactionCellOffset>(0,0,-1)</interactionCellOffset>
   <surfaceType>Item</surfaceType>
   <researchPrerequisites>
-    <li>pphhyy_BasicArmorTech</li>
+    <li>pphhyy_BasicArmor</li>
   </researchPrerequisites>
   <inspectorTabs>
     <li>ITab_Bills</li>
@@ -370,6 +372,7 @@
   <label>sipar bench</label>
   <description>PLACEHOLDER</description>
   <thingClass>Building_WorkTable</thingClass>
+  <defaultPlacingRot>South</defaultPlacingRot>
   <graphicData>
     <texPath>Buildings/SiparBench/SiparBench</texPath>
     <graphicClass>Graphic_Multi</graphicClass>
@@ -412,7 +415,7 @@
   <interactionCellOffset>(0,0,-1)</interactionCellOffset>
   <surfaceType>Item</surfaceType>
   <researchPrerequisites>
-    <li>pphhyy_BasicShieldTech</li>
+    <li>pphhyy_BasicShield</li>
   </researchPrerequisites>
   <inspectorTabs>
     <li>ITab_Bills</li>

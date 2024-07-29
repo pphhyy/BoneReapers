@@ -20,21 +20,21 @@
         <researchViewX>0.00</researchViewX>
         <researchViewY>1.50</researchViewY>
     </ResearchProjectDef>
-
+    
     <ResearchProjectDef>
-        <defName>pphhyy_SoulLamp</defName>
-        <label>soul lamp</label>
-        <description>Build ever burning lamps that utilize souls in their construction and give off an eerie glow.</description>
-        <baseCost>500</baseCost>
+        <defName>pphhyy_GreaterHarvest</defName>
+        <label>greater harvest</label>
+        <description>Perform a greater harvest.</description>
+        <baseCost>2000</baseCost>
         <techLevel>Medieval</techLevel>
         <tab>pphhyy_Bonereapers</tab>
         <prerequisites>
             <li>pphhyy_BoneReaperTech</li>
         </prerequisites>
-        <researchViewX>0.00</researchViewX>
-        <researchViewY>3.00</researchViewY>
-    </ResearchProjectDef>
-    
+        <researchViewX>5.00</researchViewX>
+        <researchViewY>2.00</researchViewY>
+    </ResearchProjectDef>   
+
     <ResearchProjectDef>
         <defName>pphhyy_SoulFermenting</defName>
         <label>soul fermenting</label>
@@ -220,8 +220,8 @@
     </ResearchProjectDef>    
     
     <ResearchProjectDef>
-        <defName>pphhyy_BasicArmorTech</defName>
-        <label>basic armor tech</label>
+        <defName>pphhyy_BasicArmor</defName>
+        <label>basic armor</label>
         <description>Craft tier 1 and tier 2 bone reaper armors.</description>
         <baseCost>750</baseCost>
         <techLevel>Medieval</techLevel>
@@ -234,28 +234,28 @@
     </ResearchProjectDef>
     
     <ResearchProjectDef>
-        <defName>pphhyy_AdvancedArmorTech</defName>
-        <label>advanced armor tech</label>
+        <defName>pphhyy_AdvancedArmor</defName>
+        <label>advanced armor</label>
         <description>Craft tier 3 and tier 4 bone reaper armors.</description>
         <baseCost>1000</baseCost>
         <techLevel>Medieval</techLevel>
         <tab>pphhyy_Bonereapers</tab>
         <prerequisites>
-            <li>pphhyy_BasicArmorTech</li>
+            <li>pphhyy_BasicArmor</li>
         </prerequisites>
         <researchViewX>2.00</researchViewX>
         <researchViewY>3.75</researchViewY>
     </ResearchProjectDef>
     
     <ResearchProjectDef>
-        <defName>pphhyy_ArchonArmorTech</defName>
-        <label>archon armor tech</label>
+        <defName>pphhyy_ArchonArmor</defName>
+        <label>archon armor</label>
         <description>Craft archon armors.</description>
         <baseCost>1500</baseCost>
         <techLevel>Medieval</techLevel>
         <tab>pphhyy_Bonereapers</tab>
         <prerequisites>
-            <li>pphhyy_AdvancedArmorTech</li>
+            <li>pphhyy_AdvancedArmor</li>
         </prerequisites>
         <researchViewX>4.00</researchViewX>
         <researchViewY>3.75</researchViewY>
@@ -263,8 +263,8 @@
 
 
     <ResearchProjectDef>
-        <defName>pphhyy_BasicShieldTech</defName>
-        <label>thetes shield tech</label>
+        <defName>pphhyy_BasicShield</defName>
+        <label>thetes shield</label>
         <description>Craft thetes shields.</description>
         <baseCost>750</baseCost>
         <techLevel>Medieval</techLevel>
@@ -277,28 +277,28 @@
     </ResearchProjectDef>     
 
     <ResearchProjectDef>
-        <defName>pphhyy_AdvancedShieldTech</defName>
-        <label>grand thetes shield tech</label>
+        <defName>pphhyy_AdvancedShield</defName>
+        <label>grand thetes shield</label>
         <description>Craft grand thetes shields.</description>
         <baseCost>1000</baseCost>
         <techLevel>Medieval</techLevel>
         <tab>pphhyy_Bonereapers</tab>
         <prerequisites>
-            <li>pphhyy_BasicShieldTech</li>
+            <li>pphhyy_BasicShield</li>
         </prerequisites>
         <researchViewX>2.00</researchViewX>
         <researchViewY>5</researchViewY>
     </ResearchProjectDef>     
 
     <ResearchProjectDef>
-        <defName>pphhyy_ArchonShieldTech</defName>
-        <label>archon shield tech</label>
+        <defName>pphhyy_ArchonShield</defName>
+        <label>archon shield</label>
         <description>Craft archon shields.</description>
         <baseCost>1500</baseCost>
         <techLevel>Medieval</techLevel>
         <tab>pphhyy_Bonereapers</tab>
         <prerequisites>
-            <li>pphhyy_AdvancedShieldTech</li>
+            <li>pphhyy_AdvancedShield</li>
         </prerequisites>
         <researchViewX>4.00</researchViewX>
         <researchViewY>5</researchViewY>
@@ -330,9 +330,9 @@
     </ResearchProjectDef>   
 
     <ResearchProjectDef>
-        <defName>pphhyy_SoulImplants</defName>
-        <label>soul implants</label>
-        <description>Craft soul implants</description>
+        <defName>pphhyy_SoulGems</defName>
+        <label>soul gems</label>
+        <description>Craft soul gems</description>
         <baseCost>2000</baseCost>
         <techLevel>Medieval</techLevel>
         <tab>pphhyy_Bonereapers</tab>

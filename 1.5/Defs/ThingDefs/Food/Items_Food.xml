@@ -27,6 +27,22 @@
     </ingestible>
   </ThingDef>
 
+  <ThoughtDef>
+    <defName>pphhyy_AteSoulBerries</defName>
+    <thoughtClass>Thought_Memory</thoughtClass>
+    <validWhileDespawned>true</validWhileDespawned>
+    <stackLimit>1</stackLimit>
+    <durationDays>4</durationDays>
+    <stages>
+      <li>
+        <label>ate soul berries</label>
+        <description>PLACEHOLDER</description>
+        <baseMoodEffect>5</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+
   <RecipeDef ParentName="CookMealFineBase">
     <defName>pphhyy_CookSoulBerries</defName>
     <label>cook soul berries</label>

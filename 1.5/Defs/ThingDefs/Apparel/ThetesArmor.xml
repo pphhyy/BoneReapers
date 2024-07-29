@@ -10,7 +10,7 @@
         <li>pphhyy_YoroiBench</li>
       </recipeUsers>
       <unfinishedThingDef>UnfinishedMetallicTechArmor</unfinishedThingDef>
-      <researchPrerequisite>pphhyy_BasicArmorTech</researchPrerequisite>
+      <researchPrerequisite>pphhyy_BasicArmor</researchPrerequisite>
       <skillRequirements>
         <Crafting>7</Crafting>
       </skillRequirements>
@@ -80,7 +80,7 @@
         <li>pphhyy_YoroiBench</li>
       </recipeUsers>
       <unfinishedThingDef>UnfinishedMetallicTechArmor</unfinishedThingDef>
-      <researchPrerequisite>pphhyy_BasicArmorTech</researchPrerequisite>
+      <researchPrerequisite>pphhyy_BasicArmor</researchPrerequisite>
       <skillRequirements>
         <Crafting>7</Crafting>
       </skillRequirements>
@@ -151,7 +151,7 @@
         <li>pphhyy_YoroiBench</li>
       </recipeUsers>
       <unfinishedThingDef>UnfinishedMetallicTechArmor</unfinishedThingDef>
-      <researchPrerequisite>pphhyy_AdvancedArmorTech</researchPrerequisite>
+      <researchPrerequisite>pphhyy_AdvancedArmor</researchPrerequisite>
       <skillRequirements>
         <Crafting>7</Crafting>
       </skillRequirements>
@@ -222,7 +222,7 @@
         <li>pphhyy_YoroiBench</li>
       </recipeUsers>
       <unfinishedThingDef>UnfinishedMetallicTechArmor</unfinishedThingDef>
-      <researchPrerequisite>pphhyy_AdvancedArmorTech</researchPrerequisite>
+      <researchPrerequisite>pphhyy_AdvancedArmor</researchPrerequisite>
       <skillRequirements>
         <Crafting>7</Crafting>
       </skillRequirements>

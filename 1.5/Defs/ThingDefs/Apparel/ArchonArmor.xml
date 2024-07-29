@@ -10,7 +10,7 @@
         <li>pphhyy_YoroiBench</li>
       </recipeUsers>
       <unfinishedThingDef>UnfinishedMetallicTechArmor</unfinishedThingDef>
-      <researchPrerequisite>pphhyy_ArchonArmorTech</researchPrerequisite>
+      <researchPrerequisite>pphhyy_ArchonArmor</researchPrerequisite>
       <skillRequirements>
         <Crafting>9</Crafting>
       </skillRequirements>
