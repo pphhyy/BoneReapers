@@ -14,7 +14,7 @@
       <CleaningTimeFactor>0.8</CleaningTimeFactor>
     </statBases>
     <costList>
-      <Steel>2</Steel>
+      <pphhyy_BoneMoldSteel>2</pphhyy_BoneMoldSteel>
     </costList>
     <designationHotKey>Misc8</designationHotKey>
     <!-- <researchPrerequisites>
@@ -36,7 +36,7 @@
       <CleaningTimeFactor>0.8</CleaningTimeFactor>
     </statBases>
     <costList>
-      <Steel>2</Steel>
+      <pphhyy_BoneMoldSteel>2</pphhyy_BoneMoldSteel>
     </costList>
     <designationHotKey>Misc8</designationHotKey>
     <!-- <researchPrerequisites>

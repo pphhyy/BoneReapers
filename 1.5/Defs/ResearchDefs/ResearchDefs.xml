@@ -32,7 +32,7 @@
             <li>pphhyy_BoneReaperTech</li>
         </prerequisites>
         <researchViewX>5.00</researchViewX>
-        <researchViewY>2.00</researchViewY>
+        <researchViewY>2.30</researchViewY>
     </ResearchProjectDef>   
 
     <ResearchProjectDef>
@@ -424,6 +424,17 @@
         <tab>pphhyy_Bonereapers</tab>
         <researchViewX>8.50</researchViewX>
         <researchViewY>0.00</researchViewY>
+    </ResearchProjectDef>
+
+    <ResearchProjectDef>
+        <defName>pphhyy_KnowledgeExtraction</defName>
+        <label>knowledge extraction</label>
+        <description>PLACEHOLDER</description>
+        <baseCost>1000</baseCost>
+        <techLevel>Medieval</techLevel>
+        <tab>pphhyy_Bonereapers</tab>
+        <researchViewX>6.00</researchViewX>
+        <researchViewY>2.30</researchViewY>
     </ResearchProjectDef>
 
 </Defs>    
