@@ -19,8 +19,8 @@
 			</skillRequirements>
 		</recipeMaker>
 		<costList>
-			<pphhyy_GreaterSoul>1</pphhyy_GreaterSoul>
-			<pphhyy_HumanBones>10</pphhyy_HumanBones>
+			<pphhyy_GreaterSoul>2</pphhyy_GreaterSoul>
+			<pphhyy_HumanBones>60</pphhyy_HumanBones>
 		</costList>
 		<comps>
 			<li Class="HatchAsPlayerFaction.CompProperties_SpawnHumanlike">
@@ -46,8 +46,8 @@
 			</skillRequirements>
 		</recipeMaker>
 		<costList>
-			<pphhyy_GreaterSoul>1</pphhyy_GreaterSoul>
-			<pphhyy_HumanBones>15</pphhyy_HumanBones>
+			<pphhyy_GreaterSoul>2</pphhyy_GreaterSoul>
+			<pphhyy_HumanBones>60</pphhyy_HumanBones>
 		</costList>
 		<comps>
 			<li Class="HatchAsPlayerFaction.CompProperties_SpawnHumanlike">
@@ -73,8 +73,8 @@
 			</skillRequirements>
 		</recipeMaker>
 		<costList>
-			<pphhyy_GreaterSoul>1</pphhyy_GreaterSoul>
-			<pphhyy_HumanBones>20</pphhyy_HumanBones>
+			<pphhyy_GreaterSoul>4</pphhyy_GreaterSoul>
+			<pphhyy_HumanBones>120</pphhyy_HumanBones>
 		</costList>
 		<comps>
 			<li Class="HatchAsPlayerFaction.CompProperties_SpawnHumanlike">
@@ -100,8 +100,8 @@
 			</skillRequirements>
 		</recipeMaker>
 		<costList>
-			<pphhyy_GreaterSoul>1</pphhyy_GreaterSoul>
-			<pphhyy_HumanBones>30</pphhyy_HumanBones>
+			<pphhyy_GreaterSoul>8</pphhyy_GreaterSoul>
+			<pphhyy_HumanBones>240</pphhyy_HumanBones>
 		</costList>
 		<comps>
 			<li Class="HatchAsPlayerFaction.CompProperties_SpawnHumanlike">
@@ -127,8 +127,8 @@
 			</skillRequirements>
 		</recipeMaker>
 		<costList>
-			<pphhyy_GreaterSoul>1</pphhyy_GreaterSoul>
-			<pphhyy_HumanBones>40</pphhyy_HumanBones>
+			<pphhyy_GreaterSoul>2</pphhyy_GreaterSoul>
+			<pphhyy_HumanBones>30</pphhyy_HumanBones>
 		</costList>
 		<comps>
 			<li Class="HatchAsPlayerFaction.CompProperties_SpawnHumanlike">

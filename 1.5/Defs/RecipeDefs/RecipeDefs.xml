@@ -30,6 +30,7 @@
   <TextBook>1</TextBook>
 </products>
 <displayPriority>1430</displayPriority>
+<researchPrerequisite>pphhyy_KnowledgeExtraction</researchPrerequisite>
 </RecipeDef>
 
  <!-- Greater Harvest -->
@@ -140,6 +141,13 @@
     <pphhyy_LesserSoul>1</pphhyy_LesserSoul>
 </products>
 <researchPrerequisite>pphhyy_GreaterHarvest</researchPrerequisite>
+<modExtensions>
+  <li Class="ProductCountFromBodySize.ProductByBodySize">
+    <indexesToSkip>
+      <li>2</li>
+    </indexesToSkip>
+  </li>
+</modExtensions>
 </RecipeDef>
 
 </Defs>

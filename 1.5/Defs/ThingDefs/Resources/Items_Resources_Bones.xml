@@ -175,6 +175,10 @@
 		  <pphhyy_AnimalBones>15</pphhyy_AnimalBones>
 	</products>
   <researchPrerequisite>pphhyy_BoneReaperTech</researchPrerequisite>
+  <modExtensions>
+    <li Class="ProductCountFromBodySize.ProductByBodySize">
+    </li>
+  </modExtensions>
   </RecipeDef>
 
 </Defs>

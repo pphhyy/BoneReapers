@@ -84,7 +84,7 @@
 			  <furHidesBody>true</furHidesBody>
         <dontColourFur>true</dontColourFur>
 				<backgroundPathEndogenes>Icons/XenotypeIcons/BoneReapersGeneBackground_Endogene</backgroundPathEndogenes>
-				<backgroundPathXenogenes>Icons/XenotypeIcons/BoneReapersGeneBackground_Xenogene</backgroundPathXenogenes>        
+				<backgroundPathXenogenes>Icons/XenotypeIcons/BoneReapersGeneBackground_Xenogene</backgroundPathXenogenes>    
 			</li>
 		</modExtensions>
   </GeneDef>
