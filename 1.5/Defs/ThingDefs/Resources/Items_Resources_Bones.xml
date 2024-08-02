@@ -4,7 +4,7 @@
   <ThingDef ParentName="ResourceBase">
     <defName>pphhyy_HumanBones</defName>
     <label>human bone</label>
-    <description>Harvested human bones.</description>
+    <description>Human Bones extracted from a human bereft of life, some humans may even give their bones willingly! Truly the Greatest among their beleaguered Kind. Once extracted they can be processed into more fitting forms.</description>
     <graphicData>
       <texPath>Resources/Bones/HumanBones</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
@@ -92,7 +92,7 @@
   <ThingDef ParentName="ResourceBase">
     <defName>pphhyy_AnimalBones</defName>
     <label>animal bone</label>
-    <description>Harvested animal bones.</description>
+    <description>Animal Bones extracted from a animal bereft of life, don't feel bad they will be remade into bone reaper animals. Much more useful and cute with the bones on the outside! Once extracted they can be processed into more fitting forms.</description>
     <graphicData>
       <texPath>Resources/Bones/AnimalBones</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>

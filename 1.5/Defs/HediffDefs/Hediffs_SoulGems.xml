@@ -6,7 +6,7 @@
         <defName>pphhyy_OsseousPellis</defName>
         <label>osseous pellis</label>
         <labelNoun>a osseous pellis</labelNoun>
-        <description>PLACEHOLDER</description>
+        <description>Pellis soul gems allow the body to be Infused with souls of the living to increase physical resistances. These souls are forced to harden the bonemold of the BoneReapers body through un-natural means.</description>
         <spawnThingOnRemoved>pphhyy_OsseousPellis</spawnThingOnRemoved>
         <stages>
           <li>
@@ -23,7 +23,15 @@
       <ThingDef ParentName="BodyPartBionicImperialBase">
         <defName>pphhyy_OsseousPellis</defName>
         <label>osseous pellis</label>
-        <description>PLACEHOLDER</description>
+        <description>Pellis soul gems allow the body to be Infused with souls of the living to increase physical resistances. These souls are forced to harden the bonemold of the BoneReapers body through un-natural means.</description>
+        <graphicData>
+          <texPath>Resources/Souls/GreaterSoulGem</texPath>
+          <graphicClass>Graphic_Single</graphicClass>
+          <drawSize>1.2</drawSize>
+        </graphicData>
+        <statBases>
+          <WorkToMake>15000</WorkToMake>
+        </statBases>
         <costList>
           <pphhyy_GreaterSoul>2</pphhyy_GreaterSoul>
         </costList>
@@ -82,7 +90,7 @@
     <defName>pphhyy_Niramaja</defName>
     <label>niramaja</label>
     <labelNoun>niramaja</labelNoun>
-    <description>PLACEHOLDER</description>
+    <description>Niramaja soul gems unlike the Pellis dont harden ones bonemold body but instead enhance its ability to heal from damage. Such souls are forced to tend to the BoneReapers body and maintain it to a higher threshold.</description>
     <spawnThingOnRemoved>pphhyy_Niramaja</spawnThingOnRemoved>
     <stages>
       <li>
@@ -94,7 +102,15 @@
   <ThingDef ParentName="BodyPartBionicImperialBase">
     <defName>pphhyy_Niramaja</defName>
     <label>niramaja</label>
-    <description>PLACEHOLDER</description>
+    <description>Niramaja soul gems unlike the Pellis dont harden ones bonemold body but instead enhance its ability to heal from damage. Such souls are forced to tend to the BoneReapers body and maintain it to a higher threshold.</description>
+    <graphicData>
+      <texPath>Resources/Souls/GreaterSoulGem</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>1.2</drawSize>
+    </graphicData>
+    <statBases>
+      <WorkToMake>15000</WorkToMake>
+    </statBases>
     <costList>
         <pphhyy_GreaterSoul>2</pphhyy_GreaterSoul>
     </costList>
@@ -149,7 +165,7 @@
     <defName>pphhyy_Ikasi</defName>
     <label>ikasi</label>
     <labelNoun>ikasi</labelNoun>
-    <description>PLACEHOLDER</description>
+    <description>Ikasi soul gems help a BoneReaper retain knowledge by enhancing their own souls with the souls of others!</description>
     <spawnThingOnRemoved>pphhyy_Ikasi</spawnThingOnRemoved>
     <stages>
       <li>
@@ -163,7 +179,15 @@
   <ThingDef ParentName="BodyPartBionicImperialBase">
     <defName>pphhyy_Ikasi</defName>
     <label>ikasi</label>
-    <description>PLACEHOLDER</description>
+    <description>Ikasi soul gems help a BoneReaper retain knowledge by enhancing their own souls with the souls of others!</description>
+    <graphicData>
+      <texPath>Resources/Souls/GreaterSoulGem</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>1.2</drawSize>
+    </graphicData>
+    <statBases>
+      <WorkToMake>15000</WorkToMake>
+    </statBases>
     <costList>
         <pphhyy_GreaterSoul>2</pphhyy_GreaterSoul>
     </costList>
@@ -218,7 +242,7 @@
     <defName>pphhyy_Arithmomichani</defName>
     <label>arithmomichani</label>
     <labelNoun>a arithmomichani</labelNoun>
-    <description>PLACEHOLDER</description>
+    <description>Arithmomichani soul gems Instead of increasing one ability to learn a skill enhance a BoneRepaers ability to discover new ideas.</description>
     <spawnThingOnRemoved>pphhyy_Arithmomichani</spawnThingOnRemoved>
     <stages>
       <li>
@@ -232,13 +256,15 @@
   <ThingDef ParentName="BodyPartBionicImperialBase">
     <defName>pphhyy_Arithmomichani</defName>
     <label>arithmomichani</label>
-    <description>PLACEHOLDER</description>
+    <description>Arithmomichani soul gems Instead of increasing one ability to learn a skill enhance a BoneRepaers ability to discover new ideas.</description>
     <graphicData>
-      <texPath>Things/Item/Health/HealthItem</texPath>
+      <texPath>Resources/Souls/GreaterSoulGem</texPath>
       <graphicClass>Graphic_Single</graphicClass>
-      <drawSize>0.80</drawSize>
-      <color>(189,169,118)</color>
+      <drawSize>1.2</drawSize>
     </graphicData>
+    <statBases>
+      <WorkToMake>15000</WorkToMake>
+    </statBases>
     <techHediffsTags Inherit="False">
         <li>pphhyy_SoulGems</li>
       </techHediffsTags>
@@ -293,7 +319,7 @@
     <defName>pphhyy_Mentioum</defName>
     <label>mentioum</label>
     <labelNoun>a mentioum</labelNoun>
-    <description>PLACEHOLDER</description>
+    <description>Mentioum soul gems are most useful for Apokryphos to enhance their ability at negotiating with humans. Although other BoneReapers may also benefit from its infusion into their soul.</description>
     <spawnThingOnRemoved>pphhyy_Mentioum</spawnThingOnRemoved>
     <stages>
       <li>
@@ -309,7 +335,15 @@
   <ThingDef ParentName="BodyPartRoyalBase">
     <defName>pphhyy_Mentioum</defName>
     <label>mentioum</label>
-    <description>PLACEHOLDER</description>
+    <description>Mentioum soul gems are most useful for Apokryphos to enhance their ability at negotiating with humans. Although other BoneReapers may also benefit from its infusion into their soul.</description>
+    <graphicData>
+      <texPath>Resources/Souls/GreaterSoulGem</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>1.2</drawSize>
+    </graphicData>
+    <statBases>
+      <WorkToMake>15000</WorkToMake>
+    </statBases>
     <costList>
         <pphhyy_GreaterSoul>2</pphhyy_GreaterSoul>
     </costList>
@@ -368,7 +402,7 @@
     <defName>pphhyy_Efpathi</defName>
     <label>efpathi</label>
     <labelNoun>a psychic sensitizer</labelNoun>
-    <description>PLACEHOLDER</description>
+    <description>Efpathi soul gems allow for a bone reaper to reach greater Psychic Sensitivity levels.</description>
     <spawnThingOnRemoved>pphhyy_Efpathi</spawnThingOnRemoved>
     <stages>
       <li>
@@ -382,7 +416,15 @@
   <ThingDef ParentName="BodyPartRoyalBase">
     <defName>pphhyy_Efpathi</defName>
     <label>efpathi</label>
-    <description>PLACEHOLDER</description>
+    <description>Efpathi soul gems allow for a bone reaper to reach greater Psychic Sensitivity levels.</description>
+    <graphicData>
+      <texPath>Resources/Souls/GreaterSoulGem</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>1.2</drawSize>
+    </graphicData>
+    <statBases>
+      <WorkToMake>15000</WorkToMake>
+    </statBases>
     <costList>
         <pphhyy_GreaterSoul>2</pphhyy_GreaterSoul>
     </costList>

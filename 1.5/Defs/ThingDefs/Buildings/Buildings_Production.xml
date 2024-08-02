@@ -227,7 +227,7 @@
 <ThingDef ParentName="BenchBase">
   <defName>pphhyy_HathiyarBench</defName>
   <label>hathiyar bench</label>
-  <description>PLACEHOLDER</description>
+  <description>BoneReaper armaments are crafted, maintained and upgraded all from this forge of undeath.</description>
   <thingClass>Building_WorkTable</thingClass>
   <defaultPlacingRot>South</defaultPlacingRot>
   <graphicData>
@@ -299,7 +299,7 @@
 <ThingDef ParentName="BenchBase">
   <defName>pphhyy_YoroiBench</defName>
   <label>yoroi bench</label>
-  <description>PLACEHOLDER</description>
+  <description>BoneReaper War can be crafted, maintained and upgraded all from the Yoroi.</description>
   <thingClass>Building_WorkTable</thingClass>
   <defaultPlacingRot>South</defaultPlacingRot>
   <graphicData>
@@ -370,7 +370,7 @@
 <ThingDef ParentName="BenchBase">
   <defName>pphhyy_SiparBench</defName>
   <label>sipar bench</label>
-  <description>PLACEHOLDER</description>
+  <description>BoneReaper shields can be crafted, maintained and upgraded all form the Sipar. Sometimes you can even hear a lost soul yelling about bloat in the distance before vanishing like the wind.</description>
   <thingClass>Building_WorkTable</thingClass>
   <defaultPlacingRot>South</defaultPlacingRot>
   <graphicData>
@@ -445,7 +445,7 @@
   <thingClass>Building_WorkTable</thingClass>
   <defaultPlacingRot>South</defaultPlacingRot>
   <graphicData>
-    <texPath>Buildings/SiparBench/SiparBench</texPath>
+    <texPath>Buildings/EkkatharistisBench/EkkatharistisBench</texPath>
     <graphicClass>Graphic_Multi</graphicClass>
     <shaderType>CutoutComplex</shaderType>
     <drawSize>(4.6,3.6)</drawSize>

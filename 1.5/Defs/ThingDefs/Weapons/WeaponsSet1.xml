@@ -8,7 +8,7 @@
   <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
     <defName>pphhyy_BoneReapers_ThetesSword</defName>
     <label>Thetes sword</label>
-    <description>Yes</description>
+    <description>A sword made from the fusion of bones and metal. As a customary action in the ranks, Thetes that want a sword use their own bones as a way to show commitment. Swords are treated with high respect, their ability to cut clean and not damage the targets bones is heavily sought after.</description>
     <graphicData>
       <texPath>Weapons/NormalWeapons/ThetesSword</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -18,7 +18,7 @@
     <equippedAngleOffset>-65</equippedAngleOffset>
 
     <statBases>
-      <WorkToMake>13000</WorkToMake>
+      <WorkToMake>6000</WorkToMake>
       <Mass>1</Mass>
     </statBases>
 
@@ -76,7 +76,7 @@
   <ThingDef ParentName="BaseMeleeWeapon_Blunt_Quality">
     <defName>pphhyy_BoneReapers_ThetesMace</defName>
     <label>Thetes mace</label>
-    <description>Yes</description>
+    <description>A mace made of bones used to crack bones. Thetes favorite weapon in combat for bludgeoning armored opponents. A weapon of savagery.</description>
     <graphicData>
       <texPath>Weapons/NormalWeapons/ThetesMace</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -173,7 +173,7 @@
   <ThingDef ParentName="pphhyy_Base_Sharp_NormalSize">
     <defName>pphhyy_BoneReapers_ThetesSpear</defName>
     <label>Thetes spear</label>
-    <description>Yes</description>
+    <description>A spear made of bones fused with metal. The lack of training needed to master this weapon is favored by newly formed Thetes.</description>
     <graphicData>
       <texPath>Weapons/NormalWeapons/ThetesSpear</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -183,7 +183,7 @@
     <techLevel>Medieval</techLevel>
 
     <statBases>
-      <WorkToMake>16000</WorkToMake>
+      <WorkToMake>6000</WorkToMake>
       <Mass>3</Mass>
     </statBases>
 
@@ -242,7 +242,7 @@
   <ThingDef ParentName="BaseWeaponNeolithic">
     <defName>pphhyy_BoneReapers_ThetesBow</defName>
     <label>Thetes bow</label>
-    <description>Yes</description>
+    <description>A bow made with thin bendable metal that is adorned with bones. The string is made of hair collected off fresh corpses or collected as tithes.</description>
     <graphicData>
       <texPath>Weapons/NormalWeapons/ThetesBow</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -258,7 +258,7 @@
     </costList>
 
     <statBases>
-      <WorkToMake>7000</WorkToMake>
+      <WorkToMake>6000</WorkToMake>
       <Mass>2.2</Mass>
       <AccuracyTouch>0.69</AccuracyTouch>
       <AccuracyShort>0.81</AccuracyShort>
@@ -325,7 +325,7 @@
   <ThingDef ParentName="BaseWeapon">
     <defName>pphhyy_BoneReapers_ThetesStaff</defName>
     <label>Thetes staff</label>
-    <description>Yes</description>
+    <description>A staff given to Thetes created with a larger intellect. The staff draws from the wielder's psychic prowess. Sepelire's debate if the Thete has the adroitness of the mind. Those without the capability quickly drain their mental capacity.</description>
     <techLevel>Medieval</techLevel>
     <graphicData>
       <texPath>Weapons/NormalWeapons/ThetesStaff</texPath>
@@ -350,7 +350,7 @@
       <PsychicSensitivityOffset>0.50</PsychicSensitivityOffset>
     </equippedStatOffsets>
     <statBases>
-      <WorkToMake>18000</WorkToMake>
+      <WorkToMake>7000</WorkToMake>
       <Mass>3</Mass>
       <AccuracyTouch>0.45</AccuracyTouch>
       <AccuracyShort>0.50</AccuracyShort>
@@ -429,7 +429,7 @@
   <ThingDef ParentName="pphhyy_Base_Sharp_NormalSize">
     <defName>pphhyy_BoneReaper_ThetesJavelin</defName>
     <label>Thetes javelin</label>
-    <description>Yes</description>
+    <description>A javelin made of bones and metal. Used as an early adaptation in the war when resources were thinned. The versatility of the weapon as a range and close combat option allowed these roaming armies to continue their campaign.</description>
     <graphicData>
       <texPath>Weapons/NormalWeapons/ThetesJavalin</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -439,7 +439,7 @@
     <techLevel>Medieval</techLevel>
 
     <statBases>
-      <WorkToMake>10000</WorkToMake>
+      <WorkToMake>6000</WorkToMake>
       <Mass>2.25</Mass>
       <AccuracyTouch>0.50</AccuracyTouch>
       <AccuracyShort>0.71</AccuracyShort>
@@ -534,7 +534,7 @@
   <ThingDef ParentName="pphhyy_Base_SharpSword_Oversize">
     <defName>pphhyy_BoneReapers_ThetesGreatMace</defName>
     <label>Thetes great mace</label>
-    <description>Yes</description>
+    <description>A mace that is wielded with two hands. Thetes would replace the bones with the enemies they fell in battle. Often before the finishing blow.</description>
     <graphicData>
       <texPath>Weapons/NormalWeapons/ThetesGreatMace</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -545,7 +545,7 @@
     
 
     <statBases>
-      <WorkToMake>18000</WorkToMake>
+      <WorkToMake>10000</WorkToMake>
       <Mass>4</Mass>
     </statBases>
 
@@ -599,7 +599,7 @@
   <ThingDef ParentName="pphhyy_Base_SharpSword_Oversize">
     <defName>pphhyy_BoneReapers_ThetesScythe</defName>
     <label>Thetes scythe</label>
-    <description>Yes</description>
+    <description>A scythe that is wielded with two hands. Originally not used for war, colonists discerned early on that this weapon marked a weakened army. Thetes that wore these weapons to battle were stolen from farmers that were often not protected.</description>
     <possessionCount>1</possessionCount>
     <graphicData>
       <drawSize>1.3</drawSize>
@@ -613,7 +613,7 @@
     </weaponTags>
 
     <statBases>
-      <WorkToMake>18000</WorkToMake>
+      <WorkToMake>10000</WorkToMake>
       <Mass>2</Mass>
     </statBases>
 
@@ -673,7 +673,7 @@
   <ThingDef ParentName="pphhyy_Base_Sharp_NormalSize">
     <defName>pphhyy_BoneReapers_ThetesPolearm</defName>
     <label>Thetes polearm</label>
-    <description>Yes</description>
+    <description>A 2 handed polearm made from the fusion of bone and metal. A weapon of skill, thetes that survive multiple campaigns can request a weapon to show their mastery of war.</description>
     <graphicData>
       <texPath>Weapons/NormalWeapons/ThetesPolarm</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -682,7 +682,7 @@
     </graphicData>
 
     <statBases>
-      <WorkToMake>15000</WorkToMake>
+      <WorkToMake>10000</WorkToMake>
       <Mass>2.75</Mass>
     </statBases>
 
@@ -762,7 +762,7 @@
   <ThingDef ParentName="pphhyy_Base_SharpSword_Oversize">
     <defName>pphhyy_BoneReapers_ThetesGreatSword</defName>
     <label>Thetes greatsword</label>
-    <description>Yes</description>
+    <description>A 2 handed sword made from the fusion of bone and metal. Those that have the ability to wield such a sword would require great strength. The Phalangites see this as the only option, as any weapon of lesser status was beneath their dexterity. A Phalangite using lesser weapons such as the one-handed sword or scythe would be deboned to be used properly.</description>
     <graphicData>
       <texPath>Weapons/NormalWeapons/ThetesGreatSword</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -770,7 +770,7 @@
       <drawSize>(1.25,1.25)</drawSize>
     </graphicData>
     <statBases>
-      <WorkToMake>24000</WorkToMake>
+      <WorkToMake>12000</WorkToMake>
       <Mass>3</Mass>
     </statBases>
 
@@ -826,7 +826,7 @@
   <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
     <defName>pphhyy_BoneReapers_ArchonSword</defName>
     <label>Archon sword</label>
-    <description>Yes</description>
+    <description>A sword blessed for the archons by the Sepelire Order. A large order comprised of Soul shapers and Bone craftsmen. They dictate the proper procedures of bone masonry and soul usage. While also being responsible for creation of new soldiers.</description>
     <graphicData>
       <texPath>Weapons/NormalWeapons/ArchonSword</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -836,7 +836,7 @@
     
 
     <statBases>
-      <WorkToMake>13000</WorkToMake>
+      <WorkToMake>15000</WorkToMake>
       <Mass>1</Mass>
     </statBases>
 
@@ -894,7 +894,7 @@
   <ThingDef ParentName="pphhyy_Base_Sharp_NormalSize">
     <defName>pphhyy_BoneReapers_ArchonPolearm</defName>
     <label>Archon polearm</label>
-    <description>Yes</description>
+    <description>A weapon carefully crafted using bones and intense metallurgy. The Apokryphos would mark scriptures of great feats, while Sepelires gather in ceremony to give blessings to the blade itself. Archon weapons are rarely made. To witness such a ceremony is a feat of itself.</description>
     <graphicData>
       <texPath>Weapons/NormalWeapons/ArchonPolearm</texPath>
       <graphicClass>Graphic_Single</graphicClass>

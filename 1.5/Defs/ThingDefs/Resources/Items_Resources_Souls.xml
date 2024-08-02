@@ -4,7 +4,7 @@
   <ThingDef ParentName="ResourceBase">
     <defName>pphhyy_GreaterSoul</defName>
     <label>greater soul</label>
-    <description>Extracted greater soul.</description>
+    <description>Souls extracted from Humans after death. Unlike Lesser souls greater souls are incredibly valuable and must be harvested whenever possible. For humans there can be no greater privilege then to be selected for harvesting, their sad race is blessed by out existence and the fact we give them purpose past their mortal shell.</description>
     <graphicData>
       <texPath>Resources/Souls/GreaterSoul</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -96,7 +96,7 @@
   <ThingDef ParentName="ResourceBase">
     <defName>pphhyy_LesserSoul</defName>
     <label>lesser soul</label>
-    <description>Extracted lesser soul.</description>
+    <description>Souls extracted from animals after death. Souls like bones are useful in many recipes from making new BoneReaper animals to body enhancing soul gems.</description>
     <graphicData>
       <texPath>Resources/Souls/LesserSoul</texPath>
       <graphicClass>Graphic_Single</graphicClass>

@@ -24,7 +24,7 @@
     <defName>pphhyy_BoneLeg</defName>
     <label>bone leg</label>
     <labelNoun>a bone leg</labelNoun>
-    <description>PLACEHOLDER</description>
+    <description>Replacement Leg for BoneReapers, just as good as the previous limb.</description>
     <priceImpact>false</priceImpact>
     <addedPartProps>
       <solid>true</solid>
@@ -36,7 +36,14 @@
   <ThingDef ParentName="BodyPartProstheticMakeableBase">
     <defName>pphhyy_BoneLeg</defName>
     <label>bone leg</label>
-    <description>PLACEHOLDER</description>
+    <description>Replacement Leg for BoneReapers, just as good as the previous limb.</description>
+    <graphicData>
+      <texPath>Resources/ImplantsAndLimbs/BoneLimb</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+      <drawSize>1.2</drawSize>
+    </graphicData>
+    <drawGUIOverlay>true</drawGUIOverlay>
+    <stackLimit>3</stackLimit>
     <costList>
       <pphhyy_AnimalBones>10</pphhyy_AnimalBones>
     </costList>
@@ -93,7 +100,7 @@
     <defName>pphhyy_BoneArm</defName>
     <label>bone arm</label>
     <labelNoun>a bone arm</labelNoun>
-    <description>PLACEHOLDER</description>
+    <description>Replacement Arm for BoneReapers, just as good as the previous limb.</description>
     <priceImpact>false</priceImpact>
     <addedPartProps>
       <solid>true</solid>
@@ -105,7 +112,14 @@
   <ThingDef ParentName="BodyPartProstheticMakeableBase">
     <defName>pphhyy_BoneArm</defName>
     <label>bone arm</label>
-    <description>PLACEHOLDER</description>
+    <description>Replacement Arm for BoneReapers, just as good as the previous limb.</description>
+    <graphicData>
+      <texPath>Resources/ImplantsAndLimbs/BoneLimb</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+      <drawSize>1.2</drawSize>
+    </graphicData>
+    <drawGUIOverlay>true</drawGUIOverlay>
+    <stackLimit>3</stackLimit>
     <costList>
       <pphhyy_AnimalBones>10</pphhyy_AnimalBones>
     </costList>
@@ -162,7 +176,7 @@
     <defName>pphhyy_BoneJaw</defName>
     <label>bone jaw</label>
     <labelNoun>a bone jaw</labelNoun>
-    <description>PLACEHOLDER</description>
+    <description>Replacement Jaw for BoneReapers, just as good as the previous jaw.</description>
     <priceImpact>false</priceImpact>
     <addedPartProps>
       <solid>true</solid>
@@ -174,7 +188,14 @@
   <ThingDef ParentName="BodyPartProstheticMakeableBase">
     <defName>pphhyy_BoneJaw</defName>
     <label>bone jaw</label>
-    <description>PLACEHOLDER</description>
+    <description>Replacement Jaw for BoneReapers, just as good as the previous jaw.</description>
+    <graphicData>
+      <texPath>Resources/ImplantsAndLimbs/BoneLimb</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+      <drawSize>1.2</drawSize>
+    </graphicData>
+    <drawGUIOverlay>true</drawGUIOverlay>
+    <stackLimit>3</stackLimit>
     <costList>
       <pphhyy_AnimalBones>10</pphhyy_AnimalBones>
     </costList>
@@ -232,7 +253,7 @@
     <defName>pphhyy_BoneEye</defName>
     <label>bone eye</label>
     <labelNoun>a bone eye</labelNoun>
-    <description>PLACEHOLDER</description>
+    <description>Replacement Eye for BoneReapers, just as good as the previous eye.</description>
     <priceImpact>false</priceImpact>
     <addedPartProps>
       <solid>true</solid>
@@ -244,7 +265,14 @@
   <ThingDef ParentName="BodyPartProstheticMakeableBase">
     <defName>pphhyy_BoneEye</defName>
     <label>bone eye</label>
-    <description>PLACEHOLDER</description>
+    <description>Replacement Eye for BoneReapers, just as good as the previous eye.</description>
+    <graphicData>
+      <texPath>Resources/ImplantsAndLimbs/BoneLimb</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+      <drawSize>1.2</drawSize>
+    </graphicData>
+    <drawGUIOverlay>true</drawGUIOverlay>
+    <stackLimit>3</stackLimit>
     <costList>
       <pphhyy_AnimalBones>10</pphhyy_AnimalBones>
     </costList>
@@ -304,7 +332,7 @@
   <defName>pphhyy_OsseousLeg</defName>
   <label>osseous leg</label>
   <labelNoun>a osseous leg</labelNoun>
-  <description>PLACEHOLDER</description>
+  <description>Leg inscribed with a lesser soul improving the limbs performance.</description>
   <priceImpact>false</priceImpact>
   <addedPartProps>
     <solid>true</solid>
@@ -316,7 +344,14 @@
 <ThingDef ParentName="BodyPartProstheticMakeableBase">
   <defName>pphhyy_OsseousLeg</defName>
   <label>osseous leg</label>
-  <description>PLACEHOLDER</description>
+  <description>Leg inscribed with a lesser soul improving the limbs performance.</description>
+  <graphicData>
+    <texPath>Resources/ImplantsAndLimbs/OsseousLimb</texPath>
+    <graphicClass>Graphic_StackCount</graphicClass>
+    <drawSize>1.2</drawSize>
+  </graphicData>
+  <drawGUIOverlay>true</drawGUIOverlay>
+  <stackLimit>3</stackLimit>
   <costList>
     <pphhyy_LesserSoul>1</pphhyy_LesserSoul>
     <pphhyy_BoneLeg>1</pphhyy_BoneLeg>
@@ -374,7 +409,7 @@
   <defName>pphhyy_OsseousArm</defName>
   <label>osseous arm</label>
   <labelNoun>a osseous arm</labelNoun>
-  <description>PLACEHOLDER</description>
+  <description>Arm inscribed with a lesser soul improving the limbs performance.</description>
   <priceImpact>false</priceImpact>
   <addedPartProps>
     <solid>true</solid>
@@ -386,7 +421,14 @@
 <ThingDef ParentName="BodyPartProstheticMakeableBase">
   <defName>pphhyy_OsseousArm</defName>
   <label>osseous arm</label>
-  <description>PLACEHOLDER</description>
+  <description>Arm inscribed with a lesser soul improving the limbs performance.</description>
+  <graphicData>
+    <texPath>Resources/ImplantsAndLimbs/OsseousLimb</texPath>
+    <graphicClass>Graphic_StackCount</graphicClass>
+    <drawSize>1.2</drawSize>
+  </graphicData>
+  <drawGUIOverlay>true</drawGUIOverlay>
+  <stackLimit>3</stackLimit>
   <costList>
     <pphhyy_LesserSoul>1</pphhyy_LesserSoul>
     <pphhyy_BoneArm>1</pphhyy_BoneArm>
@@ -445,7 +487,7 @@
   <defName>pphhyy_OsseousJaw</defName>
   <label>osseous jaw</label>
   <labelNoun>a osseous jaw</labelNoun>
-  <description>PLACEHOLDER</description>
+  <description>Jaw inscribed with a lesser soul improving social Skill.</description>
   <priceImpact>false</priceImpact>
   <addedPartProps>
     <solid>true</solid>
@@ -457,7 +499,14 @@
 <ThingDef ParentName="BodyPartProstheticMakeableBase">
   <defName>pphhyy_OsseousJaw</defName>
   <label>osseous jaw</label>
-  <description>PLACEHOLDER</description>
+  <description>Jaw inscribed with a lesser soul improving social Skill.</description>
+  <graphicData>
+    <texPath>Resources/ImplantsAndLimbs/OsseousLimb</texPath>
+    <graphicClass>Graphic_StackCount</graphicClass>
+    <drawSize>1.2</drawSize>
+  </graphicData>
+  <drawGUIOverlay>true</drawGUIOverlay>
+  <stackLimit>3</stackLimit>
   <costList>
     <pphhyy_LesserSoul>1</pphhyy_LesserSoul>
     <pphhyy_BoneJaw>1</pphhyy_BoneJaw>
@@ -515,7 +564,7 @@
   <defName>pphhyy_OsseousEye</defName>
   <label>osseous eye</label>
   <labelNoun>a osseous eye</labelNoun>
-  <description>PLACEHOLDER</description>
+  <description>Eye inscribed with a lesser soul improving sight.</description>
   <priceImpact>false</priceImpact>
   <addedPartProps>
     <solid>true</solid>
@@ -527,7 +576,14 @@
 <ThingDef ParentName="BodyPartProstheticMakeableBase">
   <defName>pphhyy_OsseousEye</defName>
   <label>osseous eye</label>
-  <description>PLACEHOLDER</description>
+  <description>Eye inscribed with a lesser soul improving sight.</description>
+  <graphicData>
+    <texPath>Resources/ImplantsAndLimbs/OsseousLimb</texPath>
+    <graphicClass>Graphic_StackCount</graphicClass>
+    <drawSize>1.2</drawSize>
+  </graphicData>
+  <stackLimit>3</stackLimit>
+  <drawGUIOverlay>true</drawGUIOverlay>
   <costList>
     <pphhyy_LesserSoul>1</pphhyy_LesserSoul>
     <pphhyy_BoneEye>1</pphhyy_BoneEye>

@@ -4,7 +4,7 @@
   <ThingDef ParentName="MealBase">
     <defName>pphhyy_SoulBerries</defName>
     <label>soul berries</label>
-    <description>Made by combining lesser souls and berries together. Soul Berries are long lasting food that are enjoyed by Bone Reapers, but are poisonous to everyone else.</description>
+    <description>BoneReapers having been made from souls and bones need very little in terms of sustenance, and the only reason they need any is the nagging instinct from their past lives. Soul berries were created to solve this nagging problem from their inferior mortal form. Lesser souls mixed with berries, poisonous to mortals but a delicacy to BoneReapers giving a positive mood buff for a few days.</description>
     <graphicData>
       <texPath>Resources/Food/SoulBerries</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
@@ -112,7 +112,7 @@
   <ThingDef ParentName="ResourceBase">
     <defName>pphhyy_SoulWineMust</defName>
     <label>soul wine must</label>
-    <description>Made by combining greater souls and berries together. Fermented into soul wine.</description>
+    <description>The must used to create soul wine in a soul cask. A greater soul and a bunch of berries, with a bit of dark love and time it will produce soul wine.</description>
     <graphicData>
       <texPath>Resources/Food/SoulWineMust</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -178,7 +178,7 @@
   <ThingDef ParentName="DrugBase">
     <defName>pphhyy_SoulWine</defName>
     <label>soul wine</label>
-    <description>Wine created from greater souls and berries. Dangerous for most to consume.</description>
+    <description>Wine fit only for BoneReapers as it will poison mortals. Created with berries fused with a greater soul and fermented in a soul cask to produce an otherworldly drink at the cost of a Mortals life. A small price to pay for bliss from beyond the grave.</description>
     <descriptionHyperlinks>
       <HediffDef>AlcoholHigh</HediffDef>
       <HediffDef>AlcoholTolerance</HediffDef>

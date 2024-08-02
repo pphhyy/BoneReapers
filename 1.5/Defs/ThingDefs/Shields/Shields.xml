@@ -7,7 +7,7 @@
 	<ThingDef ParentName="pphhyy_BoneReaper_ShieldBase">
 		<defName>pphhyy_BoneReapers_ThetesShieldI</defName>
 		<label>thetes shield</label>
-		<description>PLACEHOLDER</description>
+		<description>A shield reinforced with bones with a metal base.</description>
 		<equipmentType>None</equipmentType>
 		<graphicData>
 		  <texPath>Shields/ThetesShield/ThetesShield_south</texPath>
@@ -100,7 +100,7 @@
 	  <ThingDef ParentName="pphhyy_BoneReaper_ShieldBase">
 		<defName>pphhyy_BoneReapers_ThetesShieldII</defName>
 		<label>thetes shield</label>
-		<description>PLACEHOLDER</description>
+		<description>A shield reinforced with bones with a metal base.</description>
 		<equipmentType>None</equipmentType>
 		<graphicData>
 		  <texPath>Shields/ThetesShield/ThetesShield1_south</texPath>
@@ -193,7 +193,7 @@
 	  <ThingDef ParentName="pphhyy_BoneReaper_ShieldBase">
 		<defName>pphhyy_BoneReapers_ThetesShieldIII</defName>
 		<label>thetes shield</label>
-		<description>PLACEHOLDER</description>
+		<description>A shield reinforced with bones with a metal base.</description>
 		<equipmentType>None</equipmentType>
 		<graphicData>
 		  <texPath>Shields/ThetesShield/ThetesShield2_south</texPath>
@@ -286,7 +286,7 @@
 	  <ThingDef ParentName="pphhyy_BoneReaper_ShieldBase">
 		<defName>pphhyy_BoneReapers_ThetesShieldIV</defName>
 		<label>thetes shield</label>
-		<description>PLACEHOLDER</description>
+		<description>A shield reinforced with bones with a metal base.</description>
 		<equipmentType>None</equipmentType>
 		<graphicData>
 		  <texPath>Shields/ThetesShield/ThetesShield3_south</texPath>
@@ -379,7 +379,7 @@
 	  <ThingDef ParentName="pphhyy_BoneReaper_ShieldBase">
 		<defName>pphhyy_BoneReapers_ThetesShieldV</defName>
 		<label>thetes shield</label>
-		<description>PLACEHOLDER</description>
+		<description>A shield reinforced with bones with a metal base.</description>
 		<equipmentType>None</equipmentType>
 		<graphicData>
 		  <texPath>Shields/ThetesShield/ThetesShield4_south</texPath>
@@ -474,7 +474,7 @@
 	  <ThingDef ParentName="pphhyy_BoneReaper_ShieldBase">
 		<defName>pphhyy_BoneReapers_ThetesGrandShieldI</defName>
 		<label> thetes grand shield</label>
-		<description>PLACEHOLDER</description>
+		<description>A shield reinforced with bones with a metal base. Shields made for the upper echelon of the BoneReaper Army.</description>
 		<equipmentType>None</equipmentType>
 		<graphicData>
 		  <texPath>Shields/ThetesGrandShield/ThetesGrandShield_south</texPath>
@@ -568,7 +568,7 @@
 	  <ThingDef ParentName="pphhyy_BoneReaper_ShieldBase">
 		<defName>pphhyy_BoneReapers_ThetesGrandShieldII</defName>
 		<label> thetes grand shield</label>
-		<description>PLACEHOLDER</description>
+		<description>A shield reinforced with bones with a metal base. Shields made for the upper echelon of the BoneReaper Army.</description>
 		<equipmentType>None</equipmentType>
 		<graphicData>
 		  <texPath>Shields/ThetesGrandShield/ThetesGrandShield1_south</texPath>
@@ -662,7 +662,7 @@
 	  <ThingDef ParentName="pphhyy_BoneReaper_ShieldBase">
 		<defName>pphhyy_BoneReapers_ThetesGrandShieldIII</defName>
 		<label> thetes grand shield</label>
-		<description>PLACEHOLDER</description>
+		<description>A shield reinforced with bones with a metal base. Shields made for the upper echelon of the BoneReaper Army.</description>
 		<equipmentType>None</equipmentType>
 		<graphicData>
 		  <texPath>Shields/ThetesGrandShield/ThetesGrandShield2_south</texPath>
@@ -756,7 +756,7 @@
 	  <ThingDef ParentName="pphhyy_BoneReaper_ShieldBase">
 		<defName>pphhyy_BoneReapers_ThetesGrandShieldIV</defName>
 		<label> thetes grand shield</label>
-		<description>PLACEHOLDER</description>
+		<description>A shield reinforced with bones with a metal base. Shields made for the upper echelon of the BoneReaper Army.</description>
 		<equipmentType>None</equipmentType>
 		<graphicData>
 		  <texPath>Shields/ThetesGrandShield/ThetesGrandShield3_south</texPath>
@@ -850,7 +850,7 @@
 	  <ThingDef ParentName="pphhyy_BoneReaper_ShieldBase">
 		<defName>pphhyy_BoneReapers_ThetesGrandShieldV</defName>
 		<label> thetes grand shield</label>
-		<description>PLACEHOLDER</description>
+		<description>A shield reinforced with bones with a metal base. Shields made for the upper echelon of the BoneReaper Army.</description>
 		<equipmentType>None</equipmentType>
 		<graphicData>
 		  <texPath>Shields/ThetesGrandShield/ThetesGrandShield4_south</texPath>
@@ -946,7 +946,7 @@
 	<ThingDef ParentName="pphhyy_BoneReaper_ShieldBase">
 		<defName>pphhyy_BoneReaper_ArchonShieldI</defName>
 		<label>archon shield</label>
-		<description>PLACEHOLDER</description>
+		<description>A shield initially made for the Archons. Fortified with a human soul.</description>
 		<graphicData>
 			<texPath>Shields/ArchonShield/ArchonShieldA_south</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -1036,7 +1036,7 @@
 	<ThingDef ParentName="pphhyy_BoneReaper_ShieldBase">
 		<defName>pphhyy_BoneReaper_ArchonShieldII</defName>
 		<label>archon shield</label>
-		<description>PLACEHOLDER</description>
+		<description>A shield initially made for the Archons. Fortified with a human soul.</description>
 		<graphicData>
 			<texPath>Shields/ArchonShield/ArchonShieldB_south</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -1126,7 +1126,7 @@
 	<ThingDef ParentName="pphhyy_BoneReaper_ShieldBase">
 		<defName>pphhyy_BoneReaper_ArchonShieldIII</defName>
 		<label>archon shield</label>
-		<description>PLACEHOLDER</description>
+		<description>A shield initially made for the Archons. Fortified with a human soul.</description>
 		<graphicData>
 			<texPath>Shields/ArchonShield/ArchonShieldC_south</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -1216,7 +1216,7 @@
 	<ThingDef ParentName="pphhyy_BoneReaper_ShieldBase">
 		<defName>pphhyy_BoneReaper_ArchonShieldIV</defName>
 		<label>archon shield</label>
-		<description>PLACEHOLDER</description>
+		<description>A shield initially made for the Archons. Fortified with a human soul.</description>
 		<graphicData>
 			<texPath>Shields/ArchonShield/ArchonShieldD_south</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -1306,7 +1306,7 @@
 	<ThingDef ParentName="pphhyy_BoneReaper_ShieldBase">
 		<defName>pphhyy_BoneReaper_ArchonShieldV</defName>
 		<label>archon shield</label>
-		<description>PLACEHOLDER</description>
+		<description>A shield initially made for the Archons. Fortified with a human soul.</description>
 		<graphicData>
 			<texPath>Shields/ArchonShield/ArchonShieldE_south</texPath>
 			<graphicClass>Graphic_Single</graphicClass>

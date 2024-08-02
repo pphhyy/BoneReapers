@@ -10,7 +10,7 @@
     <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
         <defName>pphhyy_BoneReapers_SoulThetesSword</defName>
         <label>Soul thetes sword</label>
-        <description>Yes</description>
+        <description>A sword infused with a greater soul. These souls are gathered from soon to be corpses by the Sepelire. They task the Thetes to seek out living beings that possess rationality.</description>
         <graphicData>
             <texPath>Weapons/SoulWeapons/SoulThetesSword</texPath>
             <graphicClass>Graphic_Single</graphicClass>
@@ -19,7 +19,7 @@
         <equippedAngleOffset>-65</equippedAngleOffset>
 
         <statBases>
-            <WorkToMake>13000</WorkToMake>
+            <WorkToMake>6000</WorkToMake>
             <Mass>1</Mass>
         </statBases>
 
@@ -85,7 +85,7 @@
     <ThingDef ParentName="BaseMeleeWeapon_Blunt_Quality">
         <defName>pphhyy_BoneReapers_SoulThetesMace</defName>
         <label>Soul thetes mace</label>
-        <description>Yes</description>
+        <description>A mace infused with a greater soul. Apokryphos kept a priority of maintaining a supply to those who deserve a weapon of greater malice. The Phalangite often being the first to receive this weapon, often asking to wield two of them to match their cunning.</description>
         <graphicData>
             <texPath>Weapons/SoulWeapons/SoulThetesMace</texPath>
             <graphicClass>Graphic_Single</graphicClass>
@@ -95,7 +95,7 @@
         <equippedAngleOffset>-65</equippedAngleOffset>
 
         <statBases>
-            <WorkToMake>6000</WorkToMake>
+            <WorkToMake>9000</WorkToMake>
             <Mass>1.10</Mass>
         </statBases>
 
@@ -160,7 +160,7 @@
     <ThingDef ParentName="pphhyy_Base_Sharp_NormalSize">
         <defName>pphhyy_BoneReapers_SoulThetesSpear</defName>
         <label>Soul thetes spear</label>
-        <description>Yes</description>
+        <description>A spear infused with a greater soul. When the Apokryphos achieve excess in greater souls the Thetes may receive these weapons of higher power. Those that have survived the longest may choose what is accessible first.</description>
         <graphicData>
             <texPath>Weapons/SoulWeapons/SoulThetesSpear</texPath>
             <graphicClass>Graphic_Single</graphicClass>
@@ -169,7 +169,7 @@
         <techLevel>Medieval</techLevel>
 
         <statBases>
-            <WorkToMake>16000</WorkToMake>
+            <WorkToMake>9000</WorkToMake>
             <Mass>3</Mass>
         </statBases>
 
@@ -235,7 +235,7 @@
     <ThingDef ParentName="BaseWeaponNeolithic">
         <defName>pphhyy_BoneReapers_SoulThetesBow</defName>
         <label>Soul thetes bow</label>
-        <description>Yes</description>
+        <description>A bow infused with a greater soul. The process for creating weapons with greater souls is a dangerous process. Involving ripping the soul into quadrants in a single instance. Causing a massive release of necrotic energy. Withering everything down to the bone. Apokryphos heavily document this process</description>
         <graphicData>
             <texPath>Weapons/SoulWeapons/SoulThetesBow</texPath>
             <graphicClass>Graphic_Single</graphicClass>
@@ -248,7 +248,7 @@
         </costList>
 
         <statBases>
-            <WorkToMake>7000</WorkToMake>
+            <WorkToMake>9000</WorkToMake>
             <Mass>2.2</Mass>
             <AccuracyTouch>0.69</AccuracyTouch>
             <AccuracyShort>0.81</AccuracyShort>
@@ -326,7 +326,7 @@
     <ThingDef ParentName="BaseWeapon">
         <defName>pphhyy_BoneReapers_SoulThetesStaff</defName>
         <label>Soul thetes staff</label>
-        <description>Yes</description>
+        <description>A staff infused with a greater soul. Those that choose to wield such a powerful staff must undergo Arbitration. The arbiters of the Sepelire Order, chosen by age, oversee this trial. Involves mending the mind to the staff. Removing the delay from brain to soul within the staff.</description>
         <techLevel>Medieval</techLevel>
         <graphicData>
             <texPath>Weapons/SoulWeapons/SoulThetesStaff</texPath>
@@ -361,7 +361,7 @@
         </costList>
 
         <statBases>
-            <WorkToMake>18000</WorkToMake>
+            <WorkToMake>10000</WorkToMake>
             <Mass>3</Mass>
             <AccuracyTouch>0.45</AccuracyTouch>
             <AccuracyShort>0.50</AccuracyShort>
@@ -434,7 +434,7 @@
     <ThingDef ParentName="pphhyy_Base_Sharp_NormalSize">
         <defName>pphhyy_BoneReaper_SoulThetesJavelin</defName>
         <label>Soul thetes javelin</label>
-        <description>Yes</description>
+        <description>A javelin infused with a greater soul. Apokryphos believe this weapon is of final priority to be constructed. Often lost in battle or ruined due to the usage of the weapon. Very rarely is this weapon enhanced to a greater status. If so, then the world has seen the wrath of the BoneReapers.</description>
         <graphicData>
             <texPath>Weapons/SoulWeapons/SoulThetesJavalin</texPath>
             <graphicClass>Graphic_Single</graphicClass>
@@ -545,7 +545,7 @@
     <ThingDef ParentName="pphhyy_Base_SharpSword_Oversize">
         <defName>pphhyy_BoneReapers_SoulThetesGreatMace</defName>
         <label>Soul thetes great mace</label>
-        <description>Yes</description>
+        <description>A great mace infused with a greater soul. The Sepelire often are charged with the duty to separate the souls, anyone else would be less capable. The Phalangite believe that a freshly separated soul gives the weapon more power. This phenomenon has never recorded.</description>
         <graphicData>
             <texPath>Weapons/SoulWeapons/SoulThetesGreatMace</texPath>
             <graphicClass>Graphic_Single</graphicClass>
@@ -556,7 +556,7 @@
         
 
         <statBases>
-            <WorkToMake>18000</WorkToMake>
+            <WorkToMake>12000</WorkToMake>
             <Mass>4</Mass>
         </statBases>
 
@@ -616,7 +616,7 @@
     <ThingDef ParentName="pphhyy_Base_SharpSword_Oversize">
         <defName>pphhyy_BoneReapers_SoulThetesScythe</defName>
         <label>Soul thetes scythe</label>
-        <description>Yes</description>
+        <description>A great scythe infused with a greater soul. The Phalangites believe that while this version of the weapon is superior to the one-handed scythe. They still believe it as a weapon relegated to only the Thetes.</description>
         <possessionCount>1</possessionCount>
         <graphicData>
             <drawSize>1.25</drawSize>
@@ -640,7 +640,7 @@
             </li>
         </comps>
         <statBases>
-            <WorkToMake>18000</WorkToMake>
+            <WorkToMake>12000</WorkToMake>
             <Mass>2</Mass>
         </statBases>
 
@@ -696,7 +696,7 @@
     <ThingDef ParentName="pphhyy_Base_Sharp_NormalSize">
         <defName>pphhyy_BoneReapers_SoulThetesPolearm</defName>
         <label>Soul thetes polearm</label>
-        <description>Yes</description>
+        <description>A polearm infused with a greater soul. Phalangites often use this weapon for its versatility in combat.</description>
         <graphicData>
             <texPath>Weapons/SoulWeapons/SoulThetesPolarm</texPath>
             <graphicClass>Graphic_Single</graphicClass>
@@ -705,7 +705,7 @@
         </graphicData>
 
         <statBases>
-            <WorkToMake>15000</WorkToMake>
+            <WorkToMake>12000</WorkToMake>
             <Mass>2.75</Mass>
         </statBases>
 
@@ -765,14 +765,14 @@
     <ThingDef ParentName="pphhyy_Base_SharpSword_Oversize">
         <defName>pphhyy_BoneReapers_SoulThetesGreatSword</defName>
         <label>Soul thetes greatsword</label>
-        <description>Yes</description>
+        <description>A great sword infused with a greater soul. The Apokryphos believe this to be the highest priority in constructing greater weapons. Both the Thetes and Phalangites request for this weapon, while only the latter being able to wield the weapon effectively.</description>
         <graphicData>
             <texPath>Weapons/SoulWeapons/SoulThetesGreatSword</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
 
         <statBases>
-            <WorkToMake>24000</WorkToMake>
+            <WorkToMake>12000</WorkToMake>
             <Mass>3</Mass>
         </statBases>
 
@@ -835,7 +835,7 @@
     <ThingDef ParentName="pphhyy_Base_SharpSword_Oversize">
         <defName>pphhyy_BoneReapers_SoulArchonSword</defName>
         <label>Soul archon sword</label>
-        <description>Yes</description>
+        <description>An Archon sword infused with a greater soul for the purpose of carrying out edicts from The Reaper. A deity figure who is the emperor of the BoneReaper empire. Repeatedly working from the shadows, never lifting a finger.</description>
         <graphicData>
             <texPath>Weapons/SoulWeapons/SoulArchonSword</texPath>
             <graphicClass>Graphic_Single</graphicClass>
@@ -843,7 +843,7 @@
         </graphicData>
         <techLevel>Medieval</techLevel>
         <statBases>
-            <WorkToMake>13000</WorkToMake>
+            <WorkToMake>18000</WorkToMake>
             <Mass>1</Mass>
         </statBases>
 
@@ -908,7 +908,7 @@
     <ThingDef ParentName="pphhyy_Base_Sharp_NormalSize">
         <defName>pphhyy_BoneReapers_SoulArchonPolearm</defName>
         <label>Soul archon polearm</label>
-        <description>Yes</description>
+        <description>An Archon polearm infused with a greater soul. This weapon is usually delegated to the Eternal Guard. A group of Archons with the purpose for guarding the Sepelire Order and The Reaper. They are to be never utilized in war rather only in situations where a counter offensive is deemed necessary.</description>
         <graphicData>
             <texPath>Weapons/SoulWeapons/SoulArchonPolearm</texPath>
             <graphicClass>Graphic_Single</graphicClass>
@@ -917,7 +917,7 @@
         </graphicData>
 
         <statBases>
-            <WorkToMake>15000</WorkToMake>
+            <WorkToMake>18000</WorkToMake>
             <Mass>2.75</Mass>
         </statBases>
 
