@@ -7,10 +7,10 @@
   <ThingDef ParentName="BuildingBase">
     <defName>pphhyy_OsseousPillar</defName>
     <label>osseous pillar</label>
-    <description>PLACEHOLDER</description>
+    <description>Although BoneReapers are undead they can still appreciate art and create it. A Large pillar to adorn your halls with.</description>
     <altitudeLayer>Building</altitudeLayer>
     <passability>PassThroughOnly</passability>
-    <uiIconScale>0.8</uiIconScale>
+    <uiIconScale>0.6</uiIconScale>
     <selectable>true</selectable>
     <fillPercent>0.20</fillPercent>
     <defaultPlacingRot>South</defaultPlacingRot>
@@ -18,12 +18,13 @@
     <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
     <designationCategory>Furniture</designationCategory>
     <rotatable>false</rotatable>
-    <size>(1,2)</size>
+    <size>(1,1)</size>
     <graphicData>
       <graphicClass>Graphic_Multi</graphicClass>
       <texPath>Buildings/OsseousPillar/OsseousPillar</texPath>
       <shaderType>CutoutComplex</shaderType>
       <drawSize>(2.8,2.4)</drawSize>
+      <drawOffset>(0,0,-0.32)</drawOffset>
     </graphicData>
     <statBases>
       <MaxHitPoints>50</MaxHitPoints>
@@ -48,10 +49,10 @@
   <ThingDef ParentName="BuildingBase">
     <defName>pphhyy_OsseousObelisk</defName>
     <label>osseous obelisk</label>
-    <description>PLACEHOLDER</description>
+    <description>Although BoneReapers are undead they can still appreciate art and create it. A Large Obelisk to adorn your halls with.</description>
     <altitudeLayer>Building</altitudeLayer>
     <passability>PassThroughOnly</passability>
-    <uiIconScale>0.8</uiIconScale>
+    <uiIconScale>0.6</uiIconScale>
     <selectable>true</selectable>
     <fillPercent>0.20</fillPercent>
     <defaultPlacingRot>South</defaultPlacingRot>
@@ -60,12 +61,13 @@
     <leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
     <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
     <rotatable>false</rotatable>
-    <size>(1,2)</size>
+    <size>(1,1)</size>
     <graphicData>
       <graphicClass>Graphic_Multi</graphicClass>
       <texPath>Buildings/OsseousObelisk/OsseousObelisk</texPath>
       <shaderType>CutoutComplex</shaderType>
       <drawSize>(2.8,2.4)</drawSize>
+      <drawOffset>(0,0,-0.28)</drawOffset>
     </graphicData>
     <statBases>
       <MaxHitPoints>50</MaxHitPoints>
@@ -90,7 +92,7 @@
   <ThingDef ParentName="BuildingBase">
     <defName>pphhyy_OsseousUrnI</defName>
     <label>osseous urn</label>
-    <description>PLACEHOLDER</description>
+    <description>Although BoneReapers are undead they can still appreciate art and create it. Decorative urn.</description>
     <minifiedDef>MinifiedThing</minifiedDef>
     <defaultPlacingRot>South</defaultPlacingRot>
     <possessionCount>1</possessionCount>
@@ -129,7 +131,7 @@
       <texPath>Buildings/OsseousUrn/OsseousUrnA/OsseousUrnA</texPath>
       <graphicClass>Graphic_Multi</graphicClass>
       <shaderType>CutoutComplex</shaderType>
-      <drawSize>(3,2.5)</drawSize>
+      <drawSize>(2,2)</drawSize>
     </graphicData>
     <researchPrerequisites>
       <li>pphhyy_BoneReaperUrns</li>
@@ -139,7 +141,7 @@
   <ThingDef ParentName="BuildingBase">
     <defName>pphhyy_OsseousUrnII</defName>
     <label>osseous urn</label>
-    <description>PLACEHOLDER</description>
+    <description>Although BoneReapers are undead they can still appreciate art and create it. Decorative urn.</description>
     <minifiedDef>MinifiedThing</minifiedDef>
     <defaultPlacingRot>South</defaultPlacingRot>
     <possessionCount>1</possessionCount>
@@ -178,7 +180,7 @@
       <texPath>Buildings/OsseousUrn/OsseousUrnB/OsseousUrnB</texPath>
       <graphicClass>Graphic_Multi</graphicClass>
       <shaderType>CutoutComplex</shaderType>
-      <drawSize>(3,2.5)</drawSize>
+      <drawSize>(2,2)</drawSize>
     </graphicData>
     <researchPrerequisites>
       <li>pphhyy_BoneReaperUrns</li>
@@ -188,7 +190,7 @@
   <ThingDef ParentName="BuildingBase">
     <defName>pphhyy_OsseousUrnIII</defName>
     <label>osseous urn</label>
-    <description>PLACEHOLDER</description>
+    <description>Although BoneReapers are undead they can still appreciate art and create it. Decorative urn.</description>
     <minifiedDef>MinifiedThing</minifiedDef>
     <defaultPlacingRot>South</defaultPlacingRot>
     <possessionCount>1</possessionCount>
@@ -227,7 +229,7 @@
       <texPath>Buildings/OsseousUrn/OsseousUrnC/OsseousUrnC</texPath>
       <graphicClass>Graphic_Multi</graphicClass>
       <shaderType>CutoutComplex</shaderType>
-      <drawSize>(3,2.5)</drawSize>
+      <drawSize>(2,2)</drawSize>
     </graphicData>
     <researchPrerequisites>
       <li>pphhyy_BoneReaperUrns</li>
@@ -239,7 +241,7 @@
 <ThingDef ParentName="BuildingBase">
   <defName>pphhyy_OsseousKurasi</defName>
   <label>osseous kurasi</label>
-  <description>PLACEHOLDER</description>
+  <description>A simple chair to sit in and judge the lowly humans.</description>
   <possessionCount>1</possessionCount>
   <designationCategory>Furniture</designationCategory>
   <defaultPlacingRot>South</defaultPlacingRot>
@@ -250,7 +252,7 @@
   <altitudeLayer>Building</altitudeLayer>
   <passability>PassThroughOnly</passability>
   <fillPercent>0.40</fillPercent>
-  <uiIconScale>1.2</uiIconScale>
+  <uiIconScale>0.9</uiIconScale>
   <statBases>
     <MaxHitPoints>40</MaxHitPoints>
     <WorkToBuild>500</WorkToBuild>
@@ -267,7 +269,7 @@
   <canOverlapZones>false</canOverlapZones>
   <pathCost>30</pathCost>
   <rotatable>true</rotatable>
-  <size>(1,2)</size>
+  <size>(1,1)</size>
   <building>
     <isInert>true</isInert>
     <ai_chillDestination>false</ai_chillDestination>
@@ -276,7 +278,8 @@
     <texPath>Buildings/OsseousKurasi/OsseousKurasi</texPath>
     <graphicClass>Graphic_Multi</graphicClass>
     <shaderType>CutoutComplex</shaderType>
-    <drawSize>(1.5,1.2)</drawSize>
+    <drawSize>(1.7,1.5)</drawSize>
+    <drawOffset>(0,0,-0.08)</drawOffset>
   </graphicData>
   <researchPrerequisites>
     <li>pphhyy_BoneReaperBasicFurniture</li>
@@ -288,7 +291,7 @@
 <ThingDef ParentName="BuildingBase">
   <defName>pphhyy_OsseousColumn</defName>
   <label>osseous column</label>
-  <description>PLACEHOLDER</description>
+  <description>Basic Column to hold up a roof.</description>
   <altitudeLayer>Building</altitudeLayer>
   <passability>PassThroughOnly</passability>
   <selectable>true</selectable>
@@ -299,17 +302,21 @@
   <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
   <designationCategory>Furniture</designationCategory>
   <rotatable>false</rotatable>
-  <size>(1,2)</size>
+  <specialDisplayRadius>6.9</specialDisplayRadius>
+  <size>(1,1)</size>
   <graphicData>
     <graphicClass>Graphic_Multi</graphicClass>
     <texPath>Buildings/OsseousColumn/OsseousColumn</texPath>
     <shaderType>CutoutComplex</shaderType>
-    <drawSize>(1,1)</drawSize>
+    <drawSize>(1.5,1.5)</drawSize>
+    <drawOffset>(0,0,0.2)</drawOffset>
   </graphicData>
-  <uiIconScale>1.2</uiIconScale>
+  <uiIconScale>0.8</uiIconScale>
+  <holdsRoof>true</holdsRoof>
   <statBases>
     <MaxHitPoints>100</MaxHitPoints>
     <Flammability>0.5</Flammability>
+    <StyleDominance MayRequire="Ludeon.RimWorld.Ideology">10</StyleDominance>
   </statBases>
   <costStuffCount>20</costStuffCount>
   <stuffCategories>
@@ -323,6 +330,9 @@
   <researchPrerequisites>
     <li>pphhyy_BoneReaperBasicPillars</li>
   </researchPrerequisites>
+  <comps>
+    <li Class="CompProperties_Styleable" />
+  </comps>
 </ThingDef>
 
 <!-- Osseous Brazier -->
@@ -330,7 +340,7 @@
 <ThingDef ParentName="BuildingBase">
   <defName>pphhyy_OsseousBrazier</defName>
   <label>osseous brazier</label>
-  <description>PLACEHOLDER</description>
+  <description>A Brazier to light the halls fueled by wood.</description>
   <altitudeLayer>Building</altitudeLayer>
   <passability>PassThroughOnly</passability>
   <selectable>true</selectable>
@@ -343,12 +353,13 @@
   <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
   <designationCategory>Furniture</designationCategory>
   <rotatable>false</rotatable>
-  <size>(1,2)</size>
+  <size>(1,1)</size>
   <graphicData>
     <graphicClass>Graphic_Multi</graphicClass>
     <texPath>Buildings/OsseousBrazier/OsseousBrazier</texPath>
     <shaderType>CutoutComplex</shaderType>
-    <drawSize>(1,1)</drawSize>
+    <drawSize>(1.5,1.5)</drawSize>
+    <drawOffset>(0,0,0.2)</drawOffset>
   </graphicData>
   <statBases>
     <MaxHitPoints>100</MaxHitPoints>
@@ -360,7 +371,7 @@
     <li>Stony</li>
     <li>Woody</li>
   </stuffCategories>
-  <uiIconScale>1.2</uiIconScale>
+  <uiIconScale>0.8</uiIconScale>
   <costList>
     <pphhyy_HumanBones>5</pphhyy_HumanBones>
   </costList>
@@ -401,7 +412,7 @@
 <ThingDef ParentName="BuildingBase" MayRequire="pphhyy.LightlessEmpyrean">
   <defName>pphhyy_OsseousBanner</defName>
   <label>osseous banner</label>
-  <description>PLACEHOLDER</description>
+  <description>Banner of the endless BoneReaper Legions.</description>
   <altitudeLayer>Building</altitudeLayer>
   <passability>PassThroughOnly</passability>
   <selectable>true</selectable>
@@ -410,19 +421,20 @@
   <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
   <designationCategory>Furniture</designationCategory>
   <rotatable>false</rotatable>
-  <size>(1,2)</size>
+  <size>(1,1)</size>
   <graphicData>
     <graphicClass>Graphic_Single</graphicClass>
     <texPath>Buildings/OsseousBanner/OsseousBanner_south</texPath>
     <shaderType>CutoutComplex</shaderType>
-    <drawSize>(1.4,1.3)</drawSize>
+    <drawSize>(1.9,1.6)</drawSize>
+    <drawOffset>(0,0,0.28)</drawOffset>
   </graphicData>
   <statBases>
     <MaxHitPoints>50</MaxHitPoints>
     <Flammability>0.5</Flammability>
   </statBases>
   <costStuffCount>20</costStuffCount>
-  <uiIconScale>1.2</uiIconScale>
+  <uiIconScale>0.9</uiIconScale>
   <stuffCategories>
     <li>Metallic</li>
     <li>Stony</li>
@@ -442,7 +454,7 @@
 <ThingDef ParentName="BuildingBase">
   <defName>pphhyy_OsseousLamp</defName>
   <label>osseous lamp</label>
-  <description>PLACEHOLDER</description>
+  <description>Using a soul as an eternal source of light is quite charming once you give it a chance.</description>
   <altitudeLayer>Building</altitudeLayer>
   <passability>PassThroughOnly</passability>
   <selectable>true</selectable>
@@ -453,19 +465,20 @@
   <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
   <designationCategory>Furniture</designationCategory>
   <rotatable>false</rotatable>
-  <size>(1,2)</size>
+  <size>(1,1)</size>
   <graphicData>
     <graphicClass>Graphic_Multi</graphicClass>
     <texPath>Buildings/OsseousLamp/OsseousLamp</texPath>
     <shaderType>CutoutComplex</shaderType>
-    <drawSize>(1,1)</drawSize>
+    <drawSize>(1.5,1.5)</drawSize>
+    <drawOffset>(0,0,0.2)</drawOffset>
   </graphicData>
   <statBases>
     <MaxHitPoints>75</MaxHitPoints>
     <Flammability>0.5</Flammability>
   </statBases>
   <costStuffCount>20</costStuffCount>
-  <uiIconScale>1.2</uiIconScale>
+  <uiIconScale>0.8</uiIconScale>
   <stuffCategories>
     <li>Metallic</li>
     <li>Stony</li>
@@ -491,7 +504,7 @@
 <ThingDef ParentName="BuildingBase" MayRequire="Ludeon.RimWorld.Ideology">
   <defName>pphhyy_OsseousShrine</defName>
   <label>osseous shrine</label>
-  <description>PLACEHOLDER</description>
+  <description>A grand platform that plays a role in ideoligious rituals.</description>
   <possessionCount>1</possessionCount>
   <defaultPlacingRot>South</defaultPlacingRot>
   <ideoBuilding>true</ideoBuilding>
@@ -504,7 +517,7 @@
   </comps>
   <ritualFocus>
     <spectateDistance>2</spectateDistance>
-    <allowedSpectateSides>Down</allowedSpectateSides>
+    <allowedSpectateSides>Up</allowedSpectateSides>
   </ritualFocus>
   <uiIconScale>0.7</uiIconScale>
   <placeWorkers>
@@ -541,6 +554,7 @@
     <graphicClass>Graphic_Multi</graphicClass>
     <shaderType>CutoutComplex</shaderType>
     <drawSize>(3,2.5)</drawSize>
+    <drawOffset>(0,0,0.2)</drawOffset>
   </graphicData>
 </ThingDef>  
 
@@ -549,7 +563,7 @@
 <ThingDef ParentName="BuildingBase">
   <defName>pphhyy_OsseousThrone</defName>
   <label>osseous throne</label>
-  <description>PLACEHOLDER</description>
+  <description>Seat of power for the ruling BoneReaper.</description>
   <possessionCount>1</possessionCount>
   <designationCategory>Furniture</designationCategory>
   <minifiedDef>MinifiedThing</minifiedDef>
@@ -590,6 +604,7 @@
     <graphicClass>Graphic_Multi</graphicClass>
     <shaderType>CutoutComplex</shaderType>
     <drawSize>(3.5,3.5)</drawSize>
+    <drawOffset>(0,0,-0.4)</drawOffset>
   </graphicData>
   <researchPrerequisites>
     <li>pphhyy_BoneReaperGrandFurniture</li>
@@ -632,5 +647,56 @@
     </li>
   </comps>
 </ThingDef>  
+
+<!-- Osseous Skamni -->
+
+<ThingDef ParentName="BuildingBase">
+  <defName>pphhyy_OsseousSkamni</defName>
+  <label>osseous skamni</label>
+  <description>PLACEHOLDER</description>
+  <possessionCount>1</possessionCount>
+  <designationCategory>Furniture</designationCategory>
+  <defaultPlacingRot>South</defaultPlacingRot>
+  <minifiedDef>MinifiedThing</minifiedDef>
+  <thingCategories>
+    <li>BuildingsFurniture</li>
+  </thingCategories>
+  <altitudeLayer>Building</altitudeLayer>
+  <passability>PassThroughOnly</passability>
+  <fillPercent>0.40</fillPercent>
+  <uiIconScale>1</uiIconScale>
+  <statBases>
+    <MaxHitPoints>40</MaxHitPoints>
+    <WorkToBuild>500</WorkToBuild>
+    <Mass>5</Mass>
+    <Flammability>1.0</Flammability>
+    <Beauty>5</Beauty>
+  </statBases>
+  <stuffCategories>
+    <li>Metallic</li>
+    <li>Stony</li>
+    <li>Woody</li>
+  </stuffCategories>
+  <costStuffCount>45</costStuffCount>
+  <canOverlapZones>false</canOverlapZones>
+  <pathCost>30</pathCost>
+  <rotatable>true</rotatable>
+  <size>(1,1)</size>
+  <building>
+    <isInert>true</isInert>
+    <ai_chillDestination>false</ai_chillDestination>
+  </building>
+  <graphicData>
+    <texPath>Buildings/OsseousSkamni/OsseousSkamni</texPath>
+    <graphicClass>Graphic_Multi</graphicClass>
+    <shaderType>CutoutComplex</shaderType>
+    <drawSize>(1.7,1.5)</drawSize>
+    <drawOffset>(0,0,-0.08)</drawOffset>
+  </graphicData>
+  <researchPrerequisites>
+    <li>pphhyy_BoneReaperBasicFurniture</li>
+  </researchPrerequisites>
+</ThingDef>  
+
 
 </Defs>

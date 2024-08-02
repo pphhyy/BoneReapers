@@ -91,7 +91,7 @@
 <ThingDef ParentName="BoneReapers_BoneAnimalBase">
   <defName>pphhyy_Scarab</defName>
   <label>scarab</label>
-  <description>The culmination for the pitiful settlements too stubborn to pay their tithes. Their bones broken, ripped, and stolen from their skin. Formed of animal bones to carry out tithes. They sweep our halls for us to be revered. We know of those who die before being revered. Join us.</description>
+  <description>A creature constructed from bone. The exterior bone making up an insect-like shell that covers its internals. The Sepelire Order devised that this is the perfect form a creature with its purpose to take. Such an order filled with penurious craftsmen.</description>
   <statBases>
     <MoveSpeed>2.0</MoveSpeed>
     <ArmorRating_Blunt>0.18</ArmorRating_Blunt>
@@ -209,7 +209,7 @@
 <ThingDef ParentName="BoneReapers_BoneAnimalBase">
      <defName>pphhyy_Mongrel</defName>
      <label>mongrel</label>
-     <description>Viewed as wretched beasts by those who face down our creations. We create something from memory, pets, faster than they remembered. For creativity is designed by pain. They will know of pain through thte switftness of our artistry. We understand your pain. Join us.</description>
+     <description>A quadruped designed to mock the human dog. These creatures are faster than your average 4-legged creature of its size. They are used for their speed as an accessory to catch faster prey. Unlike the human dogs, these expeditious beasts lack the ability to track their targets. For they lack the olfactory bulb to process smells.</description>
      <statBases>
        <MoveSpeed>4.0</MoveSpeed>
        <ArmorRating_Blunt>0.20</ArmorRating_Blunt>
@@ -380,7 +380,7 @@
   <ThingDef ParentName="BoneReapers_BoneAnimalBase">
     <defName>pphhyy_Ghora</defName>
     <label>ghora</label>
-    <description>We see how they treat their pets. They use them as tools, while we see them for their true beauty. Both riding into salvation. Both made of parts not our own, voices not our own. Be part of something bigger. Join us.</description>
+    <description>Vassal is made of lesser souls surrounded by the brine mold with a hardened exterior. The exterior designed for the purpose to be mounted. These creatures also show high intelligence in social behavior, forming packs to protect the territory.</description>
     <statBases>
       <MoveSpeed>6</MoveSpeed>
       <ArmorRating_Blunt>0.40</ArmorRating_Blunt>
@@ -529,7 +529,7 @@
   <ThingDef ParentName="BoneReapers_BoneAnimalBase">
     <defName>pphhyy_Daraigana</defName>
     <label>daraigana</label>
-    <description>We shall fuse mind to a design of higher purpose. A design of mixed bones. For the purpose of war and strength against the drudge. They believe we bring war and fear. They are mistaken. We offer a way out of pain. To end all suffering. Suffering is to live with ignorance of noth knowing more. We are scholars of pain. Join us.</description>
+    <description>Creature forged specifically for war. The souls like other creations in the BoneReaper army was chosen for this main purpose, hauling. Daraigana while lacking in speed makes up in armor which aids in its usage of tithe caravans.</description>
     <statBases>
       <MoveSpeed>6</MoveSpeed>
       <ArmorRating_Blunt>0.40</ArmorRating_Blunt>
@@ -673,7 +673,7 @@
   <ThingDef ParentName="BoneReapers_BoneAnimalBase">
     <defName>pphhyy_OsseousGheist</defName>
     <label>osseous gheist</label>
-    <description>Heightened mind, and structure to form one of many. We provide safety. Closure from the pressures of nature. Why strife in the waters of conflict. Join us.</description>
+    <description>The Osseous Gheist is a human soul tortured and mangled to it becomes servant to the Reapers. Used as jest against the waring faction, the gheists are sent during then night to haunt the enemy. While also being used as chaff before the main army is marches in.</description>
     <statBases>
       <MoveSpeed>4.6</MoveSpeed>
       <ArmorRating_Blunt>0.20</ArmorRating_Blunt>
@@ -818,7 +818,7 @@
   <ThingDef ParentName="BoneReapers_BoneAnimalBase">
     <defName>pphhyy_OsseousHorror</defName>
     <label>osseous horror</label>
-    <description>One heightened mind to control the structure from many. They no longer feel any suffering. They see the garden we reap. We offer its bounty. Join us.</description>
+    <description>A rare creature used to incite fear and sorrow. The Osseous Horror, a name given by its victims, created from both human and animal bones. The soul fused to this body is a soul from being with malicious tendencies, often being inmates.</description>
     <statBases>
       <MoveSpeed>2.7</MoveSpeed>
       <ArmorRating_Blunt>0.60</ArmorRating_Blunt>

@@ -4,7 +4,7 @@
   <ThingDef ParentName="ResourceBase">
     <defName>pphhyy_BoneMoldSteel</defName>
     <label>bone mold</label>
-    <description>Bone Mold Steel is a strong steel alloy created by combining steel with bones. It is ideal for armor and blunt weapons.</description>
+    <description>Bones Fused with Steel for a stronger alloy, While great for fortifications and blunt weapons it is not recommended for sharp or piercing weapons. Most of a BoneReaper Colony will be constructed with BoneMold, meaning hundreds if not thousands of creatures gave themselves to its construction.</description>
     <graphicData>
       <texPath>Resources/Metals/BoneMoldSteel</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
@@ -109,7 +109,7 @@
   <ThingDef ParentName="ResourceBase">
     <defName>pphhyy_EtherealSteel</defName>
     <label>ethereal steel</label>
-    <description>Ethereal steel is made by combining steel and greater souls together at an Ankylosis table. It can honed to an incredibly sharp edge.</description>
+    <description>Greater souls fused with Steel to produce an otherworldly alloy. Expensive to create and not good for a building material compared to BoneMold, however the blades forged from Ethereal Metal have no equal. Perfect for slicing limbs and not crushing the bones within.</description>
     <graphicData>
       <texPath>Resources/Metals/EtherealSteel</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
