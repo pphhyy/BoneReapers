@@ -24,7 +24,7 @@
       <texPath>Buildings/OsseousPillar/OsseousPillar</texPath>
       <shaderType>CutoutComplex</shaderType>
       <drawSize>(2.8,2.4)</drawSize>
-      <drawOffset>(0,0,-0.32)</drawOffset>
+      <drawOffset>(0,0,0.7)</drawOffset>
     </graphicData>
     <statBases>
       <MaxHitPoints>50</MaxHitPoints>
@@ -67,7 +67,7 @@
       <texPath>Buildings/OsseousObelisk/OsseousObelisk</texPath>
       <shaderType>CutoutComplex</shaderType>
       <drawSize>(2.8,2.4)</drawSize>
-      <drawOffset>(0,0,-0.28)</drawOffset>
+      <drawOffset>(0,0,0.7)</drawOffset>
     </graphicData>
     <statBases>
       <MaxHitPoints>50</MaxHitPoints>
@@ -238,42 +238,10 @@
 
 <!-- Osseous Kurasi -->
 
-<ThingDef ParentName="BuildingBase">
+<ThingDef ParentName="ArtableFurnitureBase">
   <defName>pphhyy_OsseousKurasi</defName>
   <label>osseous kurasi</label>
   <description>A simple chair to sit in and judge the lowly humans.</description>
-  <possessionCount>1</possessionCount>
-  <designationCategory>Furniture</designationCategory>
-  <defaultPlacingRot>South</defaultPlacingRot>
-  <minifiedDef>MinifiedThing</minifiedDef>
-  <thingCategories>
-    <li>BuildingsFurniture</li>
-  </thingCategories>
-  <altitudeLayer>Building</altitudeLayer>
-  <passability>PassThroughOnly</passability>
-  <fillPercent>0.40</fillPercent>
-  <uiIconScale>0.9</uiIconScale>
-  <statBases>
-    <MaxHitPoints>40</MaxHitPoints>
-    <WorkToBuild>500</WorkToBuild>
-    <Mass>5</Mass>
-    <Flammability>1.0</Flammability>
-    <Beauty>5</Beauty>
-  </statBases>
-  <stuffCategories>
-    <li>Metallic</li>
-    <li>Stony</li>
-    <li>Woody</li>
-  </stuffCategories>
-  <costStuffCount>45</costStuffCount>
-  <canOverlapZones>false</canOverlapZones>
-  <pathCost>30</pathCost>
-  <rotatable>true</rotatable>
-  <size>(1,1)</size>
-  <building>
-    <isInert>true</isInert>
-    <ai_chillDestination>false</ai_chillDestination>
-  </building>
   <graphicData>
     <texPath>Buildings/OsseousKurasi/OsseousKurasi</texPath>
     <graphicClass>Graphic_Multi</graphicClass>
@@ -281,10 +249,39 @@
     <drawSize>(1.7,1.5)</drawSize>
     <drawOffset>(0,0,-0.08)</drawOffset>
   </graphicData>
+  <altitudeLayer>Building</altitudeLayer>
+  <statBases>
+    <MaxHitPoints>100</MaxHitPoints>
+    <WorkToBuild>8000</WorkToBuild>
+    <Mass>5</Mass>
+    <Flammability>1.0</Flammability>
+    <Beauty>8</Beauty>
+    <Comfort>0.70</Comfort>
+    <StyleDominance MayRequire="Ludeon.RimWorld.Ideology">5</StyleDominance>
+  </statBases>
+  <socialPropernessMatters>true</socialPropernessMatters>
+  <stuffCategories>
+    <li>Metallic</li>
+    <li>Stony</li>
+    <li>Woody</li>
+  </stuffCategories>
+  <costStuffCount>45</costStuffCount>
+  <pathCost>30</pathCost>
+  <designationHotKey>Misc7</designationHotKey>
+  <fillPercent>0.35</fillPercent>
+  <defaultPlacingRot>South</defaultPlacingRot>
+  <uiOrder>2410</uiOrder>
+  <building>
+    <isSittable>true</isSittable>
+    <paintable>true</paintable>
+  </building>
   <researchPrerequisites>
     <li>pphhyy_BoneReaperBasicFurniture</li>
   </researchPrerequisites>
-</ThingDef>  
+  <comps>
+    <li Class="CompProperties_Styleable" />
+  </comps>
+</ThingDef>
 
 <!-- Osseous Column -->
 
@@ -426,7 +423,7 @@
     <graphicClass>Graphic_Single</graphicClass>
     <texPath>Buildings/OsseousBanner/OsseousBanner_south</texPath>
     <shaderType>CutoutComplex</shaderType>
-    <drawSize>(1.9,1.6)</drawSize>
+    <drawSize>(2.6,2.1)</drawSize>
     <drawOffset>(0,0,0.28)</drawOffset>
   </graphicData>
   <statBases>
@@ -434,7 +431,7 @@
     <Flammability>0.5</Flammability>
   </statBases>
   <costStuffCount>20</costStuffCount>
-  <uiIconScale>0.9</uiIconScale>
+  <uiIconScale>0.6</uiIconScale>
   <stuffCategories>
     <li>Metallic</li>
     <li>Stony</li>
@@ -576,7 +573,6 @@
   <socialPropernessMatters>true</socialPropernessMatters>
   <uiIconScale>0.7</uiIconScale>
   <altitudeLayer>Building</altitudeLayer>
-  <passability>PassThroughOnly</passability>
   <fillPercent>0.40</fillPercent>
   <statBases>
     <MaxHitPoints>40</MaxHitPoints>
@@ -598,13 +594,14 @@
     <isInert>true</isInert>
     <ai_chillDestination>false</ai_chillDestination>
   </building>
-  <size>(2,2)</size>
+  <size>(3,2)</size>
+  <interactionCellOffset>(0,0,1)</interactionCellOffset>
   <graphicData>
     <texPath>Buildings/OsseousThrone/OsseousThrone</texPath>
     <graphicClass>Graphic_Multi</graphicClass>
     <shaderType>CutoutComplex</shaderType>
     <drawSize>(3.5,3.5)</drawSize>
-    <drawOffset>(0,0,-0.4)</drawOffset>
+    <drawOffset>(0,0,0.6)</drawOffset>
   </graphicData>
   <researchPrerequisites>
     <li>pphhyy_BoneReaperGrandFurniture</li>
@@ -650,53 +647,49 @@
 
 <!-- Osseous Skamni -->
 
-<ThingDef ParentName="BuildingBase">
+<ThingDef ParentName="FurnitureWithQualityBase">
   <defName>pphhyy_OsseousSkamni</defName>
   <label>osseous skamni</label>
   <description>PLACEHOLDER</description>
-  <possessionCount>1</possessionCount>
-  <designationCategory>Furniture</designationCategory>
-  <defaultPlacingRot>South</defaultPlacingRot>
-  <minifiedDef>MinifiedThing</minifiedDef>
-  <thingCategories>
-    <li>BuildingsFurniture</li>
-  </thingCategories>
-  <altitudeLayer>Building</altitudeLayer>
-  <passability>PassThroughOnly</passability>
-  <fillPercent>0.40</fillPercent>
-  <uiIconScale>1</uiIconScale>
-  <statBases>
-    <MaxHitPoints>40</MaxHitPoints>
-    <WorkToBuild>500</WorkToBuild>
-    <Mass>5</Mass>
-    <Flammability>1.0</Flammability>
-    <Beauty>5</Beauty>
-  </statBases>
-  <stuffCategories>
-    <li>Metallic</li>
-    <li>Stony</li>
-    <li>Woody</li>
-  </stuffCategories>
-  <costStuffCount>45</costStuffCount>
-  <canOverlapZones>false</canOverlapZones>
-  <pathCost>30</pathCost>
-  <rotatable>true</rotatable>
-  <size>(1,1)</size>
-  <building>
-    <isInert>true</isInert>
-    <ai_chillDestination>false</ai_chillDestination>
-  </building>
   <graphicData>
     <texPath>Buildings/OsseousSkamni/OsseousSkamni</texPath>
     <graphicClass>Graphic_Multi</graphicClass>
     <shaderType>CutoutComplex</shaderType>
-    <drawSize>(1.7,1.5)</drawSize>
+    <drawSize>(1.3,1.2)</drawSize>
     <drawOffset>(0,0,-0.08)</drawOffset>
   </graphicData>
+  <altitudeLayer>Building</altitudeLayer>
+  <statBases>
+    <MaxHitPoints>75</MaxHitPoints>
+    <WorkToBuild>450</WorkToBuild>
+    <Mass>3</Mass>
+    <Flammability>1.0</Flammability>
+    <Beauty>0</Beauty>
+    <Comfort>0.5</Comfort>
+    <StyleDominance MayRequire="Ludeon.RimWorld.Ideology">5</StyleDominance>
+  </statBases>
+  <socialPropernessMatters>true</socialPropernessMatters>
+  <stuffCategories>
+    <li>Metallic</li>
+    <li>Woody</li>
+    <li>Stony</li>
+  </stuffCategories>
+  <costStuffCount>25</costStuffCount>
+  <pathCost>30</pathCost>
+  <designationHotKey>Misc6</designationHotKey>
+  <uiOrder>2400</uiOrder>
+  <fillPercent>0.20</fillPercent>
+  <building>
+    <isSittable>true</isSittable>
+    <paintable>true</paintable>
+  </building>
+  <uiIconOffset>(0, -0.05)</uiIconOffset>
   <researchPrerequisites>
     <li>pphhyy_BoneReaperBasicFurniture</li>
   </researchPrerequisites>
-</ThingDef>  
-
+  <comps>
+    <li Class="CompProperties_Styleable" />
+  </comps>
+</ThingDef>
 
 </Defs>

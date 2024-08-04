@@ -229,7 +229,6 @@
   <label>hathiyar bench</label>
   <description>BoneReaper armaments are crafted, maintained and upgraded all from this forge of undeath.</description>
   <thingClass>Building_WorkTable</thingClass>
-  <defaultPlacingRot>South</defaultPlacingRot>
   <graphicData>
     <texPath>Buildings/HathiyarBench/HathiyarBench</texPath>
     <graphicClass>Graphic_Multi</graphicClass>
@@ -301,7 +300,6 @@
   <label>yoroi bench</label>
   <description>BoneReaper War can be crafted, maintained and upgraded all from the Yoroi.</description>
   <thingClass>Building_WorkTable</thingClass>
-  <defaultPlacingRot>South</defaultPlacingRot>
   <graphicData>
     <texPath>Buildings/YoroiBench/YoroiBench</texPath>
     <graphicClass>Graphic_Multi</graphicClass>
@@ -372,7 +370,6 @@
   <label>sipar bench</label>
   <description>BoneReaper shields can be crafted, maintained and upgraded all form the Sipar. Sometimes you can even hear a lost soul yelling about bloat in the distance before vanishing like the wind.</description>
   <thingClass>Building_WorkTable</thingClass>
-  <defaultPlacingRot>South</defaultPlacingRot>
   <graphicData>
     <texPath>Buildings/SiparBench/SiparBench</texPath>
     <graphicClass>Graphic_Multi</graphicClass>
@@ -443,12 +440,11 @@
   <label>ekkatharistis bench</label>
   <description>PLACEHOLDER</description>
   <thingClass>Building_WorkTable</thingClass>
-  <defaultPlacingRot>South</defaultPlacingRot>
   <graphicData>
     <texPath>Buildings/EkkatharistisBench/EkkatharistisBench</texPath>
     <graphicClass>Graphic_Multi</graphicClass>
     <shaderType>CutoutComplex</shaderType>
-    <drawSize>(4.6,3.6)</drawSize>
+    <drawSize>(3.6,2.5)</drawSize>
     <drawOffset>(0,0,0)</drawOffset>
     <damageData>
       <cornerTL>Damage/Corner</cornerTL>
@@ -457,8 +453,7 @@
       <cornerBR>Damage/Corner</cornerBR>
     </damageData>
   </graphicData>
-  <castEdgeShadows>true</castEdgeShadows>
-  <staticSunShadowHeight>0.20</staticSunShadowHeight>    
+  <uiIconScale>0.7</uiIconScale>  
   <costStuffCount>75</costStuffCount>
   <stuffCategories>
     <li>Metallic</li>
@@ -477,7 +472,7 @@
     <Flammability>1.0</Flammability>
     <Cleanliness>-15</Cleanliness>
   </statBases>
-  <size>(3,2)</size>
+  <size>(1,1)</size>
   <designationCategory>Production</designationCategory>
   <uiOrder>2100</uiOrder>
   <passability>PassThroughOnly</passability>

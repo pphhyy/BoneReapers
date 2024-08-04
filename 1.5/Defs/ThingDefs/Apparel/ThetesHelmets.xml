@@ -4,7 +4,7 @@
 	<ThingDef ParentName="HatMakeableBase">
 		<defName>Apparel_ThetesHelm</defName>
 		<label>Thetes Helm</label>
-		<description>WIP</description>
+		<description>A Thetes first armor piece, made from stolen bones and salvaged metal. They seek to bring upon the Eternal War, a never-ending supply of bone, and tithes. Bringing in a better age for humanity, one where they can peacefully die by their lords of bone.</description>
 		<graphicData>
 			<texPath>Armor/ThetesHelm/ThetesHelm</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -79,7 +79,7 @@
     <ThingDef ParentName="HatMakeableBase">
 		<defName>Apparel_ThetesPlateHelm</defName>
 		<label>Thetes Plate Helm</label>
-		<description>WIP</description>
+		<description>An improved helmet with ornamental bone and more metal plating. Designed to intimidate opposing forces by parading their own bones.</description>
 		<graphicData>
 			<texPath>Armor/ThetesPlateHelm/ThetesPlateHelm</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -154,7 +154,7 @@
 	<ThingDef ParentName="HatMakeableBase">
 		<defName>Apparel_ThetesGrandPlateHelm</defName>
 		<label>Thetes Grand Plate Helm</label>
-		<description>WIP</description>
+		<description>Helmet with further protection around the jaw. Reserved for centurions within the heavy infantry and cavalry units. These helmets were heavily associated with the cavalry units more so due to the infamy gained by the Night Riders. A prestigious cavalry unit that is known for ransacking and ruthless tactics such as tying Tithes to the back of their mounts till they are deboned.</description>
 		<graphicData>
 			<texPath>Armor/ThetesGrandPlateHelm/ThetesGrandPlateHelm</texPath>
 			<graphicClass>Graphic_Single</graphicClass>

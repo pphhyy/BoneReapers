@@ -4,7 +4,7 @@
 	<ThingDef ParentName="HatMakeableBase">
 		<defName>Apparel_ArchonHelm</defName>
 		<label>Archon Helm</label>
-		<description>WIP</description>
+		<description>The Archon helmet, a preeminent armor piece that acts as a symbol for the BoneReaper army. While most armor made uses a wide variety of bones available, it is customary for the bones on the Archons armor to be made from fallen archons. Which is why the armor rarely gets made, often argued that they wouldn't need it.</description>
 		<graphicData>
 			<texPath>Armor/ArchonHelm/ArchonHelm</texPath>
 			<graphicClass>Graphic_Single</graphicClass>

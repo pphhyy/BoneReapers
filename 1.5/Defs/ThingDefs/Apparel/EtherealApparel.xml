@@ -4,7 +4,7 @@
   <ThingDef ParentName="HatBase" MayRequire="pphhyy.LightlessEmpyrean">
     <defName>Apparel_EtherealHood</defName>
     <label>Ethereal Hood</label>
-    <description>WIP</description>
+    <description>A hood made from a translucent plant material that provides the wearer with decent sight even when the hood is covering their face.</description>
 	<recipeMaker>
 	 <recipeUsers Inherit="False">
         <li>pphhyy_YoroiBench</li>
@@ -55,9 +55,9 @@
    <ThingDef ParentName="ApparelMakeableBase" MayRequire="pphhyy.LightlessEmpyrean">
     <defName>Apparel_EtherealRobes</defName>
     <label>Ethereal Robes</label>
-    <description>WIP</description>
+    <description>Thin translucent robes made from lightless plant. The area this plant grows is veiled in folklore. Accounts detail that the land lacks shadow, while other accounts rectify this saying the everything glows as if it was on fire.</description>
     <recipeMaker>
-	 <recipeUsers Inherit="False">
+	    <recipeUsers Inherit="False">
         <li>pphhyy_YoroiBench</li>
       </recipeUsers>
 	  <researchPrerequisite>pphhyy_BasicArmor</researchPrerequisite>
@@ -67,6 +67,9 @@
       </skillRequirements>
       <displayPriority>220</displayPriority>
     </recipeMaker>
+    <thingCategories>
+      <li>ApparelMisc</li>
+    </thingCategories>
     <graphicData>
       <texPath>Apperal/EtherealRobes/EtherealRobes</texPath>
       <graphicClass>Graphic_Single</graphicClass>

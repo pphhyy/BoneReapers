@@ -6,15 +6,12 @@
 		<smeltable>false</smeltable>
 		<techLevel>Spacer</techLevel>
 		<thingCategories Inherit="False">
-			<li>Apparel</li>
+			<li>VFEC_Shields</li>
 		</thingCategories>
-		<recipeMaker>
-		<recipeUsers Inherit="False"></recipeUsers>	
-		</recipeMaker>
+	   <recipeMaker IsNull="true"></recipeMaker>
 		<equipmentType>None</equipmentType>
 		<equippedStatOffsets>
 			<ShootingAccuracyPawn>-0.5</ShootingAccuracyPawn>
-			<MoveSpeed>1.6</MoveSpeed>
 		</equippedStatOffsets>
 		<thingClass>VFECore.Apparel_Shield</thingClass>
 		<statBases>

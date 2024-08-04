@@ -18,7 +18,7 @@
     <equippedAngleOffset>-65</equippedAngleOffset>
 
     <statBases>
-      <WorkToMake>6000</WorkToMake>
+      <WorkToMake>18000</WorkToMake>
       <Mass>1</Mass>
     </statBases>
 
@@ -62,6 +62,7 @@
       <skillRequirements>
         <Crafting>4</Crafting>
       </skillRequirements>
+      <unfinishedThingDef>UnfinishedWeapon</unfinishedThingDef>
     </recipeMaker>
 
     <modExtensions>
@@ -87,7 +88,7 @@
     <equippedAngleOffset>-65</equippedAngleOffset>
 
     <statBases>
-      <WorkToMake>6000</WorkToMake>
+      <WorkToMake>18000</WorkToMake>
       <Mass>1.10</Mass>
     </statBases>
 
@@ -131,6 +132,7 @@
       <skillRequirements>
         <Crafting>3</Crafting>
       </skillRequirements>
+      <unfinishedThingDef>UnfinishedWeapon</unfinishedThingDef>
     </recipeMaker>
 
     <modExtensions>
@@ -183,7 +185,7 @@
     <techLevel>Medieval</techLevel>
 
     <statBases>
-      <WorkToMake>6000</WorkToMake>
+      <WorkToMake>18000</WorkToMake>
       <Mass>3</Mass>
     </statBases>
 
@@ -228,6 +230,7 @@
       <skillRequirements>
         <Crafting>4</Crafting>
       </skillRequirements>
+      <unfinishedThingDef>UnfinishedWeapon</unfinishedThingDef>
     </recipeMaker>
 
     <modExtensions>
@@ -258,7 +261,7 @@
     </costList>
 
     <statBases>
-      <WorkToMake>6000</WorkToMake>
+      <WorkToMake>18000</WorkToMake>
       <Mass>2.2</Mass>
       <AccuracyTouch>0.69</AccuracyTouch>
       <AccuracyShort>0.81</AccuracyShort>
@@ -281,6 +284,7 @@
       <skillRequirements>
         <Crafting>5</Crafting>
       </skillRequirements>
+      <unfinishedThingDef>UnfinishedWeapon</unfinishedThingDef>
     </recipeMaker>
     <verbs>
       <li>
@@ -350,7 +354,7 @@
       <PsychicSensitivityOffset>0.50</PsychicSensitivityOffset>
     </equippedStatOffsets>
     <statBases>
-      <WorkToMake>7000</WorkToMake>
+      <WorkToMake>18000</WorkToMake>
       <Mass>3</Mass>
       <AccuracyTouch>0.45</AccuracyTouch>
       <AccuracyShort>0.50</AccuracyShort>
@@ -400,11 +404,11 @@
       <recipeUsers>
         <li>pphhyy_HathiyarBench</li>
       </recipeUsers>
-      <unfinishedThingDef>UnfinishedWeapon</unfinishedThingDef>
       <researchPrerequisite>pphhyy_BoneReaperWeapons</researchPrerequisite>
       <skillRequirements>
         <Crafting>8</Crafting>
       </skillRequirements>
+      <unfinishedThingDef>UnfinishedWeapon</unfinishedThingDef>
     </recipeMaker>
   </ThingDef>
 
@@ -439,7 +443,7 @@
     <techLevel>Medieval</techLevel>
 
     <statBases>
-      <WorkToMake>6000</WorkToMake>
+      <WorkToMake>18000</WorkToMake>
       <Mass>2.25</Mass>
       <AccuracyTouch>0.50</AccuracyTouch>
       <AccuracyShort>0.71</AccuracyShort>
@@ -500,6 +504,7 @@
       <skillRequirements>
         <Crafting>3</Crafting>
       </skillRequirements>
+      <unfinishedThingDef>UnfinishedWeapon</unfinishedThingDef>
     </recipeMaker>
 
     <modExtensions>
@@ -545,7 +550,7 @@
     
 
     <statBases>
-      <WorkToMake>10000</WorkToMake>
+      <WorkToMake>18000</WorkToMake>
       <Mass>4</Mass>
     </statBases>
 
@@ -590,6 +595,7 @@
       <skillRequirements>
         <Crafting>5</Crafting>
       </skillRequirements>
+      <unfinishedThingDef>UnfinishedWeapon</unfinishedThingDef>
     </recipeMaker>
   </ThingDef>
 
@@ -613,7 +619,7 @@
     </weaponTags>
 
     <statBases>
-      <WorkToMake>10000</WorkToMake>
+      <WorkToMake>18000</WorkToMake>
       <Mass>2</Mass>
     </statBases>
 
@@ -664,6 +670,7 @@
       <skillRequirements>
         <Crafting>5</Crafting>
       </skillRequirements>
+      <unfinishedThingDef>UnfinishedWeapon</unfinishedThingDef>
     </recipeMaker>
   </ThingDef>
 
@@ -682,7 +689,7 @@
     </graphicData>
 
     <statBases>
-      <WorkToMake>10000</WorkToMake>
+      <WorkToMake>18000</WorkToMake>
       <Mass>2.75</Mass>
     </statBases>
 
@@ -727,6 +734,7 @@
       <skillRequirements>
         <Crafting>3</Crafting>
       </skillRequirements>
+      <unfinishedThingDef>UnfinishedWeapon</unfinishedThingDef>
     </recipeMaker>
   </ThingDef>
 
@@ -770,7 +778,7 @@
       <drawSize>(1.25,1.25)</drawSize>
     </graphicData>
     <statBases>
-      <WorkToMake>12000</WorkToMake>
+      <WorkToMake>18000</WorkToMake>
       <Mass>3</Mass>
     </statBases>
 
@@ -814,6 +822,7 @@
       <skillRequirements>
         <Crafting>6</Crafting>
       </skillRequirements>
+      <unfinishedThingDef>UnfinishedWeapon</unfinishedThingDef>
     </recipeMaker>
   </ThingDef>
 
@@ -833,13 +842,10 @@
       <shaderType>CutoutComplex</shaderType>
     </graphicData>
     <techLevel>Medieval</techLevel>
-    
-
     <statBases>
-      <WorkToMake>15000</WorkToMake>
+      <WorkToMake>36000</WorkToMake>
       <Mass>1</Mass>
     </statBases>
-
     <costStuffCount>150</costStuffCount>
     <stuffCategories>
       <li>Metallic</li>
@@ -847,11 +853,9 @@
     <costList>
       <pphhyy_HumanBones>40</pphhyy_HumanBones>
     </costList>
-
     <weaponTags>
       <li>pphhyy_BoneReapers_ArchonSword</li>
     </weaponTags>
-
     <tools>
       <li>
         <label>handle</label>
@@ -880,6 +884,7 @@
       <skillRequirements>
         <Crafting>4</Crafting>
       </skillRequirements>
+      <unfinishedThingDef>UnfinishedWeapon</unfinishedThingDef>
     </recipeMaker>
 
     <modExtensions>
@@ -903,7 +908,7 @@
     </graphicData>
 
     <statBases>
-      <WorkToMake>15000</WorkToMake>
+      <WorkToMake>36000</WorkToMake>
       <Mass>2.75</Mass>
     </statBases>
 
@@ -948,6 +953,7 @@
       <skillRequirements>
         <Crafting>3</Crafting>
       </skillRequirements>
+      <unfinishedThingDef>UnfinishedWeapon</unfinishedThingDef>
     </recipeMaker>
   </ThingDef>
 
