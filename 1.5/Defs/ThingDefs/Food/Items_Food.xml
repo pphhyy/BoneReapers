@@ -30,11 +30,11 @@
 
   <ThoughtDef>
     <defName>pphhyy_AteSoulBerries</defName>
-    <durationDays>2</durationDays>
+    <durationDays>3</durationDays>
     <stages>
       <li>
         <label>ate soul berries</label>
-        <description>PLACEHOLDER</description>
+        <description>Rejuvenates the soul for a few days.</description>
         <baseMoodEffect>5</baseMoodEffect>
       </li>
     </stages>
@@ -278,11 +278,11 @@
 
   <ThoughtDef>
     <defName>pphhyy_DrankSoulWine</defName>
-    <durationDays>2</durationDays>
+    <durationDays>3</durationDays>
     <stages>
       <li>
         <label>drank soul wine</label>
-        <description>PLACEHOLDER</description>
+        <description>Rejuvenates the soul for a few days.</description>
         <baseMoodEffect>5</baseMoodEffect>
       </li>
     </stages>

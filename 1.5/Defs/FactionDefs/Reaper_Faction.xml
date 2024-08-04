@@ -3,7 +3,7 @@
 
   <FactionDef ParentName="FactionBase">
     <defName>pphhyy_BoneReapers_Faction</defName>
-    <fixedName>Bone Reapers</fixedName>
+    <fixedName>BoneReapers</fixedName>
     <label>bone reapers</label>
     <description>TBA</description>
     <colorSpectrum>

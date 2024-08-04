@@ -3,14 +3,14 @@
 
   <ScenarioDef>
     <defName>pphhyy_BoneReaperScouts</defName>
-    <label>Bone Reaper Scouts</label>
+    <label>BoneReapers Tithe Seekers</label>
     <description>BoneReapers have slumbered in this Rimworld for long enough. It is time to continue the great Reapers work and harvest the living that plague its surface!
 
 As a group of BoneReapers you will begin harvesting bones and souls from the locals, both human and animal. Doing so will allow you to craft everything from weapons to structures and even creating new BoneReapers. Bones and souls are the lifeblood of a BoneReaper colony, it is up to you if you are a benevolent farmer oppressing the world or a malevolent harvester taking everything in sight.
       
 BoneReaper Tithe Seekers function is to setup a bone tithe nexus in this area and convince the locals to give up their precious bones, willingly or by more creative means. This small beginning will soon bless the world with glorious undeath for the great Reaper.</description>
     <scenario>
-      <summary>soon.</summary>
+      <summary>Two Thetes' and a Sepelire are tasked with starting a new bone tithed in the area.</summary>
       <playerFaction>
         <def>PlayerFaction</def>
         <factionDef>PlayerColony</factionDef>

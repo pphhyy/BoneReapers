@@ -398,7 +398,7 @@
       <roamMtbDays>2</roamMtbDays>
       <petness>0.6</petness>
       <trainability>None</trainability>
-      <!--packAnimal>true</packAnimal  it gives an error because there is no pack texture-->
+      <packAnimal>true</packAnimal>  
 	    <useMeatFrom>Horse</useMeatFrom>
       <lifeStageAges>
         <li>
@@ -539,6 +539,7 @@
     </statBases>
     <uiIconScale>1.1</uiIconScale>
     <race>
+      <packAnimal>true</packAnimal>
       <herdAnimal>true</herdAnimal>
       <body>QuadrupedAnimalWithHooves</body>
       <baseHealthScale>2.3</baseHealthScale>
@@ -828,6 +829,7 @@
     </statBases>
     <uiIconScale>1.1</uiIconScale>
     <race>
+      <packAnimal>true</packAnimal>
       <herdAnimal>true</herdAnimal>
       <body>Human</body>
       <baseHealthScale>4.6</baseHealthScale>
