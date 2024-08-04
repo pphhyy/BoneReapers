@@ -112,28 +112,21 @@
 		  </li>
 		  <li>
 			<filter>
-				<stuffCategoriesToAllow>
-					<li>Metallic</li>
-				</stuffCategoriesToAllow>
-			</filter>
+				<thingDefs>
+				  <li>pphhyy_BoneMoldSteel</li>
+				</thingDefs>
+			  </filter>
 			<count>50</count>
 		</li>
 		</ingredients>
 		<fixedIngredientFilter>
 		  <thingDefs>
 			<li>pphhyy_HumanBones</li>
+			<li>pphhyy_BoneMoldSteel</li>
 		  </thingDefs>
-		  <stuffCategoriesToAllow>
-			<li>Metallic</li>
-		</stuffCategoriesToAllow>
 		</fixedIngredientFilter>
-		<defaultIngredientFilter>
-			<stuffCategoriesToAllow>
-				<li>Metallic</li>
-			</stuffCategoriesToAllow>
-		</defaultIngredientFilter>
 		<products>
-		  <pphhyy_BoneReapers_ThetesGrandShieldI>1</pphhyy_BoneReapers_ThetesGrandShieldI>
+		  <pphhyy_BoneReapers_ThetesShieldI>1</pphhyy_BoneReapers_ThetesShieldI>
 		</products>
 	</RecipeDef>
 
@@ -245,28 +238,21 @@
 		  </li>
 		  <li>
 			<filter>
-				<stuffCategoriesToAllow>
-					<li>Metallic</li>
-				</stuffCategoriesToAllow>
-			</filter>
+				<thingDefs>
+				  <li>pphhyy_BoneMoldSteel</li>
+				</thingDefs>
+			  </filter>
 			<count>50</count>
 		</li>
 		</ingredients>
 		<fixedIngredientFilter>
 		  <thingDefs>
 			<li>pphhyy_HumanBones</li>
+			<li>pphhyy_BoneMoldSteel</li>
 		  </thingDefs>
-		  <stuffCategoriesToAllow>
-			<li>Metallic</li>
-		</stuffCategoriesToAllow>
 		</fixedIngredientFilter>
-		<defaultIngredientFilter>
-			<stuffCategoriesToAllow>
-				<li>Metallic</li>
-			</stuffCategoriesToAllow>
-		</defaultIngredientFilter>
 		<products>
-		  <pphhyy_BoneReapers_ThetesGrandShieldII>1</pphhyy_BoneReapers_ThetesGrandShieldII>
+		  <pphhyy_BoneReapers_ThetesShieldII>1</pphhyy_BoneReapers_ThetesShieldII>
 		</products>
 	</RecipeDef>
 
@@ -378,28 +364,21 @@
 		  </li>
 		  <li>
 			<filter>
-				<stuffCategoriesToAllow>
-					<li>Metallic</li>
-				</stuffCategoriesToAllow>
-			</filter>
+				<thingDefs>
+				  <li>pphhyy_BoneMoldSteel</li>
+				</thingDefs>
+			  </filter>
 			<count>50</count>
 		</li>
 		</ingredients>
 		<fixedIngredientFilter>
 		  <thingDefs>
 			<li>pphhyy_HumanBones</li>
+			<li>pphhyy_BoneMoldSteel</li>
 		  </thingDefs>
-		  <stuffCategoriesToAllow>
-			<li>Metallic</li>
-		</stuffCategoriesToAllow>
 		</fixedIngredientFilter>
-		<defaultIngredientFilter>
-			<stuffCategoriesToAllow>
-				<li>Metallic</li>
-			</stuffCategoriesToAllow>
-		</defaultIngredientFilter>
 		<products>
-		  <pphhyy_BoneReapers_ThetesGrandShieldIII>1</pphhyy_BoneReapers_ThetesGrandShieldIII>
+		  <pphhyy_BoneReapers_ThetesShieldIII>1</pphhyy_BoneReapers_ThetesShieldIII>
 		</products>
 	</RecipeDef>
 
@@ -511,28 +490,21 @@
 		  </li>
 		  <li>
 			<filter>
-				<stuffCategoriesToAllow>
-					<li>Metallic</li>
-				</stuffCategoriesToAllow>
-			</filter>
+				<thingDefs>
+				  <li>pphhyy_BoneMoldSteel</li>
+				</thingDefs>
+			  </filter>
 			<count>50</count>
 		</li>
 		</ingredients>
 		<fixedIngredientFilter>
 		  <thingDefs>
 			<li>pphhyy_HumanBones</li>
+			<li>pphhyy_BoneMoldSteel</li>
 		  </thingDefs>
-		  <stuffCategoriesToAllow>
-			<li>Metallic</li>
-		</stuffCategoriesToAllow>
 		</fixedIngredientFilter>
-		<defaultIngredientFilter>
-			<stuffCategoriesToAllow>
-				<li>Metallic</li>
-			</stuffCategoriesToAllow>
-		</defaultIngredientFilter>
 		<products>
-		  <pphhyy_BoneReapers_ThetesGrandShieldIV>1</pphhyy_BoneReapers_ThetesGrandShieldIV>
+		  <pphhyy_BoneReapers_ThetesShieldIV>1</pphhyy_BoneReapers_ThetesShieldIV>
 		</products>
 	</RecipeDef>
 
@@ -644,28 +616,21 @@
 		  </li>
 		  <li>
 			<filter>
-				<stuffCategoriesToAllow>
-					<li>Metallic</li>
-				</stuffCategoriesToAllow>
-			</filter>
+				<thingDefs>
+				  <li>pphhyy_BoneMoldSteel</li>
+				</thingDefs>
+			  </filter>
 			<count>50</count>
 		</li>
 		</ingredients>
 		<fixedIngredientFilter>
 		  <thingDefs>
 			<li>pphhyy_HumanBones</li>
+			<li>pphhyy_BoneMoldSteel</li>
 		  </thingDefs>
-		  <stuffCategoriesToAllow>
-			<li>Metallic</li>
-		</stuffCategoriesToAllow>
 		</fixedIngredientFilter>
-		<defaultIngredientFilter>
-			<stuffCategoriesToAllow>
-				<li>Metallic</li>
-			</stuffCategoriesToAllow>
-		</defaultIngredientFilter>
 		<products>
-		  <pphhyy_BoneReapers_ThetesGrandShieldV>1</pphhyy_BoneReapers_ThetesGrandShieldV>
+		  <pphhyy_BoneReapers_ThetesShieldV>1</pphhyy_BoneReapers_ThetesShieldV>
 		</products>
 	</RecipeDef>
 
@@ -791,10 +756,10 @@
       </li>
 	  <li>
 		<filter>
-			<stuffCategoriesToAllow>
-				<li>Metallic</li>
-			</stuffCategoriesToAllow>
-		</filter>
+			<thingDefs>
+			  <li>pphhyy_BoneMoldSteel</li>
+			</thingDefs>
+		  </filter>
 		<count>50</count>
 	</li>
     </ingredients>
@@ -806,16 +771,9 @@
 		<li>pphhyy_BoneReapers_ThetesShieldIV</li>
 		<li>pphhyy_BoneReapers_ThetesShieldV</li>
 		<li>pphhyy_HumanBones</li>
+		<li>pphhyy_BoneMoldSteel</li>
       </thingDefs>
-	  <stuffCategoriesToAllow>
-		<li>Metallic</li>
-	</stuffCategoriesToAllow>
     </fixedIngredientFilter>
-	<defaultIngredientFilter>
-		<stuffCategoriesToAllow>
-			<li>Metallic</li>
-		</stuffCategoriesToAllow>
-	</defaultIngredientFilter>
     <products>
       <pphhyy_BoneReapers_ThetesGrandShieldI>1</pphhyy_BoneReapers_ThetesGrandShieldI>
     </products>
@@ -942,10 +900,10 @@
 		  </li>
 		  <li>
 			<filter>
-				<stuffCategoriesToAllow>
-					<li>Metallic</li>
-				</stuffCategoriesToAllow>
-			</filter>
+				<thingDefs>
+				  <li>pphhyy_BoneMoldSteel</li>
+				</thingDefs>
+			  </filter>
 			<count>50</count>
 		</li>
 		</ingredients>
@@ -957,16 +915,9 @@
 			<li>pphhyy_BoneReapers_ThetesShieldIV</li>
 			<li>pphhyy_BoneReapers_ThetesShieldV</li>
 			<li>pphhyy_HumanBones</li>
+			<li>pphhyy_BoneMoldSteel</li>
 		  </thingDefs>
-		  <stuffCategoriesToAllow>
-			<li>Metallic</li>
-		</stuffCategoriesToAllow>
 		</fixedIngredientFilter>
-		<defaultIngredientFilter>
-			<stuffCategoriesToAllow>
-				<li>Metallic</li>
-			</stuffCategoriesToAllow>
-		</defaultIngredientFilter>
 		<products>
 		  <pphhyy_BoneReapers_ThetesGrandShieldII>1</pphhyy_BoneReapers_ThetesGrandShieldII>
 		</products>
@@ -1092,10 +1043,10 @@
 		  </li>
 		  <li>
 			<filter>
-				<stuffCategoriesToAllow>
-					<li>Metallic</li>
-				</stuffCategoriesToAllow>
-			</filter>
+				<thingDefs>
+				  <li>pphhyy_BoneMoldSteel</li>
+				</thingDefs>
+			  </filter>
 			<count>50</count>
 		</li>
 		</ingredients>
@@ -1107,16 +1058,9 @@
 			<li>pphhyy_BoneReapers_ThetesShieldIV</li>
 			<li>pphhyy_BoneReapers_ThetesShieldV</li>
 			<li>pphhyy_HumanBones</li>
+			<li>pphhyy_BoneMoldSteel</li>
 		  </thingDefs>
-		  <stuffCategoriesToAllow>
-			<li>Metallic</li>
-		</stuffCategoriesToAllow>
 		</fixedIngredientFilter>
-		<defaultIngredientFilter>
-			<stuffCategoriesToAllow>
-				<li>Metallic</li>
-			</stuffCategoriesToAllow>
-		</defaultIngredientFilter>
 		<products>
 		  <pphhyy_BoneReapers_ThetesGrandShieldIII>1</pphhyy_BoneReapers_ThetesGrandShieldIII>
 		</products>
@@ -1242,10 +1186,10 @@
 		  </li>
 		  <li>
 			<filter>
-				<stuffCategoriesToAllow>
-					<li>Metallic</li>
-				</stuffCategoriesToAllow>
-			</filter>
+				<thingDefs>
+				  <li>pphhyy_BoneMoldSteel</li>
+				</thingDefs>
+			  </filter>
 			<count>50</count>
 		</li>
 		</ingredients>
@@ -1257,16 +1201,9 @@
 			<li>pphhyy_BoneReapers_ThetesShieldIV</li>
 			<li>pphhyy_BoneReapers_ThetesShieldV</li>
 			<li>pphhyy_HumanBones</li>
+			<li>pphhyy_BoneMoldSteel</li>
 		  </thingDefs>
-		  <stuffCategoriesToAllow>
-			<li>Metallic</li>
-		</stuffCategoriesToAllow>
 		</fixedIngredientFilter>
-		<defaultIngredientFilter>
-			<stuffCategoriesToAllow>
-				<li>Metallic</li>
-			</stuffCategoriesToAllow>
-		</defaultIngredientFilter>
 		<products>
 		  <pphhyy_BoneReapers_ThetesGrandShieldIV>1</pphhyy_BoneReapers_ThetesGrandShieldIV>
 		</products>
@@ -1392,10 +1329,10 @@
 		  </li>
 		  <li>
 			<filter>
-				<stuffCategoriesToAllow>
-					<li>Metallic</li>
-				</stuffCategoriesToAllow>
-			</filter>
+				<thingDefs>
+				  <li>pphhyy_BoneMoldSteel</li>
+				</thingDefs>
+			  </filter>
 			<count>50</count>
 		</li>
 		</ingredients>
@@ -1407,16 +1344,9 @@
 			<li>pphhyy_BoneReapers_ThetesShieldIV</li>
 			<li>pphhyy_BoneReapers_ThetesShieldV</li>
 			<li>pphhyy_HumanBones</li>
+			<li>pphhyy_BoneMoldSteel</li>
 		  </thingDefs>
-		  <stuffCategoriesToAllow>
-			<li>Metallic</li>
-		</stuffCategoriesToAllow>
 		</fixedIngredientFilter>
-		<defaultIngredientFilter>
-			<stuffCategoriesToAllow>
-				<li>Metallic</li>
-			</stuffCategoriesToAllow>
-		</defaultIngredientFilter>
 		<products>
 		  <pphhyy_BoneReapers_ThetesGrandShieldV>1</pphhyy_BoneReapers_ThetesGrandShieldV>
 		</products>
@@ -1547,10 +1477,10 @@
 		  </li>
 		  <li>
 			<filter>
-				<stuffCategoriesToAllow>
-					<li>Metallic</li>
-				</stuffCategoriesToAllow>
-			</filter>
+				<thingDefs>
+				  <li>pphhyy_BoneMoldSteel</li>
+				</thingDefs>
+			  </filter>
 			<count>50</count>
 		</li>
 		</ingredients>
@@ -1563,16 +1493,9 @@
 			<li>pphhyy_BoneReapers_ThetesGrandShieldV</li>
 			<li>pphhyy_HumanBones</li>
 			<li>pphhyy_GreaterSoul</li>
+			<li>pphhyy_BoneMoldSteel</li>
 		  </thingDefs>
-		  <stuffCategoriesToAllow>
-			<li>Metallic</li>
-		</stuffCategoriesToAllow>
 		</fixedIngredientFilter>
-		<defaultIngredientFilter>
-			<stuffCategoriesToAllow>
-				<li>Metallic</li>
-			</stuffCategoriesToAllow>
-		</defaultIngredientFilter>
 		<products>
 		  <pphhyy_BoneReapers_ArchonShieldI>1</pphhyy_BoneReapers_ArchonShieldI>
 		</products>
@@ -1702,10 +1625,10 @@
 		  </li>
 		  <li>
 			<filter>
-				<stuffCategoriesToAllow>
-					<li>Metallic</li>
-				</stuffCategoriesToAllow>
-			</filter>
+				<thingDefs>
+				  <li>pphhyy_BoneMoldSteel</li>
+				</thingDefs>
+			  </filter>
 			<count>50</count>
 		</li>
 		</ingredients>
@@ -1718,16 +1641,9 @@
 			<li>pphhyy_BoneReapers_ThetesGrandShieldV</li>
 			<li>pphhyy_HumanBones</li>
 			<li>pphhyy_GreaterSoul</li>
+			<li>pphhyy_BoneMoldSteel</li>
 		  </thingDefs>
-		  <stuffCategoriesToAllow>
-			<li>Metallic</li>
-		</stuffCategoriesToAllow>
 		</fixedIngredientFilter>
-		<defaultIngredientFilter>
-			<stuffCategoriesToAllow>
-				<li>Metallic</li>
-			</stuffCategoriesToAllow>
-		</defaultIngredientFilter>
 		<products>
 		  <pphhyy_BoneReapers_ArchonShieldII>1</pphhyy_BoneReapers_ArchonShieldII>
 		</products>
@@ -1856,10 +1772,10 @@
 		  </li>
 		  <li>
 			<filter>
-				<stuffCategoriesToAllow>
-					<li>Metallic</li>
-				</stuffCategoriesToAllow>
-			</filter>
+				<thingDefs>
+				  <li>pphhyy_BoneMoldSteel</li>
+				</thingDefs>
+			  </filter>
 			<count>50</count>
 		</li>
 		</ingredients>
@@ -1872,16 +1788,9 @@
 			<li>pphhyy_BoneReapers_ThetesGrandShieldV</li>
 			<li>pphhyy_HumanBones</li>
 			<li>pphhyy_GreaterSoul</li>
+			<li>pphhyy_BoneMoldSteel</li>
 		  </thingDefs>
-		  <stuffCategoriesToAllow>
-			<li>Metallic</li>
-		</stuffCategoriesToAllow>
 		</fixedIngredientFilter>
-		<defaultIngredientFilter>
-			<stuffCategoriesToAllow>
-				<li>Metallic</li>
-			</stuffCategoriesToAllow>
-		</defaultIngredientFilter>
 		<products>
 		  <pphhyy_BoneReapers_ArchonShieldIII>1</pphhyy_BoneReapers_ArchonShieldIII>
 		</products>
@@ -2010,10 +1919,10 @@
 		  </li>
 		  <li>
 			<filter>
-				<stuffCategoriesToAllow>
-					<li>Metallic</li>
-				</stuffCategoriesToAllow>
-			</filter>
+				<thingDefs>
+				  <li>pphhyy_BoneMoldSteel</li>
+				</thingDefs>
+			  </filter>
 			<count>50</count>
 		</li>
 		</ingredients>
@@ -2026,16 +1935,9 @@
 			<li>pphhyy_BoneReapers_ThetesGrandShieldV</li>
 			<li>pphhyy_HumanBones</li>
 			<li>pphhyy_GreaterSoul</li>
+			<li>pphhyy_BoneMoldSteel</li>
 		  </thingDefs>
-		  <stuffCategoriesToAllow>
-			<li>Metallic</li>
-		</stuffCategoriesToAllow>
 		</fixedIngredientFilter>
-		<defaultIngredientFilter>
-			<stuffCategoriesToAllow>
-				<li>Metallic</li>
-			</stuffCategoriesToAllow>
-		</defaultIngredientFilter>
 		<products>
 		  <pphhyy_BoneReapers_ArchonShieldIV>1</pphhyy_BoneReapers_ArchonShieldIV>
 		</products>
@@ -2164,10 +2066,10 @@
 		  </li>
 		  <li>
 			<filter>
-				<stuffCategoriesToAllow>
-					<li>Metallic</li>
-				</stuffCategoriesToAllow>
-			</filter>
+				<thingDefs>
+				  <li>pphhyy_BoneMoldSteel</li>
+				</thingDefs>
+			  </filter>
 			<count>50</count>
 		</li>
 		</ingredients>
@@ -2180,16 +2082,9 @@
 			<li>pphhyy_BoneReapers_ThetesGrandShieldV</li>
 			<li>pphhyy_HumanBones</li>
 			<li>pphhyy_GreaterSoul</li>
+			<li>pphhyy_BoneMoldSteel</li>
 		  </thingDefs>
-		  <stuffCategoriesToAllow>
-			<li>Metallic</li>
-		</stuffCategoriesToAllow>
 		</fixedIngredientFilter>
-		<defaultIngredientFilter>
-			<stuffCategoriesToAllow>
-				<li>Metallic</li>
-			</stuffCategoriesToAllow>
-		</defaultIngredientFilter>
 		<products>
 		  <pphhyy_BoneReapers_ArchonShieldV>1</pphhyy_BoneReapers_ArchonShieldV>
 		</products>

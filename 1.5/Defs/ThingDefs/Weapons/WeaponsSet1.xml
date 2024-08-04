@@ -843,7 +843,7 @@
     </graphicData>
     <techLevel>Medieval</techLevel>
     <statBases>
-      <WorkToMake>18000</WorkToMake>
+      <WorkToMake>36000</WorkToMake>
       <Mass>1</Mass>
     </statBases>
     <costStuffCount>150</costStuffCount>
@@ -908,7 +908,7 @@
     </graphicData>
 
     <statBases>
-      <WorkToMake>18000</WorkToMake>
+      <WorkToMake>36000</WorkToMake>
       <Mass>2.75</Mass>
     </statBases>
 

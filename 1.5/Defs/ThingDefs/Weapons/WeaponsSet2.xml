@@ -19,7 +19,7 @@
         <equippedAngleOffset>-65</equippedAngleOffset>
 
         <statBases>
-            <WorkToMake>25000</WorkToMake>
+            <WorkToMake>60000</WorkToMake>
             <Mass>1</Mass>
         </statBases>
 
@@ -97,7 +97,7 @@
         <equippedAngleOffset>-65</equippedAngleOffset>
 
         <statBases>
-            <WorkToMake>25000</WorkToMake>
+            <WorkToMake>60000</WorkToMake>
             <Mass>1.10</Mass>
         </statBases>
 
@@ -173,7 +173,7 @@
         <techLevel>Medieval</techLevel>
 
         <statBases>
-            <WorkToMake>25000</WorkToMake>
+            <WorkToMake>60000</WorkToMake>
             <Mass>3</Mass>
         </statBases>
 
@@ -255,7 +255,7 @@
         </costList>
 
         <statBases>
-            <WorkToMake>25000</WorkToMake>
+            <WorkToMake>60000</WorkToMake>
             <Mass>2.2</Mass>
             <AccuracyTouch>0.69</AccuracyTouch>
             <AccuracyShort>0.81</AccuracyShort>
@@ -370,7 +370,7 @@
         </costList>
 
         <statBases>
-            <WorkToMake>25000</WorkToMake>
+            <WorkToMake>60000</WorkToMake>
             <Mass>3</Mass>
             <AccuracyTouch>0.45</AccuracyTouch>
             <AccuracyShort>0.50</AccuracyShort>
@@ -453,7 +453,7 @@
         <techLevel>Medieval</techLevel>
 
         <statBases>
-            <WorkToMake>25000</WorkToMake>
+            <WorkToMake>60000</WorkToMake>
             <Mass>2.25</Mass>
             <AccuracyTouch>0.50</AccuracyTouch>
             <AccuracyShort>0.71</AccuracyShort>
@@ -567,7 +567,7 @@
         
 
         <statBases>
-            <WorkToMake>25000</WorkToMake>
+            <WorkToMake>60000</WorkToMake>
             <Mass>4</Mass>
         </statBases>
 
@@ -653,7 +653,7 @@
             </li>
         </comps>
         <statBases>
-            <WorkToMake>25000</WorkToMake>
+            <WorkToMake>60000</WorkToMake>
             <Mass>2</Mass>
         </statBases>
 
@@ -720,7 +720,7 @@
         </graphicData>
 
         <statBases>
-            <WorkToMake>25000</WorkToMake>
+            <WorkToMake>60000</WorkToMake>
             <Mass>2.75</Mass>
         </statBases>
 
@@ -789,7 +789,7 @@
         </graphicData>
 
         <statBases>
-            <WorkToMake>25000</WorkToMake>
+            <WorkToMake>60000</WorkToMake>
             <Mass>3</Mass>
         </statBases>
 
@@ -862,7 +862,7 @@
         </graphicData>
         <techLevel>Medieval</techLevel>
         <statBases>
-            <WorkToMake>25000</WorkToMake>
+            <WorkToMake>60000</WorkToMake>
             <Mass>1</Mass>
         </statBases>
         <costList>
@@ -934,7 +934,7 @@
             <drawSize>(1.5,1.5)</drawSize>
         </graphicData>
         <statBases>
-            <WorkToMake>25000</WorkToMake>
+            <WorkToMake>60000</WorkToMake>
             <Mass>2.75</Mass>
         </statBases>
         <costList>

@@ -180,7 +180,7 @@
 <ThingDef ParentName="BoneReapers_BoneAnimalCreation">
     <defName>pphhyy_ScarabCreation</defName>
     <label>scarab</label>
-    <description>TBA</description>
+    <description>A creature constructed from bone. The exterior bone making up an insect-like shell that covers its internals. The Sepelire Order devised that this is the perfect form a creature with its purpose to take. Such an order filled with penurious craftsmen.</description>
     <statBases>
          <WorkToMake>20000</WorkToMake>
     </statBases>
@@ -352,7 +352,7 @@
    <ThingDef ParentName="BoneReapers_BoneAnimalCreation">
      	<defName>pphhyy_MongrelCreation</defName>
      	<label>mongrel</label>
-     	<description>TBA</description>
+     	<description>A quadruped designed to mock the human dog. These creatures are faster than your average 4-legged creature of its size. They are used for their speed as an accessory to catch faster prey. Unlike the human dogs, these expeditious beasts lack the ability to track their targets. For they lack the olfactory bulb to process smells.</description>
      	<statBases>
           	<WorkToMake>20000</WorkToMake>
      	</statBases>
@@ -502,7 +502,7 @@
   <ThingDef ParentName="BoneReapers_BoneAnimalCreation">
     <defName>pphhyy_GhoraCreation</defName>
     <label>ghora</label>
-    <description>TBA</description>
+    <description>Vassal is made of lesser souls surrounded by the brine mold with a hardened exterior. The exterior designed for the purpose to be mounted. These creatures also show high intelligence in social behavior, forming packs to protect the territory.</description>
     <statBases>
          <WorkToMake>20000</WorkToMake>
     </statBases>
@@ -647,7 +647,7 @@
   <ThingDef ParentName="BoneReapers_BoneAnimalCreation">
     <defName>pphhyy_DaraiganaCreation</defName>
     <label>daraigana</label>
-    <description>TBA</description>
+    <description>Creature forged specifically for war. The souls like other creations in the BoneReaper army was chosen for this main purpose, hauling. Daraigana while lacking in speed makes up in armor which aids in its usage of tithe caravans.</description>
     <statBases>
          <WorkToMake>20000</WorkToMake>
     </statBases>
@@ -792,7 +792,7 @@
   <ThingDef ParentName="BoneReapers_BoneAnimalCreation">
     <defName>pphhyy_OsseousGheistCreation</defName>
     <label>osseous gheist</label>
-    <description>TBA</description>
+    <description>The Osseous Gheist is a human soul tortured and mangled to it becomes servant to the Reapers. Used as jest against the waring faction, the gheists are sent during then night to haunt the enemy. While also being used as chaff before the main army is marches in.</description>
     <statBases>
          <WorkToMake>20000</WorkToMake>
     </statBases>
@@ -939,7 +939,7 @@
   <ThingDef ParentName="BoneReapers_BoneAnimalCreation">
     <defName>pphhyy_OsseousHorrorCreation</defName>
     <label>osseous horror</label>
-    <description>TBA</description>
+    <description>A rare creature used to incite fear and sorrow. The Osseous Horror, a name given by its victims, created from both human and animal bones. The soul fused to this body is a soul from being with malicious tendencies, often being inmates.</description>
     <statBases>
          <WorkToMake>20000</WorkToMake>
     </statBases>
