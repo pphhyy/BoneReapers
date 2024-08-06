@@ -438,7 +438,7 @@
 <ThingDef ParentName="BenchBase">
   <defName>pphhyy_EkkatharistisBench</defName>
   <label>ekkatharistis bench</label>
-  <description>PLACEHOLDER</description>
+  <description>A reclamation spot for destroyed BoneReaper animals as well as craft Anastasi to resurrect dead BoneReapers.</description>
   <thingClass>Building_WorkTable</thingClass>
   <graphicData>
     <texPath>Buildings/EkkatharistisBench/EkkatharistisBench</texPath>
