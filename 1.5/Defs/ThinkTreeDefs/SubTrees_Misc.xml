@@ -2,17 +2,17 @@
 <Defs>
 	<!-- ==========[CleaningThinkTreeExtension]========== -->
 	<ThinkTreeDef>
-		<defName>GIVETHISAUNIQUEDEFNAME</defName>
+		<defName>pphhyy_ScarabClean</defName>
 		<insertTag>Animal_PreWander</insertTag>
 		<insertPriority>1</insertPriority>
 		<thinkRoot Class="ThinkNode_ConditionalPawnKind">
-			<pawnKind>PAWNKINDDEF</pawnKind>
+			<pawnKind>pphhyy_Scarab</pawnKind>
 			<subNodes>
 				<li Class="ThinkNode_ConditionalHasFaction">
 					<subNodes>
 						<!-- Trained behaviour: Clean -->
 						<li Class="ThinkNode_ChancePerHour_Constant">
-							<mtbHours>1.5</mtbHours>
+							<mtbHours>2</mtbHours>
 							<subNodes>
 								<li Class="ThinkNode_ConditionalRequireCapacities">
 									<requiredCapacities>

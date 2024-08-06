@@ -5,7 +5,7 @@
     <ThingDef ParentName="ResourceBase">
         <defName>pphhyy_Anastasi</defName>
         <label>anastasi</label>
-        <description>PLACEHOLDER</description>
+        <description>Harvested souls can be crafted into Anastasi to resurrect fallen BoneReapers, ensuring the Reaper Empire never falls.</description>
         <graphicData>
           <texPath>Resources/Potions/Anastasi</texPath>
           <graphicClass>Graphic_StackCount</graphicClass>

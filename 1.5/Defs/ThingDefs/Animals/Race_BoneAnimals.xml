@@ -94,6 +94,7 @@
   <description>A creature constructed from bone. The exterior bone making up an insect-like shell that covers its internals. The Sepelire Order devised that this is the perfect form a creature with its purpose to take. Such an order filled with penurious craftsmen.</description>
   <statBases>
     <MoveSpeed>2.0</MoveSpeed>
+    <CleaningSpeed>0.8</CleaningSpeed>
     <ArmorRating_Blunt>0.18</ArmorRating_Blunt>
     <ArmorRating_Sharp>0.18</ArmorRating_Sharp>
     <MarketValue>150</MarketValue>
@@ -126,6 +127,8 @@
     </li>
   </tools>
   <race>
+    <thinkTreeMain>Animal</thinkTreeMain>
+    <thinkTreeConstant>AnimalConstant</thinkTreeConstant>
     <body>BeetleLike</body>
     <baseBodySize>0.5</baseBodySize>
     <baseHungerRate>0.10</baseHungerRate>
@@ -133,7 +136,7 @@
     <useMeatFrom>Megaspider</useMeatFrom>
     <lifeExpectancy>10</lifeExpectancy>
     <wildness>0.2</wildness>
-    <trainability>Intermediate</trainability>
+    <trainability>Advanced</trainability>
     <lifeStageAges>
       <li>
         <def>EusocialInsectAdult</def>

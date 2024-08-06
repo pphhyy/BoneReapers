@@ -105,6 +105,7 @@
     </thingCategories>
     <costList>
       <pphhyy_HumanBones>20</pphhyy_HumanBones>
+	  <Apparel_ThetesHelm>1</Apparel_ThetesHelm>
     </costList>
     <randomStyleChance>0.8</randomStyleChance>
 	<randomStyle>
@@ -180,6 +181,7 @@
     </thingCategories>
 	<costList>
       <pphhyy_HumanBones>20</pphhyy_HumanBones>
+	  <Apparel_ThetesPlateHelm>1</Apparel_ThetesPlateHelm>
     </costList>
 	<randomStyleChance>0.8</randomStyleChance>
 	<randomStyle>
@@ -190,7 +192,7 @@
         <styleDef>ThetesGrandPlateHelmStyle2</styleDef>
 	  </li>
 	  <li>
-        <styleDef>ThetesPlateHelmStyle3</styleDef>
+        <styleDef>ThetesGrandPlateHelmStyle3</styleDef>
 	  </li>
 	  <li>
         <styleDef>ThetesGrandPlateHelmStyle4</styleDef>

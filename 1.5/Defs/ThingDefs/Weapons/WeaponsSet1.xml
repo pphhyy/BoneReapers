@@ -380,7 +380,7 @@
       <li>
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <defaultProjectile>pphhyy_BoneReapers_ThetesArrow</defaultProjectile>
+        <defaultProjectile>pphhyy_BoneReapers_ThetesBolt</defaultProjectile>
         <warmupTime>1.75</warmupTime>
         <range>27.9</range>
         <soundCast>Bow_Recurve</soundCast>
@@ -416,7 +416,7 @@
     <defName>pphhyy_BoneReapers_ThetesBolt</defName>
     <label>Thetes bolt</label>
     <graphicData>
-      <texPath>Weapons/NormalWeapons/ThetesBowArrow</texPath>      <!-- have to add correct path when pp adds sprite -->
+      <texPath>Weapons/NormalWeapons/ThetesStaffBolt</texPath>      <!-- have to add correct path when pp adds sprite -->
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <projectile>
