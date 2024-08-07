@@ -29,7 +29,7 @@
         <techLevel>Medieval</techLevel>
         <tab>pphhyy_Bonereapers</tab>
         <prerequisites>
-            <li>pphhyy_BoneReaperTech</li>
+            <li>pphhyy_SepelireConstruction</li>
         </prerequisites>
         <researchViewX>5.00</researchViewX>
         <researchViewY>2.30</researchViewY>

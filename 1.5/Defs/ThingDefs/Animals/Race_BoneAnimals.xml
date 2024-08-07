@@ -694,7 +694,7 @@
 	    <baseBodySize>1</baseBodySize>
       <roamMtbDays>2</roamMtbDays>
       <petness>0.6</petness>
-      <trainability>None</trainability>
+      <trainability>Advanced</trainability>
 	    <useMeatFrom>Human</useMeatFrom>
       <lifeStageAges>
         <li>
@@ -807,7 +807,7 @@
     </recipeMaker>
     <costList>
       <pphhyy_GreaterSoul>1</pphhyy_GreaterSoul>
-      <pphhyy_HumanBones>30</pphhyy_HumanBones>
+      <pphhyy_HumanBones>15</pphhyy_HumanBones>
     </costList>
     <comps>
          <li Class="CompProperties_Hatcher">
@@ -954,7 +954,7 @@
     </recipeMaker>
     <costList>
       <pphhyy_GreaterSoul>1</pphhyy_GreaterSoul>
-      <pphhyy_HumanBones>90</pphhyy_HumanBones>
+      <pphhyy_HumanBones>45</pphhyy_HumanBones>
       <pphhyy_AnimalBones>90</pphhyy_AnimalBones>
     </costList>
     <comps>

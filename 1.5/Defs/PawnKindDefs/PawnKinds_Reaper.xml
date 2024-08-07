@@ -6,6 +6,8 @@
   <PawnKindDef Name="pphhyy_BoneReapers_Pawnkind_Base" Abstract="True">
     <race>Human</race>
     <defaultFactionType>pphhyy_BoneReapers_Faction</defaultFactionType>
+    <apparelIgnoreSeasons>True</apparelIgnoreSeasons>
+    <apparelIgnorePollution>True</apparelIgnorePollution>
     <maxGenerationAge>60</maxGenerationAge>
     <canBeSapper>true</canBeSapper>
     <gearHealthRange>0.5~1.8</gearHealthRange>

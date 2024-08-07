@@ -30,7 +30,7 @@
           <drawSize>1.2</drawSize>
         </graphicData>
         <statBases>
-          <WorkToMake>15000</WorkToMake>
+          <WorkToMake>60000</WorkToMake>
         </statBases>
         <costList>
           <pphhyy_GreaterSoul>2</pphhyy_GreaterSoul>
@@ -109,7 +109,7 @@
       <drawSize>1.2</drawSize>
     </graphicData>
     <statBases>
-      <WorkToMake>15000</WorkToMake>
+      <WorkToMake>60000</WorkToMake>
     </statBases>
     <costList>
         <pphhyy_GreaterSoul>2</pphhyy_GreaterSoul>
@@ -186,7 +186,7 @@
       <drawSize>1.2</drawSize>
     </graphicData>
     <statBases>
-      <WorkToMake>15000</WorkToMake>
+      <WorkToMake>60000</WorkToMake>
     </statBases>
     <costList>
         <pphhyy_GreaterSoul>2</pphhyy_GreaterSoul>
@@ -263,7 +263,7 @@
       <drawSize>1.2</drawSize>
     </graphicData>
     <statBases>
-      <WorkToMake>15000</WorkToMake>
+      <WorkToMake>60000</WorkToMake>
     </statBases>
     <techHediffsTags Inherit="False">
         <li>pphhyy_SoulGems</li>
@@ -342,7 +342,7 @@
       <drawSize>1.2</drawSize>
     </graphicData>
     <statBases>
-      <WorkToMake>15000</WorkToMake>
+      <WorkToMake>60000</WorkToMake>
     </statBases>
     <costList>
         <pphhyy_GreaterSoul>2</pphhyy_GreaterSoul>
@@ -423,7 +423,7 @@
       <drawSize>1.2</drawSize>
     </graphicData>
     <statBases>
-      <WorkToMake>15000</WorkToMake>
+      <WorkToMake>60000</WorkToMake>
     </statBases>
     <costList>
         <pphhyy_GreaterSoul>2</pphhyy_GreaterSoul>

@@ -29,7 +29,7 @@
       <li>ArmorHeadgear</li>
     </thingCategories>
 	<costList>
-      <pphhyy_HumanBones>20</pphhyy_HumanBones>
+      <pphhyy_HumanBones>10</pphhyy_HumanBones>
     </costList>
 	<randomStyleChance>0.8</randomStyleChance>
     <randomStyle>
@@ -104,7 +104,8 @@
       <li>ArmorHeadgear</li>
     </thingCategories>
     <costList>
-      <pphhyy_HumanBones>20</pphhyy_HumanBones>
+      <pphhyy_HumanBones>15</pphhyy_HumanBones>
+	  <pphhyy_LesserSoul>1</pphhyy_LesserSoul>
 	  <Apparel_ThetesHelm>1</Apparel_ThetesHelm>
     </costList>
     <randomStyleChance>0.8</randomStyleChance>
@@ -180,7 +181,8 @@
       <li>ArmorHeadgear</li>
     </thingCategories>
 	<costList>
-      <pphhyy_HumanBones>20</pphhyy_HumanBones>
+      <pphhyy_HumanBones>15</pphhyy_HumanBones>
+	  <pphhyy_LesserSoul>1</pphhyy_LesserSoul>
 	  <Apparel_ThetesPlateHelm>1</Apparel_ThetesPlateHelm>
     </costList>
 	<randomStyleChance>0.8</randomStyleChance>
