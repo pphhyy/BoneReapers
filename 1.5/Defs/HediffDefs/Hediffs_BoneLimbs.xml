@@ -45,7 +45,7 @@
     <drawGUIOverlay>true</drawGUIOverlay>
     <stackLimit>3</stackLimit>
     <costList>
-      <pphhyy_AnimalBones>10</pphhyy_AnimalBones>
+      <pphhyy_HumanBones>5</pphhyy_HumanBones>
     </costList>
     <statBases>
       <Mass>8</Mass>
@@ -121,7 +121,7 @@
     <drawGUIOverlay>true</drawGUIOverlay>
     <stackLimit>3</stackLimit>
     <costList>
-      <pphhyy_AnimalBones>10</pphhyy_AnimalBones>
+      <pphhyy_HumanBones>5</pphhyy_HumanBones>
     </costList>
     <statBases>
       <Mass>8</Mass>
@@ -197,7 +197,7 @@
     <drawGUIOverlay>true</drawGUIOverlay>
     <stackLimit>3</stackLimit>
     <costList>
-      <pphhyy_AnimalBones>10</pphhyy_AnimalBones>
+      <pphhyy_HumanBones>5</pphhyy_HumanBones>
     </costList>
     <statBases>
       <Mass>8</Mass>
@@ -274,7 +274,7 @@
     <drawGUIOverlay>true</drawGUIOverlay>
     <stackLimit>3</stackLimit>
     <costList>
-      <pphhyy_AnimalBones>10</pphhyy_AnimalBones>
+      <pphhyy_HumanBones>5</pphhyy_HumanBones>
     </costList>
     <statBases>
       <Mass>8</Mass>

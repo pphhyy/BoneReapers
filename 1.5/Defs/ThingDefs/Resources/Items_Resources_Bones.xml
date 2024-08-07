@@ -84,7 +84,7 @@
       <li>Butchery</li>
     </specialProducts> -->
 	<products>
-		  <pphhyy_HumanBones>30</pphhyy_HumanBones>
+		  <pphhyy_HumanBones>15</pphhyy_HumanBones>
 	</products>
   <researchPrerequisite>pphhyy_BoneReaperTech</researchPrerequisite>
   </RecipeDef>

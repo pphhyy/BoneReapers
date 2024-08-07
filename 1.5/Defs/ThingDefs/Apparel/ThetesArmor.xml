@@ -42,7 +42,7 @@
       <li>ApparelArmor</li>
     </thingCategories>
     <costList>
-      <pphhyy_HumanBones>30</pphhyy_HumanBones>
+      <pphhyy_HumanBones>20</pphhyy_HumanBones>
     </costList>
     <tradeTags>
       <li>Clothing</li>
@@ -112,7 +112,8 @@
       <li>ApparelArmor</li>
     </thingCategories>
     <costList>
-      <pphhyy_HumanBones>20</pphhyy_HumanBones>
+      <pphhyy_HumanBones>30</pphhyy_HumanBones>
+      <pphhyy_LesserSoul>1</pphhyy_LesserSoul>
 	  <Apparel_ThetesCuirass>1</Apparel_ThetesCuirass>
     </costList>
     <tradeTags>
@@ -183,8 +184,9 @@
       <li>ApparelArmor</li>
     </thingCategories>
     <costList>
-      <pphhyy_HumanBones>20</pphhyy_HumanBones>
-	  <Apparel_ThetesArmor>1</Apparel_ThetesArmor>
+      <pphhyy_HumanBones>30</pphhyy_HumanBones>
+      <pphhyy_LesserSoul>1</pphhyy_LesserSoul>
+  	  <Apparel_ThetesArmor>1</Apparel_ThetesArmor>
     </costList>
     <tradeTags>
       <li>Clothing</li>
@@ -254,7 +256,8 @@
       <li>ApparelArmor</li>
     </thingCategories>
     <costList>
-      <pphhyy_HumanBones>20</pphhyy_HumanBones>
+      <pphhyy_HumanBones>30</pphhyy_HumanBones>
+      <pphhyy_LesserSoul>1</pphhyy_LesserSoul>
 	  <Apparel_ThetesPlate>1</Apparel_ThetesPlate>
     </costList>
     <tradeTags>
