@@ -31,6 +31,9 @@
     <techLevel>Medieval</techLevel>
     <factionNameMaker>NamerFactionTribal</factionNameMaker>
     <settlementNameMaker>NamerSettlementTribal</settlementNameMaker>
+    <permanentEnemyToEveryoneExcept>
+      <li>pphhyy_BoneReapers_PlayerColony</li>
+    </permanentEnemyToEveryoneExcept>
     <allowedCultures>
       <li>Rustican</li>
     </allowedCultures>

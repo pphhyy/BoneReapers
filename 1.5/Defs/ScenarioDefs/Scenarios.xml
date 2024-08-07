@@ -13,7 +13,7 @@ BoneReaper Tithe Seekers function is to setup a bone tithe nexus in this area an
       <summary>Two Thetes' and a Sepelire are tasked with starting a new bone tithed in the area.</summary>
       <playerFaction>
         <def>PlayerFaction</def>
-        <factionDef>PlayerColony</factionDef>
+        <factionDef>pphhyy_BoneReapers_PlayerColony</factionDef>
       </playerFaction>
       <parts>
 
@@ -101,5 +101,39 @@ BoneReaper Tithe Seekers function is to setup a bone tithe nexus in this area an
       </parts>
     </scenario>
   </ScenarioDef>
+
+  <FactionDef ParentName="PlayerFactionBase">
+    <defName>pphhyy_BoneReapers_PlayerColony</defName>
+    <label>New Arrivals</label>
+    <description>A colony of recently-arrived bonereapers.</description>
+    <isPlayer>true</isPlayer>
+    <basicMemberKind>Colonist</basicMemberKind>
+    <pawnSingular>colonist</pawnSingular>
+    <pawnsPlural>colonists</pawnsPlural>
+    <techLevel>Industrial</techLevel>
+    <factionNameMaker>NamerFactionOutlander</factionNameMaker>
+    <settlementNameMaker>NamerSettlementOutlander</settlementNameMaker>
+    <allowedCultures><li>Rustican</li></allowedCultures>
+    <backstoryFilters>
+      <li>
+        <categories>
+          <li>Offworld</li>
+        </categories>
+      </li>
+    </backstoryFilters>
+    <factionIconPath>Icons/XenotypeIcons/ThetesHeadIcon</factionIconPath>
+    <startingResearchTags>
+      <li>ClassicStart</li>
+    </startingResearchTags>
+    <startingTechprintsResearchTags>
+      <li>ClassicStart</li>
+      <li>ClassicStartTechprints</li>
+    </startingTechprintsResearchTags>
+    <apparelStuffFilter>
+      <thingDefs>
+        <li>Synthread</li>
+      </thingDefs>
+    </apparelStuffFilter>
+  </FactionDef>
 
 </Defs>  
