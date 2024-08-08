@@ -85,6 +85,14 @@ BoneReaper Tithe Seekers function is to setup a bone tithe nexus in this area an
           <bondToRandomPlayerPawnChance>1.0</bondToRandomPlayerPawnChance>
         </li>
 
+        <!-- Scatter things near player  -->
+
+        <li Class="ScenPart_ScatterThingsNearPlayerStart">
+          <def>StartingThing_Defined</def>
+          <thingDef>pphhyy_BoneMoldSteel</thingDef>
+          <count>200</count>
+        </li>
+
         <!-- Starting research -->
         <li Class="ScenPart_StartingResearch">
             <def>StartingResearch</def>
