@@ -687,7 +687,7 @@
     </statBases>
     <uiIconScale>1.1</uiIconScale>
     <race>
-      <herdAnimal>true</herdAnimal>
+      <herdAnimal>false</herdAnimal>
       <body>Human</body>
       <baseHealthScale>1</baseHealthScale>
       <wildness>0.35</wildness>
@@ -833,7 +833,7 @@
     <uiIconScale>1.1</uiIconScale>
     <race>
       <packAnimal>true</packAnimal>
-      <herdAnimal>true</herdAnimal>
+      <herdAnimal>false</herdAnimal>
       <body>Human</body>
       <baseHealthScale>4.6</baseHealthScale>
       <wildness>0.35</wildness>

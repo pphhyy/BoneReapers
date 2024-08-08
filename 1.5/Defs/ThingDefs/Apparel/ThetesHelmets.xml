@@ -67,6 +67,7 @@
 		</apparel>
 		<recipeMaker>
 			<researchPrerequisite>pphhyy_BasicArmor</researchPrerequisite>
+			<workSkill>Crafting</workSkill>
 			<skillRequirements>
 				<Crafting>6</Crafting>
 			</skillRequirements>
@@ -144,6 +145,7 @@
 		</apparel>
 		<recipeMaker>
 			<researchPrerequisite>pphhyy_BasicArmor</researchPrerequisite>
+			<workSkill>Crafting</workSkill>
 			<skillRequirements>
 				<Crafting>6</Crafting>
 			</skillRequirements>
@@ -221,6 +223,7 @@
 		</apparel>
 		<recipeMaker>
 			<researchPrerequisite>pphhyy_AdvancedArmor</researchPrerequisite>
+			<workSkill>Crafting</workSkill>
 			<skillRequirements>
 				<Crafting>8</Crafting>
 			</skillRequirements>

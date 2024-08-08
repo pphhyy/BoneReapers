@@ -73,7 +73,7 @@
             <skillRequirements>
                 <Crafting>4</Crafting>
             </skillRequirements>
-            <unfinishedThingDef>UnfinishedGun</unfinishedThingDef>
+            <unfinishedThingDef>UnfinishedBoneReaper</unfinishedThingDef>
         </recipeMaker>
 
         <modExtensions>
@@ -169,7 +169,7 @@
             <skillRequirements>
                 <Crafting>3</Crafting>
             </skillRequirements>
-            <unfinishedThingDef>UnfinishedGun</unfinishedThingDef>
+            <unfinishedThingDef>UnfinishedBoneReaper</unfinishedThingDef>
         </recipeMaker>
 
         <modExtensions>
@@ -265,7 +265,7 @@
             <skillRequirements>
                 <Crafting>4</Crafting>
             </skillRequirements>
-            <unfinishedThingDef>UnfinishedGun</unfinishedThingDef>
+            <unfinishedThingDef>UnfinishedBoneReaper</unfinishedThingDef>
         </recipeMaker>
 
         <modExtensions>
@@ -328,7 +328,7 @@
             <skillRequirements>
                 <Crafting>5</Crafting>
             </skillRequirements>
-            <unfinishedThingDef>UnfinishedGun</unfinishedThingDef>
+            <unfinishedThingDef>UnfinishedBoneReaper</unfinishedThingDef>
         </recipeMaker>
         <verbs>
             <li>
@@ -458,7 +458,7 @@
             <skillRequirements>
                 <Crafting>8</Crafting>
             </skillRequirements>
-            <unfinishedThingDef>UnfinishedGun</unfinishedThingDef>
+            <unfinishedThingDef>UnfinishedBoneReaper</unfinishedThingDef>
         </recipeMaker>
     </ThingDef>
 
@@ -561,7 +561,7 @@
             <skillRequirements>
                 <Crafting>3</Crafting>
             </skillRequirements>
-            <unfinishedThingDef>UnfinishedGun</unfinishedThingDef>
+            <unfinishedThingDef>UnfinishedBoneReaper</unfinishedThingDef>
         </recipeMaker>
 
         <modExtensions>
@@ -659,7 +659,7 @@
             <skillRequirements>
                 <Crafting>5</Crafting>
             </skillRequirements>
-            <unfinishedThingDef>UnfinishedGun</unfinishedThingDef>
+            <unfinishedThingDef>UnfinishedBoneReaper</unfinishedThingDef>
         </recipeMaker>
     </ThingDef>
 
@@ -738,7 +738,7 @@
             <skillRequirements>
                 <Crafting>5</Crafting>
             </skillRequirements>
-            <unfinishedThingDef>UnfinishedGun</unfinishedThingDef>
+            <unfinishedThingDef>UnfinishedBoneReaper</unfinishedThingDef>
         </recipeMaker>
     </ThingDef>
 
@@ -809,7 +809,7 @@
             <skillRequirements>
                 <Crafting>3</Crafting>
             </skillRequirements>
-            <unfinishedThingDef>UnfinishedGun</unfinishedThingDef>
+            <unfinishedThingDef>UnfinishedBoneReaper</unfinishedThingDef>
         </recipeMaker>
     </ThingDef>
 
@@ -877,7 +877,7 @@
             <skillRequirements>
                 <Crafting>6</Crafting>
             </skillRequirements>
-            <unfinishedThingDef>UnfinishedGun</unfinishedThingDef>
+            <unfinishedThingDef>UnfinishedBoneReaper</unfinishedThingDef>
         </recipeMaker>
     </ThingDef>
 
@@ -948,7 +948,7 @@
             <skillRequirements>
                 <Crafting>4</Crafting>
             </skillRequirements>
-            <unfinishedThingDef>UnfinishedGun</unfinishedThingDef>
+            <unfinishedThingDef>UnfinishedBoneReaper</unfinishedThingDef>
         </recipeMaker>
 
         <modExtensions>
@@ -1039,7 +1039,7 @@
             <skillRequirements>
                 <Crafting>3</Crafting>
             </skillRequirements>
-            <unfinishedThingDef>UnfinishedGun</unfinishedThingDef>
+            <unfinishedThingDef>UnfinishedBoneReaper</unfinishedThingDef>
         </recipeMaker>
     </ThingDef>
 

@@ -17,6 +17,7 @@
 		<statBases>
 			<Mass>3</Mass>
 			<WorkToMake>14000</WorkToMake>
+			<MarketValue>300</MarketValue>
 			<Flammability>0.4</Flammability>
 			<EquipDelay>2</EquipDelay>
 		</statBases>

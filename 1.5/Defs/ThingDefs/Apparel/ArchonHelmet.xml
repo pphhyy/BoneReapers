@@ -50,6 +50,7 @@
 		</apparel>
 		<recipeMaker>
 			<researchPrerequisite>pphhyy_ArchonArmor</researchPrerequisite>
+			<workSkill>Crafting</workSkill>
 			<skillRequirements>
 				<Crafting>6</Crafting>
 			</skillRequirements>
