@@ -13,6 +13,7 @@
       <texPath>Weapons/NormalWeapons/ThetesSword</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <shaderType>CutoutComplex</shaderType>
+      <drawSize>1.5</drawSize>
     </graphicData>
     <techLevel>Medieval</techLevel>
     <equippedAngleOffset>-65</equippedAngleOffset>
@@ -68,6 +69,24 @@
     <modExtensions>
       <li Class="VFECore.ThingDefExtension">
         <usableWithShields>true</usableWithShields>
+        <weaponDraftedDrawOffsets>
+          <north>
+            <drawOffset>(-0.30,0.0,0.10)</drawOffset>
+            <angleOffset>115</angleOffset>
+          </north>
+          <east>
+            <drawOffset>(0.10,0.2,0.10)</drawOffset>
+            <angleOffset>-45</angleOffset>
+          </east>
+          <south>
+            <drawOffset>(0.1,0.00,0.10)</drawOffset>  <!-- -Left/+Right, -Back/+Front, -Down/+Up -->
+            <angleOffset>-15</angleOffset>
+          </south>
+          <west>
+            <drawOffset>(-0.10,0.0,0.20)</drawOffset>
+            <angleOffset>55</angleOffset>
+          </west>
+        </weaponDraftedDrawOffsets>
       </li>
     </modExtensions>
   </ThingDef>
@@ -82,6 +101,7 @@
       <texPath>Weapons/NormalWeapons/ThetesMace</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <shaderType>CutoutComplex</shaderType>
+      <drawSize>1.5</drawSize>
     </graphicData>
     <uiIconScale>1.2</uiIconScale>
     <techLevel>Medieval</techLevel>
@@ -138,6 +158,24 @@
     <modExtensions>
       <li Class="VFECore.ThingDefExtension">
         <usableWithShields>true</usableWithShields>
+        <weaponDraftedDrawOffsets>
+          <north>
+            <drawOffset>(-0.30,0.0,0.10)</drawOffset>
+            <angleOffset>115</angleOffset>
+          </north>
+          <east>
+            <drawOffset>(0.10,0.2,0.10)</drawOffset>
+            <angleOffset>-45</angleOffset>
+          </east>
+          <south>
+            <drawOffset>(0.1,0.00,0.10)</drawOffset>  <!-- -Left/+Right, -Back/+Front, -Down/+Up -->
+            <angleOffset>-15</angleOffset>
+          </south>
+          <west>
+            <drawOffset>(-0.10,0.0,0.20)</drawOffset>
+            <angleOffset>55</angleOffset>
+          </west>
+        </weaponDraftedDrawOffsets>
       </li>
     </modExtensions>
   </ThingDef>
@@ -180,6 +218,7 @@
       <texPath>Weapons/NormalWeapons/ThetesSpear</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <shaderType>CutoutComplex</shaderType>
+      <drawSize>1.5</drawSize>
     </graphicData>
     <uiIconScale>1.2</uiIconScale>
     <techLevel>Medieval</techLevel>
@@ -326,7 +365,7 @@
 
   <!-- Thetes Staff -->
 
-  <ThingDef ParentName="BaseWeapon">
+  <ThingDef ParentName="pphhyy_Base_SharpSword_Oversize">
     <defName>pphhyy_BoneReapers_ThetesStaff</defName>
     <label>Thetes staff</label>
     <description>A staff given to Thetes created with a larger intellect. The staff draws from the wielder's psychic prowess. Sepelire's debate if the Thete has the adroitness of the mind. Those without the capability quickly drain their mental capacity.</description>
@@ -335,6 +374,7 @@
       <texPath>Weapons/NormalWeapons/ThetesStaff</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <shaderType>CutoutComplex</shaderType>
+      <drawSize>1.3</drawSize>
     </graphicData>
     <weaponTags>
       <li>pphhyy_BoneReapers_ThetesStaff</li>
@@ -416,7 +456,7 @@
     <defName>pphhyy_BoneReapers_ThetesBolt</defName>
     <label>Thetes bolt</label>
     <graphicData>
-      <texPath>Weapons/NormalWeapons/ThetesStaffBolt</texPath>      <!-- have to add correct path when pp adds sprite -->
+      <texPath>Weapons/NormalWeapons/ThetesStaffBolt</texPath>     
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <projectile>
@@ -438,8 +478,9 @@
       <texPath>Weapons/NormalWeapons/ThetesJavalin</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <shaderType>CutoutComplex</shaderType>
+      <drawSize>1.6</drawSize>
     </graphicData>
-    <uiIconScale>1.2</uiIconScale>
+    <uiIconScale>1</uiIconScale>
     <techLevel>Medieval</techLevel>
 
     <statBases>
@@ -544,6 +585,7 @@
       <texPath>Weapons/NormalWeapons/ThetesGreatMace</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <shaderType>CutoutComplex</shaderType>
+      <drawSize>1.3</drawSize>
     </graphicData>
     <uiIconScale>1.2</uiIconScale>
     <techLevel>Medieval</techLevel>
@@ -622,8 +664,6 @@
       <WorkToMake>18000</WorkToMake>
       <Mass>2</Mass>
     </statBases>
-
-    
 
     <costStuffCount>130</costStuffCount>
     <stuffCategories>
@@ -749,15 +789,15 @@
             <angleOffset>115</angleOffset>
           </north>
           <east>
-            <drawOffset>(0.30,0.2,0.10)</drawOffset>
+            <drawOffset>(0.10,0.2,0.10)</drawOffset>
             <angleOffset>-45</angleOffset>
           </east>
           <south>
-            <drawOffset>(0,0.00,0.10)</drawOffset>  <!-- -Left/+Right, -Back/+Front, -Down/+Up -->
-            <angleOffset>-45</angleOffset>
+            <drawOffset>(0.15,0.00,0.15)</drawOffset>  <!-- -Left/+Right, -Back/+Front, -Down/+Up -->
+            <angleOffset>-65</angleOffset>
           </south>
           <west>
-            <drawOffset>(-0.30,0.0,0.20)</drawOffset>
+            <drawOffset>(-0.10,0.0,0.20)</drawOffset>
             <angleOffset>55</angleOffset>
           </west>
         </weaponDraftedDrawOffsets>
@@ -775,7 +815,7 @@
       <texPath>Weapons/NormalWeapons/ThetesGreatSword</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <shaderType>CutoutComplex</shaderType>
-      <drawSize>(1.25,1.25)</drawSize>
+      <drawSize>1.3</drawSize>
     </graphicData>
     <statBases>
       <WorkToMake>18000</WorkToMake>
@@ -832,6 +872,36 @@
   <!-- Archon Sword -->
 
 
+  <ThingDef Name="pphhyy_Base_Sharp_ArchonSize" Abstract="True" ParentName="BaseMeleeWeapon_Sharp_Quality">
+    <modExtensions>
+      <li Class="VFECore.ThingDefExtension">
+        <weaponDraftedDrawOffsets>
+          <north>
+            <drawOffset>(0.34,0,0.30)</drawOffset>
+            <angleOffset>-143</angleOffset>
+          </north>
+          <east>
+            <drawOffset>(0.1,0,0.10)</drawOffset>
+            <angleOffset>-122</angleOffset>
+          </east>
+          <south>
+            <drawOffset>(0.15,0,0.20)</drawOffset> <!-- -Left/+Right, -Back/+Front, -Down/+Up -->
+            <angleOffset>-143</angleOffset>
+          </south>
+          <west>
+            <drawOffset>(-0.1,0,0.10)</drawOffset>
+            <angleOffset>122</angleOffset>
+          </west>
+        </weaponDraftedDrawOffsets>
+        <usableWithShields>true</usableWithShields>
+      </li>
+    </modExtensions>
+    <equippedAngleOffset>105</equippedAngleOffset>
+    <techLevel>Medieval</techLevel>
+  </ThingDef>
+
+
+
   <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
     <defName>pphhyy_BoneReapers_ArchonSword</defName>
     <label>Archon sword</label>
@@ -840,6 +910,7 @@
       <texPath>Weapons/NormalWeapons/ArchonSword</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <shaderType>CutoutComplex</shaderType>
+      <drawSize>(1.5,1.5)</drawSize>
     </graphicData>
     <techLevel>Medieval</techLevel>
     <statBases>
@@ -856,6 +927,8 @@
     <weaponTags>
       <li>pphhyy_BoneReapers_ArchonSword</li>
     </weaponTags>
+
+    <equippedAngleOffset>105</equippedAngleOffset>
     <tools>
       <li>
         <label>handle</label>
@@ -889,6 +962,24 @@
 
     <modExtensions>
       <li Class="VFECore.ThingDefExtension">
+        <weaponDraftedDrawOffsets>
+          <north>
+            <drawOffset>(0.34,0,0.30)</drawOffset>
+            <angleOffset>-143</angleOffset>
+          </north>
+          <east>
+            <drawOffset>(0.1,0,0.10)</drawOffset>
+            <angleOffset>-122</angleOffset>
+          </east>
+          <south>
+            <drawOffset>(0.05,0,0.20)</drawOffset> <!-- -Left/+Right, -Back/+Front, -Down/+Up -->
+            <angleOffset>-143</angleOffset>
+          </south>
+          <west>
+            <drawOffset>(-0.1,0,0.10)</drawOffset>
+            <angleOffset>122</angleOffset>
+          </west>
+        </weaponDraftedDrawOffsets>
         <usableWithShields>true</usableWithShields>
       </li>
     </modExtensions>
@@ -896,7 +987,7 @@
 
   <!-- Archon Polearm -->
 
-  <ThingDef ParentName="pphhyy_Base_Sharp_NormalSize">
+  <ThingDef ParentName="pphhyy_Base_Sharp_ArchonSize">
     <defName>pphhyy_BoneReapers_ArchonPolearm</defName>
     <label>Archon polearm</label>
     <description>A weapon carefully crafted using bones and intense metallurgy. The Apokryphos would mark scriptures of great feats, while Sepelires gather in ceremony to give blessings to the blade itself. Archon weapons are rarely made. To witness such a ceremony is a feat of itself.</description>
@@ -906,12 +997,10 @@
       <drawSize>(1.5,1.5)</drawSize>
       <shaderType>CutoutComplex</shaderType>
     </graphicData>
-
     <statBases>
       <WorkToMake>36000</WorkToMake>
       <Mass>2.75</Mass>
     </statBases>
-
     <costStuffCount>150</costStuffCount>
     <stuffCategories>
       <li>Metallic</li>
