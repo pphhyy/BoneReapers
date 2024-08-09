@@ -24,7 +24,7 @@
       <Flammability>0.4</Flammability>
       <DeteriorationRate>0.5</DeteriorationRate>
     </statBases>
-    <resourceReadoutPriority>Middle</resourceReadoutPriority>
+    <resourceReadoutPriority>First</resourceReadoutPriority>
     <stackLimit>75</stackLimit>
     <thingCategories>
       <li>ItemsMisc</li>
@@ -113,7 +113,7 @@
       <Flammability>0.4</Flammability>
       <DeteriorationRate>0.5</DeteriorationRate>
     </statBases>
-    <resourceReadoutPriority>Middle</resourceReadoutPriority>
+    <resourceReadoutPriority>First</resourceReadoutPriority>
     <stackLimit>75</stackLimit>
     <thingCategories>
       <li>ItemsMisc</li>

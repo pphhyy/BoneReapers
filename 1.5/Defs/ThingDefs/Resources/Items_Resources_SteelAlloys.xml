@@ -65,7 +65,7 @@
     <label>craft bone mold steel</label>
     <description>Craft bone mold steel from bones and steel.</description>
     <jobString>Harvesting.</jobString>
-    <workAmount>450</workAmount>
+    <workAmount>6000</workAmount>
     <workSpeedStat>SmeltingSpeed</workSpeedStat>
     <workSkill>Crafting</workSkill>
     <effectWorking>Smelt</effectWorking>

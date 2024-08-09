@@ -11,6 +11,7 @@
       </recipeUsers>
       <unfinishedThingDef>UnfinishedMetallicTechArmor</unfinishedThingDef>
       <researchPrerequisite>pphhyy_ArchonArmor</researchPrerequisite>
+      <workSkill>Crafting</workSkill>
       <skillRequirements>
         <Crafting>9</Crafting>
       </skillRequirements>
