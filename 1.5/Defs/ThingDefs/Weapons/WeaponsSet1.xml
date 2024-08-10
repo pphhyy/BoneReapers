@@ -56,7 +56,7 @@
       </li>
     </tools>
     <recipeMaker>
-      <recipeUsers>
+      <recipeUsers Inherit="False">
         <li>pphhyy_HathiyarBench</li>
       </recipeUsers>
       <researchPrerequisite>pphhyy_BoneReaperWeapons</researchPrerequisite>
@@ -145,7 +145,7 @@
       </li>
     </tools>
     <recipeMaker>
-      <recipeUsers>
+      <recipeUsers Inherit="False">
         <li>pphhyy_HathiyarBench</li>
       </recipeUsers>
       <researchPrerequisite>pphhyy_BoneReaperWeapons</researchPrerequisite>
@@ -262,7 +262,7 @@
       </li>
     </tools>
     <recipeMaker>
-      <recipeUsers>
+      <recipeUsers Inherit="False">
         <li>pphhyy_HathiyarBench</li>
       </recipeUsers>
       <researchPrerequisite>pphhyy_BoneReaperWeapons</researchPrerequisite>
@@ -316,7 +316,7 @@
       <li>RangedLight</li>
     </weaponClasses>
     <recipeMaker>
-      <recipeUsers>
+      <recipeUsers Inherit="False">
         <li>pphhyy_HathiyarBench</li>
       </recipeUsers>
       <researchPrerequisite>pphhyy_BoneReaperWeapons</researchPrerequisite>
@@ -441,7 +441,7 @@
       <workSkill>Crafting</workSkill>
       <effectWorking>Smith</effectWorking>
       <soundWorking>Recipe_Smith</soundWorking>
-      <recipeUsers>
+      <recipeUsers Inherit="False">
         <li>pphhyy_HathiyarBench</li>
       </recipeUsers>
       <researchPrerequisite>pphhyy_BoneReaperWeapons</researchPrerequisite>
@@ -538,7 +538,7 @@
       </li>
     </verbs>
     <recipeMaker>
-      <recipeUsers>
+      <recipeUsers Inherit="False">
         <li>pphhyy_HathiyarBench</li>
       </recipeUsers>
       <researchPrerequisite>pphhyy_BoneReaperWeapons</researchPrerequisite>
@@ -630,7 +630,7 @@
       </li>
     </tools>
     <recipeMaker>
-      <recipeUsers>
+      <recipeUsers Inherit="False">
         <li>pphhyy_HathiyarBench</li>
       </recipeUsers>
       <researchPrerequisite>pphhyy_BoneReaperWeapons</researchPrerequisite>
@@ -701,7 +701,7 @@
       </li>
     </tools>
     <recipeMaker>
-      <recipeUsers>
+      <recipeUsers Inherit="False">
         <li>pphhyy_HathiyarBench</li>
       </recipeUsers>
       <researchPrerequisites>
@@ -767,7 +767,7 @@
       </li>
     </tools>
     <recipeMaker>
-      <recipeUsers>
+      <recipeUsers Inherit="False">
         <li>pphhyy_HathiyarBench</li>
       </recipeUsers>
       <researchPrerequisite>pphhyy_BoneReaperWeapons</researchPrerequisite>
@@ -855,7 +855,7 @@
       </li>
     </tools>
     <recipeMaker>
-      <recipeUsers>
+      <recipeUsers Inherit="False">
         <li>pphhyy_HathiyarBench</li>
       </recipeUsers>
       <researchPrerequisite>pphhyy_BoneReaperWeapons</researchPrerequisite>
@@ -950,7 +950,7 @@
       </li>
     </tools>
     <recipeMaker>
-      <recipeUsers>
+      <recipeUsers Inherit="False">
         <li>pphhyy_HathiyarBench</li>
       </recipeUsers>
       <researchPrerequisite>pphhyy_ArchonWeapons</researchPrerequisite>
@@ -1035,7 +1035,7 @@
       </li>
     </tools>
     <recipeMaker>
-      <recipeUsers>
+      <recipeUsers Inherit="False">
         <li>pphhyy_HathiyarBench</li>
       </recipeUsers>
       <researchPrerequisite>pphhyy_ArchonWeapons</researchPrerequisite>

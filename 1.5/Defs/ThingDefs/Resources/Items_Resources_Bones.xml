@@ -174,7 +174,7 @@
       <li>Butchery</li>
     </specialProducts> -->
 	<products>
-		  <pphhyy_AnimalBones>15</pphhyy_AnimalBones>
+		  <pphhyy_AnimalBones>25</pphhyy_AnimalBones>
 	</products>
   <researchPrerequisite>pphhyy_BoneReaperTech</researchPrerequisite>
   <modExtensions>
