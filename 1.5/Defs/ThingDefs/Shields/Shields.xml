@@ -20,6 +20,8 @@
 		  <WorkToMake>1000</WorkToMake>
 		  <MaxHitPoints>200</MaxHitPoints>
 		  <Mass>2.0</Mass>
+		  <ArmorRating_Blunt>0.25</ArmorRating_Blunt>
+		  <ArmorRating_Sharp>0.25</ArmorRating_Sharp>
 		</statBases>
 		<equippedStatOffsets>
 		  <ShootingAccuracyPawn>-0.5</ShootingAccuracyPawn>
@@ -146,6 +148,8 @@
 		  <WorkToMake>1000</WorkToMake>
 		  <MaxHitPoints>200</MaxHitPoints>
 		  <Mass>2.0</Mass>
+		  <ArmorRating_Blunt>0.25</ArmorRating_Blunt>
+		  <ArmorRating_Sharp>0.25</ArmorRating_Sharp>
 		</statBases>
 		<equippedStatOffsets>
 		  <ShootingAccuracyPawn>-0.5</ShootingAccuracyPawn>
@@ -272,6 +276,8 @@
 		  <WorkToMake>1000</WorkToMake>
 		  <MaxHitPoints>200</MaxHitPoints>
 		  <Mass>2.0</Mass>
+		  <ArmorRating_Blunt>0.25</ArmorRating_Blunt>
+		  <ArmorRating_Sharp>0.25</ArmorRating_Sharp>
 		</statBases>
 		<equippedStatOffsets>
 		  <ShootingAccuracyPawn>-0.5</ShootingAccuracyPawn>
@@ -398,6 +404,8 @@
 		  <WorkToMake>1000</WorkToMake>
 		  <MaxHitPoints>200</MaxHitPoints>
 		  <Mass>2.0</Mass>
+		  <ArmorRating_Blunt>0.25</ArmorRating_Blunt>
+		  <ArmorRating_Sharp>0.25</ArmorRating_Sharp>
 		</statBases>
 		<equippedStatOffsets>
 		  <ShootingAccuracyPawn>-0.5</ShootingAccuracyPawn>
@@ -524,6 +532,8 @@
 		  <WorkToMake>1000</WorkToMake>
 		  <MaxHitPoints>200</MaxHitPoints>
 		  <Mass>2.0</Mass>
+		  <ArmorRating_Blunt>0.25</ArmorRating_Blunt>
+		  <ArmorRating_Sharp>0.25</ArmorRating_Sharp>
 		</statBases>
 		<equippedStatOffsets>
 		  <ShootingAccuracyPawn>-0.5</ShootingAccuracyPawn>
@@ -652,6 +662,8 @@
 		  <WorkToMake>1000</WorkToMake>
 		  <MaxHitPoints>250</MaxHitPoints>
 		  <Mass>2.0</Mass>
+		  <ArmorRating_Blunt>0.50</ArmorRating_Blunt>
+		  <ArmorRating_Sharp>0.50</ArmorRating_Sharp>
 		</statBases>
 		<equippedStatOffsets>
 		  <ShootingAccuracyPawn>-0.5</ShootingAccuracyPawn>
@@ -796,6 +808,8 @@
 		  <WorkToMake>1000</WorkToMake>
 		  <MaxHitPoints>250</MaxHitPoints>
 		  <Mass>2.0</Mass>
+		  <ArmorRating_Blunt>0.50</ArmorRating_Blunt>
+		  <ArmorRating_Sharp>0.50</ArmorRating_Sharp>
 		</statBases>
 		<equippedStatOffsets>
 		  <ShootingAccuracyPawn>-0.5</ShootingAccuracyPawn>
@@ -939,6 +953,8 @@
 		  <WorkToMake>1000</WorkToMake>
 		  <MaxHitPoints>250</MaxHitPoints>
 		  <Mass>2.0</Mass>
+		  <ArmorRating_Blunt>0.50</ArmorRating_Blunt>
+		  <ArmorRating_Sharp>0.50</ArmorRating_Sharp>
 		</statBases>
 		<equippedStatOffsets>
 		  <ShootingAccuracyPawn>-0.5</ShootingAccuracyPawn>
@@ -1082,6 +1098,8 @@
 		  <WorkToMake>1000</WorkToMake>
 		  <MaxHitPoints>250</MaxHitPoints>
 		  <Mass>2.0</Mass>
+		  <ArmorRating_Blunt>0.50</ArmorRating_Blunt>
+		  <ArmorRating_Sharp>0.50</ArmorRating_Sharp>
 		</statBases>
 		<equippedStatOffsets>
 		  <ShootingAccuracyPawn>-0.5</ShootingAccuracyPawn>
@@ -1225,6 +1243,8 @@
 		  <WorkToMake>1000</WorkToMake>
 		  <MaxHitPoints>250</MaxHitPoints>
 		  <Mass>2.0</Mass>
+		  <ArmorRating_Blunt>0.50</ArmorRating_Blunt>
+		  <ArmorRating_Sharp>0.50</ArmorRating_Sharp>
 		</statBases>
 		<equippedStatOffsets>
 		  <ShootingAccuracyPawn>-0.5</ShootingAccuracyPawn>
@@ -1368,6 +1388,8 @@
 			<WorkToMake>1000</WorkToMake>
 			<MaxHitPoints>300</MaxHitPoints>
 			<Mass>2.0</Mass>
+			<ArmorRating_Blunt>0.75</ArmorRating_Blunt>
+			<ArmorRating_Sharp>0.75</ArmorRating_Sharp>
 		  </statBases>
 		<comps>
 			<li Class="VFECore.CompProperties_Shield">
@@ -1516,6 +1538,8 @@
 			<WorkToMake>1000</WorkToMake>
 			<MaxHitPoints>300</MaxHitPoints>
 			<Mass>2.0</Mass>
+			<ArmorRating_Blunt>0.75</ArmorRating_Blunt>
+			<ArmorRating_Sharp>0.75</ArmorRating_Sharp>
 		  </statBases>
 		<comps>
 			<li Class="VFECore.CompProperties_Shield">
@@ -1663,6 +1687,8 @@
 			<WorkToMake>1000</WorkToMake>
 			<MaxHitPoints>300</MaxHitPoints>
 			<Mass>2.0</Mass>
+			<ArmorRating_Blunt>0.75</ArmorRating_Blunt>
+			<ArmorRating_Sharp>0.75</ArmorRating_Sharp>
 		  </statBases>
 		<comps>
 			<li Class="VFECore.CompProperties_Shield">
@@ -1810,6 +1836,8 @@
 			<WorkToMake>1000</WorkToMake>
 			<MaxHitPoints>300</MaxHitPoints>
 			<Mass>2.0</Mass>
+			<ArmorRating_Blunt>0.75</ArmorRating_Blunt>
+			<ArmorRating_Sharp>0.75</ArmorRating_Sharp>
 		  </statBases>
 		<comps>
 			<li Class="VFECore.CompProperties_Shield">
@@ -1957,6 +1985,8 @@
 			<WorkToMake>1000</WorkToMake>
 			<MaxHitPoints>300</MaxHitPoints>
 			<Mass>2.0</Mass>
+			<ArmorRating_Blunt>0.75</ArmorRating_Blunt>
+			<ArmorRating_Sharp>0.75</ArmorRating_Sharp>
 		  </statBases>
 		<comps>
 			<li Class="VFECore.CompProperties_Shield">

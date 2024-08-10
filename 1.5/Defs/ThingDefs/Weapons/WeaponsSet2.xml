@@ -66,9 +66,9 @@
             </li>
         </tools>
         <recipeMaker>
-            <recipeUsers>
-                <li>pphhyy_HathiyarBench</li>
-            </recipeUsers>
+      <recipeUsers Inherit="False">
+        <li>pphhyy_HathiyarBench</li>
+      </recipeUsers>
             <researchPrerequisite>pphhyy_SoulWeapons</researchPrerequisite>
             <skillRequirements>
                 <Crafting>4</Crafting>
@@ -162,9 +162,9 @@
             </li>
         </tools>
         <recipeMaker>
-            <recipeUsers>
-                <li>pphhyy_HathiyarBench</li>
-            </recipeUsers>
+      <recipeUsers Inherit="False">
+        <li>pphhyy_HathiyarBench</li>
+      </recipeUsers>
             <researchPrerequisite>pphhyy_SoulWeapons</researchPrerequisite>
             <skillRequirements>
                 <Crafting>3</Crafting>
@@ -258,9 +258,9 @@
             </li>
         </tools>
         <recipeMaker>
-            <recipeUsers>
-                <li>pphhyy_HathiyarBench</li>
-            </recipeUsers>
+      <recipeUsers Inherit="False">
+        <li>pphhyy_HathiyarBench</li>
+      </recipeUsers>
             <researchPrerequisite>pphhyy_SoulWeapons</researchPrerequisite>
             <skillRequirements>
                 <Crafting>4</Crafting>
@@ -286,7 +286,7 @@
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
         <soundInteract>Bow_Recurve</soundInteract>
-
+        <tradeability>None</tradeability>
         <costList>
             <Gold>3</Gold>
             <pphhyy_GreaterSoul>1</pphhyy_GreaterSoul>
@@ -321,9 +321,9 @@
             <li>RangedLight</li>
         </weaponClasses>
         <recipeMaker>
-            <recipeUsers>
-                <li>pphhyy_HathiyarBench</li>
-            </recipeUsers>
+      <recipeUsers Inherit="False">
+        <li>pphhyy_HathiyarBench</li>
+      </recipeUsers>
             <researchPrerequisite>pphhyy_SoulWeapons</researchPrerequisite>
             <skillRequirements>
                 <Crafting>5</Crafting>
@@ -451,9 +451,9 @@
             <workSkill>Crafting</workSkill>
             <effectWorking>Smith</effectWorking>
             <soundWorking>Recipe_Smith</soundWorking>
-            <recipeUsers>
-                <li>pphhyy_HathiyarBench</li>
-            </recipeUsers>
+      <recipeUsers Inherit="False">
+        <li>pphhyy_HathiyarBench</li>
+      </recipeUsers>
             <researchPrerequisite>pphhyy_SoulWeapons</researchPrerequisite>
             <skillRequirements>
                 <Crafting>8</Crafting>
@@ -554,9 +554,9 @@
             </li>
         </verbs>
         <recipeMaker>
-            <recipeUsers>
-                <li>pphhyy_HathiyarBench</li>
-            </recipeUsers>
+      <recipeUsers Inherit="False">
+        <li>pphhyy_HathiyarBench</li>
+      </recipeUsers>
             <researchPrerequisite>pphhyy_SoulWeapons</researchPrerequisite>
             <skillRequirements>
                 <Crafting>3</Crafting>
@@ -652,9 +652,9 @@
             </li>
         </tools>
         <recipeMaker>
-            <recipeUsers>
-                <li>pphhyy_HathiyarBench</li>
-            </recipeUsers>
+      <recipeUsers Inherit="False">
+        <li>pphhyy_HathiyarBench</li>
+      </recipeUsers>
             <researchPrerequisite>pphhyy_SoulWeapons</researchPrerequisite>
             <skillRequirements>
                 <Crafting>5</Crafting>
@@ -729,9 +729,9 @@
             </li>
         </tools>
         <recipeMaker>
-            <recipeUsers>
-                <li>pphhyy_HathiyarBench</li>
-            </recipeUsers>
+      <recipeUsers Inherit="False">
+        <li>pphhyy_HathiyarBench</li>
+      </recipeUsers>
             <researchPrerequisites>
                 <li>pphhyy_SoulWeapons</li>
             </researchPrerequisites>
@@ -802,9 +802,9 @@
             </li>
         </tools>
         <recipeMaker>
-            <recipeUsers>
-                <li>pphhyy_HathiyarBench</li>
-            </recipeUsers>
+      <recipeUsers Inherit="False">
+        <li>pphhyy_HathiyarBench</li>
+      </recipeUsers>
             <researchPrerequisite>pphhyy_SoulWeapons</researchPrerequisite>
             <skillRequirements>
                 <Crafting>3</Crafting>
@@ -870,9 +870,9 @@
             </li>
         </tools>
         <recipeMaker>
-            <recipeUsers>
-                <li>pphhyy_HathiyarBench</li>
-            </recipeUsers>
+      <recipeUsers Inherit="False">
+        <li>pphhyy_HathiyarBench</li>
+      </recipeUsers>
             <researchPrerequisite>pphhyy_SoulWeapons</researchPrerequisite>
             <skillRequirements>
                 <Crafting>6</Crafting>
@@ -941,9 +941,9 @@
             </li>
         </tools>
         <recipeMaker>
-            <recipeUsers>
-                <li>pphhyy_HathiyarBench</li>
-            </recipeUsers>
+      <recipeUsers Inherit="False">
+        <li>pphhyy_HathiyarBench</li>
+      </recipeUsers>
             <researchPrerequisite>pphhyy_SoulWeapons</researchPrerequisite>
             <skillRequirements>
                 <Crafting>4</Crafting>
@@ -1032,9 +1032,9 @@
             </li>
         </tools>
         <recipeMaker>
-            <recipeUsers>
-                <li>pphhyy_HathiyarBench</li>
-            </recipeUsers>
+      <recipeUsers Inherit="False">
+        <li>pphhyy_HathiyarBench</li>
+      </recipeUsers>
             <researchPrerequisite>pphhyy_SoulWeapons</researchPrerequisite>
             <skillRequirements>
                 <Crafting>3</Crafting>

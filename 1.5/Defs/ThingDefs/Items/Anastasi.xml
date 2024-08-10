@@ -30,7 +30,7 @@
           <pphhyy_GreaterSoul>1</pphhyy_GreaterSoul>
         </costList>
         <recipeMaker>
-          <workAmount>30000</workAmount>
+          <workAmount>12000</workAmount>
           <workSpeedStat>DrugSynthesisSpeed</workSpeedStat>
           <workSkill>Crafting</workSkill>
           <recipeUsers>

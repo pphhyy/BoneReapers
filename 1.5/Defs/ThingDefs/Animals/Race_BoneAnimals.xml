@@ -100,10 +100,6 @@
     <MarketValue>150</MarketValue>
   </statBases>
   <uiIconScale>2</uiIconScale>
-  <butcherProducts>
-    <pphhyy_LesserSoul>1</pphhyy_LesserSoul>
-    <pphhyy_AnimalBones>30</pphhyy_AnimalBones>
-  </butcherProducts>
   <tools>
     <li>
       <label>mandibles</label>
@@ -251,10 +247,6 @@
          <li>(-0.3, 0, 0.03)</li>
        </headPosPerRotation>
      </race>
-      <butcherProducts>
-        <pphhyy_LesserSoul>3</pphhyy_LesserSoul>
-        <pphhyy_AnimalBones>60</pphhyy_AnimalBones>
-      </butcherProducts>
      <tradeTags>
        <li>AnimalExotic</li>
      </tradeTags>
@@ -423,10 +415,6 @@
         <li>(-0.31, 0, 0.21)</li>
       </headPosPerRotation>
     </race>
-	  <butcherProducts>
-      <pphhyy_LesserSoul>6</pphhyy_LesserSoul>
-      <pphhyy_AnimalBones>120</pphhyy_AnimalBones>
-		</butcherProducts>
     <tradeTags>
       <li>AnimalExotic</li>
     </tradeTags>
@@ -572,10 +560,6 @@
         <li>(-0.31, 0, 0.21)</li>
       </headPosPerRotation>
     </race>
-	  <butcherProducts>
-      <pphhyy_LesserSoul>9</pphhyy_LesserSoul>
-      <pphhyy_AnimalBones>120</pphhyy_AnimalBones>
-		</butcherProducts>
     <tradeTags>
       <li>AnimalExotic</li>
     </tradeTags>
@@ -692,7 +676,6 @@
       <baseHealthScale>1</baseHealthScale>
       <wildness>0.35</wildness>
 	    <baseBodySize>1</baseBodySize>
-      <roamMtbDays>2</roamMtbDays>
       <petness>0.6</petness>
       <trainability>Advanced</trainability>
 	    <useMeatFrom>Human</useMeatFrom>
@@ -716,10 +699,6 @@
         <li>(-0.31, 0, 0.21)</li>
       </headPosPerRotation>
     </race>
-	  <butcherProducts>
-      <pphhyy_GreaterSoul>1</pphhyy_GreaterSoul>
-      <pphhyy_HumanBones>30</pphhyy_HumanBones>
-		</butcherProducts>
     <tradeTags>
       <li>AnimalExotic</li>
     </tradeTags>
@@ -782,7 +761,7 @@
       <li>
         <bodyGraphicData>
           <texPath>Animals/OsseousGheist/OsseousGheist</texPath>
-          <drawSize>1</drawSize>
+          <drawSize>1.6</drawSize>
           <shadowData>
             <volume>(0.8, 0.6, 0.6)</volume>
             <offset>(0,0,-0.3)</offset>
@@ -838,7 +817,6 @@
       <baseHealthScale>4.6</baseHealthScale>
       <wildness>0.35</wildness>
 	    <baseBodySize>3</baseBodySize>
-      <roamMtbDays>2</roamMtbDays>
       <petness>0.6</petness>
       <trainability>None</trainability>
 	    <useMeatFrom>Human</useMeatFrom>
@@ -862,11 +840,6 @@
         <li>(-0.31, 0, 0.21)</li>
       </headPosPerRotation>
     </race>
-	  <butcherProducts>
-      <pphhyy_GreaterSoul>1</pphhyy_GreaterSoul>
-      <pphhyy_HumanBones>90</pphhyy_HumanBones>
-      <pphhyy_AnimalBones>90</pphhyy_AnimalBones>
-		</butcherProducts>
     <tradeTags>
       <li>AnimalExotic</li>
     </tradeTags>
@@ -929,7 +902,7 @@
       <li>
         <bodyGraphicData>
           <texPath>Animals/OsseousHorror/OsseousHorror</texPath>
-          <drawSize>1.5</drawSize>
+          <drawSize>1.7</drawSize>
           <shadowData>
             <volume>(0.8, 0.6, 0.6)</volume>
             <offset>(0,0,-0.3)</offset>

@@ -41,6 +41,7 @@
       <texPath>Resources/ImplantsAndLimbs/BoneLimb</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
       <drawSize>1.2</drawSize>
+      <color>(255,255,255)</color>
     </graphicData>
     <drawGUIOverlay>true</drawGUIOverlay>
     <stackLimit>3</stackLimit>
@@ -117,6 +118,7 @@
       <texPath>Resources/ImplantsAndLimbs/BoneLimb</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
       <drawSize>1.2</drawSize>
+      <color>(255,255,255)</color>
     </graphicData>
     <drawGUIOverlay>true</drawGUIOverlay>
     <stackLimit>3</stackLimit>
@@ -193,6 +195,7 @@
       <texPath>Resources/ImplantsAndLimbs/BoneLimb</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
       <drawSize>1.2</drawSize>
+      <color>(255,255,255)</color>
     </graphicData>
     <drawGUIOverlay>true</drawGUIOverlay>
     <stackLimit>3</stackLimit>
@@ -270,6 +273,7 @@
       <texPath>Resources/ImplantsAndLimbs/BoneLimb</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
       <drawSize>1.2</drawSize>
+      <color>(255,255,255)</color>
     </graphicData>
     <drawGUIOverlay>true</drawGUIOverlay>
     <stackLimit>3</stackLimit>
@@ -349,6 +353,7 @@
     <texPath>Resources/ImplantsAndLimbs/OsseousLimb</texPath>
     <graphicClass>Graphic_StackCount</graphicClass>
     <drawSize>1.2</drawSize>
+    <color>(255,255,255)</color>
   </graphicData>
   <drawGUIOverlay>true</drawGUIOverlay>
   <stackLimit>3</stackLimit>
@@ -426,6 +431,7 @@
     <texPath>Resources/ImplantsAndLimbs/OsseousLimb</texPath>
     <graphicClass>Graphic_StackCount</graphicClass>
     <drawSize>1.2</drawSize>
+    <color>(255,255,255)</color>
   </graphicData>
   <drawGUIOverlay>true</drawGUIOverlay>
   <stackLimit>3</stackLimit>
@@ -504,6 +510,7 @@
     <texPath>Resources/ImplantsAndLimbs/OsseousLimb</texPath>
     <graphicClass>Graphic_StackCount</graphicClass>
     <drawSize>1.2</drawSize>
+    <color>(255,255,255)</color>
   </graphicData>
   <drawGUIOverlay>true</drawGUIOverlay>
   <stackLimit>3</stackLimit>
@@ -581,6 +588,7 @@
     <texPath>Resources/ImplantsAndLimbs/OsseousLimb</texPath>
     <graphicClass>Graphic_StackCount</graphicClass>
     <drawSize>1.2</drawSize>
+    <color>(255,255,255)</color>
   </graphicData>
   <stackLimit>3</stackLimit>
   <drawGUIOverlay>true</drawGUIOverlay>
