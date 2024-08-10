@@ -166,7 +166,7 @@
     <li>
       <bodyGraphicData>
         <texPath>Animals/Scarab/Scarab</texPath>
-        <drawSize>1.5</drawSize>
+        <drawSize>2</drawSize>
         <shadowData>
           <volume>(0.2, 0.3, 0.2)</volume>
           <offset>(0,0,0)</offset>
@@ -480,7 +480,7 @@
       <li>
         <bodyGraphicData>
           <texPath>Animals/Ghora/Ghora</texPath>
-          <drawSize>2.3</drawSize>
+          <drawSize>2.8</drawSize>
           <shadowData>
             <volume>(0.8, 0.6, 0.6)</volume>
             <offset>(0,0,-0.3)</offset>
@@ -621,7 +621,7 @@
       <li>
         <bodyGraphicData>
           <texPath>Animals/Daraigana/Daraigana</texPath>
-          <drawSize>2.3</drawSize>
+          <drawSize>2.7</drawSize>
           <shadowData>
             <volume>(0.8, 0.6, 0.6)</volume>
             <offset>(0,0,-0.3)</offset>

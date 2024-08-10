@@ -83,7 +83,7 @@
     <li>Butchery</li>
   </specialProducts> -->
 <products>
-    <pphhyy_HumanBones>30</pphhyy_HumanBones>
+    <pphhyy_HumanBones>15</pphhyy_HumanBones>
     <pphhyy_GreaterSoul>1</pphhyy_GreaterSoul>
 </products>
 <researchPrerequisite>pphhyy_GreaterHarvest</researchPrerequisite>
