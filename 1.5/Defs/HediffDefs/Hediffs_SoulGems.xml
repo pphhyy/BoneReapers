@@ -20,7 +20,7 @@
         <tags><li>ArmorGland</li></tags>
       </HediffDef>
     
-      <ThingDef ParentName="BodyPartBionicImperialBase">
+      <ThingDef ParentName="BodyPartBase">
         <defName>pphhyy_OsseousPellis</defName>
         <label>osseous pellis</label>
         <description>Pellis soul gems allow the body to be Infused with souls of the living to increase physical resistances. These souls are forced to harden the bonemold of the BoneReapers body through un-natural means.</description>
@@ -100,7 +100,7 @@
     </stages>
   </HediffDef>
 
-  <ThingDef ParentName="BodyPartBionicImperialBase">
+  <ThingDef ParentName="BodyPartBase">
     <defName>pphhyy_Niramaja</defName>
     <label>niramaja</label>
     <description>Niramaja soul gems unlike the Pellis dont harden ones bonemold body but instead enhance its ability to heal from damage. Such souls are forced to tend to the BoneReapers body and maintain it to a higher threshold.</description>
@@ -178,7 +178,7 @@
     </stages>
   </HediffDef>
 
-  <ThingDef ParentName="BodyPartBionicImperialBase">
+  <ThingDef ParentName="BodyPartBase">
     <defName>pphhyy_Ikasi</defName>
     <label>ikasi</label>
     <description>Ikasi soul gems help a BoneReaper retain knowledge by enhancing their own souls with the souls of others!</description>
@@ -256,7 +256,7 @@
     </stages>
   </HediffDef>
 
-  <ThingDef ParentName="BodyPartBionicImperialBase">
+  <ThingDef ParentName="BodyPartBase">
     <defName>pphhyy_Arithmomichani</defName>
     <label>arithmomichani</label>
     <description>Arithmomichani soul gems Instead of increasing one ability to learn a skill enhance a BoneRepaers ability to discover new ideas.</description>
@@ -336,7 +336,7 @@
     </stages>
   </HediffDef>
 
-  <ThingDef ParentName="BodyPartRoyalBase">
+  <ThingDef ParentName="BodyPartBase">
     <defName>pphhyy_Mentioum</defName>
     <label>mentioum</label>
     <description>Mentioum soul gems are most useful for Apokryphos to enhance their ability at negotiating with humans. Although other BoneReapers may also benefit from its infusion into their soul.</description>
@@ -393,10 +393,6 @@
     <defName>RemoveMentioum</defName>
     <label>remove mentioum</label>
     <description>Remove mentioum.</description>
-    <descriptionHyperlinks>
-      <ThingDef>PsychicReader</ThingDef>
-      <HediffDef>PsychicReader</HediffDef>
-    </descriptionHyperlinks>
     <jobString>Removing mentioum.</jobString>
     <removesHediff>pphhyy_Mentioum</removesHediff>
   </RecipeDef>
@@ -418,7 +414,7 @@
     </stages>
   </HediffDef>
 
-  <ThingDef ParentName="BodyPartRoyalBase">
+  <ThingDef ParentName="BodyPartBase">
     <defName>pphhyy_Efpathi</defName>
     <label>efpathi</label>
     <description>Efpathi soul gems allow for a bone reaper to reach greater Psychic Sensitivity levels.</description>
