@@ -39,7 +39,7 @@
                 <compClass>CompQuality</compClass>
             </li>
             <li MayRequire="Ludeon.RimWorld.Royalty" Class="CompProperties_BladelinkWeapon">
-                <biocodeOnEquip>true</biocodeOnEquip>
+                <biocodeOnEquip>false</biocodeOnEquip>
             </li>
             <li MayRequire="Ludeon.RimWorld.Royalty" Class="CompProperties_GeneratedName">
                 <nameMaker>NamerWeaponBladelink</nameMaker>
@@ -135,7 +135,7 @@
                 <compClass>CompQuality</compClass>
             </li>
             <li MayRequire="Ludeon.RimWorld.Royalty" Class="CompProperties_BladelinkWeapon">
-                <biocodeOnEquip>true</biocodeOnEquip>
+                <biocodeOnEquip>false</biocodeOnEquip>
             </li>
             <li MayRequire="Ludeon.RimWorld.Royalty" Class="CompProperties_GeneratedName">
                 <nameMaker>NamerWeaponBladelink</nameMaker>
@@ -230,7 +230,7 @@
                 <compClass>CompQuality</compClass>
             </li>
             <li MayRequire="Ludeon.RimWorld.Royalty" Class="CompProperties_BladelinkWeapon">
-                <biocodeOnEquip>true</biocodeOnEquip>
+                <biocodeOnEquip>false</biocodeOnEquip>
             </li>
             <li MayRequire="Ludeon.RimWorld.Royalty" Class="CompProperties_GeneratedName">
                 <nameMaker>NamerWeaponBladelink</nameMaker>
@@ -310,7 +310,7 @@
                 <compClass>CompQuality</compClass>
             </li>
             <li MayRequire="Ludeon.RimWorld.Royalty" Class="CompProperties_BladelinkWeapon">
-                <biocodeOnEquip>true</biocodeOnEquip>
+                <biocodeOnEquip>false</biocodeOnEquip>
             </li>
             <li MayRequire="Ludeon.RimWorld.Royalty" Class="CompProperties_GeneratedName">
                 <nameMaker>NamerWeaponBladelink</nameMaker>
@@ -392,7 +392,7 @@
                 <compClass>CompQuality</compClass>
             </li>
             <li MayRequire="Ludeon.RimWorld.Royalty" Class="CompProperties_BladelinkWeapon">
-                <biocodeOnEquip>true</biocodeOnEquip>
+                <biocodeOnEquip>false</biocodeOnEquip>
             </li>
             <li MayRequire="Ludeon.RimWorld.Royalty" Class="CompProperties_GeneratedName">
                 <nameMaker>NamerWeaponBladelink</nameMaker>
@@ -512,7 +512,7 @@
                 <compClass>CompQuality</compClass>
             </li>
             <li MayRequire="Ludeon.RimWorld.Royalty" Class="CompProperties_BladelinkWeapon">
-                <biocodeOnEquip>true</biocodeOnEquip>
+                <biocodeOnEquip>false</biocodeOnEquip>
             </li>
             <li MayRequire="Ludeon.RimWorld.Royalty" Class="CompProperties_GeneratedName">
                 <nameMaker>NamerWeaponBladelink</nameMaker>
@@ -621,7 +621,7 @@
                 <compClass>CompQuality</compClass>
             </li>
             <li MayRequire="Ludeon.RimWorld.Royalty" Class="CompProperties_BladelinkWeapon">
-                <biocodeOnEquip>true</biocodeOnEquip>
+                <biocodeOnEquip>false</biocodeOnEquip>
             </li>
             <li MayRequire="Ludeon.RimWorld.Royalty" Class="CompProperties_GeneratedName">
                 <nameMaker>NamerWeaponBladelink</nameMaker>
@@ -682,7 +682,7 @@
                 <compClass>CompQuality</compClass>
             </li>
             <li MayRequire="Ludeon.RimWorld.Royalty" Class="CompProperties_BladelinkWeapon">
-                <biocodeOnEquip>true</biocodeOnEquip>
+                <biocodeOnEquip>false</biocodeOnEquip>
             </li>
             <li MayRequire="Ludeon.RimWorld.Royalty" Class="CompProperties_GeneratedName">
                 <nameMaker>NamerWeaponBladelink</nameMaker>
@@ -771,7 +771,7 @@
                 <compClass>CompQuality</compClass>
             </li>
             <li MayRequire="Ludeon.RimWorld.Royalty" Class="CompProperties_BladelinkWeapon">
-                <biocodeOnEquip>true</biocodeOnEquip>
+                <biocodeOnEquip>false</biocodeOnEquip>
             </li>
             <li MayRequire="Ludeon.RimWorld.Royalty" Class="CompProperties_GeneratedName">
                 <nameMaker>NamerWeaponBladelink</nameMaker>
@@ -840,7 +840,7 @@
                 <compClass>CompQuality</compClass>
             </li>
             <li MayRequire="Ludeon.RimWorld.Royalty" Class="CompProperties_BladelinkWeapon">
-                <biocodeOnEquip>true</biocodeOnEquip>
+                <biocodeOnEquip>false</biocodeOnEquip>
             </li>
             <li MayRequire="Ludeon.RimWorld.Royalty" Class="CompProperties_GeneratedName">
                 <nameMaker>NamerWeaponBladelink</nameMaker>
@@ -911,7 +911,7 @@
                 <compClass>CompQuality</compClass>
             </li>
             <li MayRequire="Ludeon.RimWorld.Royalty" Class="CompProperties_BladelinkWeapon">
-                <biocodeOnEquip>true</biocodeOnEquip>
+                <biocodeOnEquip>false</biocodeOnEquip>
             </li>
             <li MayRequire="Ludeon.RimWorld.Royalty" Class="CompProperties_GeneratedName">
                 <nameMaker>NamerWeaponBladelink</nameMaker>
@@ -1001,7 +1001,7 @@
                 <compClass>CompQuality</compClass>
             </li>
             <li MayRequire="Ludeon.RimWorld.Royalty" Class="CompProperties_BladelinkWeapon">
-                <biocodeOnEquip>true</biocodeOnEquip>
+                <biocodeOnEquip>false</biocodeOnEquip>
             </li>
             <li MayRequire="Ludeon.RimWorld.Royalty" Class="CompProperties_GeneratedName">
                 <nameMaker>NamerWeaponBladelink</nameMaker>
