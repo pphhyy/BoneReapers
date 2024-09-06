@@ -61,11 +61,27 @@
       		</tags>
     	</hairTagFilter>		
 		<modExtensions>
-			<li Class="VanillaGenesExpanded.GeneExtension">
-				<backgroundPathEndogenes>Icons/XenotypeIcons/BoneReapersGeneBackground_Endogene</backgroundPathEndogenes>
-				<backgroundPathXenogenes>Icons/XenotypeIcons/BoneReapersGeneBackground_Xenogene</backgroundPathXenogenes>
-			</li>
-		</modExtensions>
+		 <li Class="BetterPrerequisites.GeneExtension">
+		 <disableFacialAnimations>true</disableFacialAnimations>
+		 </li>
+	    </modExtensions>
+	<renderNodeProperties Inherit="False">
+      <li>
+        <nodeClass>PawnRenderNode_AttachmentHead</nodeClass>
+        <workerClass>PawnRenderNodeWorker_FlipWhenCrawling</workerClass>
+        <texPaths>
+          <li>Pawns/Apokryphos/ApokryphosHead</li>
+        </texPaths>
+        <useSkinShader>false</useSkinShader>
+        <colorType>Skin</colorType>
+        <drawData>
+          <defaultData>
+          <layer>52</layer>
+          </defaultData>
+        </drawData>
+        <parentTagDef>Head</parentTagDef>
+      </li>
+    </renderNodeProperties>
 	</GeneDef>
 
 	<GeneDef ParentName="pphhyy_BoneReaperGeneHeadBase">
@@ -77,6 +93,28 @@
 			<li>pphhyy_BoneReaperHead_Sepelire</li>
 		</forcedHeadTypes>
 		<displayOrderInCategory>6661</displayOrderInCategory>
+		<modExtensions>
+		 <li Class="BetterPrerequisites.GeneExtension">
+		 <disableFacialAnimations>true</disableFacialAnimations>
+		 </li>
+	    </modExtensions>
+	<renderNodeProperties Inherit="False">
+      <li>
+        <nodeClass>PawnRenderNode_AttachmentHead</nodeClass>
+        <workerClass>PawnRenderNodeWorker_FlipWhenCrawling</workerClass>
+        <texPaths>
+          <li>Pawns/Sepelire/SepelireHead</li>
+        </texPaths>
+        <useSkinShader>false</useSkinShader>
+        <colorType>Skin</colorType>
+        <drawData>
+          <defaultData>
+          <layer>52</layer>
+          </defaultData>
+        </drawData>
+        <parentTagDef>Head</parentTagDef>
+      </li>
+    </renderNodeProperties>
 	</GeneDef>
 
 	<GeneDef ParentName="pphhyy_BoneReaperGeneHeadBase">
@@ -88,6 +126,28 @@
 			<li>pphhyy_BoneReaperHead_Thetes</li>
 		</forcedHeadTypes>
 		<displayOrderInCategory>6662</displayOrderInCategory>
+		<modExtensions>
+		 <li Class="BetterPrerequisites.GeneExtension">
+		 <disableFacialAnimations>true</disableFacialAnimations>
+		 </li>
+	    </modExtensions>
+	<renderNodeProperties Inherit="False">
+      <li>
+        <nodeClass>PawnRenderNode_AttachmentHead</nodeClass>
+        <workerClass>PawnRenderNodeWorker_FlipWhenCrawling</workerClass>
+        <texPaths>
+          <li>Pawns/Thetes/ThetesHead</li>
+        </texPaths>
+        <useSkinShader>false</useSkinShader>
+        <colorType>Skin</colorType>
+        <drawData>
+          <defaultData>
+          <layer>52</layer>
+          </defaultData>
+        </drawData>
+        <parentTagDef>Head</parentTagDef>
+      </li>
+    </renderNodeProperties>
 	</GeneDef>		
 
 	<GeneDef ParentName="pphhyy_BoneReaperGeneHeadBase">
@@ -99,6 +159,28 @@
 			<li>pphhyy_BoneReaperHead_Archon</li>
 		</forcedHeadTypes>
 		<displayOrderInCategory>6663</displayOrderInCategory>
+		<modExtensions>
+		 <li Class="BetterPrerequisites.GeneExtension">
+		 <disableFacialAnimations>true</disableFacialAnimations>
+		 </li>
+	    </modExtensions>
+	<renderNodeProperties Inherit="False">
+      <li>
+        <nodeClass>PawnRenderNode_AttachmentHead</nodeClass>
+        <workerClass>PawnRenderNodeWorker_FlipWhenCrawling</workerClass>
+        <texPaths>
+          <li>Pawns/Archon/ArchonHead</li>
+        </texPaths>
+        <useSkinShader>false</useSkinShader>
+        <colorType>Skin</colorType>
+        <drawData>
+          <defaultData>
+          <layer>52</layer>
+          </defaultData>
+        </drawData>
+        <parentTagDef>Head</parentTagDef>
+      </li>
+    </renderNodeProperties>
 	</GeneDef>
 
 	<GeneDef ParentName="pphhyy_BoneReaperGeneHeadBase">
@@ -110,6 +192,28 @@
 			<li>pphhyy_BoneReaperHead_Apokryphos</li>
 		</forcedHeadTypes>
 		<displayOrderInCategory>6664</displayOrderInCategory>
+		<modExtensions>
+		 <li Class="BetterPrerequisites.GeneExtension">
+		 <disableFacialAnimations>true</disableFacialAnimations>
+		 </li>
+	    </modExtensions>
+	<renderNodeProperties Inherit="False">
+      <li>
+        <nodeClass>PawnRenderNode_AttachmentHead</nodeClass>
+        <workerClass>PawnRenderNodeWorker_FlipWhenCrawling</workerClass>
+        <texPaths>
+          <li>Pawns/Apokryphos/ApokryphosHead</li>
+        </texPaths>
+        <useSkinShader>false</useSkinShader>
+        <colorType>Skin</colorType>
+        <drawData>
+          <defaultData>
+          <layer>52</layer>
+          </defaultData>
+        </drawData>
+        <parentTagDef>Head</parentTagDef>
+      </li>
+    </renderNodeProperties>
 	</GeneDef>	
 
 </Defs>		
