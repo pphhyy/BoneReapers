@@ -48,9 +48,7 @@
 	    <geneClass>Gene_Clotting</geneClass>
 	    <immuneToToxGasExposure>true</immuneToToxGasExposure>
 	    <statFactors>
-		    <InjuryHealingFactor>1</InjuryHealingFactor>
-			<ArmorRating_Sharp>0.4</ArmorRating_Sharp>
-			<ArmorRating_Blunt>0.4</ArmorRating_Blunt>			
+		    <InjuryHealingFactor>1</InjuryHealingFactor>	
 	        <Fertility>0</Fertility>
 	    </statFactors>
         <biologicalAgeTickFactorFromAgeCurve>

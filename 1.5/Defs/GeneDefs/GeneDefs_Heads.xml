@@ -61,7 +61,7 @@
       		</tags>
     	</hairTagFilter>		
 		<modExtensions>
-		 <li Class="BetterPrerequisites.GeneExtension">
+		 <li Class="BetterPrerequisites.GeneExtension" MayRequire="redmattis.betterprerequisites">
 		 <disableFacialAnimations>true</disableFacialAnimations>
 		 </li>
 	    </modExtensions>
@@ -94,7 +94,7 @@
 		</forcedHeadTypes>
 		<displayOrderInCategory>6661</displayOrderInCategory>
 		<modExtensions>
-		 <li Class="BetterPrerequisites.GeneExtension">
+		 <li Class="BetterPrerequisites.GeneExtension" MayRequire="redmattis.betterprerequisites">
 		 <disableFacialAnimations>true</disableFacialAnimations>
 		 </li>
 	    </modExtensions>
@@ -127,7 +127,7 @@
 		</forcedHeadTypes>
 		<displayOrderInCategory>6662</displayOrderInCategory>
 		<modExtensions>
-		 <li Class="BetterPrerequisites.GeneExtension">
+		 <li Class="BetterPrerequisites.GeneExtension" MayRequire="redmattis.betterprerequisites">
 		 <disableFacialAnimations>true</disableFacialAnimations>
 		 </li>
 	    </modExtensions>
@@ -160,7 +160,7 @@
 		</forcedHeadTypes>
 		<displayOrderInCategory>6663</displayOrderInCategory>
 		<modExtensions>
-		 <li Class="BetterPrerequisites.GeneExtension">
+		 <li Class="BetterPrerequisites.GeneExtension" MayRequire="redmattis.betterprerequisites">
 		 <disableFacialAnimations>true</disableFacialAnimations>
 		 </li>
 	    </modExtensions>
@@ -193,7 +193,7 @@
 		</forcedHeadTypes>
 		<displayOrderInCategory>6664</displayOrderInCategory>
 		<modExtensions>
-		 <li Class="BetterPrerequisites.GeneExtension">
+		 <li Class="BetterPrerequisites.GeneExtension" MayRequire="redmattis.betterprerequisites">
 		 <disableFacialAnimations>true</disableFacialAnimations>
 		 </li>
 	    </modExtensions>

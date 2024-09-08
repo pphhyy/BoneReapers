@@ -36,6 +36,7 @@
 				<Crafting>6</Crafting>
 			</skillRequirements>
 		</recipeMaker>
+		<tradeability>Sellable</tradeability>
 		<costList>
 			<pphhyy_GreaterSoul>2</pphhyy_GreaterSoul>
 			<pphhyy_HumanBones>60</pphhyy_HumanBones>
@@ -64,6 +65,7 @@
 				<Crafting>6</Crafting>
 			</skillRequirements>
 		</recipeMaker>
+		<tradeability>Sellable</tradeability>
 		<costList>
 			<pphhyy_GreaterSoul>2</pphhyy_GreaterSoul>
 			<pphhyy_HumanBones>60</pphhyy_HumanBones>
@@ -92,6 +94,7 @@
 				<Crafting>6</Crafting>
 			</skillRequirements>
 		</recipeMaker>
+		<tradeability>Sellable</tradeability>
 		<costList>
 			<pphhyy_GreaterSoul>4</pphhyy_GreaterSoul>
 			<pphhyy_HumanBones>120</pphhyy_HumanBones>
@@ -120,6 +123,7 @@
 				<Crafting>6</Crafting>
 			</skillRequirements>
 		</recipeMaker>
+		<tradeability>Sellable</tradeability>
 		<costList>
 			<pphhyy_GreaterSoul>8</pphhyy_GreaterSoul>
 			<pphhyy_HumanBones>240</pphhyy_HumanBones>
@@ -148,6 +152,7 @@
 				<Crafting>6</Crafting>
 			</skillRequirements>
 		</recipeMaker>
+		<tradeability>Sellable</tradeability>
 		<costList>
 			<pphhyy_GreaterSoul>2</pphhyy_GreaterSoul>
 			<pphhyy_HumanBones>30</pphhyy_HumanBones>

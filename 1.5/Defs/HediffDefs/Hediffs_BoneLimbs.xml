@@ -12,6 +12,10 @@
         </makeImmuneTo>
         <hungerRateFactor>0.15</hungerRateFactor>
         <foodPoisoningChanceFactor>0</foodPoisoningChanceFactor>
+        <statOffsets>
+          <ArmorRating_Sharp>0.4</ArmorRating_Sharp>
+          <ArmorRating_Blunt>0.4</ArmorRating_Blunt>
+        </statOffsets>
       </li>
     </stages>
   </HediffDef>
