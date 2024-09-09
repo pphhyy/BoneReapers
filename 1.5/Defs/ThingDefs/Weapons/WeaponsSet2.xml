@@ -18,7 +18,7 @@
         </graphicData>
         <techLevel>Medieval</techLevel>
         <equippedAngleOffset>-65</equippedAngleOffset>
-
+        <tradeability>None</tradeability>
         <statBases>
             <WorkToMake>60000</WorkToMake>
             <Mass>1</Mass>
@@ -115,7 +115,7 @@
         <uiIconScale>1.2</uiIconScale>
         <techLevel>Medieval</techLevel>
         <equippedAngleOffset>-65</equippedAngleOffset>
-
+        <tradeability>None</tradeability>
         <statBases>
             <WorkToMake>60000</WorkToMake>
             <Mass>1.10</Mass>
@@ -210,7 +210,7 @@
         </graphicData>
         <uiIconScale>1</uiIconScale>
         <techLevel>Medieval</techLevel>
-
+        <tradeability>None</tradeability>
         <statBases>
             <WorkToMake>60000</WorkToMake>
             <Mass>3</Mass>
@@ -401,7 +401,7 @@
         <tradeNeverStack>true</tradeNeverStack>
         <relicChance>3</relicChance>
         <tickerType>Normal</tickerType>
-
+        <tradeability>None</tradeability>
         <costList>
             <Gold>3</Gold>
             <pphhyy_GreaterSoul>1</pphhyy_GreaterSoul>
@@ -497,7 +497,7 @@
             <AccuracyLong>0.32</AccuracyLong>
             <RangedWeapon_Cooldown>3</RangedWeapon_Cooldown>
         </statBases>
-
+        <tradeability>None</tradeability>
         <costList>
             <Gold>3</Gold>
             <pphhyy_GreaterSoul>1</pphhyy_GreaterSoul>
@@ -600,7 +600,7 @@
         </graphicData>
         <uiIconScale>1.2</uiIconScale>
         <techLevel>Medieval</techLevel>
-        
+        <tradeability>None</tradeability>
 
         <statBases>
             <WorkToMake>60000</WorkToMake>
@@ -671,8 +671,8 @@
             <drawSize>1.25</drawSize>
             <texPath>Weapons/SoulWeapons/SoulThetesScythe</texPath>
             <graphicClass>Graphic_Single</graphicClass>
-
         </graphicData>
+        <tradeability>None</tradeability>
         <techLevel>Medieval</techLevel>
         <weaponTags>
             <li>pphhyy_BoneReapers_SoulThetesScythe</li>
@@ -751,7 +751,7 @@
             <drawSize>(1.5,1.5)</drawSize>
 
         </graphicData>
-
+        <tradeability>None</tradeability>
         <statBases>
             <WorkToMake>60000</WorkToMake>
             <Mass>2.75</Mass>
@@ -820,7 +820,7 @@
             <texPath>Weapons/SoulWeapons/SoulThetesGreatSword</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
-
+        <tradeability>None</tradeability>
         <statBases>
             <WorkToMake>60000</WorkToMake>
             <Mass>3</Mass>
@@ -894,6 +894,7 @@
             <drawSize>1.5</drawSize>
         </graphicData>
         <techLevel>Medieval</techLevel>
+        <tradeability>None</tradeability>
         <statBases>
             <WorkToMake>60000</WorkToMake>
             <Mass>1</Mass>
@@ -988,6 +989,7 @@
             <WorkToMake>60000</WorkToMake>
             <Mass>2.75</Mass>
         </statBases>
+        <tradeability>None</tradeability>
         <costList>
             <Gold>3</Gold>
             <pphhyy_GreaterSoul>3</pphhyy_GreaterSoul>

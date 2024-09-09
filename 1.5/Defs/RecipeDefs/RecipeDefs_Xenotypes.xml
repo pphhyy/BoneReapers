@@ -22,7 +22,7 @@
 	<ThingDef ParentName="BoneReapers_BoneAnimalCreation">
 		<defName>pphhyy_BoneReapersSepelireCreation</defName>
 		<label>sepelire</label>
-		<description>PLACEHOLDER</description>
+		<description>The Phalangite are one of the primal designs of the Bone Reapers. The Sepelire sought for a fighter that would surpass their own form. In their attempt in doing so they created a lesser version used for menial tasks called Thetes. Further research provided by the Apokyphos allowed a superior design for war. This advancement resulted in a decrease in cognitive function as a sacrifice for raw power. Regardless of intelligence, they are still held with high regard for their status in the hierarchy.</description>
 		<statBases>
 			<WorkToMake>7000</WorkToMake>
 		</statBases>
@@ -36,6 +36,7 @@
 				<Crafting>6</Crafting>
 			</skillRequirements>
 		</recipeMaker>
+		<tradeability>Sellable</tradeability>
 		<costList>
 			<pphhyy_GreaterSoul>2</pphhyy_GreaterSoul>
 			<pphhyy_HumanBones>60</pphhyy_HumanBones>
@@ -50,7 +51,7 @@
 	<ThingDef ParentName="BoneReapers_BoneAnimalCreation">
 		<defName>pphhyy_BoneReapersThetesCreation</defName>
 		<label>thetes</label>
-		<description>PLACEHOLDER</description>
+		<description>A lesser of the designs from the Sepelire. The Thetes are chosen to do jobs judged by the higher classes as inferior. They are treated by the Phalangites as expendable foot soldiers, and pilfered for their bones by the Archons. However, the Sepelire treat them as equal to their other designs. While they are treated as lesser beings, they are still regarded as being greater than humans.</description>
 		<statBases>
 			<WorkToMake>7000</WorkToMake>
 		</statBases>
@@ -64,6 +65,7 @@
 				<Crafting>6</Crafting>
 			</skillRequirements>
 		</recipeMaker>
+		<tradeability>Sellable</tradeability>
 		<costList>
 			<pphhyy_GreaterSoul>2</pphhyy_GreaterSoul>
 			<pphhyy_HumanBones>60</pphhyy_HumanBones>
@@ -78,7 +80,7 @@
 	<ThingDef ParentName="BoneReapers_BoneAnimalCreation">
 		<defName>pphhyy_BoneReapersPhalangiteCreation</defName>
 		<label>phalangite</label>
-		<description>PLACEHOLDER</description>
+		<description>The Phalangite are one of the primal designs of the Bone Reapers. The Sepelire sought for a fighter that would surpass their own form. In their attempt in doing so they created a lesser version used for menial tasks called Thetes. Further research provided by the Apokyphos allowed a superior design for war. This advancement resulted in a decrease in cognitive function as a sacrifice for raw power. Regardless of intelligence, they are still held with high regard for their status in the hierarchy.</description>
 		<statBases>
 			<WorkToMake>7000</WorkToMake>
 		</statBases>
@@ -92,6 +94,7 @@
 				<Crafting>6</Crafting>
 			</skillRequirements>
 		</recipeMaker>
+		<tradeability>Sellable</tradeability>
 		<costList>
 			<pphhyy_GreaterSoul>4</pphhyy_GreaterSoul>
 			<pphhyy_HumanBones>120</pphhyy_HumanBones>
@@ -106,7 +109,7 @@
 	<ThingDef ParentName="BoneReapers_BoneAnimalCreation">
 		<defName>pphhyy_BoneReapersArchonCreation</defName>
 		<label>archon</label>
-		<description>PLACEHOLDER</description>
+		<description>Archons, are said to be the final face a civilization will see before its fall. Archons control unfathomable amount of strength. The many souls in the body of an Archon at birth are in chaos, the Sepelires must bring uniformity to the souls of the body to calm the Archon. Their design is one of careful calculation that requires many souls and patience. Releasing an Archon too early causes mass destruction, being too late will allow the souls to turn the bones to ash. The Archons control the battlefield with their great strength and utilize their wings to quickly move to where they will deal the most damage.</description>
 		<statBases>
 			<WorkToMake>7000</WorkToMake>
 		</statBases>
@@ -120,6 +123,7 @@
 				<Crafting>6</Crafting>
 			</skillRequirements>
 		</recipeMaker>
+		<tradeability>Sellable</tradeability>
 		<costList>
 			<pphhyy_GreaterSoul>8</pphhyy_GreaterSoul>
 			<pphhyy_HumanBones>240</pphhyy_HumanBones>
@@ -134,7 +138,7 @@
 	<ThingDef ParentName="BoneReapers_BoneAnimalCreation">
 		<defName>pphhyy_BoneReapersApokryphosCreation</defName>
 		<label>apokryphos</label>
-		<description>PLACEHOLDER</description>
+		<description>The Apokryphos are cruel to those who withhold knowledge. They are designed to be keepers of history and information. Their forms utilize female human bones only, wearing ethereal robes and carrying a pacifying voice. Apokyphos are the second highest in the social hierarchy, Archons being the first. These scholars are often used as diplomats, with skills in philosophy, book keeping, and persuasion. For these reasons they are often courted by Archons or Sepelire. The act of courting often resulting in an exchange of bones from their own corpse or those won in battle.</description>
 		<statBases>
 			<WorkToMake>7000</WorkToMake>
 		</statBases>
@@ -148,6 +152,7 @@
 				<Crafting>6</Crafting>
 			</skillRequirements>
 		</recipeMaker>
+		<tradeability>Sellable</tradeability>
 		<costList>
 			<pphhyy_GreaterSoul>2</pphhyy_GreaterSoul>
 			<pphhyy_HumanBones>30</pphhyy_HumanBones>

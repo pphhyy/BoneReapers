@@ -944,7 +944,7 @@
   <ThingDef ParentName="BoneReapers_BoneAnimalCreation" MayRequire="pphhyy.LightlessEmpyrean">
     <defName>pphhyy_LightlessEmpyrean_LemuresCreation</defName>
     <label>lemures</label>
-    <description>TBA</description>
+    <description>Very old shades, so old that they have become a new form of creature.</description>
     <statBases>
          <WorkToMake>20000</WorkToMake>
     </statBases>
@@ -972,7 +972,7 @@
   <ThingDef ParentName="BoneReapers_BoneAnimalCreation" MayRequire="pphhyy.LightlessEmpyrean">
     <defName>pphhyy_LightlessEmpyrean_ShadeCreation</defName>
     <label>shade</label>
-    <description>TBA</description>
+    <description>Psychic representations of dead souls, wanders around gathering bones to wear.</description>
     <statBases>
          <WorkToMake>20000</WorkToMake>
     </statBases>
